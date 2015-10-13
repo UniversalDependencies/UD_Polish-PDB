@@ -16,15 +16,15 @@
     <tag name="CONJ">2117</tag><!-- i, a, ale, więc, oraz, ani, lub, czy, albo, to -->
     <tag name="NOUN">24006</tag><!-- to, rok, pan, co, czas, człowiek, sprawa, praca, raz, miejsce -->
     <tag name="NUM">851</tag><!-- dwa, kilka, wiele, trzy, oba, cztery, 10, 30, dużo, pięć -->
-    <tag name="PART">4680</tag><!-- się, nie, już, by, czy, też, jeszcze, jednak, tylko, nawet -->
-    <tag name="PRON">1868</tag><!-- on, ja, siebie, ty, my, wy -->
+    <tag name="PART">2964</tag><!-- nie, już, by, czy, też, jeszcze, jednak, tylko, nawet, także -->
+    <tag name="PRON">3584</tag><!-- się, on, ja, siebie, ty, my, wy -->
     <tag name="PUNCT">13480</tag><!-- ., ,, -, ?, !, –, ", ;, …, ( -->
     <tag name="SCONJ">1113</tag><!-- że, bo, gdy, aby, by, żeby, jeśli, gdyby, choć, jeżeli -->
     <tag name="VERB">13953</tag><!-- być, mieć, to, móc, chcieć, wiedzieć, musieć, mówić, stać, znaleźć -->
     <tag name="X">275</tag><!-- rok, tysiąc, złoty, ulica, procent, około, godzina, milion, święty, bieżący_rok -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="45">
+  <feats unique="46">
     <feat name="Abbr" value="Yes" upos="X">273</feat><!-- r, tys, zł, ul, proc, ok, godz, m, mln, św -->
     <feat name="AdpType" value="Prep" upos="ADP">8588</feat><!-- w, na, z, do, o, po, od, za, przez, dla -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">9429</feat><!-- pan, jego, był, go, mu, mnie, ich, mi, nas, kto -->
@@ -56,11 +56,12 @@
     <feat name="Person" value="3" upos="AUX,PRON,VERB">4941</feat><!-- jest, ma, są, jego, go, ich, będzie, jej, mu, ją -->
     <feat name="PrepCase" value="Npr" upos="PRON">970</feat><!-- jego, go, ich, jej, mu, ją, je, on, im, ona -->
     <feat name="PrepCase" value="Pre" upos="ADJ,PRON">281</feat><!-- nich, nim, niego, niej, nią, nimi, prostu, dawna, nie, niemu -->
-    <feat name="PronType" value="Prs" upos="PRON">1868</feat><!-- jego, go, ich, jej, mnie, mu, sobie, mi, ją, nich -->
-    <feat name="Reflex" value="Yes" upos="PRON">164</feat><!-- sobie, siebie, sobą -->
+    <feat name="PronType" value="Prs" upos="PRON">3584</feat><!-- się, jego, go, ich, jej, mnie, mu, sobie, mi, ją -->
+    <feat name="Reflex" value="Yes" upos="PRON">1880</feat><!-- się, sobie, siebie, sobą, sie, sia -->
     <feat name="Tense" value="Fut" upos="AUX">239</feat><!-- będzie, będą, będę, będziemy, będziesz -->
     <feat name="Tense" value="Past" upos="AUX,VERB">5440</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">5744</feat><!-- jest, em, ma, są, m, śmy, może, dziękuję, mają, wiem -->
+    <feat name="Typo" value="Yes" upos="PRON">6</feat><!-- sie, sia -->
     <feat name="Variant" value="Long" upos="ADP,AUX,PRON">1663</feat><!-- em, jego, ich, ze, jej, mnie, ją, nich, we, je -->
     <feat name="Variant" value="Short" upos="ADP,AUX,PRON">4902</feat><!-- w, z, od, przez, m, go, śmy, mu, pod, przed -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">11126</feat><!-- jest, em, ma, był, są, m, było, będzie, śmy, była -->
@@ -83,12 +84,12 @@
     <dep name="case">8563</dep>
     <dep name="cc">1705</dep>
     <dep name="ccomp">971</dep>
-    <dep name="compound:prt">1708</dep>
     <dep name="conj">2681</dep>
     <dep name="cop">965</dep>
     <dep name="csubj">98</dep>
     <dep name="csubjpass">2</dep>
     <dep name="dobj">7556</dep>
+    <dep name="expl">1708</dep>
     <dep name="iobj">925</dep>
     <dep name="mark">1321</dep>
     <dep name="mwe">29</dep>
