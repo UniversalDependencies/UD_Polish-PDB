@@ -7,6 +7,9 @@
   <size>
     <total><sentences>8227</sentences><tokens>83571</tokens><words>83571</words><fused>0</fused></total>
   </size>
+  <lemmas unique="12760" /><!-- ., ,, w, być, się, na, i, z, on, nie, do, -, to, ?, że -->
+  <forms unique="23570" /><!-- ., ,, w, się, na, i, nie, z, do, -, ?, że, to, jest, o -->
+  <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="13">
     <tag name="ADJ">8433</tag><!-- ten, który, swój, taki, nowy, cały, pierwszy, nasz, inny, mój -->
