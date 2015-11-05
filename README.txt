@@ -25,7 +25,7 @@ http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and f
 Documentation status: stub
 Data source: automatic
 Data available since: UD v1.2
-License: GPL 3.0
+License: GNU GPL 3.0
 Genre: fiction nonfiction news
 Contributors: Zeman, Daniel; Mašek, Jan; Rosa, Rudolf
 ===============================================================================
