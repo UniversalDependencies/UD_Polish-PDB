@@ -3139,7 +3139,7 @@
 14	,	,	PUNCT	interp:_	_	16	punct	_	_
 15	że	że	SCONJ	comp:_	_	16	mark	_	_
 16	można	można	VERB	pred:_	_	13	acl	_	_
-17	by	by	PART	qub:_	_	16	aux	_	_
+17	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	16	aux	_	_
 18	nią	on	PRON	ppron3:sg:inst:f:ter:akc:praep	Case=Ins|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	19	iobj	_	_
 19	nakarmić	nakarmić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	16	xcomp	_	_
 20	niejedno	niejeden	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
@@ -3191,7 +3191,7 @@
 5	i	i	CONJ	conj:_	_	7	advmod	_	_
 6	tak	tak	ADV	adv:_	_	5	case	_	_
 7	zmarnowało	zmarnować	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-8	by	by	PART	qub:_	_	7	aux	_	_
+8	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	7	aux	_	_
 9	te	ten	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 10	pieniądze	pieniądz	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	dobj	_	_
 11	.	.	PUNCT	interp:_	_	7	punct	_	_
@@ -3401,8 +3401,8 @@
 3	czy	czy	PART	qub:_	_	5	advmod	_	_
 4	istotnie	istotnie	ADV	adv:pos	Degree=Pos	5	advmod	_	_
 5	potrafili	potrafić	VERB	praet:pl:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	1	ccomp	_	_
-6	by	by	PART	qub:_	_	5	aux	_	_
-7	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	6	aux	_	_
+6	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	5	aux	_	_
+7	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	5	aux	_	_
 8	to	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	9	dobj	_	_
 9	zrobić	zrobić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_
 10	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -3613,8 +3613,8 @@
 # sent_id pl-s81
 # orig_file_sentence 003#81
 1	Chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-2	by	by	PART	qub:_	_	1	aux	_	_
-3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
+2	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	1	aux	_	_
+3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 4	także	także	PART	qub:_	_	1	advmod	_	_
 5	,	,	PUNCT	interp:_	_	10	punct	_	_
 6	aby	aby	SCONJ	comp:_	_	10	mark	_	_
@@ -3649,8 +3649,8 @@
 # orig_file_sentence 003#84
 1	-	-	PUNCT	interp:_	_	2	punct	_	_
 2	Chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-3	by	by	PART	qub:_	_	2	aux	_	_
-4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	3	aux	_	_
+3	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	2	aux	_	_
+4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 5	prosić	prosić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_
 6	,	,	PUNCT	interp:_	_	7	punct	_	_
 7	panie	pan	NOUN	subst:sg:voc:m1	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -3791,7 +3791,7 @@
 # sent_id pl-s96
 # orig_file_sentence 003#96
 1	Nigdy	nigdy	ADV	adv:_	_	7	advmod	_	_
-2	by	by	PART	qub:_	_	7	aux	_	_
+2	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	7	aux	_	_
 3	mężowi	mąż	NOUN	subst:sg:dat:m1	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	dobj	_	_
 4	coś	coś	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
 5	takiego	taki	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
@@ -3853,8 +3853,8 @@
 3	twoim	twój	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	miejscu	miejsce	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
 5	postąpił	postąpić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-6	by	by	PART	qub:_	_	5	aux	_	_
-7	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	6	aux	_	_
+6	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	5	aux	_	_
+7	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	5	aux	_	_
 8	podobnie	podobnie	ADV	adv:pos	Degree=Pos	5	advmod	_	_
 9	?	?	PUNCT	interp:_	_	5	punct	_	_
 
@@ -4132,8 +4132,8 @@
 3	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	advcl	_	_
 4	,	,	PUNCT	interp:_	_	3	punct	_	_
 5	natychmiast	natychmiast	ADV	adv:_	_	8	advmod	_	_
-6	by	by	PART	qub:_	_	8	aux	_	_
-7	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	6	aux	_	_
+6	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	8	aux	_	_
+7	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	8	aux	_	_
 8	zaprotestował	zaprotestować	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 9	.	.	PUNCT	interp:_	_	8	punct	_	_
 
@@ -4923,7 +4923,7 @@
 5	siostra	siostra	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 6	nie	nie	PART	qub:_	_	7	neg	_	_
 7	zniosła	znieść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-8	by	by	PART	qub:_	_	7	aux	_	_
+8	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	7	aux	_	_
 9	związku	związek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	dobj	_	_
 10	bez	bez	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	11	case	_	_
 11	mamy	mama	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
@@ -5359,8 +5359,8 @@
 # orig_file_sentence 005#17
 1	-	-	PUNCT	interp:_	_	2	punct	_	_
 2	Chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-3	by	by	PART	qub:_	_	2	aux	_	_
-4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	3	aux	_	_
+3	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	2	aux	_	_
+4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 5	zgłosić	zgłosić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_
 6	wniosek	wniosek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	dobj	_	_
 7	formalny	formalny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
@@ -5637,7 +5637,7 @@
 4	państwa	państwo	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 5	jeszcze	jeszcze	PART	qub:_	_	6	advmod	_	_
 6	chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-7	by	by	PART	qub:_	_	6	aux	_	_
+7	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	6	aux	_	_
 8	zadać	zadać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	6	xcomp	_	_
 9	pytanie	pytanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	8	dobj	_	_
 10	?	?	PUNCT	interp:_	_	6	punct	_	_
@@ -7223,8 +7223,8 @@
 # sent_id pl-s73
 # orig_file_sentence 006#73
 1	Był	być	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	_
-2	by	by	PART	qub:_	_	5	aux	_	_
-3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
+2	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	5	aux	_	_
+3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	5	aux	_	_
 4	bardzo	bardzo	ADV	adv:pos	Degree=Pos	5	advmod	_	_
 5	rad	rad	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 6	,	,	PUNCT	interp:_	_	10	punct	_	_
@@ -8820,7 +8820,7 @@
 2	doświadczenie	doświadczenie	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 3	niewątpliwie	niewątpliwie	ADV	adv:pos	Degree=Pos	4	advmod	_	_
 4	przydało	przydać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-5	by	by	PART	qub:_	_	4	aux	_	_
+5	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	4	aux	_	_
 6	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	4	expl	_	_
 7	również	również	PART	qub:_	_	4	nmod	_	_
 8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	7	case	_	_
@@ -8837,7 +8837,7 @@
 6	,	,	PUNCT	interp:_	_	1	punct	_	_
 7	tak	tak	ADV	adv:_	_	8	advmod	_	_
 8	można	można	VERB	pred:_	_	1	conj	_	_
-9	by	by	PART	qub:_	_	8	aux	_	_
+9	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	8	aux	_	_
 10	ująć	ująć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	8	xcomp	_	_
 11	klimat	klimat	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	dobj	_	_
 12	tych	ten	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_

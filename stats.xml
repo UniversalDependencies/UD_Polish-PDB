@@ -7,7 +7,7 @@
   <size>
     <total><sentences>8227</sentences><tokens>83571</tokens><words>83571</words><fused>0</fused></total>
   </size>
-  <lemmas unique="12760" /><!-- ., ,, w, być, się, na, i, z, on, nie, do, -, to, ?, że -->
+  <lemmas unique="12760" /><!-- ., ,, być, w, się, na, i, z, on, nie, do, -, to, ?, że -->
   <forms unique="23570" /><!-- ., ,, w, się, na, i, nie, z, do, -, ?, że, to, jest, o -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
@@ -15,11 +15,11 @@
     <tag name="ADJ">8433</tag><!-- ten, który, swój, taki, nowy, cały, pierwszy, nasz, inny, mój -->
     <tag name="ADP">8588</tag><!-- w, na, z, do, o, po, od, za, przez, dla -->
     <tag name="ADV">2928</tag><!-- bardzo, tak, jak, teraz, tam, dobrze, wczoraj, tu, potem, często -->
-    <tag name="AUX">1279</tag><!-- być, zostać, zostawać, informować, spędzić -->
+    <tag name="AUX">1446</tag><!-- być, zostać, zostawać, informować, spędzić -->
     <tag name="CONJ">2117</tag><!-- i, a, ale, więc, oraz, ani, lub, czy, albo, to -->
     <tag name="NOUN">24006</tag><!-- to, rok, pan, co, czas, człowiek, sprawa, praca, raz, miejsce -->
     <tag name="NUM">851</tag><!-- dwa, kilka, wiele, trzy, oba, cztery, 10, 30, dużo, pięć -->
-    <tag name="PART">2964</tag><!-- nie, już, by, czy, też, jeszcze, jednak, tylko, nawet, także -->
+    <tag name="PART">2797</tag><!-- nie, już, czy, też, jeszcze, jednak, tylko, nawet, także, również -->
     <tag name="PRON">3584</tag><!-- się, on, ja, siebie, ty, my, wy -->
     <tag name="PUNCT">13480</tag><!-- ., ,, -, ?, !, –, ", ;, …, ( -->
     <tag name="SCONJ">1113</tag><!-- że, bo, gdy, aby, by, żeby, jeśli, gdyby, choć, jeżeli -->
@@ -27,13 +27,13 @@
     <tag name="X">275</tag><!-- rok, tysiąc, złoty, ulica, procent, około, godzina, milion, święty, bieżący_rok -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="46">
+  <feats unique="47">
     <feat name="Abbr" value="Yes" upos="X">273</feat><!-- r, tys, zł, ul, proc, ok, godz, m, mln, św -->
     <feat name="AdpType" value="Prep" upos="ADP">8588</feat><!-- w, na, z, do, o, po, od, za, przez, dla -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">9429</feat><!-- pan, jego, był, go, mu, mnie, ich, mi, nas, kto -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">11275</feat><!-- roku, ten, lat, tym, był, tego, domu, czasie, czas, sposób -->
     <feat name="Animacy" value="Nhum" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">609</feat><!-- złotych, go, jego, dolarów, konie, pies, ducha, psa, był, duch -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">8860</feat><!-- jest, em, ma, był, są, m, było, będzie, śmy, była -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">9027</feat><!-- jest, em, ma, by, był, są, m, było, będzie, śmy -->
     <feat name="Aspect" value="Perf" upos="ADJ,AUX,VERB">5945</feat><!-- został, została, udało, zostanie, powiedzieć, stało, zrobić, doszło, powiedział, zaczął -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">9549</feat><!-- na, w, przez, o, za, to, go, co, mnie, ją -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">1010</feat><!-- mu, mi, sobie, jej, ci, im, nam, dzięki, przeciwko, ku -->
@@ -48,6 +48,7 @@
     <feat name="Gender" value="Masc" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">21313</feat><!-- był, go, jego, pan, roku, ich, mu, ten, mnie, lat -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">7517</feat><!-- to, było, co, tym, tego, coś, wszystko, nic, dzieci, życie -->
     <feat name="Hyph" value="Yes" upos="ADJ">39</feat><!-- biało, polsko, Liberalno, południowo, Chrześcijańsko, Ekonomiczno, Ginekologiczno, Ludowo, Miejsko, Przemysłowo -->
+    <feat name="Mood" value="Cnd" upos="AUX">167</feat><!-- by -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">182</feat><!-- daj, weź, chodź, Przypomnijmy, powiedz, pozwól, Słuchaj, bierz, bądź, Czekaj -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">10944</feat><!-- jest, em, ma, był, są, m, było, będzie, śmy, była -->
     <feat name="Negative" value="Neg" upos="VERB">24</feat><!-- nieuzyskania, Nieleczona, niedoceniana, niedopełnienie, niedopuszczenie, niehodowaną, nieocieplony, nieodpowiadanie, nieprowadzenie, nieprzeprowadzenie -->
@@ -67,7 +68,7 @@
     <feat name="Typo" value="Yes" upos="PRON">6</feat><!-- sie, sia -->
     <feat name="Variant" value="Long" upos="ADP,AUX,PRON">1663</feat><!-- em, jego, ich, ze, jej, mnie, ją, nich, we, je -->
     <feat name="Variant" value="Short" upos="ADP,AUX,PRON">4902</feat><!-- w, z, od, przez, m, go, śmy, mu, pod, przed -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">11126</feat><!-- jest, em, ma, był, są, m, było, będzie, śmy, była -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">11293</feat><!-- jest, em, ma, by, był, są, m, było, będzie, śmy -->
     <feat name="VerbForm" value="Ger" upos="VERB">671</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęciem, bycia, działania, naciśnięcie, nieuzyskania, otwarcie, stosowania -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1360</feat><!-- być, powiedzieć, zrobić, znaleźć, mieć, robić, wrócić, wyjść, zmienić, zobaczyć -->
     <feat name="VerbForm" value="Part" upos="VERB">1405</feat><!-- przyjęta, znaleziono, prowadzone, dotyczące, wyczerpana, zatrzymano, zatrzymany, przeprowadzono, przygotowany, rozegrano -->

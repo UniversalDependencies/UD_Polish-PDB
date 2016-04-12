@@ -21,6 +21,14 @@ http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and f
   year      = {2014}
 }
 
+
+Changelog
+
+2016-05-15 v1.3
+  * Fixed adverbs that were attached as nmod; correct: advmod.
+  * Conditional auxiliary "by" changed from PART to AUX (and features added).
+
+
 === Machine-readable metadata =================================================
 Documentation status: stub
 Data source: automatic
