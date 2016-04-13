@@ -29,6 +29,7 @@ Changelog
   * Conditional auxiliary "by" changed from PART to AUX (and features added).
   * Demonstrative, interrogative, indefinite, total and negative PRON/DET separated from NOUN/ADJ.
   * Proper nouns (PROPN) separated from NOUN.
+  * Verbal nouns (VerbForm=Ger) retagged and relemmatized from VERB to NOUN.
 
 
 === Machine-readable metadata =================================================

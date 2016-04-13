@@ -167,8 +167,8 @@
 1	Docelowo	docelowo	ADV	adv:pos	Degree=Pos	3	advmod	_	_
 2	akcja	akcja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	zmierza	zmierzać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	5	mark	_	_
-5	przebadania	przebadać	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	ccomp	_	_
+4	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	5	case	_	_
+5	przebadania	przebadanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	dobj	_	_
 6	osób	osoba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
 7	powyżej	powyżej	ADP	prep:gen	AdpType=Prep|Case=Gen	10	case	_	_
 8	30	30	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
@@ -216,7 +216,7 @@
 # orig_file_sentence 001#17
 1	Po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	2	case	_	_
 2	godzinie	godzina	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
-3	wałęsania	wałęsać	VERB	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	acl	_	_
+3	wałęsania	wałęsanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	nmod	_	_
 4	znaleźli	znaleźć	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 5	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	4	expl	_	_
 6	wśród	wśród	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
@@ -301,8 +301,8 @@
 # orig_file_sentence 001#25
 1	Zmusił	zmusić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	1	expl	_	_
-3	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	4	mark	_	_
-4	obejrzenia	obejrzeć	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+3	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	4	case	_	_
+4	obejrzenia	obejrzenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 5	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s26
@@ -715,8 +715,8 @@
 2	dopiero	dopiero	PART	qub:_	_	3	nmod	_	_
 3	kilkanaście	kilkanaście	DET	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	4	det:numgov	_	_
 4	godzin	godzina	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	8	advmod	_	_
-5	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	6	mark	_	_
-6	zniknięciu	zniknąć	VERB	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	acl	_	_
+5	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	6	case	_	_
+6	zniknięciu	zniknięcie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	nmod	_	_
 7	synów	syn	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
 8	zgłosiła	zgłosić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 9	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	8	expl	_	_
@@ -816,10 +816,10 @@
 5	pomóc	pomóc	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_
 6	przygotować	przygotować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_
 7	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	6	expl	_	_
-8	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	9	mark	_	_
-9	wejścia	wejść	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	ccomp	_	_
+8	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	9	case	_	_
+9	wejścia	wejście	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	dobj	_	_
 10	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	11	case	_	_
-11	giełdę	giełda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	dobj	_	_
+11	giełdę	giełda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
 12	,	,	PUNCT	interp:_	_	2	punct	_	_
 13	ale	ale	CONJ	conj:_	_	2	cc	_	_
 14	doszli	dojść	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	2	conj	_	_
@@ -918,7 +918,7 @@
 8	wpadła	wpaść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	ccomp	_	_
 9	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	10	case	_	_
 10	pomysł	pomysł	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	dobj	_	_
-11	powołania	powołać	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	10	acl	_	_
+11	powołania	powołanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	10	nmod	_	_
 12	Planu	plan	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	dobj	_	_
 13	Kompostowego	kompostowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 14	dla	dla	ADP	prep:gen	AdpType=Prep|Case=Gen	15	case	_	_
@@ -1026,8 +1026,8 @@
 1	Nie	nie	PART	qub:_	_	2	neg	_	_
 2	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mowy	mowa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	dobj	_	_
-4	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	5	mark	_	_
-5	marnowaniu	marnować	VERB	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	acl	_	_
+4	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
+5	marnowaniu	marnowanie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	nmod	_	_
 6	powierzchni	powierzchnia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	dobj	_	_
 7	.	.	PUNCT	interp:_	_	2	punct	_	_
 
@@ -1090,8 +1090,8 @@
 5	,	,	PUNCT	interp:_	_	7	punct	_	_
 6	aby	aby	SCONJ	comp:_	_	7	mark	_	_
 7	dopilnować	dopilnować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	4	acl	_	_
-8	uczciwego	uczciwy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	_
-9	załatwienia	załatwić	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	7	ccomp	_	_
+8	uczciwego	uczciwy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	załatwienia	załatwienie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	7	dobj	_	_
 10	interesu	interes	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	dobj	_	_
 11	.	.	PUNCT	interp:_	_	1	punct	_	_
 
@@ -1308,8 +1308,8 @@
 9	złotych	złoty	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 10	zwiększono	zwiększyć	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 11	środki	środek	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	dobj	_	_
-12	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	13	mark	_	_
-13	zamknięcie	zamknąć	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	acl	_	_
+12	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	13	case	_	_
+13	zamknięcie	zamknięcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	nmod	_	_
 14	i	i	CONJ	conj:_	_	13	cc	_	_
 15	rekultywację	rekultywacja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	_
 16	II	II	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
@@ -1345,7 +1345,7 @@
 5	czy	czy	PART	qub:_	_	13	advmod	_	_
 6	ten	ten	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	sposób	sposób	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-8	zawiadamiania	zawiadamiać	VERB	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	7	acl	_	_
+8	zawiadamiania	zawiadamianie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	7	nmod	_	_
 9	lokatorów	lokator	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 10	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	11	case	_	_
 11	kontrolach	kontrola	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	_
@@ -1363,8 +1363,8 @@
 6	tablicy	tablica	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
 7	kierować	kierować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_
 8	zawiadomienia	zawiadomienie	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	7	dobj	_	_
-9	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	10	mark	_	_
-10	potwierdzeniem	potwierdzić	VERB	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	8	acl	_	_
+9	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	10	case	_	_
+10	potwierdzeniem	potwierdzenie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	8	nmod	_	_
 11	odbioru	odbiór	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	dobj	_	_
 12	?	?	PUNCT	interp:_	_	2	punct	_	_
 
@@ -1377,7 +1377,7 @@
 5	zawiadomienie	zawiadomienie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	dobj	_	_
 6	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
 7	możliwości	możliwość	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
-8	popełnienia	popełnić	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	7	acl	_	_
+8	popełnienia	popełnienie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	7	nmod	_	_
 9	przestępstwa	przestępstwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	8	dobj	_	_
 10	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	11	case	_	_
 11	Prokuratury	prokuratura	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	iobj	_	_
@@ -2091,18 +2091,18 @@
 # sent_id pl-s55
 # orig_file_sentence 002#55
 1	Oczekujemy	oczekiwać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	3	mark	_	_
-3	potwierdzenie	potwierdzić	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+2	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
+3	potwierdzenie	potwierdzenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 4	,	,	PUNCT	interp:_	_	9	punct	_	_
 5	że	że	SCONJ	comp:_	_	9	mark	_	_
 6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	7	case	_	_
 7	ustawie	ustawa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	9	dobj	_	_
 8	budżetowej	budżetowy	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
-9	znajdą	znaleźć	VERB	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	znajdą	znaleźć	VERB	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
 10	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	9	expl	_	_
 11	środki	środek	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
-12	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	13	mark	_	_
-13	utworzenie	utworzyć	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	acl	_	_
+12	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	13	case	_	_
+13	utworzenie	utworzenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	nmod	_	_
 14	funduszu	fundusz	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 15	stypendialnego	stypendialny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 16	dla	dla	ADP	prep:gen	AdpType=Prep|Case=Gen	17	case	_	_
@@ -2357,7 +2357,7 @@
 15	faworyta	faworyt	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	dobj	_	_
 16	i	i	CONJ	conj:_	_	13	cc	_	_
 17	rzeczywiście	rzeczywiście	ADV	adv:pos	Degree=Pos	21	advmod	_	_
-18	osiągnięcie	osiągnąć	VERB	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	21	csubj	_	_
+18	osiągnięcie	osiągnięcie	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	21	nsubj	_	_
 19	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
 20	celu	cel	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	dobj	_	_
 21	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	conj	_	_
@@ -2453,7 +2453,7 @@
 1	Rozpierała	rozpierać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	1	dobj	_	_
 3	potrzeba	potrzeba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
-4	działania	działać	VERB	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	acl	_	_
+4	działania	działanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	nmod	_	_
 5	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s86
@@ -2529,8 +2529,8 @@
 4	terrorysta	terrorysta	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	zgodził	zgodzić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 6	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	5	expl	_	_
-7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	mark	_	_
-8	przestawienie	przestawić	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	ccomp	_	_
+7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
+8	przestawienie	przestawienie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	dobj	_	_
 9	swego	swój	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	samochodu	samochód	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 11	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	14	case	_	_
@@ -2967,8 +2967,8 @@
 2	Bayernu	Bayern	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	fiknął	fiknąć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	kozła	kozioł	NOUN	subst:sg:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing	3	dobj	_	_
-5	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	6	mark	_	_
-6	strzeleniu	strzelić	VERB	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	advcl	_	_
+5	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	6	case	_	_
+6	strzeleniu	strzelenie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	nmod	_	_
 7	gola	gol	NOUN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	6	dobj	_	_
 8	.	.	PUNCT	interp:_	_	3	punct	_	_
 
@@ -3265,8 +3265,8 @@
 1	Władze	władza	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 2	sanitarne	sanitarny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	_
 3	apelują	apelować	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	5	mark	_	_
-5	zgłaszanie	zgłaszać	VERB	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	ccomp	_	_
+4	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	5	case	_	_
+5	zgłaszanie	zgłaszanie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	dobj	_	_
 6	takich	taki	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
 7	przypadków	przypadek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	dobj	_	_
 8	,	,	PUNCT	interp:_	_	10	punct	_	_
@@ -3506,8 +3506,8 @@
 # orig_file_sentence 003#74
 1	Z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	2	case	_	_
 2	prośbą	prośba	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	7	dobj	_	_
-3	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	4	mark	_	_
-4	udzielenie	udzielić	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	acl	_	_
+3	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	4	case	_	_
+4	udzielenie	udzielenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	nmod	_	_
 5	mu	on	PRON	ppron3:sg:dat:m1:ter:nakc:npraep	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	4	dobj	_	_
 6	głosu	głos	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	dobj	_	_
 7	zwrócił	zwrócić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3605,9 +3605,9 @@
 11	Izby	izba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	iobj	_	_
 12	Kontroli	kontrola	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
 13	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	advmod	_	_
-14	celu	cel	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	mark	_	_
-15	szczegółowego	szczegółowy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	_
-16	zbadania	zbadać	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	13	acl	_	_
+14	celu	cel	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	case	_	_
+15	szczegółowego	szczegółowy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	zbadania	zbadanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	13	nmod	_	_
 17	.	.	PUNCT	interp:_	_	8	punct	_	_
 
 # sent_id pl-s81
@@ -4096,7 +4096,7 @@
 
 # sent_id pl-s18
 # orig_file_sentence 004#18
-1	Rozdawanie	rozdawać	VERB	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	csubj	_	_
+1	Rozdawanie	rozdawanie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	nsubj	_	_
 2	ulotek	ulotka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	1	dobj	_	_
 3	NIE	nie	PART	qub:_	_	5	neg	_	_
 4	JEST	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -4144,10 +4144,10 @@
 3	bezstronności	bezstronność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 4	dziennikarskiej	dziennikarski	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 5	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-6	niewchodzenie	wchodzić	VERB	ger:sg:nom:n:imperf:neg	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Neg|Number=Sing|VerbForm=Ger	1	csubj	_	_
+6	niewchodzenie	wchodzenie	NOUN	ger:sg:nom:n:imperf:neg	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Neg|Number=Sing|VerbForm=Ger	1	nsubj	_	_
 7	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	9	case	_	_
 8	towarzyskie	towarzyski	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
-9	układy	układ	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	dobj	_	_
+9	układy	układ	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
 10	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	11	case	_	_
 11	politykami	polityk	NOUN	subst:pl:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	_
 12	,	,	PUNCT	interp:_	_	11	punct	_	_
@@ -4218,8 +4218,8 @@
 1	Oferuje	oferować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	również	również	PART	qub:_	_	1	advmod	_	_
 3	pomoc	pomoc	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	dobj	_	_
-4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	mark	_	_
-5	załatwianiu	załatwiać	VERB	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	acl	_	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	case	_	_
+5	załatwianiu	załatwianie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	nmod	_	_
 6	spraw	sprawa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	dobj	_	_
 7	urzędowych	urzędowy	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
 8	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	9	case	_	_
@@ -4293,7 +4293,7 @@
 2	Sławomir	Sławomir	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	Lewandowski	Lewandowski	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
 4	zadeklarował	zadeklarować	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-5	udostępnienie	udostępnić	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	4	ccomp	_	_
+5	udostępnienie	udostępnienie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	4	dobj	_	_
 6	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	7	case	_	_
 7	filmu	film	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 8	swoich	swój	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	_
@@ -4327,10 +4327,10 @@
 3	okres	okres	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	roztargnienia	roztargnienie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
 5	i	i	CONJ	conj:_	_	4	cc	_	_
-6	zapominania	zapominać	VERB	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	4	conj	_	_
+6	zapominania	zapominanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	4	conj	_	_
 7	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	9	case	_	_
 8	ważnych	ważny	ADJ	adj:pl:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
-9	sprawach	sprawa	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	6	dobj	_	_
+9	sprawach	sprawa	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	6	nmod	_	_
 10	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s34
@@ -4546,7 +4546,7 @@
 4	francuskich	francuski	ADJ	adj:pl:gen:m1:pos	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
 5	naukowców	naukowiec	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
 6	wystarczy	wystarczyć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	stosowanie	stosować	VERB	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	csubj	_	_
+7	stosowanie	stosowanie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	nsubj	_	_
 8	hormonalnej	hormonalny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	mikstury	mikstura	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	dobj	_	_
 10	.	.	PUNCT	interp:_	_	6	punct	_	_
@@ -4733,7 +4733,7 @@
 6	nam	my	PRON	ppron12:pl:dat:m1:pri	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
 7	straszliwe	straszliwy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
 8	tempo	tempo	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	5	dobj	_	_
-9	zwiedzania	zwiedzać	VERB	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	8	acl	_	_
+9	zwiedzania	zwiedzanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	8	nmod	_	_
 10	.	.	PUNCT	interp:_	_	5	punct	_	_
 
 # sent_id pl-s65
@@ -5141,8 +5141,8 @@
 # sent_id pl-s99
 # orig_file_sentence 004#99
 1	Proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	mark	_	_
-3	naciśnięcie	nacisnąć	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
+3	naciśnięcie	naciśnięcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 4	przycisku	przycisk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
 5	obecności	obecność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -5170,8 +5170,8 @@
 # sent_id pl-s3
 # orig_file_sentence 005#3
 1	Proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	mark	_	_
-3	poparcie	poprzeć	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
+3	poparcie	poparcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 4	propozycji	propozycja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 5	Komisji	komisja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	Gospodarki	gospodarka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
@@ -5189,8 +5189,8 @@
 7	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf	8	auxpass	_	_
 8	sprzedana	sprzedać	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	6	ccomp	_	_
 9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	advmod	_	_
-10	celu	cel	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	mark	_	_
-11	powiększenia	powiększyć	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	9	acl	_	_
+10	celu	cel	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	case	_	_
+11	powiększenia	powiększenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	9	nmod	_	_
 12	gospodarstw	gospodarstwo	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
 13	okolicznych	okoliczny	ADJ	adj:pl:gen:m1:pos	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
 14	rolników	rolnik	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
@@ -5203,8 +5203,8 @@
 3	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	4	case	_	_
 4	państwa	państwo	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 5	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	7	mark	_	_
-7	przyjęciem	przyjąć	VERB	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	ccomp	_	_
+6	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	7	case	_	_
+7	przyjęciem	przyjęcie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	dobj	_	_
 8	uchwały	uchwała	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	dobj	_	_
 9	?	?	PUNCT	interp:_	_	5	punct	_	_
 
@@ -5251,10 +5251,10 @@
 13	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	14	case	_	_
 14	zmianie	zmiana	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
 15	ustawy	ustawa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
-16	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	17	mark	_	_
-17	organizowaniu	organizować	VERB	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	15	acl	_	_
+16	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	17	case	_	_
+17	organizowaniu	organizowanie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	15	nmod	_	_
 18	i	i	CONJ	conj:_	_	17	cc	_	_
-19	prowadzeniu	prowadzić	VERB	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	17	conj	_	_
+19	prowadzeniu	prowadzenie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	17	conj	_	_
 20	działalności	działalność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
 21	kulturalnej	kulturalny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 22	.	.	PUNCT	interp:_	_	4	punct	_	_
@@ -5308,12 +5308,12 @@
 # sent_id pl-s12
 # orig_file_sentence 005#12
 1	Przystępujemy	przystępować	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	3	mark	_	_
-3	głosowania	głosować	VERB	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+2	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	3	case	_	_
+3	głosowania	głosowanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 4	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	5	case	_	_
 5	wnioskiem	wniosek	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
-6	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	7	mark	_	_
-7	przyjęcie	przyjąć	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	acl	_	_
+6	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	7	case	_	_
+7	przyjęcie	przyjęcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	nmod	_	_
 8	porządku	porządek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 9	dziennego	dzienny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 10	…	…	PUNCT	interp:_	_	1	punct	_	_
@@ -5329,7 +5329,7 @@
 1	Jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	rzeczą	rzecz	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
 3	niedopuszczalną	niedopuszczalny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
-4	składanie	składać	VERB	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	csubj	_	_
+4	składanie	składanie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	nsubj	_	_
 5	wniosków	wniosek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	7	case	_	_
 7	trakcie	trakt	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -5477,8 +5477,8 @@
 # sent_id pl-s31
 # orig_file_sentence 005#31
 1	Proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	mark	_	_
-3	naciśnięcie	nacisnąć	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
+3	naciśnięcie	naciśnięcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 4	przycisku	przycisk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
 5	obecności	obecność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -5487,9 +5487,9 @@
 # orig_file_sentence 005#32
 1	Jednocześnie	jednocześnie	ADV	adv:pos	Degree=Pos	2	advmod	_	_
 2	stanowi	stanowić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dostosowanie	dostosować	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	ccomp	_	_
+3	dostosowanie	dostosowanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	dobj	_	_
 4	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	5	case	_	_
-5	koncepcji	koncepcja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	dobj	_	_
+5	koncepcji	koncepcja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 6	przyjętej	przyjąć	VERB	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
 7	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	8	case	_	_
 8	ustawę	ustawa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	dobj	_	_
@@ -5529,8 +5529,8 @@
 # sent_id pl-s35
 # orig_file_sentence 005#35
 1	Przystępujemy	przystępować	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	3	mark	_	_
-3	głosowania	głosować	VERB	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+2	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	3	case	_	_
+3	głosowania	głosowanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 4	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	5	case	_	_
 5	poprawką	poprawka	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
 6	dziesiątą	dziesiąty	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -5550,8 +5550,8 @@
 3	państwa	państwo	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 4	senatorów	senator	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
 5	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	7	mark	_	_
-7	przyjęciem	przyjąć	VERB	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	ccomp	_	_
+6	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	7	case	_	_
+7	przyjęciem	przyjęcie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	dobj	_	_
 8	tych	ten	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
 9	wniosków	wniosek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	dobj	_	_
 10	?	?	PUNCT	interp:_	_	5	punct	_	_
@@ -5568,8 +5568,8 @@
 # sent_id pl-s39
 # orig_file_sentence 005#39
 1	Proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	mark	_	_
-3	podanie	podać	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
+3	podanie	podanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 4	wyników	wynik	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
 5	głosowania	głosowanie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
 6	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -5662,8 +5662,8 @@
 # sent_id pl-s51
 # orig_file_sentence 005#51
 1	Proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	mark	_	_
-3	naciśnięcie	nacisnąć	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
+3	naciśnięcie	naciśnięcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 4	przycisku	przycisk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
 5	obecności	obecność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -5698,10 +5698,10 @@
 10	a	a	CONJ	conj:_	_	5	cc	_	_
 11	następnie	następnie	ADV	adv:_	_	12	advmod	_	_
 12	przejdziemy	przejść	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
-13	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	14	mark	_	_
-14	głosowania	głosować	VERB	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	12	ccomp	_	_
+13	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	14	case	_	_
+14	głosowania	głosowanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	12	dobj	_	_
 15	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	16	case	_	_
-16	całością	całość	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	14	dobj	_	_
+16	całością	całość	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	_
 17	sprawozdania	sprawozdanie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
 18	komisji	komisja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
 19	.	.	PUNCT	interp:_	_	5	punct	_	_
@@ -5709,8 +5709,8 @@
 # sent_id pl-s55
 # orig_file_sentence 005#55
 1	Proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	mark	_	_
-3	naciśnięcie	nacisnąć	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+2	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
+3	naciśnięcie	naciśnięcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 4	przycisku	przycisk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
 5	obecności	obecność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -5763,8 +5763,8 @@
 3	komisji	komisja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	wniosek	wniosek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-6	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	7	mark	_	_
-7	odrzucenie	odrzucić	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	acl	_	_
+6	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	7	case	_	_
+7	odrzucenie	odrzucenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	nmod	_	_
 8	ustawy	ustawa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	dobj	_	_
 9	.	.	PUNCT	interp:_	_	4	punct	_	_
 
@@ -5788,8 +5788,8 @@
 16	że	że	SCONJ	comp:_	_	17	mark	_	_
 17	składa	składać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
 18	wniosek	wniosek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	dobj	_	_
-19	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	20	mark	_	_
-20	nieprzyjmowanie	przyjmować	VERB	ger:sg:acc:n:imperf:neg	Aspect=Imp|Case=Acc|Gender=Neut|Negative=Neg|Number=Sing|VerbForm=Ger	18	acl	_	_
+19	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	20	case	_	_
+20	nieprzyjmowanie	przyjmowanie	NOUN	ger:sg:acc:n:imperf:neg	Aspect=Imp|Case=Acc|Gender=Neut|Negative=Neg|Number=Sing|VerbForm=Ger	18	nmod	_	_
 21	ustawy	ustawa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	20	dobj	_	_
 22	.	.	PUNCT	interp:_	_	1	punct	_	_
 
@@ -5807,8 +5807,8 @@
 5	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	6	case	_	_
 6	państwa	państwo	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 7	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
-8	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	9	mark	_	_
-9	przyjęciem	przyjąć	VERB	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	7	ccomp	_	_
+8	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	9	case	_	_
+9	przyjęciem	przyjęcie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	7	dobj	_	_
 10	tej	ten	DET	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	poprawki	poprawka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	dobj	_	_
 12	?	?	PUNCT	interp:_	_	1	punct	_	_
@@ -5869,8 +5869,8 @@
 7	nie	nie	PART	qub:_	_	8	neg	_	_
 8	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	auxpass	_	_
 9	przygotowane	przygotować	VERB	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
-10	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	11	mark	_	_
-11	przeprowadzenia	przeprowadzić	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	9	ccomp	_	_
+10	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	11	case	_	_
+11	przeprowadzenia	przeprowadzenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	9	dobj	_	_
 12	głosowania	głosowanie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	11	dobj	_	_
 13	.	.	PUNCT	interp:_	_	4	punct	_	_
 
@@ -5884,8 +5884,8 @@
 # orig_file_sentence 005#71
 1	-	-	PUNCT	interp:_	_	2	punct	_	_
 2	Zostały	zostać	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
-3	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	4	mark	_	_
-4	wydania	wydać	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	advcl	_	_
+3	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	4	case	_	_
+4	wydania	wydanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	nmod	_	_
 5	3	3	NUM	num:pl:nom:m3:congr	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 6	miliardy	miliard	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	case	_	_
 7	zł	złoty	X	brev:npun	Abbr=Yes	5	nmod	_	_
@@ -5968,8 +5968,8 @@
 9	,	,	PUNCT	interp:_	_	11	punct	_	_
 10	które	który	PRON	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|PronType=Int,Rel	11	nsubj	_	_
 11	doprowadziły	doprowadzić	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	8	acl	_	_
-12	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	13	mark	_	_
-13	zawarcia	zawrzeć	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	ccomp	_	_
+12	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	13	case	_	_
+13	zawarcia	zawarcie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	dobj	_	_
 14	pokoju	pokój	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	dobj	_	_
 15	.	.	PUNCT	interp:_	_	5	punct	_	_
 
@@ -6144,7 +6144,7 @@
 4	są	być	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	6	case	_	_
 6	miejscu	miejsce	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	4	dobj	_	_
-7	osunięcia	osunąć	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	acl	_	_
+7	osunięcia	osunięcie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	nmod	_	_
 8	lawiny	lawina	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 9	.	.	PUNCT	interp:_	_	4	punct	_	_
 
@@ -6165,9 +6165,9 @@
 13	ostatnim	ostatni	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 14	tygodniu	tydzień	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_
 15	zanotowano	zanotować	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	_
-16	zejście	zejść	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	15	ccomp	_	_
+16	zejście	zejście	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	15	dobj	_	_
 17	ze	z	ADP	prep:gen:wok	AdpType=Prep|Case=Gen|Variant=Long	18	case	_	_
-18	zboczy	zbocze	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	16	dobj	_	_
+18	zboczy	zbocze	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
 19	górskich	górski	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	_
 20	kilku	kilka	DET	num:pl:gen:f:congr	Case=Gen|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	21	det:nummod	_	_
 21	lawin	lawina	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
@@ -6703,14 +6703,14 @@
 1	Obejmuje	obejmować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	zagadnienia	zagadnienie	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	1	dobj	_	_
 3	związane	związany	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_
-4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	5	mark	_	_
-5	projektowaniem	projektować	VERB	ger:sg:inst:n:imperf:aff	Aspect=Imp|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	advcl	_	_
+4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	5	case	_	_
+5	projektowaniem	projektowanie	NOUN	ger:sg:inst:n:imperf:aff	Aspect=Imp|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	nmod	_	_
 6	elementów	element	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	dobj	_	_
 7	i	i	CONJ	conj:_	_	6	cc	_	_
 8	podzespołów	podzespół	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_
 9	maszyn	maszyna	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
-10	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	11	mark	_	_
-11	uwzględnieniem	uwzględnić	VERB	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	advcl	_	_
+10	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	11	case	_	_
+11	uwzględnieniem	uwzględnienie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	nmod	_	_
 12	specyfiki	specyfika	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	dobj	_	_
 13	maszyn	maszyna	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
 14	rolniczych	rolniczy	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
@@ -6729,7 +6729,7 @@
 9	amerykańskich	amerykański	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	8	case	_	_
 10	i	i	CONJ	conj:_	_	3	cc	_	_
 11	wyrazili	wyrazić	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	conj	_	_
-12	przekonanie	przekonać	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	ccomp	_	_
+12	przekonanie	przekonanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	dobj	_	_
 13	,	,	PUNCT	interp:_	_	20	punct	_	_
 14	że	że	SCONJ	comp:_	_	20	mark	_	_
 15	będą	być	AUX	bedzie:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	20	aux	_	_
@@ -6737,7 +6737,7 @@
 17	nadal	nadal	ADV	adv:_	_	20	advmod	_	_
 18	korzystnie	korzystnie	ADV	adv:pos	Degree=Pos	20	advmod	_	_
 19	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	20	expl	_	_
-20	rozwijać	rozwijać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	12	ccomp	_	_
+20	rozwijać	rozwijać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	12	acl	_	_
 21	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	22	case	_	_
 22	interesie	interes	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
 23	obu	oba	NUM	num:pl:gen:m3:congr	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nummod	_	_
@@ -6748,7 +6748,7 @@
 # orig_file_sentence 006#31
 1	Pogratulował	pogratulować	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mu	on	PRON	ppron3:sg:dat:m1:ter:nakc:npraep	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	1	nmod	_	_
-3	wygrania	wygrać	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
+3	wygrania	wygranie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	dobj	_	_
 4	wyborów	wybory	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	3	dobj	_	_
 5	i	i	CONJ	conj:_	_	1	cc	_	_
 6	przyjął	przyjąć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	conj	_	_
@@ -7166,11 +7166,11 @@
 
 # sent_id pl-s70
 # orig_file_sentence 006#70
-1	Po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	2	mark	_	_
-2	zniszczeniu	zniszczyć	VERB	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	13	advcl	_	_
+1	Po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	2	case	_	_
+2	zniszczeniu	zniszczenie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	13	nmod	_	_
 3	kościoła	kościół	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	dobj	_	_
 4	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	5	case	_	_
-5	Szwedów	Szwed	PROPN	subst:pl:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	dobj	_	_
+5	Szwedów	Szwed	PROPN	subst:pl:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	_
 6	podczas	podczas	ADP	prep:gen	AdpType=Prep|Case=Gen	7	case	_	_
 7	potopu	potop	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 8	,	,	PUNCT	interp:_	_	2	punct	_	_
@@ -7591,7 +7591,7 @@
 6	trafili	trafić	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	1	acl	_	_
 7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
 8	uroczystość	uroczystość	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	dobj	_	_
-9	otwarcia	otworzyć	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	8	acl	_	_
+9	otwarcia	otwarcie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	8	nmod	_	_
 10	,	,	PUNCT	interp:_	_	6	punct	_	_
 11	dostali	dostać	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 12	upominki	upominek	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	dobj	_	_
@@ -7602,8 +7602,8 @@
 
 # sent_id pl-s1
 # orig_file_sentence 007#1
-1	Oficjalne	oficjalny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	_
-2	otwarcie	otworzyć	VERB	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	csubj	_	_
+1	Oficjalne	oficjalny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	otwarcie	otwarcie	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	nsubj	_	_
 3	fragmentu	fragment	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	trasy	trasa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 5	wylotowej	wylotowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
@@ -7626,16 +7626,16 @@
 5	myśli	myśleć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 6	więc	więc	CONJ	conj:_	_	1	cc	_	_
 7	też	też	PART	qub:_	_	5	advmod	_	_
-8	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	9	mark	_	_
-9	zdawaniu	zdawać	VERB	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	ccomp	_	_
+8	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	9	case	_	_
+9	zdawaniu	zdawanie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	dobj	_	_
 10	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	11	case	_	_
-11	resocjalizację	resocjalizacja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	dobj	_	_
+11	resocjalizację	resocjalizacja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
 12	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s3
 # orig_file_sentence 007#3
-1	Po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	2	mark	_	_
-2	zdaniu	zdać	VERB	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	advcl	_	_
+1	Po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	2	case	_	_
+2	zdaniu	zdanie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	nmod	_	_
 3	matury	matura	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	dobj	_	_
 4	Dominika	Dominika	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 5	Kowalska	Kowalska	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
@@ -8112,12 +8112,12 @@
 2	Jeżeli	jeżeli	SCONJ	comp:_	_	4	mark	_	_
 3	nie	nie	PART	qub:_	_	4	neg	_	_
 4	zapłacimy	zapłacić	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
-5	Masterowi	master	NOUN	subst:sg:dat:m1	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	_
-6	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	7	mark	_	_
-7	pokazanie	pokazać	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	4	ccomp	_	_
+5	Masterowi	master	NOUN	subst:sg:dat:m1	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	dobj	_	_
+6	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	7	case	_	_
+7	pokazanie	pokazanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	4	dobj	_	_
 8	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	7	expl	_	_
 9	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	10	case	_	_
-10	ekranie	ekran	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	dobj	_	_
+10	ekranie	ekran	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
 11	,	,	PUNCT	interp:_	_	16	punct	_	_
 12	to	to	CONJ	conj:_	_	16	advmod	_	_
 13	nas	my	PRON	ppron12:pl:gen:m1:pri	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	16	dobj	_	_
@@ -8257,14 +8257,14 @@
 4	i	i	CONJ	conj:_	_	1	cc	_	_
 5	zadumał	zadumać	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	conj	_	_
 6	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	5	expl	_	_
-7	głębokim	głęboki	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	_
-8	zadumaniem	zadumać	VERB	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	advcl	_	_
+7	głębokim	głęboki	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	zadumaniem	zadumanie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	nmod	_	_
 9	,	,	PUNCT	interp:_	_	1	punct	_	_
 10	i	i	CONJ	conj:_	_	1	cc	_	_
 11	zafrasował	zafrasować	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	conj	_	_
 12	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	11	expl	_	_
-13	wielkim	wielki	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	_
-14	zafrasowaniem	zafrasować	VERB	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	advcl	_	_
+13	wielkim	wielki	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	zafrasowaniem	zafrasowanie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	11	nmod	_	_
 15	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s46
@@ -8728,7 +8728,7 @@
 2	krótkiej	krótki	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	rozmowie	rozmowa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
 4	i	i	CONJ	conj:_	_	3	cc	_	_
-5	zakupieniu	zakupić	VERB	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	conj	_	_
+5	zakupieniu	zakupienie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	conj	_	_
 6	butelki	butelka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 7	wina	wino	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
 8	czwórka	czwórka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -8747,8 +8747,8 @@
 # sent_id pl-s84
 # orig_file_sentence 007#84
 1	Gdy	gdy	SCONJ	comp:_	_	6	mark	_	_
-2	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	3	mark	_	_
-3	wypiciu	wypić	VERB	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	advcl	_	_
+2	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	3	case	_	_
+3	wypiciu	wypicie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	nmod	_	_
 4	trunku	trunek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
 5	siedlczanin	siedlczann	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 6	chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	12	advcl	_	_
@@ -8792,8 +8792,8 @@
 5	bardzo	bardzo	ADV	adv:pos	Degree=Pos	6	advmod	_	_
 6	dobrze	dobrze	ADV	adv:pos	Degree=Pos	7	advmod	_	_
 7	przygotowany	przygotować	VERB	ppas:sg:nom:m1:perf:aff	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	4	csubj	_	_
-8	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	9	mark	_	_
-9	pełnienia	pełnić	VERB	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	7	ccomp	_	_
+8	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	9	case	_	_
+9	pełnienia	pełnienie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	7	dobj	_	_
 10	swojej	swój	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
 11	obecnej	obecny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
 12	funkcji	funkcja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	dobj	_	_
@@ -8938,8 +8938,8 @@
 2	weź	wziąć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 3	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	2	expl	_	_
 4	trochę	trochę	ADV	adv:_	_	2	advmod	_	_
-5	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	6	mark	_	_
-6	czytanie	czytać	VERB	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	ccomp	_	_
+5	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
+6	czytanie	czytanie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	2	dobj	_	_
 7	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s97
