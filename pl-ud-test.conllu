@@ -91,7 +91,7 @@
 27	apelem	apel	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	nmod	_	_
 28	sztokholmskim	sztokholmski	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
 29	,	,	PUNCT	interp:_	_	32	punct	_	_
-30	który	który	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	nsubj	_	_
+30	który	który	PRON	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	32	nsubj	_	_
 31	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	32	expl	_	_
 32	domaga	domagać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl	_	_
 33	zakazu	zakaz	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	dobj	_	_
@@ -234,7 +234,7 @@
 4	nie	nie	PART	qub:_	_	5	neg	_	_
 5	postawiono	postawić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 6	bowiem	bowiem	SCONJ	comp:_	_	5	mark	_	_
-7	żadnych	żaden	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+7	żadnych	żaden	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Neg	8	det	_	_
 8	zarzutów	zarzut	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	dobj	_	_
 9	.	.	PUNCT	interp:_	_	5	punct	_	_
 
@@ -246,7 +246,7 @@
 4	nie	nie	PART	qub:_	_	5	neg	_	_
 5	przejmowano	przejmować	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 6	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	5	expl	_	_
-7	takimi	taki	ADJ	adj:pl:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+7	takimi	taki	DET	adj:pl:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
 8	drobiazgami	drobiazg	NOUN	subst:pl:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	dobj	_	_
 9	.	.	PUNCT	interp:_	_	5	punct	_	_
 
@@ -271,11 +271,11 @@
 17	różnymi	różny	ADJ	adj:pl:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_
 18	wspólnotami	wspólnota	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	12	nmod	_	_
 19	,	,	PUNCT	interp:_	_	21	punct	_	_
-20	których	który	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
+20	których	który	PRON	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	21	amod	_	_
 21	ofiarami	ofiara	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	12	acl	_	_
 22	są	być	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 23	przede	przed	ADP	prep:inst:wok	AdpType=Prep|Case=Ins|Variant=Long	25	nmod	_	_
-24	wszystkim	wszystko	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	23	case	_	_
+24	wszystkim	wszystko	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Tot	23	case	_	_
 25	cywile	cywil	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
 26	zmuszani	zmuszać	VERB	ppas:pl:nom:m1:imperf:aff	Animacy=Anim|Aspect=Imp|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur|VerbForm=Part|Voice=Pass	25	acl	_	_
 27	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	28	mark	_	_
@@ -287,13 +287,13 @@
 # orig_file_sentence 001#21
 1	-	-	PUNCT	interp:_	_	2	punct	_	_
 2	To	to	VERB	pred:_	_	0	root	_	_
-3	taka	taki	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+3	taka	taki	DET	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 4	dość	dość	PART	qub:_	_	5	advmod	_	_
 5	podła	podły	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	woda	woda	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 7	sodowa	sodowy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 8	,	,	PUNCT	interp:_	_	10	punct	_	_
-9	którą	który	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	dobj	_	_
+9	którą	który	PRON	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	10	dobj	_	_
 10	serwowano	serwować	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
 11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	12	case	_	_
 12	butelkach	butelka	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	10	nmod	_	_
@@ -306,7 +306,7 @@
 
 # sent_id pl-s22
 # orig_file_sentence 001#22
-1	Co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+1	Co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	_
 2	to	to	VERB	pred:_	_	0	root	_	_
 3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 4	?	?	PUNCT	interp:_	_	2	punct	_	_
@@ -314,7 +314,7 @@
 # sent_id pl-s23
 # orig_file_sentence 001#23
 1	-	-	PUNCT	interp:_	_	4	punct	_	_
-2	Jakie	jaki	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+2	Jakie	jaki	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	3	det	_	_
 3	napoje	napój	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	towarzyszą	towarzyszyć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	najczęściej	często	ADV	adv:sup	Degree=Sup	4	advmod	_	_
@@ -324,7 +324,7 @@
 
 # sent_id pl-s24
 # orig_file_sentence 001#24
-1	Te	ten	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+1	Te	ten	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	kapsle	kapsel	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 3	,	,	PUNCT	interp:_	_	2	punct	_	_
 4	podrzucane	podrzucać	VERB	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -384,7 +384,7 @@
 4	.	.	PUNCT	interp:_	_	3	punct	_	_
 5	zostali	zostać	AUX	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	9	auxpass	_	_
 6	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	8	case	_	_
-7	tego	ten	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 8	zarzutu	zarzut	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 9	uniewinnieni	uniewinnić	VERB	ppas:pl:nom:m1:perf:aff	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 10	.	.	PUNCT	interp:_	_	9	punct	_	_
@@ -396,7 +396,7 @@
 3	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	2	aux	_	_
 4	,	,	PUNCT	interp:_	_	8	punct	_	_
 5	żeby	żeby	SCONJ	comp:_	_	8	mark	_	_
-6	ta	ten	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	scena	scena	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 8	wypadła	wypaść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	ccomp	_	_
 9	jednoznacznie	jednoznacznie	ADV	adv:pos	Degree=Pos	8	advmod	_	_
@@ -456,7 +456,7 @@
 3	scena	scena	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 4	guseł	gusła	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
 5	,	,	PUNCT	interp:_	_	8	punct	_	_
-6	której	który	ADJ	adj:sg:dat:f:pos	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	iobj	_	_
+6	której	który	PRON	adj:sg:dat:f:pos	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	8	iobj	_	_
 7	rytm	rytm	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	dobj	_	_
 8	nadaje	nadawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
 9	monotonna	monotonny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
@@ -472,7 +472,7 @@
 3	scen	scena	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
 4	,	,	PUNCT	interp:_	_	13	punct	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
-6	których	który	ADJ	adj:pl:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	13	advmod	_	_
+6	których	który	PRON	adj:pl:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Int,Rel	13	advmod	_	_
 7	wprowadzenie	wprowadzić	VERB	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	13	csubj	_	_
 8	montażu	montaż	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	dobj	_	_
 9	filmowego	filmowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
@@ -564,7 +564,7 @@
 # sent_id pl-s37
 # orig_file_sentence 001#37
 1	Stańczyk	Stańczyk	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	to	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	3	dobj	_	_
+2	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	dobj	_	_
 3	potwierdził	potwierdzić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	interp:_	_	3	punct	_	_
 
@@ -672,7 +672,7 @@
 4	,	,	PUNCT	interp:_	_	15	punct	_	_
 5	że	że	SCONJ	comp:_	_	15	mark	_	_
 6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
-7	tym	ten	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	tym	ten	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 8	czasie	czas	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_
 9	stary	stary	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	rząd	rząd	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
@@ -708,7 +708,7 @@
 
 # sent_id pl-s48
 # orig_file_sentence 001#48
-1	To	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+1	To	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	miało	mieć	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	bezpośrednie	bezpośredni	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	przełożenie	przełożenie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	2	dobj	_	_
@@ -753,9 +753,9 @@
 # orig_file_sentence 001#51
 1	Zajmuje	zajmować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	1	expl	_	_
-3	tym	to	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	1	dobj	_	_
+3	tym	to	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	1	dobj	_	_
 4	przede	przed	ADP	prep:inst:wok	AdpType=Prep|Case=Ins|Variant=Long	1	advmod	_	_
-5	wszystkim	wszystko	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	4	case	_	_
+5	wszystkim	wszystko	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Tot	4	case	_	_
 6	Instytut	instytut	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 7	Goethego	Goethe	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	,	,	PUNCT	interp:_	_	6	punct	_	_
@@ -783,7 +783,7 @@
 # sent_id pl-s53
 # orig_file_sentence 001#53
 1	O	o	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
-2	jaką	jaki	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	jaką	jaki	DET	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	3	det	_	_
 3	rolę	rola	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	dobj	_	_
 4	chodzi	chodzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	?	?	PUNCT	interp:_	_	4	punct	_	_
@@ -834,7 +834,7 @@
 4	zostanie	zostać	AUX	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	auxpass	_	_
 5	uchwalona	uchwalić	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	_
 6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
-7	tym	ten	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	tym	ten	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 8	kształcie	kształt	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
 9	,	,	PUNCT	interp:_	_	5	punct	_	_
 10	nie	nie	PART	qub:_	_	12	neg	_	_
@@ -873,7 +873,7 @@
 1	Najpierw	najpierw	ADV	adv:_	_	2	advmod	_	_
 2	zwrócił	zwrócić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	4	case	_	_
-4	to	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	2	iobj	_	_
+4	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	iobj	_	_
 5	uwagę	uwaga	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	dobj	_	_
 6	prokurator	prokurator	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 7	wojewódzki	wojewódzki	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
@@ -900,8 +900,8 @@
 # orig_file_sentence 001#60
 1	Policja	policja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	odnotowała	odnotować	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-3	kilka	kilka	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	dobj	_	_
-4	napadów	napad	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+3	kilka	kilka	DET	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	4	det:numgov	_	_
+4	napadów	napad	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	dobj	_	_
 5	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	6	mark	_	_
 6	kwestujących	kwestować	VERB	pact:pl:acc:m1:imperf:aff	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
 7	.	.	PUNCT	interp:_	_	2	punct	_	_
@@ -933,7 +933,7 @@
 
 # sent_id pl-s63
 # orig_file_sentence 001#63
-1	Kto	kto	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	Kto	kto	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
 2	panu	pan	NOUN	subst:sg:dat:m1	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
 3	powiedział	powiedzieć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	interp:_	_	9	punct	_	_
@@ -942,7 +942,7 @@
 7	Litwie	Litwa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	9	dobj	_	_
 8	nie	nie	PART	qub:_	_	9	neg	_	_
 9	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	ccomp	_	_
-10	takich	taki	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+10	takich	taki	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
 11	bębnów	bęben	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	dobj	_	_
 12	?	?	PUNCT	interp:_	_	3	punct	_	_
 
@@ -991,7 +991,7 @@
 6	islamiści	islamista	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 7	stosują	stosować	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 8	zawszę	zawsze	ADV	adv:_	_	7	advmod	_	_
-9	tę	ten	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+9	tę	ten	DET	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 10	samą	sam	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	taktykę	taktyka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	dobj	_	_
 12	.	.	PUNCT	interp:_	_	3	punct	_	_
@@ -1007,7 +1007,7 @@
 7	obywatelstwa	obywatelstwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	conj	_	_
 8	Najder	Najder	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 9	stracił	stracić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-10	ów	ów	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	ów	ów	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	dom	dom	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	dobj	_	_
 12	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	13	case	_	_
 13	wsi	wieś	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
@@ -1032,7 +1032,7 @@
 3	mieszkaniowej	mieszkaniowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 4	był	być	AUX	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	auxpass	_	_
 5	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	7	case	_	_
-6	tę	ten	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	tę	ten	DET	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	okoliczność	okoliczność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
 8	przesłuchiwany	przesłuchiwać	VERB	ppas:sg:nom:m1:imperf:aff	Animacy=Anim|Aspect=Imp|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 9	,	,	PUNCT	interp:_	_	8	punct	_	_
@@ -1040,7 +1040,7 @@
 11	nie	nie	PART	qub:_	_	12	neg	_	_
 12	potrafiono	potrafić	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	8	conj	_	_
 13	znaleźć	znaleźć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	12	xcomp	_	_
-14	żadnego	żaden	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	żadnego	żaden	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Neg	15	det	_	_
 15	błędu	błąd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	dobj	_	_
 16	prawnego	prawny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
 17	.	.	PUNCT	interp:_	_	8	punct	_	_
@@ -1066,7 +1066,7 @@
 
 # sent_id pl-s72
 # orig_file_sentence 001#72
-1	To	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+1	To	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	uniemożliwiło	uniemożliwić	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	konfiskatę	konfiskata	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	dobj	_	_
 4	.	.	PUNCT	interp:_	_	2	punct	_	_
@@ -1080,7 +1080,7 @@
 # sent_id pl-s74
 # orig_file_sentence 001#74
 1	Będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
-2	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	wymagać	wymagać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	0	root	_	_
 4	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	5	case	_	_
 5	kadr	kadra	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	3	iobj	_	_
@@ -1185,7 +1185,7 @@
 # sent_id pl-s82
 # orig_file_sentence 001#82
 1	Odnotowuję	odnotowywać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	to	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	1	dobj	_	_
+2	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	dobj	_	_
 3	,	,	PUNCT	interp:_	_	5	punct	_	_
 4	żeby	żeby	SCONJ	comp:_	_	5	mark	_	_
 5	złagodzić	złagodzić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	1	advcl	_	_
@@ -1330,19 +1330,19 @@
 2	powtarzały	powtarzać	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 3	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	2	expl	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
-5	tych	ten	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+5	tych	ten	DET	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
 6	listach	list	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	nmod	_	_
 7	wzmianki	wzmianka	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
 8	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	9	case	_	_
-9	kimś	ktoś	NOUN	subst:sg:loc:m1	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
-10	innym	inny	ADJ	adj:sg:loc:m1:pos	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	kimś	ktoś	PRON	subst:sg:loc:m1	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing|PronType=Ind	7	nmod	_	_
+10	innym	inny	ADJ	adj:sg:loc:m1:pos	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	advmod	_	_
 11	,	,	PUNCT	interp:_	_	17	punct	_	_
-12	kogo	kto	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	dobj	_	_
+12	kogo	kto	PRON	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	17	dobj	_	_
 13	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	14	case	_	_
 14	kolei	kolej	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
 15	panna	panna	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 16	Barbara	Barbara	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	15	appos	_	_
-17	zwała	zwać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	acl	_	_
+17	zwała	zwać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	advcl	_	_
 18	gwiazdą	gwiazda	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	17	iobj	_	_
 19	.	.	PUNCT	interp:_	_	2	punct	_	_
 
@@ -1377,21 +1377,21 @@
 11	,	,	PUNCT	interp:_	_	6	punct	_	_
 12	i	i	CONJ	conj:_	_	1	cc	_	_
 13	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	14	case	_	_
-14	tym	to	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	16	dobj	_	_
+14	tym	to	PRON	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	16	dobj	_	_
 15	niech	niech	PART	qub:_	_	16	aux	_	_
 16	poprzestanie	poprzestać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 17	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s94
 # orig_file_sentence 001#94
-1	Ten	ten	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	Ten	ten	PRON	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	zaś	zaś	CONJ	conj:_	_	3	advmod	_	_
 3	wywodził	wywodzić	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	3	expl	_	_
 5	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	6	case	_	_
 6	rycerzy	rycerz	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	dobj	_	_
 7	,	,	PUNCT	interp:_	_	10	punct	_	_
-8	którzy	który	ADJ	adj:pl:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	nsubj	_	_
+8	którzy	który	PRON	adj:pl:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	10	nsubj	_	_
 9	byli	być	VERB	praet:pl:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	10	cop	_	_
 10	towarzyszami	towarzysz	NOUN	subst:pl:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	acl	_	_
 11	króla	król	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
@@ -1408,7 +1408,7 @@
 5	zdołali	zdołać	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	2	advcl	_	_
 6	jej	on	PRON	ppron3:sg:dat:f:ter:akc:npraep	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	7	iobj	_	_
 7	przemyć	przemyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_
-8	te	ten	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
+8	te	ten	DET	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|PronType=Dem	9	det	_	_
 9	oczy	oko	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	7	dobj	_	_
 10	.	.	PUNCT	interp:_	_	2	punct	_	_
 
@@ -1418,7 +1418,7 @@
 2	zanosiła	zanosić	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	2	expl	_	_
 4	przy	przy	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
-5	tym	to	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+5	tym	to	PRON	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	2	nmod	_	_
 6	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	7	case	_	_
 7	krzyku	krzyk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	dobj	_	_
 8	i	i	CONJ	conj:_	_	2	cc	_	_
@@ -1430,7 +1430,7 @@
 14	że	że	SCONJ	comp:_	_	20	mark	_	_
 15	ona	on	PRON	ppron3:sg:nom:f:ter:akc:npraep	Case=Nom|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	20	nsubj	_	_
 16	samego	sam	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
-17	tego	ten	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
 18	krzyku	krzyk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	dobj	_	_
 19	nie	nie	PART	qub:_	_	20	neg	_	_
 20	przetrzyma	przetrzymać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
@@ -1517,7 +1517,7 @@
 4	domem	dom	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
 5	,	,	PUNCT	interp:_	_	8	punct	_	_
 6	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
-7	czym	co	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+7	czym	co	PRON	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nmod	_	_
 8	polecił	polecić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	ccomp	_	_
 9	wracać	wracać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	8	xcomp	_	_
 10	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	11	case	_	_
@@ -1542,7 +1542,7 @@
 4	że	że	SCONJ	comp:_	_	11	mark	_	_
 5	leki	lek	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubjpass	_	_
 6	,	,	PUNCT	interp:_	_	8	punct	_	_
-7	które	który	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	dobj	_	_
+7	które	który	PRON	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	8	dobj	_	_
 8	zlecił	zlecić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	acl	_	_
 9	,	,	PUNCT	interp:_	_	8	punct	_	_
 10	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	auxpass	_	_
@@ -1594,7 +1594,7 @@
 # orig_file_sentence 002#10
 1	Powiedział	powiedzieć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	nawet	nawet	PART	qub:_	_	1	advmod	_	_
-3	coś	coś	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	1	dobj	_	_
+3	coś	coś	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	1	dobj	_	_
 4	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	5	case	_	_
 5	telefonu	telefon	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 6	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -1690,7 +1690,7 @@
 7	sądzi	sądzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	,	,	PUNCT	interp:_	_	24	punct	_	_
 9	by	by	SCONJ	comp:_	_	24	mark	_	_
-10	któraś	któryś	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	nsubj	_	_
+10	któraś	któryś	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	24	nsubj	_	_
 11	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	12	case	_	_
 12	32	32	NUM	num:pl:gen:f:congr	Case=Gen|Gender=Fem|Number=Plur	10	advmod	_	_
 13	książek	książka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
@@ -1699,7 +1699,7 @@
 16	Biblioteki	biblioteka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 17	Pruskiej	pruski	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 18	,	,	PUNCT	interp:_	_	21	punct	_	_
-19	które	który	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	21	dobj	_	_
+19	które	który	PRON	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Int,Rel	21	dobj	_	_
 20	wczoraj	wczoraj	ADV	adv:_	_	21	advmod	_	_
 21	odzyskała	odzyskać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	12	acl	_	_
 22	policja	policja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
@@ -1717,14 +1717,14 @@
 3	mężczyzn	mężczyzna	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 4	,	,	PUNCT	interp:_	_	7	punct	_	_
 5	u	u	ADP	prep:gen	AdpType=Prep|Case=Gen	6	case	_	_
-6	których	który	ADJ	adj:pl:gen:m1:pos	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	iobj	_	_
+6	których	który	PRON	adj:pl:gen:m1:pos	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	7	iobj	_	_
 7	znaleziono	znaleźć	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
 8	starodruki	starodruk	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	dobj	_	_
 9	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s20
 # orig_file_sentence 002#20
-1	Czym	co	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	5	nmod	_	_
+1	Czym	co	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nmod	_	_
 2	Ukraińcy	Ukrainiec	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	są	być	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	najbardziej	bardzo	ADV	adv:sup	Degree=Sup	5	advmod	_	_
@@ -1752,7 +1752,7 @@
 # orig_file_sentence 002#23
 1	Na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	2	case	_	_
 2	siłę	siła	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
-3	nikogo	nikt	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	dobj	_	_
+3	nikogo	nikt	PRON	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Neg	4	dobj	_	_
 4	zatrzymywać	zatrzymywać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	0	root	_	_
 5	nie	nie	PART	qub:_	_	6	neg	_	_
 6	będziemy	być	AUX	bedzie:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	aux	_	_
@@ -1761,9 +1761,9 @@
 # sent_id pl-s24
 # orig_file_sentence 002#24
 1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	3	case	_	_
-2	tym	ten	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	tym	ten	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	targu	targ	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
-4	ktoś	ktoś	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	ktoś	ktoś	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
 5	widocznie	widocznie	ADV	adv:pos	Degree=Pos	6	advmod	_	_
 6	chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 7	zapłacić	zapłacić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	6	xcomp	_	_
@@ -2016,7 +2016,7 @@
 1	Do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	2	case	_	_
 2	złudzenia	złudzenie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
 3	przypomina	przypominać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+4	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 5	działania	działanie	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	3	dobj	_	_
 6	policji	policja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 7	Dorna	Dorn	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -2077,7 +2077,7 @@
 3	udziałem	udział	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
 4	prezydenta	prezydent	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	,	,	PUNCT	interp:_	_	7	punct	_	_
-6	który	który	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	który	który	PRON	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
 7	przemawiał	przemawiać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	acl	_	_
 8	jak	jak	ADP	prep:nom	AdpType=Prep|Case=Nom	10	case	_	_
 9	zdyscyplinowany	zdyscyplinować	VERB	ppas:sg:nom:m1:perf:aff	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
@@ -2133,7 +2133,7 @@
 10	,	,	PUNCT	interp:_	_	4	punct	_	_
 11	im	on	PRON	ppron3:pl:dat:m3:ter:akc:npraep	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	14	dobj	_	_
 12	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	14	expl	_	_
-13	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	_
 14	opłaca	opłacać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 15	.	.	PUNCT	interp:_	_	4	punct	_	_
 
@@ -2178,7 +2178,7 @@
 5	pomagać	pomagać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_
 6	ludziom	człowiek	NOUN	subst:pl:dat:m1	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	dobj	_	_
 7	,	,	PUNCT	interp:_	_	9	punct	_	_
-8	którzy	który	ADJ	adj:pl:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	którzy	który	PRON	adj:pl:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	9	nsubj	_	_
 9	znaleźli	znaleźć	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	acl	_	_
 10	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	9	expl	_	_
 11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	12	case	_	_
@@ -2224,11 +2224,11 @@
 2	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	2	punct	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
-5	takim	taki	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	takim	taki	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	przypadku	przypadek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
 7	powstała	powstać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	_
 8	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	7	aux	_	_
-9	jakaś	jakiś	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	advmod	_	_
+9	jakaś	jakiś	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	10	advmod	_	_
 10	porządna	porządny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
 11	,	,	PUNCT	interp:_	_	10	punct	_	_
 12	prawdziwa	prawdziwy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	_
@@ -2337,7 +2337,7 @@
 # sent_id pl-s67
 # orig_file_sentence 002#67
 1	Czy	czy	PART	qub:_	_	4	advmod	_	_
-2	ta	ten	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	nominacja	nominacja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	odbije	odbić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	4	expl	_	_
@@ -2460,7 +2460,7 @@
 1	Podpisuję	podpisywać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	1	expl	_	_
 3	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	4	case	_	_
-4	tym	to	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	1	dobj	_	_
+4	tym	to	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	1	dobj	_	_
 5	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s77
@@ -2500,7 +2500,7 @@
 2	uchwały	uchwała	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	nie	nie	PART	qub:_	_	4	neg	_	_
 4	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	nic	nic	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	dobj	_	_
+5	nic	nic	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	4	dobj	_	_
 6	wspólnego	wspólny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
 7	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	8	mark	_	_
 8	opracowaniem	opracować	VERB	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	6	advcl	_	_
@@ -2523,7 +2523,7 @@
 3	że	że	SCONJ	comp:_	_	18	mark	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	7	case	_	_
 5	całym	cały	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
-6	tym	ten	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	tym	ten	DET	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
 7	zamieszaniu	zamieszanie	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	_
 8	,	,	PUNCT	interp:_	_	7	punct	_	_
 9	politycznym	polityczny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
@@ -2570,7 +2570,7 @@
 1	Unia	unia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 2	Wolności	wolność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	,	,	PUNCT	interp:_	_	5	punct	_	_
-4	której	który	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	której	który	PRON	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	5	amod	_	_
 5	członkiem	członek	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	acl	_	_
 6	był	być	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	_
 7	Jan	Jan	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -2587,9 +2587,9 @@
 18	.	.	PUNCT	interp:_	_	17	punct	_	_
 19	i	i	CONJ	conj:_	_	11	cc	_	_
 20	utworzyła	utworzyć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	conj	_	_
-21	kilka	kilka	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	dobj	_	_
+21	kilka	kilka	DET	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	23	det:numgov	_	_
 22	samodzielnych	samodzielny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
-23	bytów	byt	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	bytów	byt	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	dobj	_	_
 24	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	26	case	_	_
 25	całym	cały	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
 26	oprzyrządowaniem	oprzyrządowanie	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	23	nmod	_	_
@@ -2610,7 +2610,7 @@
 # orig_file_sentence 002#85
 1	Jesteś	być	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
 2	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
-3	to	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_
+3	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	nmod	_	_
 4	gotowa	gotowy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 5	?	?	PUNCT	interp:_	_	4	punct	_	_
 
@@ -2640,7 +2640,7 @@
 # sent_id pl-s88
 # orig_file_sentence 002#88
 1	-	-	PUNCT	interp:_	_	3	punct	_	_
-2	Kto	kto	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Kto	kto	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
 3	otrzymuje	otrzymywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	zgodę	zgoda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	dobj	_	_
 5	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
@@ -2655,7 +2655,7 @@
 2	domalowują	domalowywać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	przeciwnikom	przeciwnik	NOUN	subst:pl:dat:m1	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	iobj	_	_
 4	,	,	PUNCT	interp:_	_	7	punct	_	_
-5	którzy	który	ADJ	adj:pl:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	nsubj	_	_
+5	którzy	który	PRON	adj:pl:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	7	nsubj	_	_
 6	dawniej	dawno	ADV	adv:com	_	7	advmod	_	_
 7	byli	być	VERB	praet:pl:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	acl	_	_
 8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	10	case	_	_
@@ -2763,7 +2763,7 @@
 5	robią	robić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
 7	Francuzach	Francuz	NOUN	subst:pl:loc:m1	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_
-8	żadnego	żaden	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+8	żadnego	żaden	DET	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|PronType=Neg	9	det	_	_
 9	wrażenia	wrażenie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	dobj	_	_
 10	.	.	PUNCT	interp:_	_	5	punct	_	_
 
@@ -2841,7 +2841,7 @@
 
 # sent_id pl-s2
 # orig_file_sentence 003#2
-1	To	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+1	To	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	świadczy	świadczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	8	punct	_	_
 4	że	że	SCONJ	comp:_	_	8	case	_	_
@@ -2856,7 +2856,7 @@
 1	Nie	nie	PART	qub:_	_	2	neg	_	_
 2	myślę	myśleć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	4	case	_	_
-4	tym	to	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	2	dobj	_	_
+4	tym	to	PRON	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	2	dobj	_	_
 5	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s4
@@ -2870,7 +2870,7 @@
 
 # sent_id pl-s5
 # orig_file_sentence 003#5
-1	Co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+1	Co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	_
 2	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
 3	dziś	dziś	ADV	adv:_	_	4	advmod	_	_
 4	kluczem	klucz	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
@@ -2907,12 +2907,12 @@
 4	powinien	powinien	ADJ	winien:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing	0	root	_	_
 5	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	9	expl	_	_
 6	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	8	case	_	_
-7	żaden	żaden	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	żaden	żaden	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Neg	8	det	_	_
 8	sposób	sposób	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
 9	dzielić	dzielić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	4	xcomp	_	_
 10	odpowiedzialnością	odpowiedzialność	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	9	dobj	_	_
 11	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	13	case	_	_
-12	te	ten	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+12	te	ten	DET	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
 13	służby	służba	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	_
 14	,	,	PUNCT	interp:_	_	16	punct	_	_
 15	bo	bo	SCONJ	comp:_	_	16	mark	_	_
@@ -2943,7 +2943,7 @@
 
 # sent_id pl-s11
 # orig_file_sentence 003#11
-1	Każda	każdy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+1	Każda	każdy	DET	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Tot	4	det	_	_
 2	nachalnie	nachalnie	ADV	adv:pos	Degree=Pos	3	advmod	_	_
 3	propagowana	propagować	VERB	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
 4	ideologia	ideologia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -2957,7 +2957,7 @@
 1	Wbrew	wbrew	ADP	prep:dat	AdpType=Prep|Case=Dat	2	case	_	_
 2	intencjom	intencja	NOUN	subst:pl:dat:f	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	_
 3	zwolenników	zwolennik	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
-4	tej	ten	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	tej	ten	DET	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	katechizacji	katechizacja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 6	,	,	PUNCT	interp:_	_	2	punct	_	_
 7	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2972,12 +2972,12 @@
 # sent_id pl-s13
 # orig_file_sentence 003#13
 1	Do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	2	case	_	_
-2	czego	co	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	dobj	_	_
+2	czego	co	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Int,Rel	3	dobj	_	_
 3	doprowadzi	doprowadzić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
 5	dłuższym	długi	ADJ	adj:sg:loc:m3:com	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	amod	_	_
 6	efekcie	efekt	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
-7	ta	ten	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	ingerencja	ingerencja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 9	prawicy	prawica	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
 10	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	11	case	_	_
@@ -3140,7 +3140,7 @@
 
 # sent_id pl-s24
 # orig_file_sentence 003#24
-1	Każdy	każdy	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Każdy	każdy	PRON	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Tot	2	nsubj	_	_
 2	chce	chcieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dobrze	dobrze	ADV	adv:pos	Degree=Pos	2	advmod	_	_
 4	.	.	PUNCT	interp:_	_	2	punct	_	_
@@ -3148,8 +3148,8 @@
 # sent_id pl-s25
 # orig_file_sentence 003#25
 1	Dotyczy	dotyczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
-3	wszystkich	wszystek	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+2	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
+3	wszystkich	wszystek	DET	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|PronType=Tot	4	det	_	_
 4	kategorii	kategoria	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	1	dobj	_	_
 5	zawodowych	zawodowy	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
 6	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -3185,7 +3185,7 @@
 # sent_id pl-s28
 # orig_file_sentence 003#28
 1	A	a	CONJ	conj:_	_	4	advmod	_	_
-2	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	nie	nie	PART	qub:_	_	4	neg	_	_
 4	wchodzi	wchodzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	6	case	_	_
@@ -3214,15 +3214,15 @@
 18	nie	nie	PART	qub:_	_	19	neg	_	_
 19	wnosi	wnosić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 20	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	21	case	_	_
-21	tego	to	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
-22	żadnych	żaden	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	_
+21	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	23	nmod	_	_
+22	żadnych	żaden	DET	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|PronType=Neg	23	det	_	_
 23	pretensji	pretensja	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	19	dobj	_	_
 24	?	?	PUNCT	interp:_	_	4	punct	_	_
 
 # sent_id pl-s30
 # orig_file_sentence 003#30
 1	Po	po	ADP	prep:acc	AdpType=Prep|Case=Acc	2	case	_	_
-2	co	co	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
+2	co	co	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nmod	_	_
 3	łgać	łgać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	0	root	_	_
 4	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	6	case	_	_
 5	nowej	nowy	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
@@ -3249,7 +3249,7 @@
 1	Nie	nie	PART	qub:_	_	2	neg	_	_
 2	wiadomo	wiadomo	VERB	pred:_	_	0	root	_	_
 3	,	,	PUNCT	interp:_	_	6	punct	_	_
-4	co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 5	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	cop	_	_
 6	przyczyną	przyczyna	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	2	ccomp	_	_
 7	katastrofy	katastrofa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -3293,7 +3293,7 @@
 # sent_id pl-s36
 # orig_file_sentence 003#36
 1	Wieść	wieść	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-2	ta	ten	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
+2	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
 3	powinna	powinien	ADJ	winien:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing	0	root	_	_
 4	wywołać	wywołać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_
 5	drżenie	drżeć	VERB	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	4	ccomp	_	_
@@ -3302,7 +3302,7 @@
 8	bankowych	bankowy	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
 9	,	,	PUNCT	interp:_	_	12	punct	_	_
 10	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	11	case	_	_
-11	którymi	który	ADJ	adj:pl:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	12	dobj	_	_
+11	którymi	który	PRON	adj:pl:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	12	dobj	_	_
 12	walczy	walczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_
 13	partia	partia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 14	Kaczyńskiego	Kaczyński	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
@@ -3321,7 +3321,7 @@
 2	PiS-u	PiS	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	wyciągnął	wyciągnąć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	5	case	_	_
-5	tego	to	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	iobj	_	_
+5	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	iobj	_	_
 6	wnioski	wniosek	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	dobj	_	_
 7	i	i	CONJ	conj:_	_	3	cc	_	_
 8	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	9	case	_	_
@@ -3373,7 +3373,7 @@
 # sent_id pl-s42
 # orig_file_sentence 003#42
 1	Powiedział	powiedzieć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-2	ktoś	ktoś	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+2	ktoś	ktoś	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	1	nsubj	_	_
 3	najpewniej	pewnie	ADV	adv:sup	Degree=Sup	4	advmod	_	_
 4	zmienionym	zmienić	VERB	ppas:sg:inst:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
 5	głosem	głos	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -3504,7 +3504,7 @@
 # orig_file_sentence 003#52
 1	Wprowadźmy	wprowadzić	VERB	impt:pl:pri:perf	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
 2	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	5	case	_	_
-3	tego	ten	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+3	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 4	trupiego	trupi	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	świata	świat	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	iobj	_	_
 6	poprawkę	poprawka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	dobj	_	_
@@ -3521,7 +3521,7 @@
 # orig_file_sentence 003#54
 1	Jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	że	że	PART	qub:_	_	3	advmod	_	_
-3	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	_
 4	próbka	próbka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 5	matematycznej	matematyczny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	ścisłości	ścisłość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
@@ -3534,13 +3534,13 @@
 1	Uprawia	uprawiać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	tu	tu	ADV	adv:_	_	1	advmod	_	_
 3	Wittgenstein	Wittgenstein	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
-4	ten	ten	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+4	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 5	sam	sam	ADV	adv:_	_	4	advmod	_	_
 6	dokładnie	dokładnie	ADV	adv:pos	Degree=Pos	4	advmod	_	_
 7	ogródek	ogródek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	dobj	_	_
 8	,	,	PUNCT	interp:_	_	11	punct	_	_
 9	przy	przy	ADP	prep:loc	AdpType=Prep|Case=Loc	10	case	_	_
-10	którym	który	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	dobj	_	_
+10	którym	który	PRON	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	11	dobj	_	_
 11	krzątał	krzątać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	acl	_	_
 12	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	11	expl	_	_
 13	w	wiek	X	brev:pun	Abbr=Yes	11	advmod	_	_
@@ -3577,7 +3577,7 @@
 # orig_file_sentence 003#58
 1	Są	być	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	że	że	PART	qub:_	_	3	advmod	_	_
-3	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	_
 4	zdania	zdanie	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 5	fizyki	fizyka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	?	?	PUNCT	interp:_	_	3	punct	_	_
@@ -3620,7 +3620,7 @@
 3	jeszcze	jeszcze	PART	qub:_	_	2	advmod	_	_
 4	,	,	PUNCT	interp:_	_	8	punct	_	_
 5	że	że	SCONJ	comp:_	_	8	mark	_	_
-6	tego	to	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	8	dobj	_	_
+6	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	dobj	_	_
 7	właśnie	właśnie	ADV	adv:pos	Degree=Pos	8	advmod	_	_
 8	domagają	domagać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 9	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	8	expl	_	_
@@ -3671,7 +3671,7 @@
 1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	2	case	_	_
 2	związku	związek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
 3	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	4	case	_	_
-4	tym	to	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+4	tym	to	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	2	nmod	_	_
 5	władze	władza	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
 6	miasta	miasto	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
 7	zapraszają	zapraszać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3712,7 +3712,7 @@
 3	wiadomo	wiadomo	VERB	pred:_	_	0	root	_	_
 4	jednak	jednak	PART	qub:_	_	3	advmod	_	_
 5	,	,	PUNCT	interp:_	_	9	punct	_	_
-6	jakie	jaki	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+6	jakie	jaki	DET	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Int,Rel	7	det	_	_
 7	propozycje	propozycja	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	9	dobj	_	_
 8	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 9	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
@@ -3870,7 +3870,7 @@
 11	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	12	case	_	_
 12	Dziwnie	Dziwna	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
 13	,	,	PUNCT	interp:_	_	15	punct	_	_
-14	która	który	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	nsubj	_	_
+14	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
 15	zerwała	zerwać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	12	acl	_	_
 16	drogę	droga	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	15	dobj	_	_
 17	.	.	PUNCT	interp:_	_	7	punct	_	_
@@ -3930,7 +3930,7 @@
 4	zdziczałą	zdziczały	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	gruszą	grusza	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	1	dobj	_	_
 6	,	,	PUNCT	interp:_	_	8	punct	_	_
-7	która	który	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
 8	rodziła	rodzić	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	acl	_	_
 9	drobne	drobny	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
 10	,	,	PUNCT	interp:_	_	9	punct	_	_
@@ -3973,7 +3973,7 @@
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	,	,	PUNCT	interp:_	_	7	punct	_	_
 4	że	że	SCONJ	comp:_	_	7	mark	_	_
-5	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
 6	nie	nie	PART	qub:_	_	7	neg	_	_
 7	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
 8	sensu	sens	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	dobj	_	_
@@ -4008,8 +4008,8 @@
 2	wtedy	wtedy	ADV	adv:_	_	3	advmod	_	_
 3	stało	stać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	3	expl	_	_
-5	coś	coś	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
-6	niesłychanego	niesłychany	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	coś	coś	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj	_	_
+6	niesłychanego	niesłychany	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	_
 7	,	,	PUNCT	interp:_	_	3	punct	_	_
 8	jednocześnie	jednocześnie	ADV	adv:pos	Degree=Pos	9	advmod	_	_
 9	przypadły	przypaść	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	conj	_	_
@@ -4036,7 +4036,7 @@
 # orig_file_sentence 003#88
 1	Czuła	czuć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
-3	te	ten	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+3	te	ten	DET	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
 4	ruchome	ruchomy	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
 5	kosteczki	kosteczka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	1	dobj	_	_
 6	i	i	CONJ	conj:_	_	1	cc	_	_
@@ -4094,7 +4094,7 @@
 1	Opowiedział	opowiedzieć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	dobj	_	_
 3	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	4	case	_	_
-4	tym	to	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	1	dobj	_	_
+4	tym	to	PRON	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	1	dobj	_	_
 5	,	,	PUNCT	interp:_	_	10	punct	_	_
 6	bo	bo	SCONJ	comp:_	_	10	mark	_	_
 7	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	10	expl	_	_
@@ -4219,7 +4219,7 @@
 1	Dlaczego	dlaczego	ADV	adv:_	_	2	advmod	_	_
 2	miał	mieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	2	aux	_	_
-4	tego	to	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	6	dobj	_	_
+4	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	6	dobj	_	_
 5	nie	nie	PART	qub:_	_	6	neg	_	_
 6	zrobić	zrobić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_
 7	?	?	PUNCT	interp:_	_	2	punct	_	_
@@ -4253,7 +4253,7 @@
 
 # sent_id pl-s5
 # orig_file_sentence 004#5
-1	Kim	kto	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+1	Kim	kto	PRON	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	0	root	_	_
 2	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	?	?	PUNCT	interp:_	_	1	punct	_	_
 
@@ -4348,7 +4348,7 @@
 2	czuję	czuć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	miętę	mięta	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	dobj	_	_
 4	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	7	case	_	_
-5	tej	ten	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+5	tej	ten	DET	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 6	starszej	stary	ADJ	adj:sg:gen:f:com	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
 7	kobiety	kobieta	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	iobj	_	_
 8	?	?	PUNCT	interp:_	_	2	punct	_	_
@@ -4400,7 +4400,7 @@
 
 # sent_id pl-s20
 # orig_file_sentence 004#20
-1	Wszyscy	wszyscy	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubjpass	_	_
+1	Wszyscy	wszyscy	PRON	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	4	nsubjpass	_	_
 2	natychmiast	natychmiast	ADV	adv:_	_	4	advmod	_	_
 3	zostają	zostawać	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	wezwani	wezwać	VERB	ppas:pl:nom:m1:perf:aff	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -4495,7 +4495,7 @@
 
 # sent_id pl-s29
 # orig_file_sentence 004#29
-1	Nic	nic	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
+1	Nic	nic	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	3	nmod	_	_
 2	nie	nie	PART	qub:_	_	3	neg	_	_
 3	pomaga	pomagać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	psikanie	psikać	VERB	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	3	csubj	_	_
@@ -4567,7 +4567,7 @@
 
 # sent_id pl-s34
 # orig_file_sentence 004#34
-1	Te	ten	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+1	Te	ten	DET	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	dane	dana	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 3	wyraźnie	wyraźnie	ADV	adv:pos	Degree=Pos	4	advmod	_	_
 4	wskazują	wskazywać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4582,7 +4582,7 @@
 
 # sent_id pl-s35
 # orig_file_sentence 004#35
-1	Takie	taki	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+1	Takie	taki	DET	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	przemiany	przemiana	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	3	iobj	_	_
 3	nazywa	nazywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	3	expl	_	_
@@ -4628,12 +4628,12 @@
 1	Biorąc	brać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Trans	11	advcl	_	_
 2	pod	pod	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	3	case	_	_
 3	uwagę	uwaga	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	iobj	_	_
-4	te	ten	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	_
+4	te	ten	DET	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|PronType=Dem	5	det	_	_
 5	wymagania	wymaganie	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	1	dobj	_	_
 6	,	,	PUNCT	interp:_	_	1	punct	_	_
 7	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
 8	czerwca	czerwiec	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
-9	tego	ten	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	roku	rok	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 11	zarejestrowano	zarejestrować	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	13	case	_	_
@@ -4672,7 +4672,7 @@
 
 # sent_id pl-s41
 # orig_file_sentence 004#41
-1	Co	co	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	_
+1	Co	co	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nmod	_	_
 2	należy	należeć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	zrobić	zrobić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_
 4	,	,	PUNCT	interp:_	_	6	punct	_	_
@@ -4685,7 +4685,7 @@
 
 # sent_id pl-s42
 # orig_file_sentence 004#42
-1	Jakie	jaki	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+1	Jakie	jaki	DET	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Int,Rel	2	det	_	_
 2	znaczenie	znaczenie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	3	dobj	_	_
 3	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	przemoc	przemoc	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -4696,7 +4696,7 @@
 
 # sent_id pl-s43
 # orig_file_sentence 004#43
-1	Co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+1	Co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	_
 2	powoduje	powodować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	7	punct	_	_
 4	że	że	SCONJ	comp:_	_	7	mark	_	_
@@ -4711,7 +4711,7 @@
 
 # sent_id pl-s44
 # orig_file_sentence 004#44
-1	Jakie	jaki	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+1	Jakie	jaki	PRON	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	0	root	_	_
 2	są	być	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	przejawy	przejaw	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
 4	,	,	PUNCT	interp:_	_	5	punct	_	_
@@ -4737,7 +4737,7 @@
 
 # sent_id pl-s46
 # orig_file_sentence 004#46
-1	Co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+1	Co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	_
 2	powoduje	powodować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	agresję	agresja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	dobj	_	_
 4	skinów	skin	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
@@ -4790,7 +4790,7 @@
 8	Barbara	Barbara	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 9	odniosła	odnieść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	conj	_	_
 10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	12	case	_	_
-11	tamtych	tamten	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+11	tamtych	tamten	DET	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
 12	latach	rok	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nmod	_	_
 13	duży	duży	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 14	sukces	sukces	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	dobj	_	_
@@ -4908,7 +4908,7 @@
 
 # sent_id pl-s61
 # orig_file_sentence 004#61
-1	Ten	ten	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+1	Ten	ten	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	fizyczny	fizyczny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	ból	ból	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	sprawiał	sprawiać	VERB	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4922,15 +4922,15 @@
 1	Chwilami	chwila	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	8	nmod	_	_
 2	jakby	jakby	PART	qub:_	_	8	advmod	_	_
 3	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	4	case	_	_
-4	coś	coś	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	8	dobj	_	_
+4	coś	coś	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	8	dobj	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	7	case	_	_
-6	tej	ten	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	tej	ten	DET	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	pracy	praca	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
 8	chodziło	chodzić	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 9	i	i	CONJ	conj:_	_	8	cc	_	_
 10	jakby	jakby	PART	qub:_	_	11	advmod	_	_
 11	miało	mieć	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	conj	_	_
-12	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+12	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	_
 13	sens	sens	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	dobj	_	_
 14	.	.	PUNCT	interp:_	_	8	punct	_	_
 
@@ -5004,12 +5004,12 @@
 4	twarz	twarz	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	dobj	_	_
 5	Ilii	Ilia	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	,	,	PUNCT	interp:_	_	14	punct	_	_
-7	która	który	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	nsubj	_	_
+7	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
 8	wydała	wydać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	cop	_	_
 9	mu	on	PRON	ppron3:sg:dat:m1:ter:nakc:npraep	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	14	dobj	_	_
 10	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	14	expl	_	_
 11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	13	case	_	_
-12	tej	ten	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	tej	ten	DET	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	chwili	chwila	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
 14	twarzą	twarz	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	4	acl	_	_
 15	prawdziwego	prawdziwy	ADJ	adj:sg:gen:m1:pos	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
@@ -5031,7 +5031,7 @@
 1	Miała	mieć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	3	case	_	_
 3	sobie	siebie	PRON	siebie:loc	Case=Loc|PronType=Prs|Reflex=Yes	1	nmod	_	_
-4	coś	coś	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	1	dobj	_	_
+4	coś	coś	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	1	xcomp	_	_
 5	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	6	case	_	_
 6	ikony	ikona	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 7	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -5053,7 +5053,7 @@
 6	przecież	przecież	PART	qub:_	_	4	advmod	_	_
 7	zadać	zadać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	4	xcomp	_	_
 8	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	7	iobj	_	_
-9	to	ten	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	to	ten	DET	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
 10	pytanie	pytanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	7	dobj	_	_
 11	.	.	PUNCT	interp:_	_	4	punct	_	_
 
@@ -5064,7 +5064,7 @@
 3	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	4	case	_	_
 4	powstania	powstanie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	1	dobj	_	_
 5	,	,	PUNCT	interp:_	_	8	punct	_	_
-6	które	który	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	które	który	PRON	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
 7	ostatecznie	ostatecznie	ADV	adv:pos	Degree=Pos	8	advmod	_	_
 8	zniweczyło	zniweczyć	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	acl	_	_
 9	resztki	resztka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	8	dobj	_	_
@@ -5094,7 +5094,7 @@
 # orig_file_sentence 004#77
 1	–	–	PUNCT	interp:_	_	7	punct	_	_
 2	a	a	CONJ	conj:_	_	7	advmod	_	_
-3	ta	ten	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+3	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 4	druga	drugi	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	szkoła	szkoła	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 6	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -5114,7 +5114,7 @@
 # sent_id pl-s79
 # orig_file_sentence 004#79
 1	To	to	VERB	pred:_	_	0	root	_	_
-2	ten	ten	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+2	ten	ten	DET	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 3	słynny	słynny	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	von	von	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 5	Finckl	Finckl	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -5163,7 +5163,7 @@
 1	Stary	stary	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	znowu	znowu	ADV	adv:_	_	3	advmod	_	_
 3	milczał	milczeć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-4	jakiś	jakiś	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	jakiś	jakiś	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
 5	czas	czas	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
 6	.	.	PUNCT	interp:_	_	3	punct	_	_
 
@@ -5189,7 +5189,7 @@
 5	nie	nie	PART	qub:_	_	6	neg	_	_
 6	wiedziała	wiedzieć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	conj	_	_
 7	,	,	PUNCT	interp:_	_	9	punct	_	_
-8	co	co	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	9	dobj	_	_
+8	co	co	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	9	dobj	_	_
 9	powiedzieć	powiedzieć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	6	xcomp	_	_
 10	.	.	PUNCT	interp:_	_	1	punct	_	_
 
@@ -5234,7 +5234,7 @@
 # sent_id pl-s90
 # orig_file_sentence 004#90
 1	–	–	PUNCT	interp:_	_	3	punct	_	_
-2	To	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	To	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	znaczy	znaczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	interp:_	_	6	punct	_	_
 5	że	że	SCONJ	comp:_	_	6	mark	_	_
@@ -5306,7 +5306,7 @@
 3	postanowiła	postanowić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	położyć	położyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_
 5	kres	kres	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	dobj	_	_
-6	tej	ten	ADJ	adj:sg:dat:f:pos	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+6	tej	ten	DET	adj:sg:dat:f:pos	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 7	rozkosznej	rozkoszny	ADJ	adj:sg:dat:f:pos	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	konwersacji	konwersacja	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_
 9	.	.	PUNCT	interp:_	_	3	punct	_	_
@@ -5334,7 +5334,7 @@
 1	–	–	PUNCT	interp:_	_	2	punct	_	_
 2	Wiesz	wiedzieć	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	2	punct	_	_
-4	która	który	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	_
+4	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	2	conj	_	_
 5	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 6	godzina	godzina	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 7	?	?	PUNCT	interp:_	_	2	punct	_	_
@@ -5351,7 +5351,7 @@
 # sent_id pl-s100
 # orig_file_sentence 004#100
 1	–	–	PUNCT	interp:_	_	3	punct	_	_
-2	To	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
+2	To	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	nmod	_	_
 3	połóż	położyć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 4	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	3	expl	_	_
 5	u	u	ADP	prep:gen	AdpType=Prep|Case=Gen	6	case	_	_
@@ -5360,7 +5360,7 @@
 
 # sent_id pl-s1
 # orig_file_sentence 005#1
-1	Nic	nic	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	dobj	_	_
+1	Nic	nic	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	3	dobj	_	_
 2	nie	nie	PART	qub:_	_	3	neg	_	_
 3	robi	robić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	cały	cały	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -5370,7 +5370,7 @@
 # sent_id pl-s2
 # orig_file_sentence 005#2
 1	A	a	CONJ	conj:_	_	3	advmod	_	_
-2	kto	kto	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	kto	kto	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
 3	siedzi	siedzieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
 5	tapczanie	tapczan	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	dobj	_	_
@@ -5379,7 +5379,7 @@
 # sent_id pl-s3
 # orig_file_sentence 005#3
 1	A	a	CONJ	conj:_	_	4	advmod	_	_
-2	kto	kto	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	kto	kto	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	4	nsubj	_	_
 3	dzisiaj	dzisiaj	ADV	adv:_	_	4	advmod	_	_
 4	pluł	pluć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 5	i	i	CONJ	conj:_	_	4	cc	_	_
@@ -5389,7 +5389,7 @@
 # sent_id pl-s4
 # orig_file_sentence 005#4
 1	A	a	CONJ	conj:_	_	3	advmod	_	_
-2	kto	kto	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	kto	kto	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
 3	zjadł	zjeść	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	pierwsze	pierwszy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
 5	śniadanie	śniadanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	3	dobj	_	_
@@ -5398,7 +5398,7 @@
 # sent_id pl-s5
 # orig_file_sentence 005#5
 1	Ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	nic	nic	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	dobj	_	_
+2	nic	nic	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	4	dobj	_	_
 3	nie	nie	PART	qub:_	_	4	neg	_	_
 4	robię	robić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	?	?	PUNCT	interp:_	_	4	punct	_	_
@@ -5419,7 +5419,7 @@
 1	"	"	PUNCT	interp:_	_	5	punct	_	_
 2	Niechaj	niechaj	PART	qub:_	_	5	aux	_	_
 3	orzech	orzech	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	dobj	_	_
-4	ten	ten	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+4	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 5	zobaczę	zobaczyć	VERB	fin:sg:pri:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	interp:_	_	5	punct	_	_
 7	"	"	PUNCT	interp:_	_	5	punct	_	_
@@ -5486,7 +5486,7 @@
 # sent_id pl-s13
 # orig_file_sentence 005#13
 1	Nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	3	case	_	_
-2	tymi	ten	ADJ	adj:pl:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+2	tymi	ten	DET	adj:pl:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
 3	poprawkami	poprawka	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	4	dobj	_	_
 4	głosować	głosować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	0	root	_	_
 5	będziemy	być	AUX	bedzie:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	aux	_	_
@@ -5514,7 +5514,7 @@
 1	Do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	2	case	_	_
 2	głosowania	głosowanie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	6	dobj	_	_
 3	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	5	case	_	_
-4	tym	ten	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	tym	ten	DET	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	wnioskiem	wniosek	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
 6	przystąpimy	przystąpić	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
@@ -5527,7 +5527,7 @@
 # sent_id pl-s17
 # orig_file_sentence 005#17
 1	Czy	czy	PART	qub:_	_	4	advmod	_	_
-2	ktoś	ktoś	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ktoś	ktoś	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
 3	jeszcze	jeszcze	PART	qub:_	_	4	advmod	_	_
 4	chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 5	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	4	aux	_	_
@@ -5568,7 +5568,7 @@
 7	,	,	PUNCT	interp:_	_	3	punct	_	_
 8	odpowiadał	odpowiadać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	_
 9	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	12	case	_	_
-10	tego	ten	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	rodzaju	rodzaj	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 12	zaczepki	zaczepka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	8	dobj	_	_
 13	.	.	PUNCT	interp:_	_	3	punct	_	_
@@ -5600,7 +5600,7 @@
 14	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	15	mark	_	_
 15	nieodpowiadanie	odpowiadać	VERB	ger:sg:acc:n:imperf:neg	Aspect=Imp|Case=Acc|Gender=Neut|Negative=Neg|Number=Sing|VerbForm=Ger	13	ccomp	_	_
 16	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	19	case	_	_
-17	tego	ten	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
 18	typu	typ	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
 19	zaczepki	zaczepka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	15	dobj	_	_
 20	,	,	PUNCT	interp:_	_	24	punct	_	_
@@ -5609,7 +5609,7 @@
 23	je	on	PRON	ppron3:pl:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	24	dobj	_	_
 24	legitymizuje	legitymizować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
 25	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	27	case	_	_
-26	ten	ten	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+26	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
 27	sposób	sposób	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	_
 28	.	.	PUNCT	interp:_	_	2	punct	_	_
 
@@ -5663,10 +5663,10 @@
 
 # sent_id pl-s29
 # orig_file_sentence 005#29
-1	Co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+1	Co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 2	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	6	expl	_	_
 3	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	5	case	_	_
-4	tę	ten	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	tę	ten	DET	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	odmienność	odmienność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	dobj	_	_
 6	składa	składać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	?	?	PUNCT	interp:_	_	6	punct	_	_
@@ -5722,7 +5722,7 @@
 1	–	–	PUNCT	interp:_	_	6	punct	_	_
 2	Syneczku	syneczek	NOUN	subst:sg:voc:m1	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	6	nmod	_	_
 3	,	,	PUNCT	interp:_	_	2	punct	_	_
-4	co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 5	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	6	expl	_	_
 6	stało	stać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 7	?	?	PUNCT	interp:_	_	6	punct	_	_
@@ -5766,7 +5766,7 @@
 
 # sent_id pl-s39
 # orig_file_sentence 005#39
-1	To	ten	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+1	To	ten	DET	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	zdanie	zdanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	5	dobj	_	_
 3	mama	mama	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	Henryka	Henryk	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -5830,7 +5830,7 @@
 6	sytuacji	sytuacja	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
 7	materialnej	materialny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 8	,	,	PUNCT	interp:_	_	12	punct	_	_
-9	których	który	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	_
+9	których	który	PRON	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|PronType=Int,Rel	10	amod	_	_
 10	ojcowie	ojciec	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
 11	nie	nie	PART	qub:_	_	12	neg	_	_
 12	wywiązują	wywiązywać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
@@ -5886,14 +5886,14 @@
 # orig_file_sentence 005#48
 1	Popełniła	popełnić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
-3	jakiś	jakiś	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	jakiś	jakiś	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
 4	błąd	błąd	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	dobj	_	_
 5	?	?	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s49
 # orig_file_sentence 005#49
 1	Przepiorę	przeprać	VERB	fin:sg:pri:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	coś	coś	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	1	dobj	_	_
+2	coś	coś	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	1	dobj	_	_
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	4	case	_	_
 4	ręku	ręka	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
 5	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -5914,7 +5914,7 @@
 1	Dlaczego	dlaczego	ADV	adv:_	_	5	advmod	_	_
 2	Ania	Ania	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-4	taka	taki	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	advmod	_	_
+4	taka	taki	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	5	advmod	_	_
 5	niesamodzielna	niesamodzielny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 6	?	?	PUNCT	interp:_	_	5	punct	_	_
 
@@ -5943,7 +5943,7 @@
 # sent_id pl-s54
 # orig_file_sentence 005#54
 1	W	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	3	case	_	_
-2	ten	ten	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	sposób	sposób	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 4	tworzy	tworzyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	4	expl	_	_
@@ -5971,7 +5971,7 @@
 # orig_file_sentence 005#56
 1	Przeanalizuj	przeanalizować	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 2	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	5	case	_	_
-3	ten	ten	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+3	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 4	sam	sam	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	sposób	sposób	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
 6	trudne	trudny	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
@@ -6017,7 +6017,7 @@
 17	tak	tak	ADV	adv:_	_	15	advmod	_	_
 18	jak	jak	ADV	adv:_	_	17	advmod	_	_
 19	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	17	case	_	_
-20	tej	ten	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	tej	ten	DET	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
 21	pory	pora	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	17	dobj	_	_
 22	.	.	PUNCT	interp:_	_	11	punct	_	_
 
@@ -6029,7 +6029,7 @@
 4	sobą	siebie	PRON	siebie:inst	Case=Ins|PronType=Prs|Reflex=Yes	2	nmod	_	_
 5	,	,	PUNCT	interp:_	_	11	punct	_	_
 6	że	że	SCONJ	comp:_	_	11	mark	_	_
-7	nic	nic	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+7	nic	nic	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	11	nsubj	_	_
 8	złego	zły	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
 9	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	11	expl	_	_
 10	nie	nie	PART	qub:_	_	11	neg	_	_
@@ -6085,7 +6085,7 @@
 4	wylotu	wylot	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 5	rzeczki	rzeczka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	,	,	PUNCT	interp:_	_	8	punct	_	_
-7	która	który	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
 8	wpada	wpadać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
 9	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	10	case	_	_
 10	morza	morze	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	8	dobj	_	_
@@ -6205,7 +6205,7 @@
 # sent_id pl-s73
 # orig_file_sentence 005#73
 1	Wymaga	wymagać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+2	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
 3	odpowiedniej	odpowiedni	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	polityki	polityka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	dobj	_	_
 5	informacyjnej	informacyjny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
@@ -6257,7 +6257,7 @@
 # orig_file_sentence 005#77
 1	–	–	PUNCT	interp:_	_	5	punct	_	_
 2	wokół	wokół	ADP	prep:gen	AdpType=Prep|Case=Gen	3	case	_	_
-3	czego	co	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+3	czego	co	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nmod	_	_
 4	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	5	expl	_	_
 5	skupia	skupiać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	?	?	PUNCT	interp:_	_	5	punct	_	_
@@ -6275,7 +6275,7 @@
 # sent_id pl-s79
 # orig_file_sentence 005#79
 1	Oznacza	oznaczać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+2	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
 3	odejście	odejść	VERB	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	ccomp	_	_
 4	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	6	mark	_	_
 5	negocjacyjnego	negocjacyjny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	_
@@ -6292,7 +6292,7 @@
 3	zdecydował	zdecydować	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	wczoraj	wczoraj	ADV	adv:_	_	3	advmod	_	_
 5	,	,	PUNCT	interp:_	_	10	punct	_	_
-6	który	który	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	który	który	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	7	det	_	_
 7	wariant	wariant	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubjpass	_	_
 8	zostanie	zostać	AUX	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	auxpass	_	_
 9	ostatecznie	ostatecznie	ADV	adv:pos	Degree=Pos	10	advmod	_	_
@@ -6322,7 +6322,7 @@
 # sent_id pl-s82
 # orig_file_sentence 005#82
 1	-	-	PUNCT	interp:_	_	5	punct	_	_
-2	Co	co	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	5	dobj	_	_
+2	Co	co	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	dobj	_	_
 3	ci	ty	PRON	ppron12:sg:dat:m1:sec:nakc	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs|Variant=Short	5	iobj	_	_
 4	znów	znów	ADV	adv:_	_	5	advmod	_	_
 5	ukradła	ukraść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -6454,7 +6454,7 @@
 1	Rozpłakała	rozpłakać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	1	expl	_	_
 3	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	5	case	_	_
-4	ten	ten	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	widok	widok	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
 6	.	.	PUNCT	interp:_	_	1	punct	_	_
 
@@ -6606,7 +6606,7 @@
 # sent_id pl-s12
 # orig_file_sentence 006#12
 1	W	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	3	case	_	_
-2	jaki	jaki	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	jaki	jaki	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	3	det	_	_
 3	sposób	sposób	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
 4	trafił	trafić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	ccomp	_	_
 5	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
@@ -6624,16 +6624,16 @@
 # sent_id pl-s13
 # orig_file_sentence 006#13
 1	Może	może	PART	qub:_	_	4	advmod	_	_
-2	ktoś	ktoś	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ktoś	ktoś	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
 3	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	4	iobj	_	_
 4	poda	podać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	jakiś	jakiś	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	jakiś	jakiś	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
 6	adres	adres	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	dobj	_	_
 7	,	,	PUNCT	interp:_	_	4	punct	_	_
 8	gdzie	gdzie	ADV	adv:_	_	9	advmod	_	_
 9	mogę	móc	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
 10	znaleźć	znaleźć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	9	xcomp	_	_
-11	tego	ten	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	typu	typ	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 13	informacje	informacja	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	10	dobj	_	_
 14	?	?	PUNCT	interp:_	_	4	punct	_	_
@@ -6642,7 +6642,7 @@
 # orig_file_sentence 006#14
 1	Czy	czy	PART	qub:_	_	2	advmod	_	_
 2	są	być	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	jakieś	jakiś	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+3	jakieś	jakiś	DET	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
 4	zniżki	zniżka	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
 5	?	?	PUNCT	interp:_	_	2	punct	_	_
 
@@ -6669,11 +6669,11 @@
 9	7	7	NUM	num:pl:loc:m3:congr	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	advmod	_	_
 10	dniach	dzień	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nmod	_	_
 11	,	,	PUNCT	interp:_	_	3	punct	_	_
-12	to	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	_
+12	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	14	nmod	_	_
 13	czy	czy	PART	qub:_	_	14	advmod	_	_
 14	płacę	płacić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	17	case	_	_
-16	każdy	każdy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	każdy	każdy	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Tot	17	det	_	_
 17	dzień	dzień	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	dobj	_	_
 18	?	?	PUNCT	interp:_	_	14	punct	_	_
 
@@ -6687,8 +6687,8 @@
 
 # sent_id pl-s18
 # orig_file_sentence 006#18
-1	Nikomu	nikt	NOUN	subst:sg:dat:m1	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	dobj	_	_
-2	nic	nic	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+1	Nikomu	nikt	PRON	subst:sg:dat:m1	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Neg	5	dobj	_	_
+2	nic	nic	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	5	nsubj	_	_
 3	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	5	expl	_	_
 4	nie	nie	PART	qub:_	_	5	neg	_	_
 5	stało	stać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -6746,7 +6746,7 @@
 5	przebiegała	przebiegać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 6	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
 7	podstawie	podstawa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	dobj	_	_
-8	jakichś	jakiś	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+8	jakichś	jakiś	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
 9	dokumentów	dokument	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
 10	,	,	PUNCT	interp:_	_	9	punct	_	_
 11	przekazów	przekaz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	_
@@ -6768,7 +6768,7 @@
 1	Zachowały	zachować	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 2	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	1	expl	_	_
 3	prawie	prawie	PART	qub:_	_	4	advmod	_	_
-4	wszystkie	wszystek	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+4	wszystkie	wszystek	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Tot	5	det	_	_
 5	elementy	element	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
 6	korpusu	korpus	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 7	rzeźby	rzeźba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -6810,7 +6810,7 @@
 5	grupie	grupa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	2	dobj	_	_
 6	szczęśliwców	szczęśliwiec	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 7	,	,	PUNCT	interp:_	_	9	punct	_	_
-8	którzy	który	ADJ	adj:pl:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	którzy	który	PRON	adj:pl:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	9	nsubj	_	_
 9	bawić	bawić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	6	acl	_	_
 10	będą	być	AUX	bedzie:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
 11	widzów	widz	NOUN	subst:pl:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	dobj	_	_
@@ -6892,7 +6892,7 @@
 5	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	4	expl	_	_
 6	ustalić	ustalić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	4	xcomp	_	_
 7	,	,	PUNCT	interp:_	_	8	punct	_	_
-8	jakie	jaki	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	ccomp	_	_
+8	jakie	jaki	PRON	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|PronType=Int,Rel	6	ccomp	_	_
 9	są	być	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 10	stawki	stawka	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
 11	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	12	case	_	_
@@ -6907,7 +6907,7 @@
 3	nawet	nawet	PART	qub:_	_	1	advmod	_	_
 4	meble	mebel	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
 5	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	7	case	_	_
-6	tych	ten	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	_
+6	tych	ten	DET	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|PronType=Dem	7	det	_	_
 7	wnętrz	wnętrze	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
 8	.	.	PUNCT	interp:_	_	1	punct	_	_
 
@@ -6970,7 +6970,7 @@
 # orig_file_sentence 006#38
 1	Może	może	PART	qub:_	_	2	advmod	_	_
 2	zwrócił	zwrócić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-3	komuś	ktoś	NOUN	subst:sg:dat:m1	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	_
+3	komuś	ktoś	PRON	subst:sg:dat:m1	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	2	iobj	_	_
 4	uwagę	uwaga	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	dobj	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
 6	tramwaju	tramwaj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -7015,7 +7015,7 @@
 2	wiecie	wiedzieć	VERB	fin:pl:sec:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	6	punct	_	_
 4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	5	case	_	_
-5	kim	kto	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	dobj	_	_
+5	kim	kto	PRON	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	6	dobj	_	_
 6	zadzieracie	zadzierać	VERB	fin:pl:sec:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 7	!	!	PUNCT	interp:_	_	2	punct	_	_
 
@@ -7053,7 +7053,7 @@
 # sent_id pl-s45
 # orig_file_sentence 006#45
 1	Miał	mieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-2	jakąś	jakiś	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+2	jakąś	jakiś	DET	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
 3	niezłą	niezły	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 4	tanią	tani	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	vectrę	vectra	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	dobj	_	_
@@ -7066,13 +7066,13 @@
 3	miał	mieć	VERB	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	być	być	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_
 5	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
-6	to	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_
+6	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	nmod	_	_
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
 8	książce	książka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	dobj	_	_
 9	telefonicznej	telefoniczny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 10	komórki	komórka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
 11	,	,	PUNCT	interp:_	_	13	punct	_	_
-12	którą	który	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	dobj	_	_
+12	którą	który	PRON	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	13	dobj	_	_
 13	znaleziono	znaleźć	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
 14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	15	case	_	_
 15	samochodzie	samochód	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	iobj	_	_
@@ -7092,7 +7092,7 @@
 9	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	10	case	_	_
 10	komisu	komis	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 11	,	,	PUNCT	interp:_	_	13	punct	_	_
-12	który	który	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	nsubj	_	_
+12	który	który	PRON	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
 13	ściąga	ściągać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 14	auta	auto	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	13	dobj	_	_
 15	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	16	case	_	_
@@ -7110,7 +7110,7 @@
 7	fotografików	fotografik	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	9	case	_	_
 9	ramach	ramy	NOUN	subst:pl:loc:n	Case=Loc|Gender=Neut|Number=Plur	2	nmod	_	_
-10	tego	ten	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+10	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 11	samego	sam	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 12	programu	program	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 13	.	.	PUNCT	interp:_	_	2	punct	_	_
@@ -7217,7 +7217,7 @@
 # orig_file_sentence 006#57
 1	Rozumiał	rozumieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	wagę	waga	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	dobj	_	_
-3	tego	ten	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	poematu	poemat	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 5	.	.	PUNCT	interp:_	_	1	punct	_	_
 
@@ -7340,7 +7340,7 @@
 3	ekspertów	ekspert	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 4	,	,	PUNCT	interp:_	_	1	punct	_	_
 5	straty	strata	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
-6	te	ten	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+6	te	ten	DET	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
 7	sięgają	sięgać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	115	115	NUM	num:pl:gen:m3:congr	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	dobj	_	_
 9	mld	miliard	X	brev:npun	Abbr=Yes	8	nmod	_	_
@@ -7351,7 +7351,7 @@
 # orig_file_sentence 006#69
 1	Irak	Irak	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
 2	,	,	PUNCT	interp:_	_	4	punct	_	_
-3	który	który	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	który	który	PRON	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	4	nsubj	_	_
 4	dysponuje	dysponować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
 5	drugimi	drugi	ADJ	adj:pl:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 6	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
@@ -7401,7 +7401,7 @@
 1	Należy	należeć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ci	ty	PRON	ppron12:sg:dat:m1:sec:nakc	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs|Variant=Short	1	dobj	_	_
 3	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	1	expl	_	_
-4	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+4	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
 5	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s74
@@ -7479,13 +7479,13 @@
 10	nas	my	PRON	ppron12:pl:acc:m1:pri	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	9	iobj	_	_
 11	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	12	mark	_	_
 12	wyjaśnienia	wyjaśnić	VERB	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	9	ccomp	_	_
-13	tych	ten	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+13	tych	ten	DET	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
 14	nieścisłości	nieścisłość	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	12	dobj	_	_
 15	.	.	PUNCT	interp:_	_	4	punct	_	_
 
 # sent_id pl-s80
 # orig_file_sentence 006#80
-1	Takie	taki	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+1	Takie	taki	DET	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	informacje	informacja	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	3	dobj	_	_
 3	uzyskali	uzyskać	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 4	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	3	aux	_	_
@@ -7521,7 +7521,7 @@
 15	i	i	CONJ	conj:_	_	7	cc	_	_
 16	poszukuje	poszukiwać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 17	sprawcy	sprawca	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	dobj	_	_
-18	tego	ten	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+18	tego	ten	DET	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	19	det	_	_
 19	przestępstwa	przestępstwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
 20	.	.	PUNCT	interp:_	_	7	punct	_	_
 
@@ -7547,7 +7547,7 @@
 
 # sent_id pl-s85
 # orig_file_sentence 006#85
-1	Co	co	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	2	dobj	_	_
+1	Co	co	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	2	dobj	_	_
 2	zrobić	zrobić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	0	root	_	_
 3	,	,	PUNCT	interp:_	_	5	punct	_	_
 4	aby	aby	SCONJ	comp:_	_	5	mark	_	_
@@ -7564,7 +7564,7 @@
 2	,	,	PUNCT	interp:_	_	1	punct	_	_
 3	wiele	wiele	NUM	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
 4	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	6	case	_	_
-5	tych	ten	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+5	tych	ten	DET	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
 6	zabaw	zabawa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
 7	kończy	kończyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	7	expl	_	_
@@ -7590,7 +7590,7 @@
 6	łatwopalnych	łatwopalny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
 7	szmat	szmata	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
 8	,	,	PUNCT	interp:_	_	10	punct	_	_
-9	które	który	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	nsubj	_	_
+9	które	który	PRON	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|PronType=Int,Rel	10	nsubj	_	_
 10	służyły	służyć	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	7	acl	_	_
 11	jako	jako	ADP	prep:nom	AdpType=Prep|Case=Nom	12	case	_	_
 12	posłania	posłanie	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	10	dobj	_	_
@@ -7748,7 +7748,7 @@
 
 # sent_id pl-s1
 # orig_file_sentence 007#1
-1	Kilka	kilka	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+1	Kilka	kilka	PRON	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	2	nsubj	_	_
 2	spadło	spaść	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	4	case	_	_
 4	przejście	przejście	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	2	dobj	_	_
@@ -7763,7 +7763,7 @@
 3	wynająć	wynająć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	1	xcomp	_	_
 4	maga	mag	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	dobj	_	_
 5	,	,	PUNCT	interp:_	_	7	punct	_	_
-6	który	który	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	który	który	PRON	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
 7	rzuci	rzucić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
 8	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	9	case	_	_
 9	taran	taran	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	iobj	_	_
@@ -7817,14 +7817,14 @@
 4	zrozumieć	zrozumieć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	0	root	_	_
 5	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	dobj	_	_
 6	,	,	PUNCT	interp:_	_	10	punct	_	_
-7	którym	który	ADJ	adj:pl:dat:m1:pos	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	10	iobj	_	_
+7	którym	który	PRON	adj:pl:dat:m1:pos	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	10	iobj	_	_
 8	tak	tak	ADV	adv:_	_	9	advmod	_	_
 9	brutalnie	brutalnie	ADV	adv:pos	Degree=Pos	10	advmod	_	_
 10	wydarto	wydrzeć	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
 11	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	12	nmod	_	_
 12	wolność	wolność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	10	dobj	_	_
 13	,	,	PUNCT	interp:_	_	17	punct	_	_
-14	których	który	ADJ	adj:pl:gen:m1:pos	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+14	których	który	PRON	adj:pl:gen:m1:pos	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	15	amod	_	_
 15	godność	godność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	17	dobj	_	_
 16	tak	tak	ADV	adv:_	_	17	advmod	_	_
 17	sponiewierano	sponiewierać	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
@@ -7833,7 +7833,7 @@
 # sent_id pl-s6
 # orig_file_sentence 007#6
 1	Trwało	trwać	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-2	to	to	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+2	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
 3	długo	długo	ADV	adv:pos	Degree=Pos	1	advmod	_	_
 4	.	.	PUNCT	interp:_	_	1	punct	_	_
 
@@ -7858,7 +7858,7 @@
 9	literaturą	literatura	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
 10	,	,	PUNCT	interp:_	_	1	punct	_	_
 11	mimo	mimo	ADP	prep:acc	AdpType=Prep|Case=Acc	13	advmod	_	_
-12	wszystko	wszystko	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	11	case	_	_
+12	wszystko	wszystko	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	11	case	_	_
 13	potrzebował	potrzebować	VERB	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 14	literatury	literatura	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	dobj	_	_
 15	.	.	PUNCT	interp:_	_	13	punct	_	_
@@ -7872,7 +7872,7 @@
 5	by	by	SCONJ	comp:_	_	10	mark	_	_
 6	pannie	panna	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	10	dobj	_	_
 7	Mullins	Mullins	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	6	appos	_	_
-8	nikt	nikt	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	nikt	nikt	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	10	nsubj	_	_
 9	nie	nie	PART	qub:_	_	10	neg	_	_
 10	przeszkadzał	przeszkadzać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	ccomp	_	_
 11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	12	case	_	_
@@ -7919,7 +7919,7 @@
 
 # sent_id pl-s13
 # orig_file_sentence 007#13
-1	To	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
+1	To	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	nmod	_	_
 2	on	on	PRON	ppron3:sg:nom:m1:ter:akc:npraep	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	3	nsubj	_	_
 3	sprawia	sprawiać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	interp:_	_	6	punct	_	_
@@ -7971,7 +7971,7 @@
 # sent_id pl-s16
 # orig_file_sentence 007#16
 1	W	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	3	case	_	_
-2	jaki	jaki	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	jaki	jaki	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	3	det	_	_
 3	sposób	sposób	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
 4	tak	tak	ADV	adv:_	_	5	advmod	_	_
 5	szybko	szybko	ADV	adv:pos	Degree=Pos	10	advmod	_	_
@@ -8006,18 +8006,18 @@
 7	,	,	PUNCT	interp:_	_	4	punct	_	_
 8	musi	musieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	przede	przed	ADP	prep:inst:wok	AdpType=Prep|Case=Ins|Variant=Long	8	advmod	_	_
-10	wszystkim	wszystko	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	9	case	_	_
+10	wszystkim	wszystko	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Tot	9	case	_	_
 11	odpowiadać	odpowiadać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	8	xcomp	_	_
 12	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	13	case	_	_
 13	pytanie	pytanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	11	dobj	_	_
 14	,	,	PUNCT	interp:_	_	19	punct	_	_
-15	co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+15	co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	19	nsubj	_	_
 16	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	19	expl	_	_
 17	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	18	case	_	_
 18	nią	on	PRON	ppron3:sg:inst:f:ter:akc:praep	Case=Ins|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	19	dobj	_	_
 19	działo	dziać	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	acl	_	_
 20	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	23	case	_	_
-21	ten	ten	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+21	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
 22	cały	cały	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
 23	czas	czas	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
 24	.	.	PUNCT	interp:_	_	8	punct	_	_
@@ -8032,7 +8032,7 @@
 6	że	że	SCONJ	comp:_	_	11	mark	_	_
 7	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	10	case	_	_
 8	cały	cały	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
-9	ten	ten	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	czas	czas	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
 11	żyła	żyć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	ccomp	_	_
 12	życiem	życie	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	11	dobj	_	_
@@ -8047,7 +8047,7 @@
 21	moment	moment	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	dobj	_	_
 22	,	,	PUNCT	interp:_	_	25	punct	_	_
 23	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	24	case	_	_
-24	którym	który	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	25	advmod	_	_
+24	którym	który	PRON	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	25	advmod	_	_
 25	mogła	móc	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	21	acl	_	_
 26	skoncentrować	skoncentrować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	25	xcomp	_	_
 27	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	26	expl	_	_
@@ -8058,7 +8058,7 @@
 
 # sent_id pl-s20
 # orig_file_sentence 007#20
-1	Co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+1	Co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	_
 2	sprawiło	sprawić	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	5	punct	_	_
 4	że	że	SCONJ	comp:_	_	5	mark	_	_
@@ -8067,7 +8067,7 @@
 
 # sent_id pl-s21
 # orig_file_sentence 007#21
-1	To	ten	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+1	To	ten	DET	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	przedstawienie	przedstawienie	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
 3	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	również	również	PART	qub:_	_	6	nmod	_	_
@@ -8120,7 +8120,7 @@
 # sent_id pl-s26
 # orig_file_sentence 007#26
 1	Masz	mieć	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	jakieś	jakiś	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+2	jakieś	jakiś	DET	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
 3	ukryte	ukryć	VERB	ppas:pl:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur|VerbForm=Part|Voice=Pass	4	acl	_	_
 4	talenty	talent	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	dobj	_	_
 5	?	?	PUNCT	interp:_	_	1	punct	_	_
@@ -8157,7 +8157,7 @@
 
 # sent_id pl-s29
 # orig_file_sentence 007#29
-1	Owa	ów	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+1	Owa	ów	DET	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	inność	inność	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	jednak	jednak	PART	qub:_	_	5	advmod	_	_
 4	nie	nie	PART	qub:_	_	5	neg	_	_
@@ -8184,7 +8184,7 @@
 3	pierwszy	pierwszy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	case	_	_
 5	zyciu	życie	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
-6	ktoś	ktoś	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	ktoś	ktoś	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
 7	zarzucił	zarzucić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 8	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	7	iobj	_	_
 9	nietolerancję	nietolerancja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	dobj	_	_
@@ -8196,7 +8196,7 @@
 2	,	,	PUNCT	interp:_	_	4	punct	_	_
 3	że	że	SCONJ	comp:_	_	4	mark	_	_
 4	konsultował	konsultować	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	ccomp	_	_
-5	to	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	dobj	_	_
+5	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	dobj	_	_
 6	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	7	case	_	_
 7	lekarzami	lekarz	NOUN	subst:pl:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	iobj	_	_
 8	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -8241,7 +8241,7 @@
 # orig_file_sentence 007#36
 1	Chyba	chyba	PART	qub:_	_	6	nmod	_	_
 2	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	1	case	_	_
-3	tych	ten	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+3	tych	ten	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
 4	samych	sam	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
 5	względów	wzgląd	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 6	wstrzymany	wstrzymać	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -8262,7 +8262,7 @@
 
 # sent_id pl-s38
 # orig_file_sentence 007#38
-1	co	co	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	dobj	_	_
+1	co	co	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	4	dobj	_	_
 2	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	3	case	_	_
 3	nim	on	PRON	ppron3:sg:loc:m3:ter:akc:praep	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	4	iobj	_	_
 4	sądzicie	sądzić	VERB	fin:pl:sec:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8271,7 +8271,7 @@
 # sent_id pl-s39
 # orig_file_sentence 007#39
 1	może	może	PART	qub:_	_	4	advmod	_	_
-2	ktoś	ktoś	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ktoś	ktoś	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
 3	jeszcze	jeszcze	PART	qub:_	_	4	advmod	_	_
 4	czytał	czytać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 5	?	?	PUNCT	interp:_	_	4	punct	_	_
@@ -8308,7 +8308,7 @@
 2	wiadomo	wiadomo	VERB	pred:_	_	0	root	_	_
 3	też	też	PART	qub:_	_	2	advmod	_	_
 4	,	,	PUNCT	interp:_	_	7	punct	_	_
-5	co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
 6	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	7	expl	_	_
 7	stało	stać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	ccomp	_	_
 8	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	9	case	_	_
@@ -8337,7 +8337,7 @@
 # sent_id pl-s45
 # orig_file_sentence 007#45
 1	Więc	więc	CONJ	conj:_	_	3	advmod	_	_
-2	co	co	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	co	co	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
 3	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
 5	początku	początek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	dobj	_	_
@@ -8452,7 +8452,7 @@
 5	zgodzić	zgodzić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_
 6	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	7	mark	_	_
 7	nazwaniem	nazwać	VERB	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	5	ccomp	_	_
-8	tego	to	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	7	dobj	_	_
+8	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	dobj	_	_
 9	personalizmem	personalizm	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	dobj	_	_
 10	.	.	PUNCT	interp:_	_	3	punct	_	_
 
@@ -8475,8 +8475,8 @@
 7	napisał	napisać	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 8	,	,	PUNCT	interp:_	_	15	punct	_	_
 9	że	że	SCONJ	comp:_	_	15	mark	_	_
-10	wszystkie	wszystek	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
-11	takie	taki	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+10	wszystkie	wszystek	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Tot	12	det	_	_
+11	takie	taki	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
 12	wypadki	wypadek	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
 13	głęboko	głęboko	ADV	adv:pos	Degree=Pos	15	advmod	_	_
 14	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	15	dobj	_	_
@@ -8534,7 +8534,7 @@
 12	mapie	mapa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
 13	Polski	Polska	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 14	,	,	PUNCT	interp:_	_	16	punct	_	_
-15	który	który	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	nsubj	_	_
+15	który	który	PRON	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
 16	rozpoczął	rozpocząć	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	acl	_	_
 17	oficjalną	oficjalny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
 18	wojnę	wojna	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	16	dobj	_	_
@@ -8565,7 +8565,7 @@
 8	miejsca	miejsce	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
 9	zamieszkania	zamieszkanie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
 10	,	,	PUNCT	interp:_	_	12	punct	_	_
-11	która	który	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	12	nsubj	_	_
 12	trafi	trafić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
 13	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	15	case	_	_
 14	pierwszej	pierwszy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
@@ -8613,7 +8613,7 @@
 4	nie	nie	PART	qub:_	_	5	neg	_	_
 5	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	7	case	_	_
-7	tym	to	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	8	nmod	_	_
+7	tym	to	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	8	nmod	_	_
 8	oporów	opór	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	dobj	_	_
 9	.	.	PUNCT	interp:_	_	5	punct	_	_
 
@@ -8645,7 +8645,7 @@
 2	lubię	lubić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	7	punct	_	_
 4	gdy	gdy	SCONJ	comp:_	_	7	mark	_	_
-5	ktoś	ktoś	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	ktoś	ktoś	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
 6	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	natarczywy	natarczywy	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	advcl	_	_
 8	.	.	PUNCT	interp:_	_	2	punct	_	_
@@ -8692,7 +8692,7 @@
 2	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	3	expl	_	_
 3	czujesz	czuć	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
-5	tej	ten	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	tej	ten	DET	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	roli	rola	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
 7	?	?	PUNCT	interp:_	_	3	punct	_	_
 
@@ -8703,7 +8703,7 @@
 3	pozwala	pozwalać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	także	także	PART	qub:_	_	3	advmod	_	_
 5	wykryć	wykryć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_
-6	każdy	każdy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+6	każdy	każdy	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Tot	8	det	_	_
 7	buntowniczy	buntowniczy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	szept	szept	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	dobj	_	_
 9	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	10	case	_	_
@@ -8718,7 +8718,7 @@
 4	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf	5	auxpass	_	_
 5	przygotowany	przygotować	VERB	ppas:sg:nom:m1:perf:aff	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_
 6	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	7	case	_	_
-7	wszystko	wszystko	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	5	dobj	_	_
+7	wszystko	wszystko	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	5	dobj	_	_
 8	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s74
@@ -8734,9 +8734,9 @@
 9	waszą	wasz	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	miłość	miłość	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
 11	,	,	PUNCT	interp:_	_	13	punct	_	_
-12	która	który	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	nsubj	_	_
+12	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
 13	przetrwa	przetrwać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
-14	wszelkie	wszelki	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+14	wszelkie	wszelki	DET	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Tot	15	det	_	_
 15	burze	burza	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	13	dobj	_	_
 16	.	.	PUNCT	interp:_	_	3	punct	_	_
 
@@ -8744,7 +8744,7 @@
 # orig_file_sentence 007#75
 1	A	a	CONJ	conj:_	_	4	advmod	_	_
 2	poza	poza	ADP	prep:inst	AdpType=Prep|Case=Ins	4	advmod	_	_
-3	tym	to	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	2	case	_	_
+3	tym	to	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	2	case	_	_
 4	płakała	płakać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 5	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	4	aux	_	_
 6	,	,	PUNCT	interp:_	_	8	punct	_	_
@@ -8818,13 +8818,13 @@
 8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	9	case	_	_
 9	Monako	Monako	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
 10	,	,	PUNCT	interp:_	_	13	punct	_	_
-11	która	który	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	nsubj	_	_
+11	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
 12	nie	nie	PART	qub:_	_	13	neg	_	_
 13	prowadzi	prowadzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
 14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	16	case	_	_
-15	tym	ten	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	tym	ten	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 16	kraju	kraj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
-17	żadnej	żaden	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	żadnej	żaden	DET	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Neg	18	det	_	_
 18	działalności	działalność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	dobj	_	_
 19	.	.	PUNCT	interp:_	_	2	punct	_	_
 
@@ -8851,20 +8851,20 @@
 # sent_id pl-s83
 # orig_file_sentence 007#83
 1	-	-	PUNCT	interp:_	_	2	punct	_	_
-2	Jaki	jaki	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+2	Jaki	jaki	PRON	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	0	root	_	_
 3	był	być	VERB	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	cop	_	_
 4	największy	duży	ADJ	adj:sg:nom:m3:sup	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	5	amod	_	_
 5	sukces	sukces	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 6	Centrum	centrum	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	9	case	_	_
-8	tej	ten	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	tej	ten	DET	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	dziedzinie	dziedzina	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
 10	?	?	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s84
 # orig_file_sentence 007#84
 1	-	-	PUNCT	interp:_	_	2	punct	_	_
-2	Jaka	jaki	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+2	Jaka	jaki	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	0	root	_	_
 3	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	skuteczność	skuteczność	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 5	interwencji	interwencja	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
@@ -8923,7 +8923,7 @@
 4	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	9	nmod	_	_
 5	czasem	czas	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
 6	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
-7	te	ten	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	_
+7	te	ten	DET	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|PronType=Dem	8	det	_	_
 8	arcydzieła	arcydzieło	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	9	dobj	_	_
 9	popatrzeć	popatrzeć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_
 10	.	.	PUNCT	interp:_	_	3	punct	_	_
@@ -8956,7 +8956,7 @@
 1	Zresztą	zresztą	PART	qub:_	_	3	advmod	_	_
 2	,	,	PUNCT	interp:_	_	1	punct	_	_
 3	trzeba	trzeba	VERB	pred:_	_	0	root	_	_
-4	kogoś	ktoś	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	dobj	_	_
+4	kogoś	ktoś	PRON	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	5	dobj	_	_
 5	kochać	kochać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_
 6	,	,	PUNCT	interp:_	_	10	punct	_	_
 7	żeby	żeby	SCONJ	comp:_	_	10	mark	_	_
@@ -9043,7 +9043,7 @@
 1	Tu	tu	ADV	adv:_	_	3	advmod	_	_
 2	nie	nie	PART	qub:_	_	3	neg	_	_
 3	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	żadnego	żaden	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	żadnego	żaden	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Neg	5	det	_	_
 5	Legolandu	Legoland	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
 6	.	.	PUNCT	interp:_	_	3	punct	_	_
 
@@ -9105,11 +9105,11 @@
 # sent_id pl-s7
 # orig_file_sentence 008#7
 1	Na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	3	case	_	_
-2	tym	ten	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	tym	ten	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	domu	dom	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
 4	nie	nie	PART	qub:_	_	5	neg	_	_
 5	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	żadnego	żaden	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	żadnego	żaden	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Neg	7	det	_	_
 7	afisza	afisz	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	dobj	_	_
 8	ani	ani	CONJ	conj:_	_	7	cc	_	_
 9	szyldu	szyld	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
@@ -9199,7 +9199,7 @@
 1	Powiedział	powiedzieć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	1	aux	_	_
 3	mu	on	PRON	ppron3:sg:dat:m1:ter:nakc:npraep	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	1	iobj	_	_
-4	to	to	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	1	dobj	_	_
+4	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	dobj	_	_
 5	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	6	case	_	_
 6	chwilą	chwila	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
 7	.	.	PUNCT	interp:_	_	1	punct	_	_
@@ -9229,7 +9229,7 @@
 
 # sent_id pl-s19
 # orig_file_sentence 008#19
-1	Tym	ten	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+1	Tym	ten	DET	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	razem	raz	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
 3	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
 4	Rybnym	Rybny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -9241,19 +9241,19 @@
 
 # sent_id pl-s20
 # orig_file_sentence 008#20
-1	To	ten	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+1	To	ten	DET	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	wiadro	wiadro	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
 3	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	cop	_	_
 4	jedyną	jedyny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 5	kolorową	kolorowy	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	rzeczą	rzecz	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
 7	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	10	case	_	_
-8	tym	ten	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+8	tym	ten	DET	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
 9	smutnym	smutny	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
 10	podwórku	podwórko	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
 11	,	,	PUNCT	interp:_	_	14	punct	_	_
 12	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	13	case	_	_
-13	które	który	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	_
+13	które	który	PRON	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Int,Rel	14	advmod	_	_
 14	zmienił	zmienić	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	acl	_	_
 15	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	14	expl	_	_
 16	Rybny	Rybny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
@@ -9323,7 +9323,7 @@
 15	przeżyciami	przeżycie	NOUN	subst:pl:inst:n	Case=Ins|Gender=Neut|Number=Plur	0	root	_	_
 16	intelektualnymi	intelektualny	ADJ	adj:pl:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_
 17	,	,	PUNCT	interp:_	_	20	punct	_	_
-18	które	który	ADJ	adj:pl:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	20	nsubj	_	_
+18	które	który	PRON	adj:pl:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|PronType=Int,Rel	20	nsubj	_	_
 19	mnie	ja	PRON	ppron12:sg:acc:m1:pri:akc	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long	20	dobj	_	_
 20	naznaczyły	naznaczyć	VERB	praet:pl:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	15	acl	_	_
 21	.	.	PUNCT	interp:_	_	15	punct	_	_

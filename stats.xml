@@ -11,56 +11,63 @@
   <forms unique="23570" /><!-- ., ,, w, się, na, i, nie, z, do, -, ?, że, to, jest, o -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="13">
-    <tag name="ADJ">8433</tag><!-- ten, który, swój, taki, nowy, cały, pierwszy, nasz, inny, mój -->
+  <tags unique="14">
+    <tag name="ADJ">7004</tag><!-- swój, nowy, cały, pierwszy, nasz, inny, mój, sam, polski, duży -->
     <tag name="ADP">8588</tag><!-- w, na, z, do, o, po, od, za, przez, dla -->
     <tag name="ADV">2928</tag><!-- bardzo, tak, jak, teraz, tam, dobrze, wczoraj, tu, potem, często -->
     <tag name="AUX">1446</tag><!-- być, zostać, zostawać, informować, spędzić -->
     <tag name="CONJ">2117</tag><!-- i, a, ale, więc, oraz, ani, lub, czy, albo, to -->
-    <tag name="NOUN">24006</tag><!-- to, rok, pan, co, czas, człowiek, sprawa, praca, raz, miejsce -->
-    <tag name="NUM">851</tag><!-- dwa, kilka, wiele, trzy, oba, cztery, 10, 30, dużo, pięć -->
+    <tag name="DET">1048</tag><!-- ten, taki, wszystek, kilka, jakiś, żaden, każdy, jaki, wszelki, kilkanaście -->
+    <tag name="NOUN">23052</tag><!-- rok, pan, czas, człowiek, sprawa, praca, raz, miejsce, dom, Polska -->
+    <tag name="NUM">742</tag><!-- dwa, wiele, trzy, oba, cztery, 10, 30, dużo, pięć, 15 -->
     <tag name="PART">2797</tag><!-- nie, już, czy, też, jeszcze, jednak, tylko, nawet, także, również -->
-    <tag name="PRON">3584</tag><!-- się, on, ja, siebie, ty, my, wy -->
+    <tag name="PRON">5028</tag><!-- się, on, to, który, ja, siebie, co, ty, my, wszystko -->
     <tag name="PUNCT">13480</tag><!-- ., ,, -, ?, !, –, ", ;, …, ( -->
     <tag name="SCONJ">1113</tag><!-- że, bo, gdy, aby, by, żeby, jeśli, gdyby, choć, jeżeli -->
     <tag name="VERB">13953</tag><!-- być, mieć, to, móc, chcieć, wiedzieć, musieć, mówić, stać, znaleźć -->
     <tag name="X">275</tag><!-- rok, tysiąc, złoty, ulica, procent, około, godzina, milion, święty, bieżący_rok -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="47">
+  <feats unique="53">
     <feat name="Abbr" value="Yes" upos="X">273</feat><!-- r, tys, zł, ul, proc, ok, godz, m, mln, św -->
     <feat name="AdpType" value="Prep" upos="ADP">8588</feat><!-- w, na, z, do, o, po, od, za, przez, dla -->
-    <feat name="Animacy" value="Anim" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">9429</feat><!-- pan, jego, był, go, mu, mnie, ich, mi, nas, kto -->
-    <feat name="Animacy" value="Inan" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">11275</feat><!-- roku, ten, lat, tym, był, tego, domu, czasie, czas, sposób -->
-    <feat name="Animacy" value="Nhum" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">609</feat><!-- złotych, go, jego, dolarów, konie, pies, ducha, psa, był, duch -->
+    <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">9429</feat><!-- pan, jego, był, go, mu, mnie, ich, mi, nas, kto -->
+    <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">11275</feat><!-- roku, ten, lat, tym, był, tego, domu, czasie, czas, sposób -->
+    <feat name="Animacy" value="Nhum" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">609</feat><!-- złotych, go, jego, dolarów, konie, pies, ducha, psa, był, duch -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">9027</feat><!-- jest, em, ma, by, był, są, m, było, będzie, śmy -->
     <feat name="Aspect" value="Perf" upos="ADJ,AUX,VERB">5945</feat><!-- został, została, udało, zostanie, powiedzieć, stało, zrobić, doszło, powiedział, zaczął -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">9549</feat><!-- na, w, przez, o, za, to, go, co, mnie, ją -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">1010</feat><!-- mu, mi, sobie, jej, ci, im, nam, dzięki, przeciwko, ku -->
-    <feat name="Case" value="Gen" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">13865</feat><!-- do, z, od, dla, jego, tego, ich, jej, lat, ze -->
-    <feat name="Case" value="Ins" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">3581</feat><!-- z, przed, nad, za, ze, pod, tym, głową, przede, wszystkim -->
-    <feat name="Case" value="Loc" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">7525</feat><!-- w, na, po, o, tym, przy, roku, we, tej, czasie -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,NOUN,NUM,PRON,VERB">10071</feat><!-- to, pan, które, który, on, która, ja, kto, ten, co -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,VERB">9549</feat><!-- na, w, przez, o, za, to, go, co, mnie, ją -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,VERB">1010</feat><!-- mu, mi, sobie, jej, ci, im, nam, dzięki, przeciwko, ku -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,VERB">13865</feat><!-- do, z, od, dla, jego, tego, ich, jej, lat, ze -->
+    <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,VERB">3581</feat><!-- z, przed, nad, za, ze, pod, tym, głową, przede, wszystkim -->
+    <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,VERB">7525</feat><!-- w, na, po, o, tym, przy, roku, we, tej, czasie -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,VERB">10071</feat><!-- to, pan, które, który, on, która, ja, kto, ten, co -->
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PRON">93</feat><!-- panie, pośle, marszałku, tato, Piotrze, Profesorze, dziewczyno, ministrze, ojcze, Benedykcie -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">9335</feat><!-- bardzo, ten, tej, tym, które, tego, który, te, która, tych -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET,PRON">9335</feat><!-- bardzo, ten, tej, tym, które, tego, który, te, która, tych -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">181</feat><!-- najbardziej, najbliższym, najbliższych, najczęściej, najmniej, największe, najbliższy, najważniejsze, największego, największym -->
-    <feat name="Gender" value="Fem" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">13598</feat><!-- jej, tej, była, ją, pracy, pani, która, została, mnie, miała -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">21313</feat><!-- był, go, jego, pan, roku, ich, mu, ten, mnie, lat -->
-    <feat name="Gender" value="Neut" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">7517</feat><!-- to, było, co, tym, tego, coś, wszystko, nic, dzieci, życie -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">13598</feat><!-- jej, tej, była, ją, pracy, pani, która, została, mnie, miała -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">21313</feat><!-- był, go, jego, pan, roku, ich, mu, ten, mnie, lat -->
+    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">7517</feat><!-- to, było, co, tym, tego, coś, wszystko, nic, dzieci, życie -->
     <feat name="Hyph" value="Yes" upos="ADJ">39</feat><!-- biało, polsko, Liberalno, południowo, Chrześcijańsko, Ekonomiczno, Ginekologiczno, Ludowo, Miejsko, Przemysłowo -->
     <feat name="Mood" value="Cnd" upos="AUX">167</feat><!-- by -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">182</feat><!-- daj, weź, chodź, Przypomnijmy, powiedz, pozwól, Słuchaj, bierz, bądź, Czekaj -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">10944</feat><!-- jest, em, ma, był, są, m, było, będzie, śmy, była -->
     <feat name="Negative" value="Neg" upos="VERB">24</feat><!-- nieuzyskania, Nieleczona, niedoceniana, niedopełnienie, niedopuszczenie, niehodowaną, nieocieplony, nieodpowiadanie, nieprowadzenie, nieprzeprowadzenie -->
     <feat name="Negative" value="Pos" upos="ADJ,VERB">2053</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęta, znaleziono, prowadzone, dotyczące, przyjęciem, wyczerpana, zatrzymano -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">13213</feat><!-- są, ich, śmy, lat, nich, które, będą, nas, je, tych -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">34907</feat><!-- jest, to, em, ma, tym, był, m, było, jego, go -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">13213</feat><!-- są, ich, śmy, lat, nich, które, będą, nas, je, tych -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">34907</feat><!-- jest, to, em, ma, tym, był, m, było, jego, go -->
+    <feat name="NumType" value="Card" upos="DET,PRON">109</feat><!-- kilka, kilku, kilkanaście, kilkadziesiąt, kilkunastu, kilkuset, kilkaset, kilkoma, kilkudziesięciu -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">1910</feat><!-- em, m, śmy, mnie, mi, nas, dziękuję, ja, wiem, mam -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">544</feat><!-- ci, eś, cię, ty, jesteś, ś, masz, wiesz, ciebie, będziesz -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">4941</feat><!-- jest, ma, są, jego, go, ich, będzie, jej, mu, ją -->
     <feat name="PrepCase" value="Npr" upos="PRON">970</feat><!-- jego, go, ich, jej, mu, ją, je, on, im, ona -->
     <feat name="PrepCase" value="Pre" upos="ADJ,PRON">281</feat><!-- nich, nim, niego, niej, nią, nimi, prostu, dawna, nie, niemu -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">1145</feat><!-- to, tym, tego, ten, tej, te, tych, ta, takie, tę -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">320</feat><!-- coś, kilka, ktoś, jakieś, jakiś, kilku, kilkanaście, kilkadziesiąt, czegoś, jakąś -->
+    <feat name="PronType" value="Int,Rel" upos="DET,PRON">635</feat><!-- co, które, który, która, kto, którzy, których, którym, której, czym -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">136</feat><!-- nic, nikt, niczego, żadnego, żadnych, żaden, nikogo, żadnej, nikomu, żadne -->
     <feat name="PronType" value="Prs" upos="PRON">3584</feat><!-- się, jego, go, ich, jej, mnie, mu, sobie, mi, ją -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">256</feat><!-- wszystko, wszystkie, wszystkich, wszystkim, wszyscy, każdy, każdym, wszelki, każde, każdego -->
     <feat name="Reflex" value="Yes" upos="PRON">1880</feat><!-- się, sobie, siebie, sobą, sie, sia -->
     <feat name="Tense" value="Fut" upos="AUX">239</feat><!-- będzie, będą, będę, będziemy, będziesz -->
     <feat name="Tense" value="Past" upos="AUX,VERB">5440</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
@@ -77,33 +84,36 @@
     <feat name="Voice" value="Pass" upos="VERB">1116</feat><!-- przyjęta, znaleziono, prowadzone, wyczerpana, zatrzymano, zatrzymany, przeprowadzono, przygotowany, rozegrano, stwierdzono -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="27">
-    <dep name="acl">1453</dep>
-    <dep name="advcl">710</dep>
-    <dep name="advmod">5218</dep>
-    <dep name="amod">6956</dep>
+  <deps unique="30">
+    <dep name="acl">1448</dep>
+    <dep name="advcl">715</dep>
+    <dep name="advmod">5253</dep>
+    <dep name="amod">5967</dep>
     <dep name="appos">425</dep>
     <dep name="aux">1084</dep>
     <dep name="auxpass">302</dep>
-    <dep name="case">8563</dep>
+    <dep name="case">8560</dep>
     <dep name="cc">1705</dep>
     <dep name="ccomp">971</dep>
     <dep name="conj">2681</dep>
     <dep name="cop">965</dep>
     <dep name="csubj">98</dep>
     <dep name="csubjpass">2</dep>
-    <dep name="dobj">7556</dep>
+    <dep name="det">950</dep>
+    <dep name="det:numgov">93</dep>
+    <dep name="det:nummod">15</dep>
+    <dep name="dobj">7555</dep>
     <dep name="expl">1708</dep>
-    <dep name="iobj">925</dep>
+    <dep name="iobj">921</dep>
     <dep name="mark">1321</dep>
     <dep name="mwe">29</dep>
     <dep name="neg">1149</dep>
-    <dep name="nmod">10972</dep>
+    <dep name="nmod">10886</dep>
     <dep name="nsubj">5631</dep>
     <dep name="nsubjpass">207</dep>
-    <dep name="nummod">108</dep>
+    <dep name="nummod">93</dep>
     <dep name="punct">13484</dep>
     <dep name="root">8227</dep>
-    <dep name="xcomp">1121</dep>
+    <dep name="xcomp">1126</dep>
   </deps>
 </treebank>
