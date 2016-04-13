@@ -28,6 +28,7 @@ Changelog
   * Fixed adverbs that were attached as nmod; correct: advmod.
   * Conditional auxiliary "by" changed from PART to AUX (and features added).
   * Demonstrative, interrogative, indefinite, total and negative PRON/DET separated from NOUN/ADJ.
+  * Proper nouns (PROPN) separated from NOUN.
 
 
 === Machine-readable metadata =================================================

@@ -41,7 +41,7 @@
 # sent_id pl-s5
 # orig_file_sentence 001#5
 1	Płowy	Płowy	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
-2	Jack	Jack	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Jack	Jack	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	milczał	milczeć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	interp:_	_	3	punct	_	_
 
@@ -75,14 +75,14 @@
 11	odwołaniu	odwołać	VERB	ger:sg:dat:n:perf:aff	Aspect=Perf|Case=Dat|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	9	acl	_	_
 12	prof	profesor	X	brev:pun	Abbr=Yes	11	dobj	_	_
 13	.	.	PUNCT	interp:_	_	12	punct	_	_
-14	Joliot	Joliot	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	appos	_	_
+14	Joliot	Joliot	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	appos	_	_
 15	-	-	PUNCT	interp:_	_	14	punct	_	_
-16	Curie	Curie	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+16	Curie	Curie	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 17	i	i	CONJ	conj:_	_	6	cc	_	_
 18	wzywa	wzywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
-19	Francuzów	Francuz	NOUN	subst:pl:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	18	iobj	_	_
+19	Francuzów	Francuz	PROPN	subst:pl:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	18	iobj	_	_
 20	i	i	CONJ	conj:_	_	19	cc	_	_
-21	Francuzki	Francuzka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	19	conj	_	_
+21	Francuzki	Francuzka	PROPN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	19	conj	_	_
 22	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	24	mark	_	_
 23	masowego	masowy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	advmod	_	_
 24	składania	składać	VERB	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	18	ccomp	_	_
@@ -230,7 +230,7 @@
 # orig_file_sentence 001#18
 1	Jego	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	nmod	_	_
 2	małżonce	małżonka	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	5	dobj	_	_
-3	Wandzie	Wanda	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	2	appos	_	_
+3	Wandzie	Wanda	PROPN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	2	appos	_	_
 4	nie	nie	PART	qub:_	_	5	neg	_	_
 5	postawiono	postawić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 6	bowiem	bowiem	SCONJ	comp:_	_	5	mark	_	_
@@ -338,7 +338,7 @@
 
 # sent_id pl-s25
 # orig_file_sentence 001#25
-1	Ciastoń	Ciastoń	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+1	Ciastoń	Ciastoń	PROPN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
 2	,	,	PUNCT	interp:_	_	1	punct	_	_
 3	były	były	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	wiceminister	wiceminister	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
@@ -350,13 +350,13 @@
 10	Bezpieczeństwa	bezpieczeństwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
 11	,	,	PUNCT	interp:_	_	1	punct	_	_
 12	oraz	oraz	CONJ	conj:_	_	1	cc	_	_
-13	Płatek	Płatek	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+13	Płatek	Płatek	PROPN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
 14	,	,	PUNCT	interp:_	_	13	punct	_	_
 15	były	były	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
 16	dyrektor	dyrektor	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
 17	IV	IV	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	Departamentu	departament	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
-19	MSW	MSW	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+19	MSW	MSW	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
 20	,	,	PUNCT	interp:_	_	18	punct	_	_
 21	zajmującego	zajmować	VERB	pact:sg:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	acl	_	_
 22	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	21	expl	_	_
@@ -373,7 +373,7 @@
 33	zabójstwem	zabójstwo	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	31	conj	_	_
 34	ks	ksiądz	X	brev:pun	Abbr=Yes	31	nmod	_	_
 35	.	.	PUNCT	interp:_	_	34	punct	_	_
-36	Popiełuszki	Popiełuszko	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	34	appos	_	_
+36	Popiełuszki	Popiełuszko	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	34	appos	_	_
 37	.	.	PUNCT	interp:_	_	28	punct	_	_
 
 # sent_id pl-s26
@@ -430,13 +430,13 @@
 
 # sent_id pl-s29
 # orig_file_sentence 001#29
-1	AFP	AFP	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+1	AFP	AFP	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	przypomina	przypominać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	8	punct	_	_
 4	że	że	SCONJ	comp:_	_	8	case	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
 6	rejonie	rejon	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
-7	Bałtyku	Bałtyk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+7	Bałtyku	Bałtyk	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	obszarem	obszar	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	ccomp	_	_
 9	największej	duży	ADJ	adj:sg:gen:f:sup	Case=Gen|Degree=Sup|Gender=Fem|Number=Sing	10	amod	_	_
 10	koncentracji	koncentracja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
@@ -446,7 +446,7 @@
 14	okręg	okręg	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 15	kaliningradzki	kaliningradzki	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 16	i	i	CONJ	conj:_	_	14	cc	_	_
-17	Petersburg	Petersburg	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+17	Petersburg	Petersburg	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
 18	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s30
@@ -461,8 +461,8 @@
 8	nadaje	nadawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
 9	monotonna	monotonny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	muzyka	muzyka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
-11	Jerzy	Jerzy	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
-12	Satanowskiego	Satanowski	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+11	Jerzy	Jerzy	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+12	Satanowskiego	Satanowski	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
 13	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s31
@@ -516,16 +516,16 @@
 # orig_file_sentence 001#34
 1	Tak	tak	ADV	adv:_	_	5	advmod	_	_
 2	premier	premier	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	Jerzy	Jerzy	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
-4	Buzek	Buzek	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	Jerzy	Jerzy	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	Buzek	Buzek	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 5	skomentował	skomentować	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 6	poniedziałkowe	poniedziałkowy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
 7	spotkanie	spotkanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	5	dobj	_	_
 8	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	9	case	_	_
 9	prymasem	prymas	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
-10	Polski	Polska	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
-11	Józefem	Józef	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	appos	_	_
-12	Glempem	Glemp	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+10	Polski	Polska	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	Józefem	Józef	PROPN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	appos	_	_
+12	Glempem	Glemp	PROPN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
 13	.	.	PUNCT	interp:_	_	5	punct	_	_
 
 # sent_id pl-s35
@@ -547,7 +547,7 @@
 3	Kościoła	kościół	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	katolickiego	katolicki	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
-6	Polsce	Polska	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	Polsce	Polska	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
 7	i	i	CONJ	conj:_	_	2	cc	_	_
 8	szefa	szef	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
 9	rządu	rząd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -563,7 +563,7 @@
 
 # sent_id pl-s37
 # orig_file_sentence 001#37
-1	Stańczyk	Stańczyk	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	Stańczyk	Stańczyk	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	dobj	_	_
 3	potwierdził	potwierdzić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	interp:_	_	3	punct	_	_
@@ -695,7 +695,7 @@
 1	Czyżby	czyżby	PART	qub:_	_	5	advmod	_	_
 2	urzędnicy	urzędnik	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	4	case	_	_
-4	MSZ	MSZ	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	MSZ	MSZ	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	mieli	mieć	VERB	praet:pl:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 6	by	być	AUX	qub:_	Aspect=Imp|Mood=Cnd|VerbForm=Fin	5	aux	_	_
 7	samodzielnie	samodzielnie	ADV	adv:pos	Degree=Pos	8	advmod	_	_
@@ -729,14 +729,14 @@
 8	czytaniu	czytanie	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
 9	zgłosił	zgłosić	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 10	Klub	klub	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-11	PSL	PSL	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+11	PSL	PSL	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
 12	.	.	PUNCT	interp:_	_	9	punct	_	_
 
 # sent_id pl-s50
 # orig_file_sentence 001#50
 1	Poseł	poseł	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	Mirosław	Mirosław	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
-3	Pietrewicz	Pietrewicz	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Mirosław	Mirosław	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Pietrewicz	Pietrewicz	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
 4	protestował	protestować	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	7	case	_	_
 6	jego	on	PRON	ppron3:sg:gen:m3:ter:akc:npraep	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	7	nmod	_	_
@@ -757,7 +757,7 @@
 4	przede	przed	ADP	prep:inst:wok	AdpType=Prep|Case=Ins|Variant=Long	1	advmod	_	_
 5	wszystkim	wszystko	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Tot	4	case	_	_
 6	Instytut	instytut	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
-7	Goethego	Goethe	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+7	Goethego	Goethe	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	,	,	PUNCT	interp:_	_	6	punct	_	_
 9	powstały	powstały	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	11	case	_	_
@@ -811,7 +811,7 @@
 
 # sent_id pl-s55
 # orig_file_sentence 001#55
-1	Rema	Rema	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	10	nsubjpass	_	_
+1	Rema	Rema	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	10	nsubjpass	_	_
 2	1000	1000	NUM	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur	1	nummod	_	_
 3	,	,	PUNCT	interp:_	_	2	punct	_	_
 4	norweska	norweski	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -878,7 +878,7 @@
 6	prokurator	prokurator	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 7	wojewódzki	wojewódzki	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	9	case	_	_
-9	Poznaniu	Poznań	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+9	Poznaniu	Poznań	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
 10	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s59
@@ -912,7 +912,7 @@
 2	zbierało	zbierać	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	case	_	_
 4	całej	cały	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
-5	Polsce	Polska	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	Polsce	Polska	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
 6	prawie	prawie	PART	qub:_	_	7	nmod	_	_
 7	70	70	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 8	tysięcy	tysiąc	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	case	_	_
@@ -939,7 +939,7 @@
 4	,	,	PUNCT	interp:_	_	9	punct	_	_
 5	że	że	SCONJ	comp:_	_	9	mark	_	_
 6	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
-7	Litwie	Litwa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	9	dobj	_	_
+7	Litwie	Litwa	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	9	dobj	_	_
 8	nie	nie	PART	qub:_	_	9	neg	_	_
 9	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	ccomp	_	_
 10	takich	taki	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
@@ -1005,7 +1005,7 @@
 5	publicznych	publiczny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_
 6	i	i	CONJ	conj:_	_	4	cc	_	_
 7	obywatelstwa	obywatelstwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	conj	_	_
-8	Najder	Najder	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	Najder	Najder	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 9	stracił	stracić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 10	ów	ów	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	dom	dom	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	dobj	_	_
@@ -1053,7 +1053,7 @@
 4	majątek	majątek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	dobj	_	_
 5	,	,	PUNCT	interp:_	_	8	punct	_	_
 6	to	to	CONJ	conj:_	_	8	advmod	_	_
-7	Najder	Najder	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	Najder	Najder	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	zdążył	zdążyć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 9	przepisać	przepisać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	8	xcomp	_	_
 10	swoje	swój	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
@@ -1122,7 +1122,7 @@
 4	zwyciężyli	zwyciężyć	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 5	komentatorzy	komentator	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 6	sportowi	sportowy	ADJ	adj:pl:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
-7	Eurosportu	Eurosport	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Eurosportu	Eurosport	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 8	.	.	PUNCT	interp:_	_	4	punct	_	_
 
 # sent_id pl-s77
@@ -1179,7 +1179,7 @@
 1	Nie	nie	PART	qub:_	_	2	neg	_	_
 2	zareagował	zareagować	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	prezydent	prezydent	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-4	Radomska	Radomsko	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+4	Radomska	Radomsko	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
 5	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s82
@@ -1220,7 +1220,7 @@
 5	układał	układać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 6	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	5	aux	_	_
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
-8	Krakowie	Kraków	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	Krakowie	Kraków	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
 9	antologię	antologia	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	dobj	_	_
 10	poezji	poezja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 11	angielskiej	angielski	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
@@ -1240,8 +1240,8 @@
 2	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	3	case	_	_
 3	nich	on	PRON	ppron3:pl:gen:m1:ter:akc:praep	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	1	nmod	_	_
 4	był	być	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	cop	_	_
-5	Jan	Jan	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
-6	Bołbot	Bołbot	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Jan	Jan	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+6	Bołbot	Bołbot	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 7	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s86
@@ -1291,7 +1291,7 @@
 
 # sent_id pl-s89
 # orig_file_sentence 001#89
-1	Bogumił	Bogumił	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Bogumił	Bogumił	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	zamilkł	zamilknąć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	tak	tak	ADV	adv:_	_	2	advmod	_	_
 4	,	,	PUNCT	interp:_	_	7	punct	_	_
@@ -1312,7 +1312,7 @@
 7	aby	aby	SCONJ	comp:_	_	8	mark	_	_
 8	zwindować	zwindować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	5	advcl	_	_
 9	kufry	kufer	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	dobj	_	_
-10	Niechciców	Niechcic	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+10	Niechciców	Niechcic	PROPN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
 11	,	,	PUNCT	interp:_	_	5	punct	_	_
 12	pasażerowie	pasażer	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
 13	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	14	case	_	_
@@ -1341,7 +1341,7 @@
 13	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	14	case	_	_
 14	kolei	kolej	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
 15	panna	panna	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
-16	Barbara	Barbara	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	15	appos	_	_
+16	Barbara	Barbara	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	15	appos	_	_
 17	zwała	zwać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	advcl	_	_
 18	gwiazdą	gwiazda	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	17	iobj	_	_
 19	.	.	PUNCT	interp:_	_	2	punct	_	_
@@ -1358,8 +1358,8 @@
 8	czasem	czas	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
 9	listy	list	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	dobj	_	_
 10	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	11	case	_	_
-11	Bogumiła	Bogumił	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	iobj	_	_
-12	Niechcica	Niechcic	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+11	Bogumiła	Bogumił	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	iobj	_	_
+12	Niechcica	Niechcic	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 13	.	.	PUNCT	interp:_	_	4	punct	_	_
 
 # sent_id pl-s93
@@ -1395,13 +1395,13 @@
 9	byli	być	VERB	praet:pl:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	10	cop	_	_
 10	towarzyszami	towarzysz	NOUN	subst:pl:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	acl	_	_
 11	króla	król	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
-12	Bolesława	Bolesław	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	appos	_	_
-13	Krzywoustego	Krzywousty	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Bolesława	Bolesław	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	appos	_	_
+13	Krzywoustego	Krzywousty	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 14	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s95
 # orig_file_sentence 001#95
-1	Niechcicowie	Niechcic	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+1	Niechcicowie	Niechcic	PROPN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	spotnieli	spotnieć	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	5	punct	_	_
 4	nim	nim	SCONJ	comp:_	_	5	mark	_	_
@@ -1423,7 +1423,7 @@
 7	krzyku	krzyk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	dobj	_	_
 8	i	i	CONJ	conj:_	_	2	cc	_	_
 9	pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
-10	Barbara	Barbara	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	_
+10	Barbara	Barbara	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	_
 11	bała	bać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	_
 12	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	11	expl	_	_
 13	,	,	PUNCT	interp:_	_	20	punct	_	_
@@ -1478,7 +1478,7 @@
 5	lisia	lisi	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	twarz	twarz	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 7	pana	pan	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
-8	Hawełko	Hawełko	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	appos	_	_
+8	Hawełko	Hawełko	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	appos	_	_
 9	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s100
@@ -1536,7 +1536,7 @@
 
 # sent_id pl-s5
 # orig_file_sentence 002#5
-1	Nurkowa	Nurkowa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+1	Nurkowa	Nurkowa	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	zapewniała	zapewniać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	11	punct	_	_
 4	że	że	SCONJ	comp:_	_	11	mark	_	_
@@ -1558,7 +1558,7 @@
 5	dwóch	dwa	NUM	num:pl:loc:m3:congr	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	advmod	_	_
 6	dniach	dzień	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_
 7	,	,	PUNCT	interp:_	_	5	punct	_	_
-8	Adam	Adam	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	Adam	Adam	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 9	przyjechał	przyjechać	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 10	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	11	case	_	_
 11	kontroli	kontrola	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	dobj	_	_
@@ -1568,7 +1568,7 @@
 # orig_file_sentence 002#7
 1	Siła	siła	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	życia	życie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
-3	Nurka	Nurek	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Nurka	Nurek	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 4	była	być	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	_
 5	imponująca	imponujący	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 6	.	.	PUNCT	interp:_	_	5	punct	_	_
@@ -1577,7 +1577,7 @@
 # orig_file_sentence 002#8
 1	Na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	2	case	_	_
 2	widok	widok	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
-3	Adama	Adam	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+3	Adama	Adam	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	próbował	próbować	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 5	nawet	nawet	PART	qub:_	_	4	advmod	_	_
 6	wstać	wstać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	4	xcomp	_	_
@@ -1672,7 +1672,7 @@
 
 # sent_id pl-s17
 # orig_file_sentence 002#17
-1	Boguś	Boguś	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Boguś	Boguś	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	mieszka	mieszkać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	tu	tu	ADV	adv:_	_	2	advmod	_	_
 4	i	i	CONJ	conj:_	_	2	cc	_	_
@@ -1684,8 +1684,8 @@
 1	Dyrektor	dyrektor	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	Biblioteki	biblioteka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	Jagiellońskiej	jagielloński	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
-4	Krzysztof	Krzysztof	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
-5	Zamorski	Zamorski	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Krzysztof	Krzysztof	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	Zamorski	Zamorski	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 6	nie	nie	PART	qub:_	_	7	neg	_	_
 7	sądzi	sądzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	,	,	PUNCT	interp:_	_	24	punct	_	_
@@ -1725,7 +1725,7 @@
 # sent_id pl-s20
 # orig_file_sentence 002#20
 1	Czym	co	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nmod	_	_
-2	Ukraińcy	Ukrainiec	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	Ukraińcy	Ukrainiec	PROPN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	są	być	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	najbardziej	bardzo	ADV	adv:sup	Degree=Sup	5	advmod	_	_
 5	zawiedzieni	zawiedziony	ADJ	adj:pl:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
@@ -1741,8 +1741,8 @@
 
 # sent_id pl-s22
 # orig_file_sentence 002#22
-1	Eugeniusz	Eugeniusz	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-2	Kijewski	Kijewski	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+1	Eugeniusz	Eugeniusz	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	Kijewski	Kijewski	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
 3	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	dobrym	dobry	ADJ	adj:sg:inst:m1:pos	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	trenerem	trener	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
@@ -1846,7 +1846,7 @@
 4	związku	związek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
 5	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	6	case	_	_
 6	karykaturami	karykatura	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	4	nmod	_	_
-7	Mahometa	Mahomet	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+7	Mahometa	Mahomet	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	trwają	trwać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	.	.	PUNCT	interp:_	_	8	punct	_	_
 
@@ -1854,7 +1854,7 @@
 # orig_file_sentence 002#30
 1	Lewica	lewica	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	za	za	ADP	prep:gen	AdpType=Prep|Case=Gen	3	case	_	_
-3	Dzierżyńskiego	Dzierżyński	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+3	Dzierżyńskiego	Dzierżyński	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 4	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	wyrzuty	wyrzut	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	dobj	_	_
 6	sumienia	sumienie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
@@ -1923,7 +1923,7 @@
 3	czasu	czas	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 4	napadają	napadać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
-6	Palestyńczyków	Palestyńczyk	NOUN	subst:pl:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	dobj	_	_
+6	Palestyńczyków	Palestyńczyk	PROPN	subst:pl:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	dobj	_	_
 7	,	,	PUNCT	interp:_	_	4	punct	_	_
 8	a	a	CONJ	conj:_	_	4	cc	_	_
 9	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	11	case	_	_
@@ -1948,7 +1948,7 @@
 2	stosunki	stosunek	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	dobj	_	_
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	case	_	_
 4	Wielkiej	Wielki	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
-5	Brytanii	Brytania	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	Brytanii	Brytania	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
 6	mówca	mówca	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	stwierdza	stwierdzać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	,	,	PUNCT	interp:_	_	19	punct	_	_
@@ -1967,7 +1967,7 @@
 21	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	22	case	_	_
 22	nienawiścią	nienawiść	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	_
 23	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	24	case	_	_
-24	Polski	Polska	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	19	dobj	_	_
+24	Polski	Polska	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	19	dobj	_	_
 25	Ludowej	ludowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
 26	.	.	PUNCT	interp:_	_	7	punct	_	_
 
@@ -1997,7 +1997,7 @@
 3	prymitywnych	prymitywny	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
 4	filmikach	filmik	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
 5	amerykańskich	amerykański	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
-6	Polacy	Polak	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	Polacy	Polak	PROPN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 7	chamstwo	chamstwo	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	8	dobj	_	_
 8	uważają	uważać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	10	case	_	_
@@ -2019,12 +2019,12 @@
 4	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 5	działania	działanie	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	3	dobj	_	_
 6	policji	policja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
-7	Dorna	Dorn	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+7	Dorna	Dorn	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	wobec	wobec	ADP	prep:gen	AdpType=Prep|Case=Gen	10	mark	_	_
 9	pokojowo	pokojowo	ADV	adv:pos	Degree=Pos	10	advmod	_	_
 10	wiecujących	wiecować	VERB	pact:pl:gen:m1:imperf:aff	Animacy=Anim|Aspect=Imp|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
 11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	12	case	_	_
-12	Poznaniu	Poznań	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Poznaniu	Poznań	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
 13	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s44
@@ -2035,7 +2035,7 @@
 4	pokojowo	pokojowo	ADV	adv:pos	Degree=Pos	5	advmod	_	_
 5	protestujących	protestować	VERB	pact:pl:acc:m1:imperf:aff	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	ccomp	_	_
 6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	7	case	_	_
-7	Mińsku	Mińsk	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Mińsku	Mińsk	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
 8	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s45
@@ -2072,7 +2072,7 @@
 
 # sent_id pl-s47
 # orig_file_sentence 002#47
-1	PiS	PiS	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+1	PiS	PiS	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 2	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	3	case	_	_
 3	udziałem	udział	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
 4	prezydenta	prezydent	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -2097,7 +2097,7 @@
 23	swoich	swój	ADJ	adj:pl:acc:m1:pos	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
 24	sojuszników	sojusznik	NOUN	subst:pl:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	22	dobj	_	_
 25	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	26	case	_	_
-26	LPR	LPR	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_
+26	LPR	LPR	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_
 27	i	i	CONJ	conj:_	_	26	cc	_	_
 28	Samoobronie	samoobrona	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	26	conj	_	_
 29	.	.	PUNCT	interp:_	_	15	punct	_	_
@@ -2116,7 +2116,7 @@
 10	zaprzestaniu	zaprzestać	VERB	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	8	acl	_	_
 11	strajków	strajk	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
 12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	13	case	_	_
-13	Szczecinie	Szczecin	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Szczecinie	Szczecin	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
 14	.	.	PUNCT	interp:_	_	5	punct	_	_
 
 # sent_id pl-s49
@@ -2145,7 +2145,7 @@
 4	skazani	skazać	VERB	ppas:pl:nom:m1:perf:aff	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 5	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
 6	maniaka	maniak	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	dobj	_	_
-7	Balcerowicza	Balcerowicz	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	appos	_	_
+7	Balcerowicza	Balcerowicz	PROPN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	appos	_	_
 8	?	?	PUNCT	interp:_	_	4	punct	_	_
 
 # sent_id pl-s51
@@ -2154,7 +2154,7 @@
 2	oni	on	PRON	ppron3:pl:nom:m1:ter:akc:npraep	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	4	nsubj	_	_
 3	nie	nie	PART	qub:_	_	4	neg	_	_
 4	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	Balcerowiczów	Balcerowicz	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	dobj	_	_
+5	Balcerowiczów	Balcerowicz	PROPN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	dobj	_	_
 6	.	.	PUNCT	interp:_	_	4	punct	_	_
 
 # sent_id pl-s52
@@ -2188,7 +2188,7 @@
 # sent_id pl-s54
 # orig_file_sentence 002#54
 1	Pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-2	Anna	Anna	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+2	Anna	Anna	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
 3	prosi	prosić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	interp:_	_	7	punct	_	_
 5	aby	aby	SCONJ	comp:_	_	7	mark	_	_
@@ -2209,7 +2209,7 @@
 7	media	medium	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	4	conj	_	_
 8	partia	partia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 9	braci	brat	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
-10	Kaczyńskich	Kaczyński	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+10	Kaczyńskich	Kaczyński	PROPN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
 11	przygotowuje	przygotowywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	11	expl	_	_
 13	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	14	case	_	_
@@ -2257,7 +2257,7 @@
 8	wyłaniać	wyłaniać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	7	xcomp	_	_
 9	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	8	expl	_	_
 10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	11	case	_	_
-11	SLD	SLD	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	dobj	_	_
+11	SLD	SLD	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	dobj	_	_
 12	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s59
@@ -2274,7 +2274,7 @@
 
 # sent_id pl-s60
 # orig_file_sentence 002#60
-1	SLD	SLD	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubjpass	_	_
+1	SLD	SLD	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubjpass	_	_
 2	nie	nie	PART	qub:_	_	3	neg	_	_
 3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	auxpass	_	_
 4	już	już	PART	qub:_	_	5	advmod	_	_
@@ -2345,21 +2345,21 @@
 7	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	8	case	_	_
 8	sytuacji	sytuacja	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	dobj	_	_
 9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	10	case	_	_
-10	PO	PO	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+10	PO	PO	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
 11	?	?	PUNCT	interp:_	_	4	punct	_	_
 
 # sent_id pl-s68
 # orig_file_sentence 002#68
 1	Premier	premier	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	Marcinkiewicz	Marcinkiewicz	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+2	Marcinkiewicz	Marcinkiewicz	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	odwołał	odwołać	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	wczoraj	wczoraj	ADV	adv:_	_	3	advmod	_	_
 5	ze	z	ADP	prep:gen:wok	AdpType=Prep|Case=Gen|Variant=Long	6	case	_	_
 6	stanowiska	stanowisko	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	iobj	_	_
 7	wiceministra	wiceminister	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	dobj	_	_
 8	rolnictwa	rolnictwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
-9	Lecha	Lech	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	appos	_	_
-10	Różańskiego	Różański	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Lecha	Lech	PROPN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	appos	_	_
+10	Różańskiego	Różański	PROPN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
 11	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s69
@@ -2384,8 +2384,8 @@
 # sent_id pl-s70
 # orig_file_sentence 002#70
 1	Gdyby	gdyby	SCONJ	comp:_	_	4	mark	_	_
-2	Zyta	Zyta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	Gilowska	Gilowska	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+2	Zyta	Zyta	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Gilowska	Gilowska	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
 4	pogrzebała	pogrzebać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	advcl	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
 6	projekcie	projekt	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	dobj	_	_
@@ -2415,19 +2415,19 @@
 
 # sent_id pl-s72
 # orig_file_sentence 002#72
-1	Małysz	Małysz	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	Małysz	Małysz	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	wielokrotnie	wielokrotnie	ADV	adv:pos	Degree=Pos	3	advmod	_	_
 3	podkreślał	podkreślać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	interp:_	_	8	punct	_	_
 5	że	że	SCONJ	comp:_	_	8	mark	_	_
 6	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	7	case	_	_
-7	Turynu	Turyn	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+7	Turynu	Turyn	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 8	chce	chcieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 9	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	10	expl	_	_
 10	przygotowywać	przygotowywać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	8	xcomp	_	_
 11	tylko	tylko	PART	qub:_	_	10	nmod	_	_
 12	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	11	case	_	_
-13	Kuttinem	Kuttin	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Kuttinem	Kuttin	PROPN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
 14	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s73
@@ -2452,7 +2452,7 @@
 1	Wystarczy	wystarczyć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	przeanalizować	przeanalizować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	1	xcomp	_	_
 3	wypowiedzi	wypowiedź	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	2	dobj	_	_
-4	Adama	Adam	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+4	Adama	Adam	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s76
@@ -2477,7 +2477,7 @@
 10	Handlu	handel	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
 11	inż	inżynier	X	brev:pun	Abbr=Yes	6	appos	_	_
 12	.	.	PUNCT	interp:_	_	11	punct	_	_
-13	Miszułowicz	Miszułowicz	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+13	Miszułowicz	Miszułowicz	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
 14	.	.	PUNCT	interp:_	_	5	punct	_	_
 
 # sent_id pl-s78
@@ -2551,9 +2551,9 @@
 # sent_id pl-s82
 # orig_file_sentence 002#82
 1	Obecnie	obecnie	ADV	adv:pos	Degree=Pos	7	advmod	_	_
-2	Jan	Jan	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-3	Maria	Maria	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
-4	Rokita	Rokita	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+2	Jan	Jan	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	Maria	Maria	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Rokita	Rokita	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
 6	telewizji	telewizja	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
 7	oburza	oburzać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2573,9 +2573,9 @@
 4	której	który	PRON	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	5	amod	_	_
 5	członkiem	członek	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	acl	_	_
 6	był	być	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	_
-7	Jan	Jan	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-8	Maria	Maria	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
-9	Rokita	Rokita	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+7	Jan	Jan	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	Maria	Maria	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Rokita	Rokita	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
 10	,	,	PUNCT	interp:_	_	5	punct	_	_
 11	rozparcelowała	rozparcelować	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 12	Ministerstwo	ministerstwo	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	11	dobj	_	_
@@ -2616,7 +2616,7 @@
 
 # sent_id pl-s86
 # orig_file_sentence 002#86
-1	Otylia	Otylia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+1	Otylia	Otylia	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	lokomotywą	lokomotywa	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
 4	polskiego	polski	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
@@ -2633,7 +2633,7 @@
 
 # sent_id pl-s87
 # orig_file_sentence 002#87
-1	Otylia	Otylia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+1	Otylia	Otylia	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	wróci	wrócić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	?	?	PUNCT	interp:_	_	2	punct	_	_
 
@@ -2674,7 +2674,7 @@
 4	elementów	element	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 5	budowy	budowa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	IV	IV	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
-7	RP	RP	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	RP	RP	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 8	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 9	opracowanie	opracować	VERB	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Ger	1	csubj	_	_
 10	nowej	nowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
@@ -2691,10 +2691,10 @@
 # orig_file_sentence 002#91
 1	Czy	czy	PART	qub:_	_	4	advmod	_	_
 2	większość	większość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	Izraelczyków	Izraelczyk	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+3	Izraelczyków	Izraelczyk	PROPN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 4	pójdzie	pójść	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	6	case	_	_
-6	Kadimą	Kadima	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Kadimą	Kadima	PROPN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
 7	i	i	CONJ	conj:_	_	6	cc	_	_
 8	innymi	inny	ADJ	adj:pl:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
 9	ugrupowaniami	ugrupowanie	NOUN	subst:pl:inst:n	Case=Ins|Gender=Neut|Number=Plur	6	conj	_	_
@@ -2729,12 +2729,12 @@
 5	,	,	PUNCT	interp:_	_	2	punct	_	_
 6	jadę	jechać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
 7	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
-8	Kaiserslautern	Kaiserslautern	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	6	dobj	_	_
+8	Kaiserslautern	Kaiserslautern	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	6	dobj	_	_
 9	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	10	case	_	_
 10	spotkanie	spotkanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
-11	Polski	Polska	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+11	Polski	Polska	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
 12	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	13	case	_	_
-13	USA	USA	NOUN	subst:pl:inst:n	Case=Ins|Gender=Neut|Number=Plur	11	nmod	_	_
+13	USA	USA	PROPN	subst:pl:inst:n	Case=Ins|Gender=Neut|Number=Plur	11	nmod	_	_
 14	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s95
@@ -2762,7 +2762,7 @@
 4	nie	nie	PART	qub:_	_	5	neg	_	_
 5	robią	robić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
-7	Francuzach	Francuz	NOUN	subst:pl:loc:m1	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_
+7	Francuzach	Francuz	PROPN	subst:pl:loc:m1	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_
 8	żadnego	żaden	DET	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|PronType=Neg	9	det	_	_
 9	wrażenia	wrażenie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	dobj	_	_
 10	.	.	PUNCT	interp:_	_	5	punct	_	_
@@ -2805,7 +2805,7 @@
 # orig_file_sentence 002#100
 1	Jak	jak	ADV	adv:_	_	2	advmod	_	_
 2	znam	znać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
-3	Pola	Pol	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	dobj	_	_
+3	Pola	Pol	PROPN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	dobj	_	_
 4	,	,	PUNCT	interp:_	_	2	punct	_	_
 5	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
 6	teraz	teraz	ADV	adv:_	_	7	advmod	_	_
@@ -2813,7 +2813,7 @@
 8	przynajmniej	przynajmniej	PART	qub:_	_	7	nmod	_	_
 9	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	8	case	_	_
 10	profesorem	profesor	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	dobj	_	_
-11	Żołądziem	Żołądź	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	appos	_	_
+11	Żołądziem	Żołądź	PROPN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	appos	_	_
 12	.	.	PUNCT	interp:_	_	7	punct	_	_
 
 # sent_id pl-s1
@@ -2823,12 +2823,12 @@
 3	kadrą	kadra	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	4	dobj	_	_
 4	pracowali	pracować	VERB	praet:pl:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	19	advcl	_	_
 5	profesor	profesor	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-6	Jerzy	Jerzy	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
-7	Żołądź	Żołądź	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Jerzy	Jerzy	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+7	Żołądź	Żołądź	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 8	i	i	CONJ	conj:_	_	5	cc	_	_
 9	doktor	doktor	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
-10	Jan	Jan	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
-11	Blecharz	Blecharz	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+10	Jan	Jan	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+11	Blecharz	Blecharz	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
 12	,	,	PUNCT	interp:_	_	4	punct	_	_
 13	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	14	case	_	_
 14	kłopotach	kłopot	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	dobj	_	_
@@ -2865,7 +2865,7 @@
 2	nie	nie	PART	qub:_	_	3	neg	_	_
 3	pokonał	pokonać	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	3	aux	_	_
-5	Mayfielda	Mayfield	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
+5	Mayfielda	Mayfield	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
 6	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s5
@@ -2883,7 +2883,7 @@
 1	Da	dać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	1	expl	_	_
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	4	case	_	_
-4	Polsce	Polska	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	Polsce	Polska	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
 5	zarobić	zarobić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	1	xcomp	_	_
 6	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
 7	boksie	boks	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	dobj	_	_
@@ -3017,7 +3017,7 @@
 3	iż	iż	SCONJ	comp:_	_	11	mark	_	_
 4	pan	pan	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 5	trener	trener	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
-6	Janas	Janas	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+6	Janas	Janas	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
 7	aż	aż	PART	qub:_	_	8	advmod	_	_
 8	tak	tak	ADV	adv:_	_	11	advmod	_	_
 9	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	11	expl	_	_
@@ -3173,13 +3173,13 @@
 
 # sent_id pl-s27
 # orig_file_sentence 003#27
-1	PiS-owi	PiS	NOUN	subst:sg:dat:m3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	dobj	_	_
+1	PiS-owi	PiS	PROPN	subst:sg:dat:m3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	dobj	_	_
 2	nie	nie	PART	qub:_	_	3	neg	_	_
 3	opłaca	opłacać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	3	expl	_	_
 5	koalicja	koalicja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 6	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	7	case	_	_
-7	PO	PO	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+7	PO	PO	PROPN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
 8	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s28
@@ -3195,12 +3195,12 @@
 # sent_id pl-s29
 # orig_file_sentence 003#29
 1	Pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-2	Zyta	Zyta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+2	Zyta	Zyta	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
 3	nie	nie	PART	qub:_	_	4	neg	_	_
 4	wie	wiedzieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	,	,	PUNCT	interp:_	_	9	punct	_	_
 6	że	że	SCONJ	comp:_	_	9	mark	_	_
-7	Włosi	Włoch	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	Włosi	Włoch	PROPN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 8	dawno	dawno	ADV	adv:pos	Degree=Pos	9	advmod	_	_
 9	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 10	domy	dom	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	dobj	_	_
@@ -3208,9 +3208,9 @@
 12	budowane	budować	VERB	ppas:pl:acc:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
 13	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	15	case	_	_
 14	niższym	niski	ADJ	adj:sg:inst:m3:com	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	amod	_	_
-15	VAT-em	VAT	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
+15	VAT-em	VAT	PROPN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
 16	i	i	CONJ	conj:_	_	9	cc	_	_
-17	UE	UE	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+17	UE	UE	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
 18	nie	nie	PART	qub:_	_	19	neg	_	_
 19	wnosi	wnosić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 20	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	21	case	_	_
@@ -3228,7 +3228,7 @@
 5	nowej	nowy	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	wiktorii	wiktoria	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	dobj	_	_
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
-8	Wiedniu	Wiedeń	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Wiedniu	Wiedeń	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
 9	?	?	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s31
@@ -3238,9 +3238,9 @@
 3	prom	prom	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	wypłynął	wypłynąć	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 5	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	6	case	_	_
-6	Duby	Duba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	dobj	_	_
+6	Duby	Duba	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	dobj	_	_
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
-8	Arabii	Arabia	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+8	Arabii	Arabia	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
 9	Saudyjskiej	Saudyjski	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 10	.	.	PUNCT	interp:_	_	4	punct	_	_
 
@@ -3278,7 +3278,7 @@
 13	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	14	case	_	_
 14	portu	port	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 15	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	16	case	_	_
-16	Hurghadzie	Hurghada	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+16	Hurghadzie	Hurghada	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
 17	.	.	PUNCT	interp:_	_	6	punct	_	_
 
 # sent_id pl-s35
@@ -3305,7 +3305,7 @@
 11	którymi	który	PRON	adj:pl:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	12	dobj	_	_
 12	walczy	walczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_
 13	partia	partia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
-14	Kaczyńskiego	Kaczyński	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+14	Kaczyńskiego	Kaczyński	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 15	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s37
@@ -3318,7 +3318,7 @@
 # sent_id pl-s38
 # orig_file_sentence 003#38
 1	Prezes	prezes	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	PiS-u	PiS	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+2	PiS-u	PiS	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	wyciągnął	wyciągnąć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	5	case	_	_
 5	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	iobj	_	_
@@ -3478,8 +3478,8 @@
 # orig_file_sentence 003#50
 1	I	i	CONJ	conj:_	_	5	advmod	_	_
 2	teraz	teraz	ADV	adv:_	_	5	advmod	_	_
-3	Pan	Pan	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-4	Bóg	Bóg	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	Pan	Pan	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Bóg	Bóg	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 5	zsyła	zsyłać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	7	case	_	_
 7	nas	my	PRON	ppron12:pl:acc:m1:pri	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
@@ -3533,7 +3533,7 @@
 # orig_file_sentence 003#55
 1	Uprawia	uprawiać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	tu	tu	ADV	adv:_	_	1	advmod	_	_
-3	Wittgenstein	Wittgenstein	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	Wittgenstein	Wittgenstein	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 5	sam	sam	ADV	adv:_	_	4	advmod	_	_
 6	dokładnie	dokładnie	ADV	adv:pos	Degree=Pos	4	advmod	_	_
@@ -3548,7 +3548,7 @@
 15	ze	z	ADP	prep:gen:wok	AdpType=Prep|Case=Gen|Variant=Long	17	case	_	_
 16	swych	swój	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	17	amod	_	_
 17	dzieł	dzieło	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
-18	Arystoteles	Arystoteles	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+18	Arystoteles	Arystoteles	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 19	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s56
@@ -3680,16 +3680,16 @@
 10	samo	sam	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 11	południe	południe	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_
 12	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	13	case	_	_
-13	Rynek	Rynek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+13	Rynek	Rynek	PROPN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 14	Główny	Główny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
 15	.	.	PUNCT	interp:_	_	7	punct	_	_
 
 # sent_id pl-s66
 # orig_file_sentence 003#66
-1	Wojciech	Wojciech	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-2	Gąsienica	Gąsienica	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+1	Wojciech	Wojciech	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Gąsienica	Gąsienica	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
 3	-	-	PUNCT	interp:_	_	2	punct	_	_
-4	Byrcyn	Byrcyn	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+4	Byrcyn	Byrcyn	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 5	nie	nie	PART	qub:_	_	6	neg	_	_
 6	wróci	wrócić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
@@ -3763,7 +3763,7 @@
 4	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	3	expl	_	_
 5	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	6	case	_	_
 6	bramą	brama	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	3	dobj	_	_
-7	ZNTK	ZNTK	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+7	ZNTK	ZNTK	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	już	już	PART	qub:_	_	3	advmod	_	_
 9	pod	pod	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	10	case	_	_
 10	koniec	koniec	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -3775,11 +3775,11 @@
 1	Wieczorem	wieczór	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
 2	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	3	case	_	_
 3	rejonie	rejon	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
-4	Ramallah	Ramallah	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+4	Ramallah	Ramallah	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
 5	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
 6	Zachodnim	zachodni	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	Brzegu	brzeg	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
-8	Izraelczycy	Izraelczyk	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	Izraelczycy	Izraelczyk	PROPN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 9	ostrzelali	ostrzelać	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 10	palestyński	palestyński	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	samochód	samochód	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	dobj	_	_
@@ -3844,7 +3844,7 @@
 11	Starostwa	starostwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
 12	Powiatowego	powiatowy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 13	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	14	case	_	_
-14	Kamieniu	Kamień	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+14	Kamieniu	Kamień	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
 15	Pomorskim	Pomorski	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 16	i	i	CONJ	conj:_	_	6	cc	_	_
 17	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	18	case	_	_
@@ -3860,7 +3860,7 @@
 1	We	w	ADP	prep:acc:wok	AdpType=Prep|Case=Acc|Variant=Long	2	case	_	_
 2	wtorek	wtorek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 3	koło	koło	ADP	prep:gen	AdpType=Prep|Case=Gen	4	case	_	_
-4	Kukułowa	Kukułowo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+4	Kukułowa	Kukułowo	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
 5	silne	silny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
 6	wiatry	wiatr	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 7	spowodowały	spowodować	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3868,7 +3868,7 @@
 9	stanu	stan	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	dobj	_	_
 10	wody	woda	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 11	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	12	case	_	_
-12	Dziwnie	Dziwna	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+12	Dziwnie	Dziwna	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
 13	,	,	PUNCT	interp:_	_	15	punct	_	_
 14	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
 15	zerwała	zerwać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	12	acl	_	_
@@ -4060,7 +4060,7 @@
 4	pierwsza	pierwszy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	gwiazdka	gwiazdka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 6	,	,	PUNCT	interp:_	_	3	punct	_	_
-7	Michał	Michał	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	Michał	Michał	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	wypatrzył	wypatrzyć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	_
 9	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	8	dobj	_	_
 10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	11	case	_	_
@@ -4226,8 +4226,8 @@
 
 # sent_id pl-s3
 # orig_file_sentence 004#3
-1	Larry	Larry	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	Flynt	Flynt	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+1	Larry	Larry	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Flynt	Flynt	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
 3	był	być	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	5	case	_	_
 5	wrażeniem	wrażenie	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	3	dobj	_	_
@@ -4329,8 +4329,8 @@
 4	spalono	spalić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 5	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	6	case	_	_
 6	stosie	stos	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
-7	Joannę	Joanna	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	dobj	_	_
-8	D'Arc	d'Arc	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+7	Joannę	Joanna	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	dobj	_	_
+8	D'Arc	d'Arc	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
 9	.	.	PUNCT	interp:_	_	4	punct	_	_
 
 # sent_id pl-s13
@@ -4356,7 +4356,7 @@
 # sent_id pl-s15
 # orig_file_sentence 004#15
 1	Siłą	siła	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
-2	Brytanii	Brytania	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+2	Brytanii	Brytania	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 4	sztuka	sztuka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 5	,	,	PUNCT	interp:_	_	4	punct	_	_
@@ -4371,7 +4371,7 @@
 # sent_id pl-s16
 # orig_file_sentence 004#16
 1	Siłą	siła	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
-2	Ameryki	Ameryka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+2	Ameryki	Ameryka	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 4	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	5	nmod	_	_
 5	armia	armia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
@@ -4405,7 +4405,7 @@
 3	zostają	zostawać	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	wezwani	wezwać	VERB	ppas:pl:nom:m1:perf:aff	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 5	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	6	case	_	_
-6	Moskwy	Moskwa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Moskwy	Moskwa	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 7	.	.	PUNCT	interp:_	_	4	punct	_	_
 
 # sent_id pl-s21
@@ -4427,10 +4427,10 @@
 7	,	,	PUNCT	interp:_	_	6	punct	_	_
 8	sypie	sypać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	trzech	trzy	NUM	num:pl:acc:m1:rec	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	dobj	_	_
-10	Rosjan	Rosjanin	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+10	Rosjan	Rosjanin	PROPN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
 11	szpiegujących	szpiegować	VERB	pact:pl:gen:m1:imperf:aff	Animacy=Anim|Aspect=Imp|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	_	_
 12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	13	case	_	_
-13	Ameryce	Ameryka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+13	Ameryce	Ameryka	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
 14	.	.	PUNCT	interp:_	_	8	punct	_	_
 
 # sent_id pl-s23
@@ -4483,7 +4483,7 @@
 1	Rozegrano	rozegrać	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 2	go	on	PRON	ppron3:sg:acc:m3:ter:nakc:npraep	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	1	dobj	_	_
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	4	case	_	_
-4	Gorzowie	Gorzów	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Gorzowie	Gorzów	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
 5	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s28
@@ -4503,7 +4503,7 @@
 
 # sent_id pl-s30
 # orig_file_sentence 004#30
-1	Anglik	Anglik	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Anglik	Anglik	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	zatrzaskuje	zatrzaskiwać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	lodówkę	lodówka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	dobj	_	_
 4	pełną	pełny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -4544,9 +4544,9 @@
 3	zdarzenia	zdarzenie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	dobj	_	_
 4	doszło	dojść	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
-6	Sowinie	Sowina	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Sowinie	Sowina	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
 7	koło	koło	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
-8	Jasła	Jasło	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	Jasła	Jasło	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
 9	.	.	PUNCT	interp:_	_	4	punct	_	_
 
 # sent_id pl-s33
@@ -4754,7 +4754,7 @@
 
 # sent_id pl-s48
 # orig_file_sentence 004#48
-1	Barbara	Barbara	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+1	Barbara	Barbara	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	przypomniała	przypomnieć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	2	dobj	_	_
 4	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	6	case	_	_
@@ -4787,7 +4787,7 @@
 5	szybko	szybko	ADV	adv:pos	Degree=Pos	6	advmod	_	_
 6	kopiowane	kopiować	VERB	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 7	i	i	CONJ	conj:_	_	6	cc	_	_
-8	Barbara	Barbara	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	Barbara	Barbara	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 9	odniosła	odnieść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	conj	_	_
 10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	12	case	_	_
 11	tamtych	tamten	DET	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
@@ -4828,7 +4828,7 @@
 # sent_id pl-s53
 # orig_file_sentence 004#53
 1	Stan	stan	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	Saszki	Saszka	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+2	Saszki	Saszka	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	4	expl	_	_
 4	pogarszał	pogarszać	VERB	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	interp:_	_	4	punct	_	_
@@ -4842,7 +4842,7 @@
 
 # sent_id pl-s55
 # orig_file_sentence 004#55
-1	Wiktor	Wiktor	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Wiktor	Wiktor	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	sięgnął	sięgnąć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	4	case	_	_
 4	torby	torba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	dobj	_	_
@@ -4859,7 +4859,7 @@
 4	mu	on	PRON	ppron3:sg:dat:m1:ter:nakc:npraep	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	3	nmod	_	_
 5	obrazy	obraz	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 6	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	7	case	_	_
-7	Roksaną	Roksana	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+7	Roksaną	Roksana	PROPN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
 8	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	9	case	_	_
 9	statku	statek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
 10	.	.	PUNCT	interp:_	_	3	punct	_	_
@@ -4967,16 +4967,16 @@
 # sent_id pl-s66
 # orig_file_sentence 004#66
 1	Z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	2	case	_	_
-2	Estonii	Estonia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+2	Estonii	Estonia	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 3	posuwały	posuwać	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 4	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	3	expl	_	_
 5	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	6	case	_	_
 6	stronę	strona	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	dobj	_	_
-7	Petersburga	Petersburg	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+7	Petersburga	Petersburg	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	antybolszewickie	antybolszewicki	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 9	formacje	formacja	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 10	generała	generał	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
-11	Judenicza	Judenicz	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+11	Judenicza	Judenicz	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 12	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s67
@@ -4998,11 +4998,11 @@
 
 # sent_id pl-s69
 # orig_file_sentence 004#69
-1	Saszka	Saszka	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Saszka	Saszka	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	spojrzał	spojrzeć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	4	case	_	_
 4	twarz	twarz	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	dobj	_	_
-5	Ilii	Ilia	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+5	Ilii	Ilia	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	,	,	PUNCT	interp:_	_	14	punct	_	_
 7	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
 8	wydała	wydać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	cop	_	_
@@ -5018,7 +5018,7 @@
 
 # sent_id pl-s70
 # orig_file_sentence 004#70
-1	Eliasz	Eliasz	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+1	Eliasz	Eliasz	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	3	case	_	_
 3	milczeniu	milczenie	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
 4	patrzył	patrzyć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -5105,7 +5105,7 @@
 # orig_file_sentence 004#78
 1	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	2	case	_	_
 2	centrum	centrum	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	dobj	_	_
-3	Mińska	Mińsk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+3	Mińska	Mińsk	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	siedem	siedem	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 6	kilometrów	kilometr	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
@@ -5117,7 +5117,7 @@
 2	ten	ten	DET	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 3	słynny	słynny	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	von	von	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
-5	Finckl	Finckl	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+5	Finckl	Finckl	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 6	?	?	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s80
@@ -5151,7 +5151,7 @@
 # sent_id pl-s83
 # orig_file_sentence 004#83
 1	Panna	panna	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-2	Helena	Helena	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+2	Helena	Helena	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
 3	ocknęła	ocknąć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	3	expl	_	_
 5	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	6	case	_	_
@@ -5172,12 +5172,12 @@
 1	-	-	PUNCT	interp:_	_	3	punct	_	_
 2	A	a	CONJ	conj:_	_	3	advmod	_	_
 3	pójdzie	pójść	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	Konstanty	Konstanty	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+4	Konstanty	Konstanty	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 5	ze	z	ADP	prep:inst:wok	AdpType=Prep|Case=Ins|Variant=Long	6	case	_	_
 6	mną	ja	PRON	ppron12:sg:inst:f:pri	Case=Ins|Gender=Fem|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
 7	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
 8	pana	pan	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
-9	Platera	Plater	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_
+9	Platera	Plater	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_
 10	?	?	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s86
@@ -5212,7 +5212,7 @@
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	4	case	_	_
 4	milczeniu	milczenie	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
 5	i	i	CONJ	conj:_	_	1	cc	_	_
-6	Helena	Helena	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	Helena	Helena	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 7	spostrzegła	spostrzec	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	conj	_	_
 8	,	,	PUNCT	interp:_	_	10	punct	_	_
 9	że	że	SCONJ	comp:_	_	10	mark	_	_
@@ -5269,7 +5269,7 @@
 
 # sent_id pl-s93
 # orig_file_sentence 004#93
-1	Patyk	Patyk	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Patyk	Patyk	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	roześmiał	roześmiać	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	2	expl	_	_
 4	i	i	CONJ	conj:_	_	2	cc	_	_
@@ -5279,13 +5279,13 @@
 8	panny	panna	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	6	dobj	_	_
 9	,	,	PUNCT	interp:_	_	2	punct	_	_
 10	a	a	CONJ	conj:_	_	2	cc	_	_
-11	Marta	Marta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	Marta	Marta	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 12	podeszła	podejść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	_
 13	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	17	case	_	_
 14	wciąż	wciąż	ADV	adv:_	_	15	advmod	_	_
 15	stojącej	stać	VERB	pact:sg:gen:f:imperf:aff	Aspect=Imp|Case=Gen|Gender=Fem|Negative=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	acl	_	_
 16	obok	obok	ADV	adv:_	_	15	advmod	_	_
-17	Kaszki	Kaszka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	dobj	_	_
+17	Kaszki	Kaszka	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	dobj	_	_
 18	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s94
@@ -5302,7 +5302,7 @@
 # sent_id pl-s95
 # orig_file_sentence 004#95
 1	–	–	PUNCT	interp:_	_	3	punct	_	_
-2	Marta	Marta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Marta	Marta	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	postanowiła	postanowić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	położyć	położyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_
 5	kres	kres	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	dobj	_	_
@@ -5450,8 +5450,8 @@
 4	głosu	głos	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
 5	pana	pan	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	iobj	_	_
 6	posła	poseł	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	appos	_	_
-7	Piotra	Piotr	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	appos	_	_
-8	Krutula	Krutul	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Piotra	Piotr	PROPN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	appos	_	_
+8	Krutula	Krutul	PROPN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 9	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s11
@@ -5595,7 +5595,7 @@
 9	a	a	CONJ	conj:_	_	2	cc	_	_
 10	pana	pan	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	iobj	_	_
 11	posła	poseł	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	appos	_	_
-12	Kalisza	Kalisz	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	appos	_	_
+12	Kalisza	Kalisz	PROPN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	appos	_	_
 13	proszę	prosić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
 14	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	15	mark	_	_
 15	nieodpowiadanie	odpowiadać	VERB	ger:sg:acc:n:imperf:neg	Aspect=Imp|Case=Acc|Gender=Neut|Negative=Neg|Number=Sing|VerbForm=Ger	13	ccomp	_	_
@@ -5655,7 +5655,7 @@
 # sent_id pl-s28
 # orig_file_sentence 005#28
 1	Także	także	PART	qub:_	_	2	nmod	_	_
-2	Żydzi	Żyd	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	Żydzi	Żyd	PROPN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	stanowią	stanowić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	zamkniętą	zamknięty	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	kastę	kasta	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	dobj	_	_
@@ -5700,16 +5700,16 @@
 2	jechali	jechać	VERB	praet:pl:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	18	advcl	_	_
 3	nad	nad	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	4	case	_	_
 4	jezioro	jezioro	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	2	dobj	_	_
-5	Głębokie	Głębokie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	appos	_	_
+5	Głębokie	Głębokie	PROPN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	appos	_	_
 6	i	i	CONJ	conj:_	_	2	cc	_	_
 7	ojciec	ojciec	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
-8	Roberta	Robert	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+8	Roberta	Robert	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 9	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	10	case	_	_
 10	ronda	rondo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
 11	skręcił	skręcić	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	_
 12	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	13	case	_	_
 13	aleję	aleja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	11	dobj	_	_
-14	Wojska	Wojsko	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+14	Wojska	Wojsko	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
 15	Polskiego	Polski	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
 16	,	,	PUNCT	interp:_	_	2	punct	_	_
 17	chłopak	chłopak	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
@@ -5769,7 +5769,7 @@
 1	To	ten	DET	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	zdanie	zdanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	5	dobj	_	_
 3	mama	mama	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-4	Henryka	Henryk	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+4	Henryka	Henryk	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	powtarzała	powtarzać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 6	po	po	ADP	prep:acc	AdpType=Prep|Case=Acc	7	case	_	_
 7	polsku	polski	ADJ	adjp:_	PrepCase=Pre	5	advmod	_	_
@@ -5783,7 +5783,7 @@
 
 # sent_id pl-s40
 # orig_file_sentence 005#40
-1	Beata	Beata	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+1	Beata	Beata	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	zaprzeczyła	zaprzeczyć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	interp:_	_	2	punct	_	_
 
@@ -5854,7 +5854,7 @@
 
 # sent_id pl-s45
 # orig_file_sentence 005#45
-1	OPS	OPS	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	OPS	OPS	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	zarejestrował	zarejestrować	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	5	nmod	_	_
 4	ponad	ponad	PART	qub:_	_	5	nmod	_	_
@@ -5912,7 +5912,7 @@
 # sent_id pl-s51
 # orig_file_sentence 005#51
 1	Dlaczego	dlaczego	ADV	adv:_	_	5	advmod	_	_
-2	Ania	Ania	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	Ania	Ania	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	taka	taki	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	5	advmod	_	_
 5	niesamodzielna	niesamodzielny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
@@ -6050,7 +6050,7 @@
 1	Potem	potem	ADV	adv:_	_	2	advmod	_	_
 2	był	być	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	oczywiście	oczywiście	PART	qub:_	_	2	advmod	_	_
-4	Jerzy	Jerzy	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	Jerzy	Jerzy	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	,	,	PUNCT	interp:_	_	2	punct	_	_
 6	ale	ale	CONJ	conj:_	_	2	cc	_	_
 7	nasze	nasz	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
@@ -6139,8 +6139,8 @@
 
 # sent_id pl-s67
 # orig_file_sentence 005#67
-1	Fiodor	Fiodor	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-2	Aleksiejewicz	Aleksiejewicz	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+1	Fiodor	Fiodor	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	Aleksiejewicz	Aleksiejewicz	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
 3	,	,	PUNCT	interp:_	_	4	punct	_	_
 4	mąż	mąż	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
 5	gospodyni	gospodyni	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
@@ -6243,7 +6243,7 @@
 14	-	-	PUNCT	interp:_	_	13	punct	_	_
 15	wschodnich	wschodni	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	14	case	_	_
 16	wybrzeży	wybrzeże	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
-17	Australii	Australia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+17	Australii	Australia	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
 18	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s76
@@ -6287,7 +6287,7 @@
 
 # sent_id pl-s80
 # orig_file_sentence 005#80
-1	KERM	KERM	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	KERM	KERM	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	nie	nie	PART	qub:_	_	3	neg	_	_
 3	zdecydował	zdecydować	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	wczoraj	wczoraj	ADV	adv:_	_	3	advmod	_	_
@@ -6338,7 +6338,7 @@
 # orig_file_sentence 005#84
 1	Mów	mówić	VERB	impt:sg:sec:imperf	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 2	,	,	PUNCT	interp:_	_	3	punct	_	_
-3	Jehuda	Jehuda	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Jehuda	Jehuda	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
 4	?	?	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s85
@@ -6356,7 +6356,7 @@
 # sent_id pl-s86
 # orig_file_sentence 005#86
 1	Wuj	wuj	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	Jehuda	Jehuda	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+2	Jehuda	Jehuda	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	milczał	milczeć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	interp:_	_	3	punct	_	_
 
@@ -6425,7 +6425,7 @@
 
 # sent_id pl-s93
 # orig_file_sentence 005#93
-1	Bóg	Bóg	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	Bóg	Bóg	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	przecież	przecież	PART	qub:_	_	3	advmod	_	_
 3	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
@@ -6434,7 +6434,7 @@
 
 # sent_id pl-s94
 # orig_file_sentence 005#94
-1	Mordarski	Mordarski	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Mordarski	Mordarski	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	kazał	kazać	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	jej	on	PRON	ppron3:sg:dat:f:ter:akc:npraep	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	iobj	_	_
 4	być	być	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_
@@ -6443,7 +6443,7 @@
 
 # sent_id pl-s95
 # orig_file_sentence 005#95
-1	Zyga	Zyga	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Zyga	Zyga	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	znalazł	znaleźć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	pierwszy	pierwszy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	gryps	gryps	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	dobj	_	_
@@ -6517,7 +6517,7 @@
 # sent_id pl-s2
 # orig_file_sentence 006#2
 1	-	-	PUNCT	interp:_	_	3	punct	_	_
-2	Buba	Buba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Buba	Buba	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	trzyma	trzymać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	opał	opał	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	dobj	_	_
 5	,	,	PUNCT	interp:_	_	4	punct	_	_
@@ -6567,7 +6567,7 @@
 # sent_id pl-s8
 # orig_file_sentence 006#8
 1	-	-	PUNCT	interp:_	_	6	punct	_	_
-2	Jajeczny	Jajeczny	NOUN	subst:sg:voc:m1	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	6	nmod	_	_
+2	Jajeczny	Jajeczny	PROPN	subst:sg:voc:m1	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	6	nmod	_	_
 3	,	,	PUNCT	interp:_	_	2	punct	_	_
 4	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 5	ci	ty	PRON	ppron12:sg:dat:m1:sec:nakc	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs|Variant=Short	6	iobj	_	_
@@ -6614,7 +6614,7 @@
 7	.	.	PUNCT	interp:_	_	6	punct	_	_
 8	Wilczą	Wilczy	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	appos	_	_
 9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	10	case	_	_
-10	Warszawie	Warszawa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+10	Warszawie	Warszawa	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
 11	,	,	PUNCT	interp:_	_	4	punct	_	_
 12	już	już	PART	qub:_	_	14	advmod	_	_
 13	nie	nie	PART	qub:_	_	14	neg	_	_
@@ -6680,7 +6680,7 @@
 # sent_id pl-s17
 # orig_file_sentence 006#17
 1	Czy	czy	PART	qub:_	_	4	advmod	_	_
-2	Jezus	Jezus	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Jezus	Jezus	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	był	być	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	_
 4	nerwowy	nerwowy	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 5	?	?	PUNCT	interp:_	_	4	punct	_	_
@@ -6803,7 +6803,7 @@
 
 # sent_id pl-s25
 # orig_file_sentence 006#25
-1	Aneta	Aneta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+1	Aneta	Aneta	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	znalazła	znaleźć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	2	expl	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	case	_	_
@@ -6862,7 +6862,7 @@
 6	28-letnią	28-letni	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 7	mieszkankę	mieszkanka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	dobj	_	_
 8	Nowego	Nowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
-9	Stawu	Staw	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Stawu	Staw	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	.	.	PUNCT	interp:_	_	5	punct	_	_
 
 # sent_id pl-s30
@@ -6879,8 +6879,8 @@
 3	oprotestowała	oprotestować	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	szczecińska	szczeciński	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	spółka	spółka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-6	MD	MD	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_
-7	Polska	Polska	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+6	MD	MD	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_
+7	Polska	Polska	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
 8	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s32
@@ -7039,7 +7039,7 @@
 
 # sent_id pl-s44
 # orig_file_sentence 006#44
-1	Kościelniak	Kościelniak	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Kościelniak	Kościelniak	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	mówił	mówić	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	6	punct	_	_
 4	że	że	SCONJ	comp:_	_	6	mark	_	_
@@ -7047,7 +7047,7 @@
 6	zna	znać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 7	adresu	adres	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	dobj	_	_
 8	domowego	domowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-9	Sankowskiego	Sankowski	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Sankowskiego	Sankowski	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s45
@@ -7076,12 +7076,12 @@
 13	znaleziono	znaleźć	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
 14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	15	case	_	_
 15	samochodzie	samochód	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	iobj	_	_
-16	Kościelniaka	Kościelniak	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+16	Kościelniaka	Kościelniak	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 17	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s47
 # orig_file_sentence 006#47
-1	Mirek	Mirek	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Mirek	Mirek	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	miał	mieć	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 3	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	5	iobj	_	_
 4	brykę	bryka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	dobj	_	_
@@ -7096,7 +7096,7 @@
 13	ściąga	ściągać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 14	auta	auto	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	13	dobj	_	_
 15	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	16	case	_	_
-16	Holandii	Holandia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	iobj	_	_
+16	Holandii	Holandia	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	iobj	_	_
 17	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s48
@@ -7176,7 +7176,7 @@
 # orig_file_sentence 006#54
 1	(	(	PUNCT	interp:_	_	7	punct	_	_
 2	W	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	3	case	_	_
-3	Nidzie	Nida	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+3	Nidzie	Nida	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
 4	jeszcze	jeszcze	PART	qub:_	_	7	advmod	_	_
 5	wówczas	wówczas	ADV	adv:_	_	7	advmod	_	_
 6	nie	nie	PART	qub:_	_	7	neg	_	_
@@ -7208,7 +7208,7 @@
 4	mam	mieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
 5	spotkanie	spotkanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	dobj	_	_
 6	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	7	case	_	_
-7	Chopinem	Chopin	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Chopinem	Chopin	PROPN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
 8	.	.	PUNCT	interp:_	_	2	punct	_	_
 9	.	.	PUNCT	interp:_	_	2	punct	_	_
 10	.	.	PUNCT	interp:_	_	2	punct	_	_
@@ -7288,7 +7288,7 @@
 6	jakby	jakby	SCONJ	comp:_	_	10	mark	_	_
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
 8	ogrodzie	ogród	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
-9	Sobczyńskich	Sobczyński	NOUN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+9	Sobczyńskich	Sobczyński	PROPN	subst:pl:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 10	wysiadł	wysiąść	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	advcl	_	_
 11	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	12	case	_	_
 12	chwilą	chwila	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_
@@ -7309,7 +7309,7 @@
 1	Chyba	chyba	ADV	adv:pos	Degree=Pos	2	advmod	_	_
 2	dopiero	dopiero	PART	qub:_	_	5	advmod	_	_
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	4	case	_	_
-4	Praniu	Pranie	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+4	Praniu	Pranie	PROPN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
 5	oprzytomniała	oprzytomnieć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 6	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	5	aux	_	_
 7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
@@ -7349,14 +7349,14 @@
 
 # sent_id pl-s69
 # orig_file_sentence 006#69
-1	Irak	Irak	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+1	Irak	Irak	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
 2	,	,	PUNCT	interp:_	_	4	punct	_	_
 3	który	który	PRON	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	4	nsubj	_	_
 4	dysponuje	dysponować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
 5	drugimi	drugi	ADJ	adj:pl:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 6	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
-7	Arabii	Arabia	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
-8	Saudyjskiej	Saudyjska	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+7	Arabii	Arabia	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	Saudyjskiej	Saudyjska	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
 9	rezerwami	rezerwa	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	4	dobj	_	_
 10	ropy	ropa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 11	naftowej	naftowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
@@ -7440,7 +7440,7 @@
 # sent_id pl-s77
 # orig_file_sentence 006#77
 1	Radny	radny	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	Świadek	Świadek	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+2	Świadek	Świadek	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	pytał	pytać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	starostę	starosta	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	dobj	_	_
 5	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
@@ -7508,7 +7508,7 @@
 2	Powiatowa	powiatowy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
 3	Policji	policja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	case	_	_
-5	Starogardzie	Starogard	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+5	Starogardzie	Starogard	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
 6	Gdańskim	Gdański	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 7	prowadzi	prowadzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	śledztwo	śledztwo	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	7	dobj	_	_
@@ -7517,7 +7517,7 @@
 11	rozboju	rozbój	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 12	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	13	case	_	_
 13	mieszkance	mieszkanka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
-14	Starogardu	Starogard	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+14	Starogardu	Starogard	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 15	i	i	CONJ	conj:_	_	7	cc	_	_
 16	poszukuje	poszukiwać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 17	sprawcy	sprawca	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	dobj	_	_
@@ -7530,7 +7530,7 @@
 1	Sprawcę	sprawca	NOUN	subst:sg:acc:m1	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	dobj	_	_
 2	osadzono	osadzić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	4	case	_	_
-4	PDOZ	PDOZ	NOUN	subst:pl:loc:n	Case=Loc|Gender=Neut|Number=Plur	2	iobj	_	_
+4	PDOZ	PDOZ	PROPN	subst:pl:loc:n	Case=Loc|Gender=Neut|Number=Plur	2	iobj	_	_
 5	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s84
@@ -7577,7 +7577,7 @@
 2	miejsce	miejsce	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	3	dobj	_	_
 3	przybył	przybyć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	prezydent	prezydent	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-5	Starogardu	Starogard	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+5	Starogardu	Starogard	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s88
@@ -7607,7 +7607,7 @@
 # sent_id pl-s90
 # orig_file_sentence 006#90
 1	Reporter	reporter	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	Portalupomorza.pl	Portalpomorza.pl	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+2	Portalupomorza.pl	Portalpomorza.pl	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	był	być	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
 5	miejscu	miejsce	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	3	dobj	_	_
@@ -7685,7 +7685,7 @@
 1	Przy	przy	ADP	prep:loc	AdpType=Prep|Case=Loc	2	case	_	_
 2	ul	ulica	X	brev:pun	Abbr=Yes	6	advmod	_	_
 3	.	.	PUNCT	interp:_	_	2	punct	_	_
-4	Hallera	Haller	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	appos	_	_
+4	Hallera	Haller	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	appos	_	_
 5	policjanci	policjant	NOUN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 6	zatrzymali	zatrzymać	VERB	praet:pl:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 7	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
@@ -7729,7 +7729,7 @@
 
 # sent_id pl-s100
 # orig_file_sentence 006#100
-1	LGD	LGD	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+1	LGD	LGD	PROPN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	zostało	zostać	AUX	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	auxpass	_	_
 3	zarejestrowane	zarejestrować	VERB	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 4	jako	jako	ADP	prep:nom	AdpType=Prep|Case=Nom	5	case	_	_
@@ -7741,7 +7741,7 @@
 10	Rozwoju	rozwój	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 11	Obszarów	obszar	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
 12	Wiejskich	wiejski	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
-13	Spisza	Spisz	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Spisza	Spisz	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 14	i	i	CONJ	conj:_	_	13	cc	_	_
 15	Okolicy	okolica	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	conj	_	_
 16	.	.	PUNCT	interp:_	_	3	punct	_	_
@@ -7871,7 +7871,7 @@
 4	,	,	PUNCT	interp:_	_	10	punct	_	_
 5	by	by	SCONJ	comp:_	_	10	mark	_	_
 6	pannie	panna	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	10	dobj	_	_
-7	Mullins	Mullins	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	6	appos	_	_
+7	Mullins	Mullins	PROPN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	6	appos	_	_
 8	nikt	nikt	PRON	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	10	nsubj	_	_
 9	nie	nie	PART	qub:_	_	10	neg	_	_
 10	przeszkadzał	przeszkadzać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	ccomp	_	_
@@ -7898,7 +7898,7 @@
 
 # sent_id pl-s11
 # orig_file_sentence 007#11
-1	Sebastian	Sebastian	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+1	Sebastian	Sebastian	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 2	to	to	VERB	pred:_	_	9	cop	_	_
 3	niesłychanie	niesłychanie	ADV	adv:pos	Degree=Pos	4	advmod	_	_
 4	ciepły	ciepły	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
@@ -7956,7 +7956,7 @@
 3	dziesiątego	dziesiąty	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	advmod	_	_
 4	ulegniesz	ulec	VERB	fin:sg:sec:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 5	wpływowi	wpływ	NOUN	subst:sg:dat:m3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	dobj	_	_
-6	Urana	Uran	NOUN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+6	Urana	Uran	PROPN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 7	i	i	CONJ	conj:_	_	4	cc	_	_
 8	postawisz	postawić	VERB	fin:sg:sec:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	_
 9	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	11	case	_	_
@@ -8024,8 +8024,8 @@
 
 # sent_id pl-s19
 # orig_file_sentence 007#19
-1	Sade	Sade	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-2	Adu	Ade	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_
+1	Sade	Sade	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Adu	Ade	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_
 3	tłumaczy	tłumaczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	spokojnie	spokojnie	ADV	adv:pos	Degree=Pos	3	advmod	_	_
 5	,	,	PUNCT	interp:_	_	11	punct	_	_
@@ -8252,7 +8252,7 @@
 11	Białym	biały	ADJ	adj:sg:inst:m2:pos	Animacy=Nhum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 12	Bocianem	bocian	NOUN	subst:sg:inst:m2	Animacy=Nhum|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
 13	we	w	ADP	prep:loc:wok	AdpType=Prep|Case=Loc|Variant=Long	14	case	_	_
-14	Wrocławiu	Wrocław	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+14	Wrocławiu	Wrocław	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
 15	.	.	PUNCT	interp:_	_	6	punct	_	_
 
 # sent_id pl-s37
@@ -8284,7 +8284,7 @@
 4	bliżej	blisko	ADV	adv:com	_	2	advmod	_	_
 5	,	,	PUNCT	interp:_	_	2	punct	_	_
 6	a	a	CONJ	conj:_	_	2	cc	_	_
-7	Żółtoskrzydły	Żółtoskrzydły	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	Żółtoskrzydły	Żółtoskrzydły	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	stanął	stanąć	VERB	praet:sg:m1:perf	Animacy=Anim|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	_
 9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	10	case	_	_
 10	rozkroku	rozkrok	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	dobj	_	_
@@ -8312,7 +8312,7 @@
 6	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	7	expl	_	_
 7	stało	stać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	ccomp	_	_
 8	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	9	case	_	_
-9	Weiserem	Weiser	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	dobj	_	_
+9	Weiserem	Weiser	PROPN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	dobj	_	_
 10	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s43
@@ -8347,9 +8347,9 @@
 # orig_file_sentence 007#46
 1	Postępowanie	postępowanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	2	dobj	_	_
 2	prowadzi	prowadzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	KP	KP	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+3	KP	KP	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	case	_	_
-5	Długołęce	Długołęka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Długołęce	Długołęka	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
 6	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s47
@@ -8461,7 +8461,7 @@
 1	Wracam	wracać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	3	case	_	_
 3	propozycji	propozycja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	dobj	_	_
-4	Berenta	Berent	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+4	Berenta	Berent	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	.	.	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s55
@@ -8526,13 +8526,13 @@
 4	chce	chcieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	,	,	PUNCT	interp:_	_	10	punct	_	_
 6	by	by	SCONJ	comp:_	_	10	case	_	_
-7	Mielec	Mielec	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	Mielec	Mielec	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 8	był	być	VERB	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	cop	_	_
 9	pierwszym	pierwszy	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	punktem	punkt	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	ccomp	_	_
 11	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	12	case	_	_
 12	mapie	mapa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
-13	Polski	Polska	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+13	Polski	Polska	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 14	,	,	PUNCT	interp:_	_	16	punct	_	_
 15	który	który	PRON	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
 16	rozpoczął	rozpocząć	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	acl	_	_
@@ -8570,7 +8570,7 @@
 13	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	15	case	_	_
 14	pierwszej	pierwszy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
 15	chrzcielnicy	chrzcielnica	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	dobj	_	_
-16	Polski	Polska	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+16	Polski	Polska	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 17	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s61
@@ -8602,7 +8602,7 @@
 6	urzędu	urząd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 7	skarbowego	skarbowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	9	case	_	_
-9	Tychach	Tychy	NOUN	subst:pl:loc:n	Case=Loc|Gender=Neut|Number=Plur	6	nmod	_	_
+9	Tychach	Tychy	PROPN	subst:pl:loc:n	Case=Loc|Gender=Neut|Number=Plur	6	nmod	_	_
 10	.	.	PUNCT	interp:_	_	2	punct	_	_
 
 # sent_id pl-s64
@@ -8783,7 +8783,7 @@
 1	Jeśli	jeśli	SCONJ	comp:_	_	4	mark	_	_
 2	nie	nie	PART	qub:_	_	4	neg	_	_
 3	jesteś	być	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	Francuzem	Francuz	NOUN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	advcl	_	_
+4	Francuzem	Francuz	PROPN	subst:sg:inst:m1	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	advcl	_	_
 5	,	,	PUNCT	interp:_	_	4	punct	_	_
 6	nie	nie	PART	qub:_	_	7	neg	_	_
 7	płacisz	płacić	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8798,7 +8798,7 @@
 3	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	4	case	_	_
 4	laty	rok	NOUN	subst:pl:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	nmod	_	_
 5	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	6	case	_	_
-6	Monako	Monako	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	7	dobj	_	_
+6	Monako	Monako	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	7	dobj	_	_
 7	przenosili	przenosić	VERB	praet:pl:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 8	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	7	expl	_	_
 9	masowo	masowo	ADV	adv:pos	Degree=Pos	7	advmod	_	_
@@ -8816,7 +8816,7 @@
 6	firmy	firma	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 7	zarejestrowanej	zarejestrować	VERB	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
 8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	9	case	_	_
-9	Monako	Monako	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+9	Monako	Monako	PROPN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
 10	,	,	PUNCT	interp:_	_	13	punct	_	_
 11	która	który	PRON	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
 12	nie	nie	PART	qub:_	_	13	neg	_	_
@@ -8969,7 +8969,7 @@
 # orig_file_sentence 007#93
 1	Podrywał	podrywać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	cię	ty	PRON	ppron12:sg:acc:f:sec:nakc	Case=Acc|Gender=Fem|Number=Sing|Person=2|PronType=Prs|Variant=Short	1	dobj	_	_
-3	Domogarow	Domogarow	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	Domogarow	Domogarow	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	?	?	PUNCT	interp:_	_	1	punct	_	_
 
 # sent_id pl-s94
@@ -9033,7 +9033,7 @@
 1	-	-	PUNCT	interp:_	_	2	punct	_	_
 2	Wiem	wiedzieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	interp:_	_	2	punct	_	_
-4	Jakub	Jakub	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	Jakub	Jakub	PROPN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	dobj	_	_
 6	mówił	mówić	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	_
 7	.	.	PUNCT	interp:_	_	2	punct	_	_
@@ -9044,7 +9044,7 @@
 2	nie	nie	PART	qub:_	_	3	neg	_	_
 3	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	żadnego	żaden	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Neg	5	det	_	_
-5	Legolandu	Legoland	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
+5	Legolandu	Legoland	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	dobj	_	_
 6	.	.	PUNCT	interp:_	_	3	punct	_	_
 
 # sent_id pl-s1
@@ -9158,7 +9158,7 @@
 5	swojego	swój	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
 6	imienia	imię	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	dobj	_	_
 7	,	,	PUNCT	interp:_	_	8	punct	_	_
-8	Feliksie	Feliks	NOUN	subst:sg:voc:m1	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	nmod	_	_
+8	Feliksie	Feliks	PROPN	subst:sg:voc:m1	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	nmod	_	_
 9	,	,	PUNCT	interp:_	_	2	punct	_	_
 10	inaczej	inaczej	ADV	adv:_	_	13	advmod	_	_
 11	mnie	ja	PRON	ppron12:sg:gen:m1:pri:akc	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long	13	dobj	_	_
@@ -9233,7 +9233,7 @@
 2	razem	raz	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
 3	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
 4	Rybnym	Rybny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
-5	Targu	Targ	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+5	Targu	Targ	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
 6	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 7	zupełnie	zupełnie	ADV	adv:pos	Degree=Pos	8	advmod	_	_
 8	pusto	pusto	ADV	adv:pos	Degree=Pos	6	advmod	_	_
@@ -9257,7 +9257,7 @@
 14	zmienił	zmienić	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	acl	_	_
 15	się	się	PRON	qub:_	PronType=Prs|Reflex=Yes	14	expl	_	_
 16	Rybny	Rybny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
-17	Targ	Targ	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+17	Targ	Targ	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 18	.	.	PUNCT	interp:_	_	6	punct	_	_
 
 # sent_id pl-s21
@@ -9293,7 +9293,7 @@
 # sent_id pl-s23
 # orig_file_sentence 008#23
 1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	2	case	_	_
-2	Brzozowskim	Brzozowski	NOUN	subst:sg:loc:m1	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+2	Brzozowskim	Brzozowski	PROPN	subst:sg:loc:m1	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
 3	odkrywał	odkrywać	VERB	praet:sg:m1:imperf	Animacy=Anim|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	3	aux	_	_
 5	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	7	case	_	_
@@ -9311,7 +9311,7 @@
 3	szkolnej	szkolny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	ławie	ława	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
-6	Petersburgu	Petersburg	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Petersburgu	Petersburg	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
 7	literatura	literatura	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 8	rosyjska	rosyjski	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 9	,	,	PUNCT	interp:_	_	7	punct	_	_
@@ -9347,7 +9347,7 @@
 4	rozważania	rozważanie	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 5	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	6	case	_	_
 6	sztuce	sztuka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
-7	Cieślewicza	Cieślewicz	NOUN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+7	Cieślewicza	Cieślewicz	PROPN	subst:sg:gen:m1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	i	i	CONJ	conj:_	_	6	cc	_	_
 9	nowej	nowy	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	akustyce	akustyka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	conj	_	_
