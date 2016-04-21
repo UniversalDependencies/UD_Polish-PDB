@@ -338,7 +338,7 @@
 
 # sent_id pl-s25
 # orig_file_sentence 001#25
-1	Ciastoń	Ciastoń	PROPN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+1	Ciastoń	Ciastoń	PROPN	subst:pl:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	28	nsubjpass	_	_
 2	,	,	PUNCT	interp:_	_	1	punct	_	_
 3	były	były	ADJ	adj:sg:nom:m1:pos	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	wiceminister	wiceminister	NOUN	subst:sg:nom:m1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
@@ -7729,7 +7729,7 @@
 
 # sent_id pl-s100
 # orig_file_sentence 006#100
-1	LGD	LGD	PROPN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+1	LGD	LGD	PROPN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	3	nsubjpass	_	_
 2	zostało	zostać	AUX	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	auxpass	_	_
 3	zarejestrowane	zarejestrować	VERB	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 4	jako	jako	ADP	prep:nom	AdpType=Prep|Case=Nom	5	case	_	_

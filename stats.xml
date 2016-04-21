@@ -110,8 +110,8 @@
     <dep name="name">3</dep>
     <dep name="neg">1149</dep>
     <dep name="nmod">11310</dep>
-    <dep name="nsubj">5719</dep>
-    <dep name="nsubjpass">209</dep>
+    <dep name="nsubj">5708</dep>
+    <dep name="nsubjpass">220</dep>
     <dep name="nummod">99</dep>
     <dep name="punct">13484</dep>
     <dep name="root">8227</dep>
