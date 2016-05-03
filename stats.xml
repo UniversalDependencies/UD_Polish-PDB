@@ -52,7 +52,7 @@
     <feat name="Hyph" value="Yes" upos="ADJ">39</feat><!-- biało, polsko, Liberalno, południowo, Chrześcijańsko, Ekonomiczno, Ginekologiczno, Ludowo, Miejsko, Przemysłowo -->
     <feat name="Mood" value="Cnd" upos="AUX">167</feat><!-- by -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">182</feat><!-- daj, weź, chodź, Przypomnijmy, powiedz, pozwól, Słuchaj, bierz, bądź, Czekaj -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">10944</feat><!-- jest, em, ma, był, są, m, było, będzie, śmy, była -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">5509</feat><!-- jest, em, ma, są, m, będzie, śmy, może, będą, dziękuję -->
     <feat name="Negative" value="Neg" upos="NOUN,VERB">24</feat><!-- nieuzyskania, Nieleczona, niedoceniana, niedopełnienie, niedopuszczenie, niehodowaną, nieocieplony, nieodpowiadanie, nieprowadzenie, nieprzeprowadzenie -->
     <feat name="Negative" value="Pos" upos="ADJ,NOUN,VERB">2053</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęta, znaleziono, prowadzone, dotyczące, przyjęciem, wyczerpana, zatrzymano -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">13213</feat><!-- są, ich, śmy, lat, nich, które, będą, nas, je, tych -->
@@ -76,12 +76,12 @@
     <feat name="Typo" value="Yes" upos="PRON">6</feat><!-- sie, sia -->
     <feat name="Variant" value="Long" upos="ADP,AUX,PRON">1663</feat><!-- em, jego, ich, ze, jej, mnie, ją, nich, we, je -->
     <feat name="Variant" value="Short" upos="ADP,AUX,PRON">4902</feat><!-- w, z, od, przez, m, go, śmy, mu, pod, przed -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">11293</feat><!-- jest, em, ma, by, był, są, m, było, będzie, śmy -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">5858</feat><!-- jest, em, ma, by, są, m, będzie, śmy, może, będą -->
     <feat name="VerbForm" value="Ger" upos="NOUN">671</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęciem, bycia, działania, naciśnięcie, nieuzyskania, otwarcie, stosowania -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1360</feat><!-- być, powiedzieć, zrobić, znaleźć, mieć, robić, wrócić, wyjść, zmienić, zobaczyć -->
-    <feat name="VerbForm" value="Part" upos="VERB">1405</feat><!-- przyjęta, znaleziono, prowadzone, dotyczące, wyczerpana, zatrzymano, zatrzymany, przeprowadzono, przygotowany, rozegrano -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">6840</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
     <feat name="VerbForm" value="Trans" upos="VERB">190</feat><!-- patrząc, mając, wracając, czekając, posługując, tworząc, usiłując, zarzucając, Mijając, biorąc -->
-    <feat name="Voice" value="Act" upos="VERB">289</feat><!-- dotyczące, jadący, protestujących, pędzącego, zbliżających, będącą, dobiegające, dotyczących, grająca, idące -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">5724</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
     <feat name="Voice" value="Pass" upos="VERB">1116</feat><!-- przyjęta, znaleziono, prowadzone, wyczerpana, zatrzymano, zatrzymany, przeprowadzono, przygotowany, rozegrano, stwierdzono -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
