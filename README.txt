@@ -40,4 +40,5 @@ Data available since: UD v1.2
 License: GNU GPL 3.0
 Genre: fiction nonfiction news
 Contributors: Zeman, Daniel; Mašek, Jan; Rosa, Rudolf
+Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
