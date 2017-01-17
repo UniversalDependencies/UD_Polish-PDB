@@ -15,8 +15,8 @@
     <tag name="ADJ">7004</tag><!-- swój, nowy, cały, pierwszy, nasz, inny, mój, sam, polski, duży -->
     <tag name="ADP">8588</tag><!-- w, na, z, do, o, po, od, za, przez, dla -->
     <tag name="ADV">2928</tag><!-- bardzo, tak, jak, teraz, tam, dobrze, wczoraj, tu, potem, często -->
-    <tag name="AUX">1446</tag><!-- być, zostać, zostawać, informować, spędzić -->
-    <tag name="CONJ">2117</tag><!-- i, a, ale, więc, oraz, ani, lub, czy, albo, to -->
+    <tag name="AUX">2314</tag><!-- być, zostać, to, stać, stawać, zostawać, bywać, wydać, poczuć, pozostać -->
+    <tag name="CCONJ">2117</tag><!-- i, a, ale, więc, oraz, ani, lub, czy, albo, to -->
     <tag name="DET">1053</tag><!-- ten, taki, wszystek, kilka, jakiś, każdy, żaden, jaki, wszelki, kilkanaście -->
     <tag name="NOUN">20764</tag><!-- rok, pan, czas, człowiek, sprawa, praca, raz, miejsce, dom, dzień -->
     <tag name="NUM">742</tag><!-- dwa, wiele, trzy, oba, cztery, 10, 30, dużo, pięć, 15 -->
@@ -25,19 +25,19 @@
     <tag name="PROPN">2959</tag><!-- Polska, Warszawa, Polak, Piotr, Adam, Europa, Bóg, Jan, Jerzy, Poznań -->
     <tag name="PUNCT">13480</tag><!-- ., ,, -, ?, !, –, ", ;, …, ( -->
     <tag name="SCONJ">1113</tag><!-- że, bo, gdy, aby, by, żeby, jeśli, gdyby, choć, jeżeli -->
-    <tag name="VERB">13282</tag><!-- być, mieć, to, móc, chcieć, wiedzieć, musieć, mówić, stać, znaleźć -->
+    <tag name="VERB">12414</tag><!-- mieć, być, móc, to, chcieć, wiedzieć, musieć, mówić, znaleźć, zrobić -->
     <tag name="X">275</tag><!-- rok, tysiąc, złoty, ulica, procent, około, godzina, milion, święty, bieżący_rok -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="53">
     <feat name="Abbr" value="Yes" upos="X">273</feat><!-- r, tys, zł, ul, proc, ok, godz, m, mln, św -->
     <feat name="AdpType" value="Prep" upos="ADP">8588</feat><!-- w, na, z, do, o, po, od, za, przez, dla -->
-    <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9429</feat><!-- pan, jego, był, go, mu, mnie, ich, mi, nas, kto -->
+    <feat name="Animacy" value="Hum" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9429</feat><!-- pan, jego, był, go, mu, mnie, ich, mi, nas, kto -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">11275</feat><!-- roku, ten, lat, tym, był, tego, domu, czasie, czas, sposób -->
     <feat name="Animacy" value="Nhum" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">609</feat><!-- złotych, go, jego, dolarów, konie, pies, ducha, psa, był, duch -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,NOUN,VERB">9027</feat><!-- jest, em, ma, by, był, są, m, było, będzie, śmy -->
     <feat name="Aspect" value="Perf" upos="ADJ,AUX,NOUN,VERB">5945</feat><!-- został, została, udało, zostanie, powiedzieć, stało, zrobić, doszło, powiedział, zaczął -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">9549</feat><!-- na, w, przez, o, za, to, go, co, mnie, ją -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9549</feat><!-- na, w, przez, o, za, to, go, co, mnie, ją -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">1010</feat><!-- mu, mi, sobie, jej, ci, im, nam, dzięki, przeciwko, ku -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">13865</feat><!-- do, z, od, dla, jego, tego, ich, jej, lat, ze -->
     <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">3581</feat><!-- z, przed, nad, za, ze, pod, tym, głową, przede, wszystkim -->
@@ -53,14 +53,14 @@
     <feat name="Mood" value="Cnd" upos="AUX">167</feat><!-- by -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">182</feat><!-- daj, weź, chodź, Przypomnijmy, powiedz, pozwól, Słuchaj, bierz, bądź, Czekaj -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">5509</feat><!-- jest, em, ma, są, m, będzie, śmy, może, będą, dziękuję -->
-    <feat name="Negative" value="Neg" upos="NOUN,VERB">24</feat><!-- nieuzyskania, Nieleczona, niedoceniana, niedopełnienie, niedopuszczenie, niehodowaną, nieocieplony, nieodpowiadanie, nieprowadzenie, nieprzeprowadzenie -->
-    <feat name="Negative" value="Pos" upos="ADJ,NOUN,VERB">2053</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęta, znaleziono, prowadzone, dotyczące, przyjęciem, wyczerpana, zatrzymano -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">13213</feat><!-- są, ich, śmy, lat, nich, które, będą, nas, je, tych -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">34907</feat><!-- jest, to, em, ma, tym, był, m, było, jego, go -->
     <feat name="NumType" value="Card" upos="DET,PRON">109</feat><!-- kilka, kilku, kilkanaście, kilkadziesiąt, kilkunastu, kilkuset, kilkaset, kilkoma, kilkudziesięciu -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">1910</feat><!-- em, m, śmy, mnie, mi, nas, dziękuję, ja, wiem, mam -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">544</feat><!-- ci, eś, cię, ty, jesteś, ś, masz, wiesz, ciebie, będziesz -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">4941</feat><!-- jest, ma, są, jego, go, ich, będzie, jej, mu, ją -->
+    <feat name="Polarity" value="Neg" upos="NOUN,VERB">24</feat><!-- nieuzyskania, Nieleczona, niedoceniana, niedopełnienie, niedopuszczenie, niehodowaną, nieocieplony, nieodpowiadanie, nieprowadzenie, nieprzeprowadzenie -->
+    <feat name="Polarity" value="Pos" upos="ADJ,AUX,NOUN,VERB">2053</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęta, znaleziono, prowadzone, dotyczące, przyjęciem, wyczerpana, zatrzymano -->
     <feat name="PrepCase" value="Npr" upos="PRON">970</feat><!-- jego, go, ich, jej, mu, ją, je, on, im, ona -->
     <feat name="PrepCase" value="Pre" upos="ADJ,PRON">281</feat><!-- nich, nim, niego, niej, nią, nimi, prostu, dawna, nie, niemu -->
     <feat name="PronType" value="Dem" upos="DET,PRON">1145</feat><!-- to, tym, tego, ten, tej, te, tych, ta, takie, tę -->
@@ -76,11 +76,11 @@
     <feat name="Typo" value="Yes" upos="PRON">6</feat><!-- sie, sia -->
     <feat name="Variant" value="Long" upos="ADP,AUX,PRON">1663</feat><!-- em, jego, ich, ze, jej, mnie, ją, nich, we, je -->
     <feat name="Variant" value="Short" upos="ADP,AUX,PRON">4902</feat><!-- w, z, od, przez, m, go, śmy, mu, pod, przed -->
+    <feat name="VerbForm" value="Conv" upos="VERB">190</feat><!-- patrząc, mając, wracając, czekając, posługując, tworząc, usiłując, zarzucając, Mijając, biorąc -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">5858</feat><!-- jest, em, ma, by, są, m, będzie, śmy, może, będą -->
     <feat name="VerbForm" value="Ger" upos="NOUN">671</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęciem, bycia, działania, naciśnięcie, nieuzyskania, otwarcie, stosowania -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1360</feat><!-- być, powiedzieć, zrobić, znaleźć, mieć, robić, wrócić, wyjść, zmienić, zobaczyć -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">6840</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
-    <feat name="VerbForm" value="Trans" upos="VERB">190</feat><!-- patrząc, mając, wracając, czekając, posługując, tworząc, usiłując, zarzucając, Mijając, biorąc -->
     <feat name="Voice" value="Act" upos="AUX,VERB">5724</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
     <feat name="Voice" value="Pass" upos="VERB">1116</feat><!-- przyjęta, znaleziono, prowadzone, wyczerpana, zatrzymano, zatrzymany, przeprowadzono, przygotowany, rozegrano, stwierdzono -->
   </feats>
@@ -88,11 +88,11 @@
   <deps unique="30">
     <dep name="acl">1215</dep>
     <dep name="advcl">631</dep>
-    <dep name="advmod">5187</dep>
+    <dep name="advmod">6336</dep>
     <dep name="amod">6019</dep>
     <dep name="appos">422</dep>
     <dep name="aux">1084</dep>
-    <dep name="auxpass">302</dep>
+    <dep name="aux:pass">302</dep>
     <dep name="case">8855</dep>
     <dep name="cc">1705</dep>
     <dep name="ccomp">757</dep>
@@ -102,17 +102,17 @@
     <dep name="det">955</dep>
     <dep name="det:numgov">93</dep>
     <dep name="det:nummod">16</dep>
-    <dep name="dobj">7672</dep>
-    <dep name="expl">1708</dep>
+    <dep name="expl:pv">1708</dep>
+    <dep name="fixed">29</dep>
+    <dep name="flat">3</dep>
     <dep name="iobj">913</dep>
     <dep name="mark">1026</dep>
-    <dep name="mwe">29</dep>
-    <dep name="name">3</dep>
-    <dep name="neg">1149</dep>
-    <dep name="nmod">11310</dep>
+    <dep name="nmod">7766</dep>
     <dep name="nsubj">5708</dep>
-    <dep name="nsubjpass">220</dep>
+    <dep name="nsubj:pass">220</dep>
     <dep name="nummod">99</dep>
+    <dep name="obj">7672</dep>
+    <dep name="obl">3544</dep>
     <dep name="punct">13484</dep>
     <dep name="root">8227</dep>
     <dep name="xcomp">1126</dep>
