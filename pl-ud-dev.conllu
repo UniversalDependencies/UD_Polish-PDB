@@ -83,8 +83,9 @@
 9	.	.	PUNCT	interp	_	8	punct	_	_
 
 # sent_id = dev-s9/pl
-# text = Siedziała m w milczeniu.
+# text = Siedziałam w milczeniu.
 # orig_file_sentence 001#9
+1-2	Siedziałam	_	_	_	_	_	_	_	_
 1	Siedziała	siedzieć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	4	case	_	_
@@ -92,8 +93,9 @@
 5	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s10/pl
-# text = Wylizała m łyżeczkę po lodach.
+# text = Wylizałam łyżeczkę po lodach.
 # orig_file_sentence 001#10
+1-2	Wylizałam	_	_	_	_	_	_	_	_
 1	Wylizała	wylizać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	łyżeczkę	łyżeczka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
@@ -120,8 +122,9 @@
 5	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s13/pl
-# text = Dopiła m kawę.
+# text = Dopiłam kawę.
 # orig_file_sentence 001#13
+1-2	Dopiłam	_	_	_	_	_	_	_	_
 1	Dopiła	dopić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	kawę	kawa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
@@ -391,15 +394,16 @@
 6	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s31/pl
-# text = Po prostu w tym nie uczestniczył em.
+# text = Po prostu w tym nie uczestniczyłem.
 # orig_file_sentence 001#31
 1	Po	po	ADP	prep:acc	AdpType=Prep|Case=Acc	6	advmod	_	_
 2	prostu	prosty	ADJ	adjp	PrepCase=Pre	1	case	_	_
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	4	case	_	_
 4	tym	to	PRON	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	6	obj	_	_
 5	nie	nie	PART	qub	_	6	advmod	_	_
+6-7	uczestniczyłem	_	_	_	_	_	_	_	SpaceAfter=No
 6	uczestniczył	uczestniczyć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-7	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	6	aux	_	SpaceAfter=No
+7	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	6	aux	_	_
 8	.	.	PUNCT	interp	_	6	punct	_	_
 
 # sent_id = dev-s32/pl
@@ -1217,8 +1221,9 @@
 6	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s87/pl
-# text = Była m zgubiona.
+# text = Byłam zgubiona.
 # orig_file_sentence 001#87
+1-2	Byłam	_	_	_	_	_	_	_	_
 1	Była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	aux:pass	_	_
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	3	aux	_	_
 3	zgubiona	zgubić	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
@@ -1262,10 +1267,11 @@
 4	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s92/pl
-# text = Widziała m.
+# text = Widziałam.
 # orig_file_sentence 001#92
+1-2	Widziałam	_	_	_	_	_	_	_	SpaceAfter=No
 1	Widziała	widzieć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	SpaceAfter=No
+2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s93/pl
@@ -1371,8 +1377,9 @@
 7	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s101/pl
-# text = Poszedł em do adwokata.
+# text = Poszedłem do adwokata.
 # orig_file_sentence 002#1
+1-2	Poszedłem	_	_	_	_	_	_	_	_
 1	Poszedł	pójść	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	1	aux	_	_
 3	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	4	case	_	_
@@ -1449,23 +1456,25 @@
 5	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s108/pl
-# text = Chyba od tego wszystkiego został em lunatykiem.
+# text = Chyba od tego wszystkiego zostałem lunatykiem.
 # orig_file_sentence 002#8
 1	Chyba	chyba	PART	qub	_	5	advmod	_	_
 2	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	3	case	_	_
 3	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	_
 4	wszystkiego	wszystek	DET	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|PronType=Tot	3	det	_	_
+5-6	zostałem	_	_	_	_	_	_	_	_
 5	został	zostać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	5	aux	_	_
 7	lunatykiem	lunatyk	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 8	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s109/pl
-# text = Po całodziennej harówce stracił em dziś kolejne pół kilo.
+# text = Po całodziennej harówce straciłem dziś kolejne pół kilo.
 # orig_file_sentence 002#9
 1	Po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	3	case	_	_
 2	całodziennej	całodzienny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	harówce	harówka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4-5	straciłem	_	_	_	_	_	_	_	_
 4	stracił	stracić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	4	aux	_	_
 6	dziś	dziś	ADV	adv	_	4	advmod	_	_
@@ -1475,8 +1484,9 @@
 10	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s110/pl
-# text = Obudził em się na podłodze w kuchni z pustą paczką po ciasteczkach w dłoniach.
+# text = Obudziłem się na podłodze w kuchni z pustą paczką po ciasteczkach w dłoniach.
 # orig_file_sentence 002#10
+1-2	Obudziłem	_	_	_	_	_	_	_	_
 1	Obudził	obudzić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	1	aux	_	_
 3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
@@ -2045,8 +2055,9 @@
 5	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s146/pl
-# text = Mówili śmy już, że na Żabim Mnichu zdarzały się wypadki nietypowe.
+# text = Mówiliśmy już, że na Żabim Mnichu zdarzały się wypadki nietypowe.
 # orig_file_sentence 002#46
+1-2	Mówiliśmy	_	_	_	_	_	_	_	_
 1	Mówili	mówić	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	już	już	PART	qub	_	1	advmod	_	SpaceAfter=No
@@ -2388,8 +2399,9 @@
 8	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s172/pl
-# text = Znał em je wszystkie, bo były tutejsze.
+# text = Znałem je wszystkie, bo były tutejsze.
 # orig_file_sentence 002#72
+1-2	Znałem	_	_	_	_	_	_	_	_
 1	Znał	znać	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	1	aux	_	_
 3	je	on	PRON	ppron3:pl:acc:m3:ter:akc:npraep	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	_	_
@@ -2507,7 +2519,7 @@
 8	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s181/pl
-# text = Tak więc zgodnie z przyjętymi zasadami przystąpili śmy najpierw do remontów dachów.
+# text = Tak więc zgodnie z przyjętymi zasadami przystąpiliśmy najpierw do remontów dachów.
 # orig_file_sentence 002#81
 1	Tak	tak	ADV	adv	_	7	advmod	_	_
 2	więc	więc	CCONJ	conj	_	7	advmod	_	_
@@ -2515,6 +2527,7 @@
 4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	3	case	_	_
 5	przyjętymi	przyjąć	VERB	ppas:pl:inst:f:perf:aff	Aspect=Perf|Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	acl	_	_
 6	zasadami	zasada	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+7-8	przystąpiliśmy	_	_	_	_	_	_	_	_
 7	przystąpili	przystąpić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 8	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	7	aux	_	_
 9	najpierw	najpierw	ADV	adv	_	7	advmod	_	_
@@ -3584,7 +3597,7 @@
 6	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s265/pl
-# text = Przyznaję, że i ja od czasu do czasu zazdrościła m przyjaciółkom, które wieczorami oglądały melodramaty.
+# text = Przyznaję, że i ja od czasu do czasu zazdrościłam przyjaciółkom, które wieczorami oglądały melodramaty.
 # orig_file_sentence 003#65
 1	Przyznaję	przyznawać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	interp	_	10	punct	_	_
@@ -3595,6 +3608,7 @@
 7	czasu	czas	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
 8	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	9	case	_	_
 9	czasu	czas	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	zazdrościłam	_	_	_	_	_	_	_	_
 10	zazdrościła	zazdrościć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	_
 11	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	10	aux	_	_
 12	przyjaciółkom	przyjaciółka	NOUN	subst:pl:dat:f	Case=Dat|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
@@ -3646,8 +3660,9 @@
 18	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s268/pl
-# text = Zamówił em WBK; oferty kupna i redukcje to najlepszy dowód, że będzie rósł.
+# text = Zamówiłem WBK; oferty kupna i redukcje to najlepszy dowód, że będzie rósł.
 # orig_file_sentence 003#68
+1-2	Zamówiłem	_	_	_	_	_	_	_	_
 1	Zamówił	zamówić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	1	aux	_	_
 3	WBK	WBK	PROPN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
@@ -3666,9 +3681,10 @@
 16	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s269/pl
-# text = Potem poszli śmy na piwo na Manhattan, tutejsze targowisko, i gadali śmy o giełdzie aż do czwartej.
+# text = Potem poszliśmy na piwo na Manhattan, tutejsze targowisko, i gadaliśmy o giełdzie aż do czwartej.
 # orig_file_sentence 003#69
 1	Potem	potem	ADV	adv	_	2	advmod	_	_
+2-3	poszliśmy	_	_	_	_	_	_	_	_
 2	poszli	pójść	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 4	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	5	case	_	_
@@ -3680,6 +3696,7 @@
 10	targowisko	targowisko	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	7	appos	_	SpaceAfter=No
 11	,	,	PUNCT	interp	_	7	punct	_	_
 12	i	i	CCONJ	conj	_	13	cc	_	_
+13-14	gadaliśmy	_	_	_	_	_	_	_	_
 13	gadali	gadać	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	2	conj	_	_
 14	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	13	aux	_	_
 15	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	16	case	_	_
@@ -4529,11 +4546,12 @@
 6	?	?	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s333/pl
-# text = Dzięki temu mogli by śmy stać się jej członkiem jeszcze przed końcem wieku.
+# text = Dzięki temu mogli byśmy stać się jej członkiem jeszcze przed końcem wieku.
 # orig_file_sentence 004#33
 1	Dzięki	dzięki	ADP	prep:dat	AdpType=Prep|Case=Dat	2	case	_	_
 2	temu	to	PRON	subst:sg:dat:n	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_
 3	mogli	móc	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	byśmy	_	_	_	_	_	_	_	_
 4	by	być	AUX	qub	Aspect=Imp|Mood=Cnd|VerbForm=Fin	3	aux	_	_
 5	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	3	aux	_	_
 6	stać	stać	AUX	inf:perf	Aspect=Perf|VerbForm=Inf	9	cop	_	_
@@ -4902,19 +4920,21 @@
 13	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s355/pl
-# text = Jeżeli budując dom od razu zaplanowali śmy przyszłe wykorzystanie poddasza i uwzględnili śmy to w projekcie architektonicznym, ominie nas kilka wizyt w urzędach.
+# text = Jeżeli budując dom od razu zaplanowaliśmy przyszłe wykorzystanie poddasza i uwzględniliśmy to w projekcie architektonicznym, ominie nas kilka wizyt w urzędach.
 # orig_file_sentence 004#55
 1	Jeżeli	jeżeli	SCONJ	comp	_	6	mark	_	_
 2	budując	budować	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv	6	advcl	_	_
 3	dom	dom	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 4	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	6	advmod	_	_
 5	razu	raz	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	case	_	_
+6-7	zaplanowaliśmy	_	_	_	_	_	_	_	_
 6	zaplanowali	zaplanować	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	19	advcl	_	_
 7	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	6	aux	_	_
 8	przyszłe	przyszły	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
 9	wykorzystanie	wykorzystanie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
 10	poddasza	poddasze	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
 11	i	i	CCONJ	conj	_	12	cc	_	_
+12-13	uwzględniliśmy	_	_	_	_	_	_	_	_
 12	uwzględnili	uwzględnić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	_
 13	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	12	aux	_	_
 14	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	_
@@ -5994,12 +6014,13 @@
 24	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s426/pl
-# text = W tym śnie nie pamiętała m Twojej twarzy i to było niczym koszmar.
+# text = W tym śnie nie pamiętałam Twojej twarzy i to było niczym koszmar.
 # orig_file_sentence 005#26
 1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	3	case	_	_
 2	tym	ten	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	śnie	sen	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
 4	nie	nie	PART	qub	_	5	advmod	_	_
+5-6	pamiętałam	_	_	_	_	_	_	_	_
 5	pamiętała	pamiętać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	5	aux	_	_
 7	Twojej	twój	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
@@ -6057,10 +6078,11 @@
 8	.	.	PUNCT	interp	_	7	punct	_	_
 
 # sent_id = dev-s430/pl
-# text = Milczała m.
+# text = Milczałam.
 # orig_file_sentence 005#30
+1-2	Milczałam	_	_	_	_	_	_	_	SpaceAfter=No
 1	Milczała	milczeć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	SpaceAfter=No
+2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s431/pl
@@ -6128,9 +6150,10 @@
 6	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s438/pl
-# text = - Przybliżyła m się do niego.
+# text = - Przybliżyłam się do niego.
 # orig_file_sentence 005#38
 1	-	-	PUNCT	interp	_	2	punct	_	_
+2-3	Przybliżyłam	_	_	_	_	_	_	_	_
 2	Przybliżyła	przybliżyć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 4	się	się	PRON	qub	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
@@ -6186,10 +6209,11 @@
 5	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s443/pl
-# text = Dopiero potem zaczęła m częściej przebywać z dziewczynami.
+# text = Dopiero potem zaczęłam częściej przebywać z dziewczynami.
 # orig_file_sentence 005#43
 1	Dopiero	dopiero	PART	qub	_	2	advmod	_	_
 2	potem	potem	ADV	adv	_	3	advmod	_	_
+3-4	zaczęłam	_	_	_	_	_	_	_	_
 3	zaczęła	zacząć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	3	aux	_	_
 5	częściej	często	ADV	adv:com	_	6	advmod	_	_
@@ -6199,14 +6223,16 @@
 9	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s444/pl
-# text = Zawsze otaczała m się chłopakami i zachowywała m jak chłopak.
+# text = Zawsze otaczałam się chłopakami i zachowywałam jak chłopak.
 # orig_file_sentence 005#44
 1	Zawsze	zawsze	ADV	adv	_	2	advmod	_	_
+2-3	otaczałam	_	_	_	_	_	_	_	_
 2	otaczała	otaczać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 4	się	się	PRON	qub	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
 5	chłopakami	chłopak	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	2	obj	_	_
 6	i	i	CCONJ	conj	_	7	cc	_	_
+7-8	zachowywałam	_	_	_	_	_	_	_	_
 7	zachowywała	zachowywać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	conj	_	_
 8	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	7	aux	_	_
 9	jak	jak	ADP	prep:nom	AdpType=Prep|Case=Nom	10	case	_	_
@@ -6214,8 +6240,9 @@
 11	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s445/pl
-# text = Przygotowała m również niespodziankę dla moich słuchaczy w Polsce.
+# text = Przygotowałam również niespodziankę dla moich słuchaczy w Polsce.
 # orig_file_sentence 005#45
+1-2	Przygotowałam	_	_	_	_	_	_	_	_
 1	Przygotowała	przygotować	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	również	również	PART	qub	_	1	advmod	_	_
@@ -6292,10 +6319,11 @@
 6	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s451/pl
-# text = - Nie zauważył em nic takiego.
+# text = - Nie zauważyłem nic takiego.
 # orig_file_sentence 005#51
 1	-	-	PUNCT	interp	_	3	punct	_	_
 2	Nie	nie	PART	qub	_	3	advmod	_	_
+3-4	zauważyłem	_	_	_	_	_	_	_	_
 3	zauważył	zauważyć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	3	aux	_	_
 5	nic	nic	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	3	obj	_	_
@@ -6801,12 +6829,13 @@
 11	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s487/pl
-# text = Nad jednym z nich znaleźli śmy ślady po czumach, objedzone kości, rogi oleni.
+# text = Nad jednym z nich znaleźliśmy ślady po czumach, objedzone kości, rogi oleni.
 # orig_file_sentence 005#87
 1	Nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	2	case	_	_
 2	jednym	jeden	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	iobj	_	_
 3	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	4	case	_	_
 4	nich	on	PRON	ppron3:pl:gen:n:ter:akc:praep	Case=Gen|Gender=Neut|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	2	obl	_	_
+5-6	znaleźliśmy	_	_	_	_	_	_	_	_
 5	znaleźli	znaleźć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	5	aux	_	_
 7	ślady	ślad	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
@@ -6821,9 +6850,10 @@
 16	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s488/pl
-# text = Potem brodzili śmy olenimi tropami, w chlipkich błotach, omijając martwe jeziora ze słojem wiecznego lodu na dnie.
+# text = Potem brodziliśmy olenimi tropami, w chlipkich błotach, omijając martwe jeziora ze słojem wiecznego lodu na dnie.
 # orig_file_sentence 005#88
 1	Potem	potem	ADV	adv	_	2	advmod	_	_
+2-3	brodziliśmy	_	_	_	_	_	_	_	_
 2	brodzili	brodzić	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 4	olenimi	oleni	ADJ	adj:pl:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
@@ -7232,7 +7262,7 @@
 8	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s516/pl
-# text = - Tak, tak, pamiętam, osobiście czytał em wasz raport przesłany tu wraz z papierami więźnia.
+# text = - Tak, tak, pamiętam, osobiście czytałem wasz raport przesłany tu wraz z papierami więźnia.
 # orig_file_sentence 006#16
 1	-	-	PUNCT	interp	_	6	punct	_	_
 2	Tak	tak	ADV	adv	_	6	advmod	_	SpaceAfter=No
@@ -7242,6 +7272,7 @@
 6	pamiętam	pamiętać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	9	punct	_	_
 8	osobiście	osobiście	ADV	adv:pos	Degree=Pos	9	advmod	_	_
+9-10	czytałem	_	_	_	_	_	_	_	_
 9	czytał	czytać	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	_
 10	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	9	aux	_	_
 11	wasz	wasz	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
@@ -7329,7 +7360,7 @@
 24	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s521/pl
-# text = Bez cienia skrupułów w sercu rozstrzelał by m tę hołotę.
+# text = Bez cienia skrupułów w sercu rozstrzelał bym tę hołotę.
 # orig_file_sentence 006#21
 1	Bez	bez	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	2	case	_	_
 2	cienia	cień	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
@@ -7337,6 +7368,7 @@
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	case	_	_
 5	sercu	serce	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
 6	rozstrzelał	rozstrzelać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+7-8	bym	_	_	_	_	_	_	_	_
 7	by	być	AUX	qub	Aspect=Imp|Mood=Cnd|VerbForm=Fin	6	aux	_	_
 8	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	6	aux	_	_
 9	tę	ten	DET	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
@@ -7565,21 +7597,23 @@
 3	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s543/pl
-# text = Dlatego chciał by m zakończyć.
+# text = Dlatego chciał bym zakończyć.
 # orig_file_sentence 006#43
 1	Dlatego	dlatego	ADV	adv	_	2	advmod	_	_
 2	chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	bym	_	_	_	_	_	_	_	_
 3	by	być	AUX	qub	Aspect=Imp|Mood=Cnd|VerbForm=Fin	2	aux	_	_
 4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 5	zakończyć	zakończyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s544/pl
-# text = Na ten moment skończyli śmy pierwszą rundę pytań.
+# text = Na ten moment skończyliśmy pierwszą rundę pytań.
 # orig_file_sentence 006#44
 1	Na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
 2	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	moment	moment	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4-5	skończyliśmy	_	_	_	_	_	_	_	_
 4	skończyli	skończyć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	4	aux	_	_
 6	pierwszą	pierwszy	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
@@ -7761,8 +7795,9 @@
 5	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s560/pl
-# text = Przeniosła m pełen podziwu wzrok na Magdę.
+# text = Przeniosłam pełen podziwu wzrok na Magdę.
 # orig_file_sentence 006#60
+1-2	Przeniosłam	_	_	_	_	_	_	_	_
 1	Przeniosła	przenieść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	pełen	pełny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -7780,7 +7815,7 @@
 3	?	?	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s562/pl
-# text = Nie było czasu na kombinacje, musiał eś wracać do pracy, powinna m cię zmienić przy Julku.
+# text = Nie było czasu na kombinacje, musiałeś wracać do pracy, powinnam cię zmienić przy Julku.
 # orig_file_sentence 006#62
 1	Nie	nie	PART	qub	_	2	advmod	_	_
 2	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -7788,12 +7823,14 @@
 4	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	5	case	_	_
 5	kombinacje	kombinacje	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	interp	_	7	punct	_	_
+7-8	musiałeś	_	_	_	_	_	_	_	_
 7	musiał	musieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	conj	_	_
 8	eś	być	AUX	aglt:sg:sec:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin	7	aux	_	_
 9	wracać	wracać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	7	xcomp	_	_
 10	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	11	case	_	_
 11	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
 12	,	,	PUNCT	interp	_	13	punct	_	_
+13-14	powinnam	_	_	_	_	_	_	_	_
 13	powinna	powinien	ADJ	winien:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing	2	conj	_	_
 14	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	13	aux	_	_
 15	cię	ty	PRON	ppron12:sg:acc:m1:sec:nakc	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs|Variant=Short	16	obj	_	_
@@ -8522,9 +8559,10 @@
 15	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s610/pl
-# text = Dziś dostała m autorskie egzemplarze Wizjera.
+# text = Dziś dostałam autorskie egzemplarze Wizjera.
 # orig_file_sentence 007#10
 1	Dziś	dziś	ADV	adv	_	2	advmod	_	_
+2-3	dostałam	_	_	_	_	_	_	_	_
 2	dostała	dostać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 4	autorskie	autorski	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
@@ -8613,8 +8651,9 @@
 8	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s618/pl
-# text = Dostała m Tolkiena, trzy wielkie tomy.
+# text = Dostałam Tolkiena, trzy wielkie tomy.
 # orig_file_sentence 007#18
+1-2	Dostałam	_	_	_	_	_	_	_	_
 1	Dostała	dostać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	Tolkiena	Tolkien	PROPN	subst:sg:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
@@ -8805,9 +8844,10 @@
 9	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s632/pl
-# text = - Chycili śmy fajnego kokota, ale on go oddał.
+# text = - Chyciliśmy fajnego kokota, ale on go oddał.
 # orig_file_sentence 007#32
 1	-	-	PUNCT	interp	_	2	punct	_	_
+2-3	Chyciliśmy	_	_	_	_	_	_	_	_
 2	Chycili	chycić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 4	fajnego	fajny	ADJ	adj:sg:acc:m2:pos	Animacy=Nhum|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -9225,8 +9265,9 @@
 9	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s663/pl
-# text = Poszli śmy więc do przychodni do chirurga.
+# text = Poszliśmy więc do przychodni do chirurga.
 # orig_file_sentence 007#63
+1-2	Poszliśmy	_	_	_	_	_	_	_	_
 1	Poszli	pójść	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	więc	więc	CCONJ	conj	_	1	advmod	_	_
@@ -9563,8 +9604,9 @@
 9	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s688/pl
-# text = Przebyli śmy połowę drogi oszacowanej przez Martina Helwiga na dziewięć dni.
+# text = Przebyliśmy połowę drogi oszacowanej przez Martina Helwiga na dziewięć dni.
 # orig_file_sentence 007#88
+1-2	Przebyliśmy	_	_	_	_	_	_	_	_
 1	Przebyli	przebyć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	połowę	połowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
@@ -9579,8 +9621,9 @@
 12	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s689/pl
-# text = Pożegnali śmy Anioła Ślązaka, który umożliwił nam przeprawę przez kolejny odcinek tej pośpiesznej podróży.
+# text = Pożegnaliśmy Anioła Ślązaka, który umożliwił nam przeprawę przez kolejny odcinek tej pośpiesznej podróży.
 # orig_file_sentence 007#89
+1-2	Pożegnaliśmy	_	_	_	_	_	_	_	_
 1	Pożegnali	pożegnać	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	Anioła	Anioł	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
@@ -9702,7 +9745,7 @@
 11	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s697/pl
-# text = Trudno mi uwierzyć, że nie zauważył eś, że trzeba wymienić uszczelkę, bo jeszcze pół roku temu takie naprawy robił eś od ręki.
+# text = Trudno mi uwierzyć, że nie zauważyłeś, że trzeba wymienić uszczelkę, bo jeszcze pół roku temu takie naprawy robiłeś od ręki.
 # orig_file_sentence 007#97
 1	Trudno	trudno	VERB	pred	_	0	root	_	_
 2	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs|Variant=Short	3	iobj	_	_
@@ -9710,8 +9753,9 @@
 4	,	,	PUNCT	interp	_	7	punct	_	_
 5	że	że	SCONJ	comp	_	7	mark	_	_
 6	nie	nie	PART	qub	_	7	advmod	_	_
+7-8	zauważyłeś	_	_	_	_	_	_	_	SpaceAfter=No
 7	zauważył	zauważyć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	ccomp	_	_
-8	eś	być	AUX	aglt:sg:sec:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin	7	aux	_	SpaceAfter=No
+8	eś	być	AUX	aglt:sg:sec:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin	7	aux	_	_
 9	,	,	PUNCT	interp	_	11	punct	_	_
 10	że	że	SCONJ	comp	_	11	mark	_	_
 11	trzeba	trzeba	VERB	pred	_	7	ccomp	_	_
@@ -9725,6 +9769,7 @@
 19	temu	temu	ADP	prep:acc	AdpType=Prep|Case=Acc	17	case	_	_
 20	takie	taki	DET	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|PronType=Dem	21	det	_	_
 21	naprawy	naprawa	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
+22-23	robiłeś	_	_	_	_	_	_	_	_
 22	robił	robić	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	_
 23	eś	być	AUX	aglt:sg:sec:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin	22	aux	_	_
 24	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	25	case	_	_
@@ -9745,7 +9790,7 @@
 9	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s699/pl
-# text = Męczy i wkurza mnie to, że od paru miesięcy muszę cię prosić o wykonywanie tego, co spodziewam się, że mógł by ś robić nadal sam z siebie.
+# text = Męczy i wkurza mnie to, że od paru miesięcy muszę cię prosić o wykonywanie tego, co spodziewam się, że mógł byś robić nadal sam z siebie.
 # orig_file_sentence 007#99
 1	Męczy	męczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	i	i	CCONJ	conj	_	3	cc	_	_
@@ -9770,6 +9815,7 @@
 21	,	,	PUNCT	interp	_	23	punct	_	_
 22	że	że	SCONJ	comp	_	23	mark	_	_
 23	mógł	móc	VERB	praet:sg:m1:imperf:nagl	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	19	ccomp	_	_
+24-25	byś	_	_	_	_	_	_	_	_
 24	by	być	AUX	qub	Aspect=Imp|Mood=Cnd|VerbForm=Fin	23	aux	_	_
 25	ś	być	AUX	aglt:sg:sec:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin	23	aux	_	_
 26	robić	robić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	23	xcomp	_	_
@@ -10513,8 +10559,9 @@
 10	.	.	PUNCT	interp	_	6	punct	_	_
 
 # sent_id = dev-s754/pl
-# text = Patrzyli śmy na siebie przez chwilę.
+# text = Patrzyliśmy na siebie przez chwilę.
 # orig_file_sentence 008#54
+1-2	Patrzyliśmy	_	_	_	_	_	_	_	_
 1	Patrzyli	patrzyć	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	4	case	_	_
@@ -10668,9 +10715,10 @@
 6	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s763/pl
-# text = - Mieli śmy im pomóc przygotować się do wejścia na giełdę, ale doszli do wniosku, że zrobią to bez nas.
+# text = - Mieliśmy im pomóc przygotować się do wejścia na giełdę, ale doszli do wniosku, że zrobią to bez nas.
 # orig_file_sentence 008#63
 1	-	-	PUNCT	interp	_	2	punct	_	_
+2-3	Mieliśmy	_	_	_	_	_	_	_	_
 2	Mieli	mieć	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 4	im	on	PRON	ppron3:pl:dat:m1:ter:akc:npraep	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	5	iobj	_	_
@@ -10940,7 +10988,7 @@
 7	.	.	PUNCT	interp	_	6	punct	_	_
 
 # sent_id = dev-s781/pl
-# text = - Niech pan zrozumie, nie zdołał em załatwić formalności, jestem Niemcem oczywiście...
+# text = - Niech pan zrozumie, nie zdołałem załatwić formalności, jestem Niemcem oczywiście...
 # orig_file_sentence 008#81
 1	-	-	PUNCT	interp	_	4	punct	_	_
 2	Niech	niech	PART	qub	_	4	aux	_	_
@@ -10948,6 +10996,7 @@
 4	zrozumie	zrozumieć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	interp	_	7	punct	_	_
 6	nie	nie	PART	qub	_	7	advmod	_	_
+7-8	zdołałem	_	_	_	_	_	_	_	_
 7	zdołał	zdołać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	_
 8	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	7	aux	_	_
 9	załatwić	załatwić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	7	xcomp	_	_
@@ -11354,8 +11403,9 @@
 9	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s808/pl
-# text = Postanowili śmy sprawdzić, jak wygląda sprawa bezpieczeństwa na lodowisku.
+# text = Postanowiliśmy sprawdzić, jak wygląda sprawa bezpieczeństwa na lodowisku.
 # orig_file_sentence 009#8
+1-2	Postanowiliśmy	_	_	_	_	_	_	_	_
 1	Postanowili	postanowić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	sprawdzić	sprawdzić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	1	xcomp	_	SpaceAfter=No
@@ -11657,11 +11707,12 @@
 6	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s829/pl
-# text = W poprzednim numerze informowali śmy o związkach zawodowych w naszym mieście.
+# text = W poprzednim numerze informowaliśmy o związkach zawodowych w naszym mieście.
 # orig_file_sentence 009#29
 1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	3	case	_	_
 2	poprzednim	poprzedni	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	numerze	numer	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4-5	informowaliśmy	_	_	_	_	_	_	_	_
 4	informowali	informować	AUX	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	aux	_	_
 5	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	0	root	_	_
 6	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
@@ -11883,9 +11934,10 @@
 7	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s844/pl
-# text = (Debiutował em wierszem.)
+# text = (Debiutowałem wierszem.)
 # orig_file_sentence 009#44
 1	(	(	PUNCT	interp	_	2	punct	_	SpaceAfter=No
+2-3	Debiutowałem	_	_	_	_	_	_	_	_
 2	Debiutował	debiutować	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	2	aux	_	_
 4	wierszem	wiersz	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
@@ -12084,10 +12136,11 @@
 5	?	?	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s858/pl
-# text = Myślał em, że jest bierny, że wypłynął na fali.
+# text = Myślałem, że jest bierny, że wypłynął na fali.
 # orig_file_sentence 009#58
+1-2	Myślałem	_	_	_	_	_	_	_	SpaceAfter=No
 1	Myślał	myśleć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	1	aux	_	SpaceAfter=No
+2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	1	aux	_	_
 3	,	,	PUNCT	interp	_	6	punct	_	_
 4	że	że	SCONJ	comp	_	6	case	_	_
 5	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -12242,8 +12295,9 @@
 5	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s869/pl
-# text = Postanowili śmy iść za tym pomysłem.
+# text = Postanowiliśmy iść za tym pomysłem.
 # orig_file_sentence 009#69
+1-2	Postanowiliśmy	_	_	_	_	_	_	_	_
 1	Postanowili	postanowić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	iść	iść	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	1	xcomp	_	_
@@ -13455,13 +13509,14 @@
 8	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s963/pl
-# text = Sprawdźmy, czy istotnie potrafili by śmy to zrobić.
+# text = Sprawdźmy, czy istotnie potrafili byśmy to zrobić.
 # orig_file_sentence 010#63
 1	Sprawdźmy	sprawdzić	VERB	impt:pl:pri:perf	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	interp	_	5	punct	_	_
 3	czy	czy	PART	qub	_	5	advmod	_	_
 4	istotnie	istotnie	ADV	adv:pos	Degree=Pos	5	advmod	_	_
 5	potrafili	potrafić	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	_
+6-7	byśmy	_	_	_	_	_	_	_	_
 6	by	być	AUX	qub	Aspect=Imp|Mood=Cnd|VerbForm=Fin	5	aux	_	_
 7	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	5	aux	_	_
 8	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	9	obj	_	_
@@ -13689,9 +13744,10 @@
 17	.	.	PUNCT	interp	_	8	punct	_	_
 
 # sent_id = dev-s981/pl
-# text = Chciał by m także, aby Wysoki Sejm został poinformowany o wynikach kontroli.
+# text = Chciał bym także, aby Wysoki Sejm został poinformowany o wynikach kontroli.
 # orig_file_sentence 010#81
 1	Chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2-3	bym	_	_	_	_	_	_	_	_
 2	by	być	AUX	qub	Aspect=Imp|Mood=Cnd|VerbForm=Fin	1	aux	_	_
 3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 4	także	także	PART	qub	_	1	advmod	_	SpaceAfter=No
@@ -13727,10 +13783,11 @@
 8	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s984/pl
-# text = - Chciał by m prosić, panie marszałku, żeby pańskie stanowisko zostało przekazane komisji regulaminowej.
+# text = - Chciał bym prosić, panie marszałku, żeby pańskie stanowisko zostało przekazane komisji regulaminowej.
 # orig_file_sentence 010#84
 1	-	-	PUNCT	interp	_	2	punct	_	_
 2	Chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	bym	_	_	_	_	_	_	_	_
 3	by	być	AUX	qub	Aspect=Imp|Mood=Cnd|VerbForm=Fin	2	aux	_	_
 4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	2	aux	_	_
 5	prosić	prosić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	SpaceAfter=No
@@ -13767,9 +13824,10 @@
 15	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s986/pl
-# text = - Postawił em wniosek formalny.
+# text = - Postawiłem wniosek formalny.
 # orig_file_sentence 010#86
 1	-	-	PUNCT	interp	_	2	punct	_	_
+2-3	Postawiłem	_	_	_	_	_	_	_	_
 2	Postawił	postawić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	2	aux	_	_
 4	wniosek	wniosek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
@@ -13829,10 +13887,11 @@
 8	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s992/pl
-# text = Zresztą nieraz zabierała m do kina korepetytorów Joli...
+# text = Zresztą nieraz zabierałam do kina korepetytorów Joli...
 # orig_file_sentence 010#92
 1	Zresztą	zresztą	PART	qub	_	3	advmod	_	_
 2	nieraz	nieraz	ADV	adv	_	3	advmod	_	_
+3-4	zabierałam	_	_	_	_	_	_	_	_
 3	zabierała	zabierać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	3	aux	_	_
 5	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	6	case	_	_
@@ -13866,12 +13925,13 @@
 6	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s995/pl
-# text = Nagle ją znienawidził em, bo ten śmiech był bardzo okrutny.
+# text = Nagle ją znienawidziłem, bo ten śmiech był bardzo okrutny.
 # orig_file_sentence 010#95
 1	Nagle	nagle	ADV	adv:pos	Degree=Pos	3	advmod	_	_
 2	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	3	obj	_	_
+3-4	znienawidziłem	_	_	_	_	_	_	_	SpaceAfter=No
 3	znienawidził	znienawidzić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-4	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	3	aux	_	SpaceAfter=No
+4	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	3	aux	_	_
 5	,	,	PUNCT	interp	_	11	punct	_	_
 6	bo	bo	SCONJ	comp	_	11	mark	_	_
 7	ten	ten	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
@@ -13930,11 +13990,12 @@
 7	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s1000/pl
-# text = - Szybko się zadomowiła ś w tym buduarze, Teresko.
+# text = - Szybko się zadomowiłaś w tym buduarze, Teresko.
 # orig_file_sentence 010#100
 1	-	-	PUNCT	interp	_	4	punct	_	_
 2	Szybko	szybko	ADV	adv:pos	Degree=Pos	4	advmod	_	_
 3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4-5	zadomowiłaś	_	_	_	_	_	_	_	_
 4	zadomowiła	zadomowić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	ś	być	AUX	aglt:sg:sec:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin	4	aux	_	_
 6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
@@ -13945,13 +14006,14 @@
 11	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s1001/pl
-# text = Może na twoim miejscu postąpił by m podobnie?
+# text = Może na twoim miejscu postąpił bym podobnie?
 # orig_file_sentence 011#1
 1	Może	może	PART	qub	_	5	advmod	_	_
 2	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	4	case	_	_
 3	twoim	twój	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	miejscu	miejsce	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 5	postąpił	postąpić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	bym	_	_	_	_	_	_	_	_
 6	by	być	AUX	qub	Aspect=Imp|Mood=Cnd|VerbForm=Fin	5	aux	_	_
 7	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	5	aux	_	_
 8	podobnie	podobnie	ADV	adv:pos	Degree=Pos	5	advmod	_	SpaceAfter=No
@@ -14003,7 +14065,7 @@
 21	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s1005/pl
-# text = Wtedy, na wieży Eiffla, zaczął em nie lubić Paryża.
+# text = Wtedy, na wieży Eiffla, zacząłem nie lubić Paryża.
 # orig_file_sentence 011#5
 1	Wtedy	wtedy	ADV	adv	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	interp	_	4	punct	_	_
@@ -14011,6 +14073,7 @@
 4	wieży	wieża	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
 5	Eiffla	Eiffel	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	interp	_	4	punct	_	_
+7-8	zacząłem	_	_	_	_	_	_	_	_
 7	zaczął	zacząć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 8	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	7	aux	_	_
 9	nie	nie	PART	qub	_	10	advmod	_	_
@@ -14019,9 +14082,10 @@
 12	.	.	PUNCT	interp	_	7	punct	_	_
 
 # sent_id = dev-s1006/pl
-# text = Nie wyczuł em kpiny w jej głosie, choć należało być ostrożnym.
+# text = Nie wyczułem kpiny w jej głosie, choć należało być ostrożnym.
 # orig_file_sentence 011#6
 1	Nie	nie	PART	qub	_	2	advmod	_	_
+2-3	wyczułem	_	_	_	_	_	_	_	_
 2	wyczuł	wyczuć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	2	aux	_	_
 4	kpiny	kpina	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	_
@@ -14036,7 +14100,7 @@
 13	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s1007/pl
-# text = Ten barwny świat już ją porwał, a ja, dobry tatuś z bajeczki, stał em się tylko przeszkodą.
+# text = Ten barwny świat już ją porwał, a ja, dobry tatuś z bajeczki, stałem się tylko przeszkodą.
 # orig_file_sentence 011#7
 1	Ten	ten	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	barwny	barwny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
@@ -14053,6 +14117,7 @@
 13	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	14	case	_	_
 14	bajeczki	bajeczka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	interp	_	9	punct	_	_
+16-17	stałem	_	_	_	_	_	_	_	_
 16	stał	stać	AUX	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	20	cop	_	_
 17	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	20	aux	_	_
 18	się	się	PRON	qub	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
@@ -14070,8 +14135,9 @@
 5	!	!	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s1009/pl
-# text = Mówił em twojej matce, żeby nie wsadzała palca między drzwi.
+# text = Mówiłem twojej matce, żeby nie wsadzała palca między drzwi.
 # orig_file_sentence 011#9
+1-2	Mówiłem	_	_	_	_	_	_	_	_
 1	Mówił	mówić	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	1	aux	_	_
 3	twojej	twój	ADJ	adj:sg:dat:f:pos	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
@@ -14195,8 +14261,9 @@
 14	.	.	PUNCT	interp	_	9	punct	_	_
 
 # sent_id = dev-s1017/pl
-# text = Biegł em przez ulice identycznych domków i idealnie wyprofilowanych ulic.
+# text = Biegłem przez ulice identycznych domków i idealnie wyprofilowanych ulic.
 # orig_file_sentence 011#17
+1-2	Biegłem	_	_	_	_	_	_	_	_
 1	Biegł	biec	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	1	aux	_	_
 3	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	4	case	_	_
@@ -14243,13 +14310,14 @@
 18	.	.	PUNCT	interp	_	7	punct	_	_
 
 # sent_id = dev-s1020/pl
-# text = Gdyby tak było, natychmiast by m zaprotestował.
+# text = Gdyby tak było, natychmiast bym zaprotestował.
 # orig_file_sentence 011#20
 1	Gdyby	gdyby	SCONJ	comp	_	3	mark	_	_
 2	tak	tak	ADV	adv	_	3	advmod	_	_
 3	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	interp	_	3	punct	_	_
 5	natychmiast	natychmiast	ADV	adv	_	8	advmod	_	_
+6-7	bym	_	_	_	_	_	_	_	_
 6	by	być	AUX	qub	Aspect=Imp|Mood=Cnd|VerbForm=Fin	8	aux	_	_
 7	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	8	aux	_	_
 8	zaprotestował	zaprotestować	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
