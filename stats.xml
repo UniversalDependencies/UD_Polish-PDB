@@ -5,7 +5,7 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>8227</sentences><tokens>82789</tokens><words>83571</words><fused>745</fused></total>
+    <total><sentences>8227</sentences><tokens>82788</tokens><words>83571</words><fused>745</fused></total>
   </size>
   <lemmas unique="13013" /><!-- ., ,, być, w, się, na, i, z, on, nie, do, -, to, ?, że -->
   <forms unique="23570" /><!-- ., ,, w, się, na, i, nie, z, do, -, ?, że, to, jest, o -->
