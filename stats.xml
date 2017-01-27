@@ -5,11 +5,11 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>8227</sentences><tokens>82925</tokens><words>83571</words><fused>646</fused></total>
+    <total><sentences>8227</sentences><tokens>82789</tokens><words>83571</words><fused>745</fused></total>
   </size>
   <lemmas unique="13013" /><!-- ., ,, być, w, się, na, i, z, on, nie, do, -, to, ?, że -->
   <forms unique="23570" /><!-- ., ,, w, się, na, i, nie, z, do, -, ?, że, to, jest, o -->
-  <fusions unique="424" /><!-- bym, byłem, byłam, mieliśmy, byś, chciałem, miałam, miałem, widziałem, mogłem, zostałem, spotkaliśmy, widziałam, byśmy, czułem -->
+  <fusions unique="513" /><!-- byłem, byłoby, byłam, mieliśmy, chciałbym, chciałem, chciałby, miałam, miałem, widziałem, bym, byłby, mogłem, zostałem, mogłaby -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="15">
     <tag name="ADJ">7004</tag><!-- swój, nowy, cały, pierwszy, nasz, inny, mój, sam, polski, duży -->
