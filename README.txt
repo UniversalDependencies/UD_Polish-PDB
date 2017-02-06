@@ -24,6 +24,10 @@ http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and f
 
 Changelog
 
+2017-03-01 v2.0
+  * Converted to UD v2.
+  * Reconsidered PRON vs. DET.
+  * Improved advmod vs. obl distinction.
 2016-05-15 v1.3
   * Fixed adverbs that were attached as nmod; correct: advmod.
   * Conditional auxiliary "by" changed from PART to AUX (and features added).
