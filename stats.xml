@@ -78,9 +78,9 @@
     <feat name="Variant" value="Short" upos="ADP,AUX,PRON">4902</feat><!-- w, z, od, przez, m, go, śmy, mu, pod, przed -->
     <feat name="VerbForm" value="Conv" upos="VERB">190</feat><!-- patrząc, mając, wracając, czekając, posługując, tworząc, usiłując, zarzucając, Mijając, biorąc -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">5858</feat><!-- jest, em, ma, by, są, m, będzie, śmy, może, będą -->
-    <feat name="VerbForm" value="Ger" upos="NOUN">671</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęciem, bycia, działania, naciśnięcie, nieuzyskania, otwarcie, stosowania -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1360</feat><!-- być, powiedzieć, zrobić, znaleźć, mieć, robić, wrócić, wyjść, zmienić, zobaczyć -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">6840</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN">671</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęciem, bycia, działania, naciśnięcie, nieuzyskania, otwarcie, stosowania -->
     <feat name="Voice" value="Act" upos="AUX,VERB">5724</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
     <feat name="Voice" value="Pass" upos="VERB">1116</feat><!-- przyjęta, znaleziono, prowadzone, wyczerpana, zatrzymano, zatrzymany, przeprowadzono, przygotowany, rozegrano, stwierdzono -->
   </feats>

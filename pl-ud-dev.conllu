@@ -73,7 +73,7 @@
 # text = Po bieganiu coś się wam od życia należy.
 # orig_file_sentence 001#8
 1	Po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	2	case	_	_
-2	bieganiu	bieganie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	8	obl	_	_
+2	bieganiu	bieganie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
 3	coś	coś	DET	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	8	nsubj	_	_
 4	się	się	PRON	qub	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
 5	wam	wy	PRON	ppron12:pl:dat:f:sec	Case=Dat|Gender=Fem|Number=Plur|Person=2|PronType=Prs	8	obj	_	_
@@ -256,7 +256,7 @@
 5	nie	nie	PART	qub	_	6	advmod	_	_
 6	znaleziono	znaleźć	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	10	punct	_	_
-8	przeszukiwania	przeszukiwanie	NOUN	ger:pl:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Ger	10	nsubj	_	_
+8	przeszukiwania	przeszukiwanie	NOUN	ger:pl:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Vnoun	10	nsubj	_	_
 9	pozostałych	pozostały	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
 10	trwają	trwać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
 11	.	.	PUNCT	interp	_	6	punct	_	_
@@ -266,7 +266,7 @@
 # orig_file_sentence 001#21
 1	Podczas	podczas	ADP	prep:gen	AdpType=Prep|Case=Gen	2	case	_	_
 2	próby	próba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
-3	rozbrojenia	rozbrojenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	2	nmod	_	_
+3	rozbrojenia	rozbrojenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	nmod	_	_
 4	ładunku	ładunek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	6	case	_	_
 6	jednego	jeden	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
@@ -486,7 +486,7 @@
 1	Zaczną	zacząć	VERB	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	jednak	jednak	PART	qub	_	1	advmod	_	_
 3	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	4	case	_	_
-4	wyciągania	wyciąganie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	1	obj	_	_
+4	wyciągania	wyciąganie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	obj	_	_
 5	złomu	złom	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_
 6	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	7	case	_	_
 7	dna	dno	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -801,17 +801,17 @@
 2	ubezpieczenia	ubezpieczenie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	4	case	_	_
 4	rejonie	rejon	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
-5	załadowywania	załadowywanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	4	nmod	_	_
+5	załadowywania	załadowywanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	nmod	_	_
 6	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-7	niedopuszczenie	dopuszczenie	NOUN	ger:sg:nom:n:perf:neg	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Ger	1	nsubj	_	_
+7	niedopuszczenie	dopuszczenie	NOUN	ger:sg:nom:n:perf:neg	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Vnoun	1	nsubj	_	_
 8	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	9	case	_	_
 9	ataku	atak	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	grup	grupa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
 11	dywersyjnych	dywersyjny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
 12	przeciwnika	przeciwnik	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 13	oraz	oraz	CCONJ	conj	_	14	cc	_	_
-14	wzbranianie	wzbranianie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	7	conj	_	_
-15	przenikania	przenikanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	14	nmod	_	_
+14	wzbranianie	wzbranianie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	conj	_	_
+15	przenikania	przenikanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	14	nmod	_	_
 16	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	17	case	_	_
 17	rejonu	rejon	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 18	rozmieszczenia	rozmieszczenie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
@@ -859,7 +859,7 @@
 2	innych	inny	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
 3	kibiców	kibic	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	8	obj	_	_
 4	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
-5	udzieleniu	udzielenie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	8	obl	_	_
+5	udzieleniu	udzielenie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
 6	pomocy	pomoc	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	_
 7	medycznej	medyczny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 8	zwolniono	zwolnić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -929,7 +929,7 @@
 # text = Termiczne urabianie kopaliny wykonuje się zgodnie z projektem technicznym zatwierdzonym przez kierownika ruchu zakładu górniczego.
 # orig_file_sentence 001#67
 1	Termiczne	termiczny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
-2	urabianie	urabianie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	4	obj	_	_
+2	urabianie	urabianie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	obj	_	_
 3	kopaliny	kopalina	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	wykonuje	wykonywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	się	się	PRON	qub	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
@@ -1138,10 +1138,10 @@
 7	przedstawicieli	przedstawiciel	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
 8	gminy	gmina	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 9	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	10	case	_	_
-10	wszczęcia	wszczęcie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	6	iobj	_	_
+10	wszczęcia	wszczęcie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	iobj	_	_
 11	starań	staranie	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
 12	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	13	case	_	_
-13	przyznanie	przyznanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	11	nmod	_	_
+13	przyznanie	przyznanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	nmod	_	_
 14	Sopotowi	Sopot	PROPN	subst:sg:dat:m3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	obj	_	_
 15	praw	prawo	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	13	obj	_	_
 16	miejskich	miejski	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	SpaceAfter=No
@@ -1795,7 +1795,7 @@
 10	,	,	PUNCT	interp	_	11	punct	_	_
 11	posiadasz	posiadać	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
 12	zdolność	zdolność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
-13	przewidywania	przewidywanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	12	nmod	_	_
+13	przewidywania	przewidywanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	12	nmod	_	_
 14	i	i	CCONJ	conj	_	16	cc	_	_
 15	nie	nie	PART	qub	_	16	advmod	_	_
 16	musisz	musieć	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
@@ -1804,7 +1804,7 @@
 19	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	20	case	_	_
 20	wyniki	wynik	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
 21	swego	swój	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
-22	działania	działanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	20	nmod	_	SpaceAfter=No
+22	działania	działanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s129
@@ -1816,7 +1816,7 @@
 4	skłonności	skłonność	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
 5	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	7	case	_	_
 6	potajemnego	potajemny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
-7	przeprowadzania	przeprowadzanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	4	nmod	_	_
+7	przeprowadzania	przeprowadzanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	nmod	_	_
 8	swoich	swój	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
 9	planów	plan	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obj	_	_
 10	czy	czy	CCONJ	conj	_	11	cc	_	_
@@ -2120,7 +2120,7 @@
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
 8	szpitalu	szpital	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
 9	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	10	case	_	_
-10	wypisanie	wypisanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	6	obj	_	_
+10	wypisanie	wypisanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	obj	_	_
 11	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	12	case	_	_
 12	domu	dom	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	interp	_	1	punct	_	_
@@ -2547,7 +2547,7 @@
 6	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
 7	wiadomo	wiadomo	VERB	pred	_	0	root	_	_
 8	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	9	case	_	_
-9	oczyszczeniu	oczyszczenie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	7	obl	_	_
+9	oczyszczeniu	oczyszczenie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	obl	_	_
 10	stropu	strop	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	interp	_	7	punct	_	_
 
@@ -2602,7 +2602,7 @@
 1	Chcąc	chcieć	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv	8	advcl	_	_
 2	im	on	PRON	ppron3:pl:dat:f:ter:akc:npraep	Case=Dat|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	3	iobj	_	_
 3	skrócić	skrócić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	1	xcomp	_	_
-4	oczekiwanie	oczekiwanie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	obj	_	_
+4	oczekiwanie	oczekiwanie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	obj	_	_
 5	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
 6	występ	występ	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	1	punct	_	_
@@ -2875,7 +2875,7 @@
 9	i	i	CCONJ	conj	_	10	cc	_	_
 10	ostatecznym	ostateczny	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	conj	_	_
 11	przedłużeniem	przedłużenie	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	6	iobj	_	_
-12	czekania	czekanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	11	nmod	_	SpaceAfter=No
+12	czekania	czekanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s210
@@ -3116,7 +3116,7 @@
 2	Śmierdzą	śmierdzieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	2	obl	_	_
 4	przy	przy	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
-5	jedzeniu	jedzenie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	2	obl	_	SpaceAfter=No
+5	jedzeniu	jedzenie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	interp	_	2	punct	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	2	punct	_	SpaceAfter=No
 8	.	.	PUNCT	interp	_	2	punct	_	_
@@ -3262,7 +3262,7 @@
 2	wysłuchało	wysłuchać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	prośby	prośba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	_
 4	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	5	case	_	_
-5	zesłanie	zesłanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	nmod	_	_
+5	zesłanie	zesłanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nmod	_	_
 6	mocy	moc	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	2	punct	_	_
 
@@ -3490,7 +3490,7 @@
 5	piec	piec	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 6	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
 7	jego	on	PRON	ppron3:sg:gen:m3:ter:akc:npraep	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	8	nmod	_	_
-8	wytwarzania	wytwarzanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	5	nmod	_	SpaceAfter=No
+8	wytwarzania	wytwarzanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s258
@@ -3536,7 +3536,7 @@
 4	skutecznym	skuteczny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 5	elementarnym	elementarny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	sposobem	sposób	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
-7	zabezpieczenia	zabezpieczenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	6	nmod	_	_
+7	zabezpieczenia	zabezpieczenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nmod	_	_
 8	samochodu	samochód	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obj	_	_
 9	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	10	case	_	_
 10	kradzieżą	kradzież	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
@@ -3545,7 +3545,7 @@
 # sent_id = dev-s261
 # text = Zamontowanie immobilizera to wydatek około kilkuset złotych.
 # orig_file_sentence 003#61
-1	Zamontowanie	zamontowanie	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	4	nsubj	_	_
+1	Zamontowanie	zamontowanie	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	nsubj	_	_
 2	immobilizera	immobilizer	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	to	to	AUX	pred	_	4	cop	_	_
 4	wydatek	wydatek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -3821,7 +3821,7 @@
 1	Zarzuca	zarzucać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
 3	im	on	PRON	ppron3:pl:dat:m1:ter:akc:npraep	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	iobj	_	_
-4	niedopełnienie	dopełnienie	NOUN	ger:sg:acc:n:perf:neg	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Ger	1	obj	_	_
+4	niedopełnienie	dopełnienie	NOUN	ger:sg:acc:n:perf:neg	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Vnoun	1	obj	_	_
 5	obowiązków	obowiązek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 6	służbowych	służbowy	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	1	punct	_	_
@@ -3915,7 +3915,7 @@
 # orig_file_sentence 003#86
 1	Jednak	jednak	PART	qub	_	9	nmod	_	_
 2	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	1	case	_	_
-3	podpisaniu	podpisanie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	1	obl	_	_
+3	podpisaniu	podpisanie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	obl	_	_
 4	ogólnoświatowej	ogólnoświatowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	umowy	umowa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
 6	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	7	case	_	_
@@ -3968,7 +3968,7 @@
 # orig_file_sentence 003#89
 1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	advmod	_	_
 2	czasie	czas	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	case	_	_
-3	trwania	trwanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	1	nmod	_	_
+3	trwania	trwanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	nmod	_	_
 4	Plusa	plus	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	można	można	VERB	pred	_	0	root	_	_
 6	podnieść	podnieść	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_
@@ -4374,7 +4374,7 @@
 1	Komisja	komisja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	Europejska	europejski	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
 3	zaproponowała	zaproponować	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-4	uruchomienie	uruchomienie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	obj	_	_
+4	uruchomienie	uruchomienie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	obj	_	_
 5	funduszu	fundusz	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_
 6	kredytowego	kredytowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
@@ -4422,7 +4422,7 @@
 3	prosił	prosić	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	advcl	_	_
 4	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
 5	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	6	obj	_	_
-6	podpisanie	podpisanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	obj	_	SpaceAfter=No
+6	podpisanie	podpisanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	obj	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	3	punct	_	_
 8	ksiądz	ksiądz	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 9	wyraził	wyrazić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -4575,7 +4575,7 @@
 5	aby	aby	SCONJ	comp	_	11	mark	_	_
 6	negocjacje	negocjacje	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
 7	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	8	case	_	_
-8	wejściu	wejście	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	6	nmod	_	_
+8	wejściu	wejście	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nmod	_	_
 9	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	10	case	_	_
 10	Unii	unia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
 11	rozpoczęły	rozpocząć	VERB	praet:pl:n:perf	Aspect=Perf|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	_
@@ -4794,7 +4794,7 @@
 16	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 17	znaleźć	znaleźć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	12	xcomp	_	_
 18	możliwości	możliwość	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
-19	zmniejszenia	zmniejszenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	18	nmod	_	_
+19	zmniejszenia	zmniejszenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	18	nmod	_	_
 20	ilości	ilość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
 21	odpadów	odpad	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	interp	_	12	punct	_	_
@@ -5069,7 +5069,7 @@
 3	jedynie	jedynie	PART	qub	_	1	advmod	_	_
 4	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
 5	konieczności	konieczność	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	obj	_	_
-6	przyspieszenia	przyspieszenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	5	nmod	_	_
+6	przyspieszenia	przyspieszenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	nmod	_	_
 7	pomocy	pomoc	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 8	ekonomicznej	ekonomiczny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 9	dla	dla	ADP	prep:gen	AdpType=Prep|Case=Gen	10	case	_	_
@@ -5090,7 +5090,7 @@
 9	wybitny	wybitny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	znawca	znawca	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
 11	problemów	problem	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
-12	harmonizowania	harmonizowanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	11	nmod	_	_
+12	harmonizowania	harmonizowanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	nmod	_	_
 13	prawa	prawo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
 14	irlandzkiego	irlandzki	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
 15	i	i	CCONJ	conj	_	16	cc	_	_
@@ -5160,7 +5160,7 @@
 5	planuje	planować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	się	się	PRON	qub	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
 7	znaczne	znaczny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
-8	ograniczenie	ograniczenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	5	obj	_	_
+8	ograniczenie	ograniczenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	obj	_	_
 9	wydobycia	wydobycie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	interp	_	5	punct	_	_
 
@@ -5625,7 +5625,7 @@
 1	We	w	ADP	prep:loc:wok	AdpType=Prep|Case=Loc|Variant=Long	2	case	_	_
 2	wniosku	wniosek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
 3	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	4	case	_	_
-4	wydanie	wydanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	2	nmod	_	_
+4	wydanie	wydanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	nmod	_	_
 5	karty	karta	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	_
 6	klient	klient	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	musi	musieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5688,7 +5688,7 @@
 # sent_id = dev-s404
 # text = Rzucanie elementów zbrojenia jest zabronione.
 # orig_file_sentence 005#4
-1	Rzucanie	rzucanie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	5	nsubj:pass	_	_
+1	Rzucanie	rzucanie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	nsubj:pass	_	_
 2	elementów	element	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obj	_	_
 3	zbrojenia	zbrojenie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
@@ -5740,7 +5740,7 @@
 3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
 4	Pan	pan	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	6	case	_	_
-6	twierdzeniem	twierdzenie	NOUN	ger:sg:inst:n:imperf:aff	Aspect=Imp|Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	2	obj	_	SpaceAfter=No
+6	twierdzeniem	twierdzenie	NOUN	ger:sg:inst:n:imperf:aff	Aspect=Imp|Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	12	punct	_	_
 8	że	że	SCONJ	comp	_	12	case	_	_
 9	system	system	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -6433,7 +6433,7 @@
 3	ciągle	ciągle	ADV	adv:pos	Degree=Pos	4	advmod	_	_
 4	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ambicję	ambicja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
-6	bycia	bycie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	7	cop	_	_
+6	bycia	bycie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	cop	_	_
 7	postrzeganym	postrzegać	VERB	ppas:sg:inst:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	nmod	_	_
 8	jako	jako	ADP	prep:nom	AdpType=Prep|Case=Nom	9	case	_	_
 9	lider	lider	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
@@ -6743,7 +6743,7 @@
 # orig_file_sentence 005#80
 1	Natychmiast	natychmiast	ADV	adv	_	6	advmod	_	_
 2	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	1	case	_	_
-3	odejściu	odejście	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	1	obl	_	_
+3	odejściu	odejście	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	obl	_	_
 4	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	5	case	_	_
 5	niej	on	PRON	ppron3:sg:gen:f:ter:akc:praep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	3	nmod	_	_
 6	zajął	zająć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -6912,7 +6912,7 @@
 # text = Unikali patrzenia sobie w oczy, przełykając metaliczny smak śmierci.
 # orig_file_sentence 005#92
 1	Unikali	unikać	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-2	patrzenia	patrzenie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	1	obj	_	_
+2	patrzenia	patrzenie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	obj	_	_
 3	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	5	case	_	_
 5	oczy	oko	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	2	nmod	_	SpaceAfter=No
@@ -6992,7 +6992,7 @@
 5	aromatyczny	aromatyczny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	interp	_	20	punct	_	_
 7	ale	ale	CCONJ	conj	_	20	cc	_	_
-8	picie	picie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	20	nsubj	_	_
+8	picie	picie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	20	nsubj	_	_
 9	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	13	case	_	_
 10	rżniętych	rżnięty	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
 11	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	12	case	_	_
@@ -7138,7 +7138,7 @@
 4	skomentował	skomentować	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	fakt	fakt	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 6	kilkakrotnego	kilkakrotny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
-7	odrzucenia	odrzucenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	5	nmod	_	_
+7	odrzucenia	odrzucenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	nmod	_	_
 8	swoich	swój	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
 9	wniosków	wniosek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obj	_	_
 10	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	12	case	_	_
@@ -7330,11 +7330,11 @@
 6	pytaniami	pytanie	NOUN	subst:pl:inst:n	Case=Ins|Gender=Neut|Number=Plur	4	nmod	_	_
 7	dotyczącymi	dotyczyć	VERB	pact:pl:inst:n:imperf:aff	Aspect=Imp|Case=Ins|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	_
 8	bezpiecznego	bezpieczny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
-9	korzystania	korzystanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	7	obj	_	_
+9	korzystania	korzystanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	obj	_	_
 10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	11	case	_	_
 11	dróg	droga	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
 12	i	i	CCONJ	conj	_	13	cc	_	_
-13	stosowania	stosowanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	9	conj	_	_
+13	stosowania	stosowanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	9	conj	_	_
 14	znaczków	znaczek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obj	_	_
 15	odblaskowych	odblaskowy	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	interp	_	3	punct	_	_
@@ -7348,7 +7348,7 @@
 4	TeDe	TeDe	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	_
 5	opłat	opłata	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	2	obj	_	_
 6	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	7	case	_	_
-7	wykorzystywanie	wykorzystywanie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	5	nmod	_	_
+7	wykorzystywanie	wykorzystywanie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	nmod	_	_
 8	nagrań	nagranie	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	7	obj	_	_
 9	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	10	case	_	_
 10	antenie	antena	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
@@ -7359,7 +7359,7 @@
 15	przeciwko	przeciwko	ADP	prep:dat	AdpType=Prep|Case=Dat	17	case	_	_
 16	obecnemu	obecny	ADJ	adj:sg:dat:m3:pos	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
 17	systemowi	system	NOUN	subst:sg:dat:m3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	obj	_	_
-18	naliczania	naliczanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	17	nmod	_	_
+18	naliczania	naliczanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	17	nmod	_	_
 19	tantiem	tantiema	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
 20	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	21	case	_	_
 21	całości	całość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
@@ -7903,10 +7903,10 @@
 6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	7	case	_	_
 7	sprawie	sprawa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
 8	zarzutów	zarzut	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
-9	zanieczyszczania	zanieczyszczanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	8	nmod	_	_
+9	zanieczyszczania	zanieczyszczanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	8	nmod	_	_
 10	ścieków	ściek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
 11	i	i	CCONJ	conj	_	12	cc	_	_
-12	spalania	spalanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	9	conj	_	_
+12	spalania	spalanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	9	conj	_	_
 13	odpadów	odpad	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
 14	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	15	case	_	_
 15	terenie	teren	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
@@ -7979,7 +7979,7 @@
 4	zarząd	zarząd	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	portu	port	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	prognozuje	prognozować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	odprawienie	odprawienie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	6	obj	_	_
+7	odprawienie	odprawienie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	obj	_	_
 8	400	400	NUM	num:pl:gen:m3:congr	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nummod	_	_
 9	tys	tysiąc	X	brev:pun	Abbr=Yes	8	case	_	SpaceAfter=No
 10	.	.	PUNCT	interp	_	9	punct	_	_
@@ -8045,7 +8045,7 @@
 1	Przewidywany	przewidywać	VERB	ppas:sg:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
 2	obecnie	obecnie	ADV	adv:pos	Degree=Pos	1	advmod	_	_
 3	termin	termin	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-4	rozpoczęcia	rozpoczęcie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	nmod	_	_
+4	rozpoczęcia	rozpoczęcie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nmod	_	_
 5	inwestycji	inwestycja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	_
 6	to	to	AUX	pred	_	3	cop	_	_
 7	marzec	marzec	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -8066,7 +8066,7 @@
 8	banki	bank	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 9	zaostrzyły	zaostrzyć	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 10	kryteria	kryterium	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
-11	przydzielania	przydzielanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	10	nmod	_	_
+11	przydzielania	przydzielanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	10	nmod	_	_
 12	kredytów	kredyt	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obj	_	_
 13	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	14	case	_	_
 14	inwestycje	inwestycja	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
@@ -8122,7 +8122,7 @@
 10	poważnym	poważny	ADJ	adj:sg:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	kandydatem	kandydat	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	5	ccomp	_	_
 12	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	13	case	_	_
-13	objęcia	objęcie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	11	nmod	_	_
+13	objęcia	objęcie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	nmod	_	_
 14	tej	ten	DET	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
 15	funkcji	funkcja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	obj	_	_
 16	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
@@ -8292,10 +8292,10 @@
 # text = Podstawą wykonania badania jest otrzymanie indywidualnego zaproszenia z Centrum.
 # orig_file_sentence 006#91
 1	Podstawą	podstawa	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
-2	wykonania	wykonanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	1	nmod	_	_
+2	wykonania	wykonanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	nmod	_	_
 3	badania	badanie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	2	obj	_	_
 4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-5	otrzymanie	otrzymanie	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	1	nsubj	_	_
+5	otrzymanie	otrzymanie	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	nsubj	_	_
 6	indywidualnego	indywidualny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
 7	zaproszenia	zaproszenie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
 8	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	9	case	_	_
@@ -8391,7 +8391,7 @@
 12	znacznie	znacznie	ADV	adv:pos	Degree=Pos	13	advmod	_	_
 13	ograniczając	ograniczać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv	6	advcl	_	_
 14	mozliwość	możliwość	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
-15	poruszania	poruszanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	14	nmod	_	_
+15	poruszania	poruszanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	14	nmod	_	_
 16	się	się	PRON	qub	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
 17	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	18	case	_	_
 18	nich	on	PRON	ppron3:pl:loc:m3:ter:akc:praep	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	15	nmod	_	SpaceAfter=No
@@ -8441,7 +8441,7 @@
 # orig_file_sentence 006#99
 1	Sanepid	sanepid	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	nakazał	nakazać	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-3	zamknięcie	zamknięcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	2	obj	_	_
+3	zamknięcie	zamknięcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	obj	_	_
 4	basenu	basen	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	interp	_	2	punct	_	_
 
@@ -9131,7 +9131,7 @@
 8	kampanii	kampania	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
 9	wyborczej	wyborczy	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 10	zapowiadała	zapowiadać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-11	zalegalizowanie	zalegalizowanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	10	obj	_	_
+11	zalegalizowanie	zalegalizowanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	10	obj	_	_
 12	kasyn	kasyno	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	interp	_	10	punct	_	_
 
@@ -9328,7 +9328,7 @@
 5	naszej	nasz	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	zdolności	zdolność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
 7	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	9	case	_	_
-8	bycia	bycie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	9	cop	_	_
+8	bycia	bycie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	9	cop	_	_
 9	obecnym	obecny	ADJ	adj:sg:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
 10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	12	case	_	_
 11	bieżącej	bieżący	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
@@ -9340,7 +9340,7 @@
 # orig_file_sentence 007#68
 1	Empatia	empatia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	zrozumieniem	zrozumienie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	0	root	_	_
+3	zrozumieniem	zrozumienie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	0	root	_	_
 4	cudzych	cudzy	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	_
 5	przeżyć	przeżycie	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	3	obj	_	_
 6	przy	przy	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
@@ -9815,7 +9815,7 @@
 12	cię	ty	PRON	ppron12:sg:acc:m1:sec:nakc	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs|Variant=Short	13	obj	_	_
 13	prosić	prosić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	11	xcomp	_	_
 14	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	15	case	_	_
-15	wykonywanie	wykonywanie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	13	iobj	_	_
+15	wykonywanie	wykonywanie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	13	iobj	_	_
 16	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	15	obj	_	SpaceAfter=No
 17	,	,	PUNCT	interp	_	19	punct	_	_
 18	co	CO	PROPN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
@@ -10034,7 +10034,7 @@
 2	akcja	akcja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	zmierza	zmierzać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	5	case	_	_
-5	przebadania	przebadanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	obj	_	_
+5	przebadania	przebadanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	obj	_	_
 6	osób	osoba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
 7	powyżej	powyżej	ADP	prep:gen	AdpType=Prep|Case=Gen	10	case	_	_
 8	30	30	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
@@ -10086,7 +10086,7 @@
 # orig_file_sentence 008#17
 1	Po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	2	case	_	_
 2	godzinie	godzina	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
-3	wałęsania	wałęsanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	2	nmod	_	_
+3	wałęsania	wałęsanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	nmod	_	_
 4	znaleźli	znaleźć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	się	się	PRON	qub	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
 6	wśród	wśród	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
@@ -10180,7 +10180,7 @@
 1	Zmusił	zmusić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
 3	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	4	case	_	_
-4	obejrzenia	obejrzenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	1	obj	_	SpaceAfter=No
+4	obejrzenia	obejrzenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	obj	_	SpaceAfter=No
 5	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s726
@@ -10627,7 +10627,7 @@
 3	kilkanaście	kilkanaście	DET	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	4	det:numgov	_	_
 4	godzin	godzina	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
 5	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	6	case	_	_
-6	zniknięciu	zniknięcie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	nmod	_	_
+6	zniknięciu	zniknięcie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nmod	_	_
 7	synów	syn	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
 8	zgłosiła	zgłosić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 9	się	się	PRON	qub	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
@@ -10735,7 +10735,7 @@
 6	przygotować	przygotować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_
 7	się	się	PRON	qub	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
 8	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	9	case	_	_
-9	wejścia	wejście	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	6	obj	_	_
+9	wejścia	wejście	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	obj	_	_
 10	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	11	case	_	_
 11	giełdę	giełda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	interp	_	14	punct	_	_
@@ -10842,7 +10842,7 @@
 8	wpadła	wpaść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	ccomp	_	_
 9	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	10	case	_	_
 10	pomysł	pomysł	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
-11	powołania	powołanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	10	nmod	_	_
+11	powołania	powołanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	10	nmod	_	_
 12	Planu	plan	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obj	_	_
 13	Kompostowego	kompostowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 14	dla	dla	ADP	prep:gen	AdpType=Prep|Case=Gen	15	case	_	_
@@ -10959,7 +10959,7 @@
 2	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mowy	mowa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	_
 4	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
-5	marnowaniu	marnowanie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	nmod	_	_
+5	marnowaniu	marnowanie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nmod	_	_
 6	powierzchni	powierzchnia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	2	punct	_	_
 
@@ -11029,7 +11029,7 @@
 6	aby	aby	SCONJ	comp	_	7	mark	_	_
 7	dopilnować	dopilnować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	4	acl	_	_
 8	uczciwego	uczciwy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
-9	załatwienia	załatwienie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	7	obj	_	_
+9	załatwienia	załatwienie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	obj	_	_
 10	interesu	interes	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	interp	_	1	punct	_	_
 
@@ -11264,7 +11264,7 @@
 10	zwiększono	zwiększyć	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 11	środki	środek	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
 12	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	13	case	_	_
-13	zamknięcie	zamknięcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	11	nmod	_	_
+13	zamknięcie	zamknięcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	nmod	_	_
 14	i	i	CCONJ	conj	_	15	cc	_	_
 15	rekultywację	rekultywacja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	_
 16	II	II	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
@@ -11302,7 +11302,7 @@
 5	czy	czy	PART	qub	_	13	advmod	_	_
 6	ten	ten	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	sposób	sposób	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-8	zawiadamiania	zawiadamianie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	7	nmod	_	_
+8	zawiadamiania	zawiadamianie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	nmod	_	_
 9	lokatorów	lokator	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 10	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	11	case	_	_
 11	kontrolach	kontrola	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	_
@@ -11322,7 +11322,7 @@
 7	kierować	kierować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_
 8	zawiadomienia	zawiadomienie	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
 9	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	10	case	_	_
-10	potwierdzeniem	potwierdzenie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	8	nmod	_	_
+10	potwierdzeniem	potwierdzenie	NOUN	ger:sg:inst:n:perf:aff	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	8	nmod	_	_
 11	odbioru	odbiór	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
 12	?	?	PUNCT	interp	_	2	punct	_	_
 
@@ -11336,7 +11336,7 @@
 5	zawiadomienie	zawiadomienie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
 6	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	7	case	_	_
 7	możliwości	możliwość	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
-8	popełnienia	popełnienie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	7	nmod	_	_
+8	popełnienia	popełnienie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	nmod	_	_
 9	przestępstwa	przestępstwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	8	obj	_	_
 10	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	11	case	_	_
 11	Prokuratury	prokuratura	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	iobj	_	_
@@ -12106,7 +12106,7 @@
 # orig_file_sentence 009#55
 1	Oczekujemy	oczekiwać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
-3	potwierdzenie	potwierdzenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	1	obj	_	SpaceAfter=No
+3	potwierdzenie	potwierdzenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	obj	_	SpaceAfter=No
 4	,	,	PUNCT	interp	_	9	punct	_	_
 5	że	że	SCONJ	comp	_	9	mark	_	_
 6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	7	case	_	_
@@ -12116,7 +12116,7 @@
 10	się	się	PRON	qub	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
 11	środki	środek	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 12	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	13	case	_	_
-13	utworzenie	utworzenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	11	nmod	_	_
+13	utworzenie	utworzenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	nmod	_	_
 14	funduszu	fundusz	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 15	stypendialnego	stypendialny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 16	dla	dla	ADP	prep:gen	AdpType=Prep|Case=Gen	17	case	_	_
@@ -12392,7 +12392,7 @@
 15	faworyta	faworyt	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
 16	i	i	CCONJ	conj	_	21	cc	_	_
 17	rzeczywiście	rzeczywiście	ADV	adv:pos	Degree=Pos	21	advmod	_	_
-18	osiągnięcie	osiągnięcie	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	21	nsubj	_	_
+18	osiągnięcie	osiągnięcie	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	21	nsubj	_	_
 19	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
 20	celu	cel	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obj	_	_
 21	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	conj	_	_
@@ -12499,7 +12499,7 @@
 1	Rozpierała	rozpierać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	1	obj	_	_
 3	potrzeba	potrzeba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
-4	działania	działanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	nmod	_	SpaceAfter=No
+4	działania	działanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s886
@@ -12585,7 +12585,7 @@
 5	zgodził	zgodzić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	się	się	PRON	qub	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
 7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
-8	przestawienie	przestawienie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	5	obj	_	_
+8	przestawienie	przestawienie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	obj	_	_
 9	swego	swój	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	samochodu	samochód	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 11	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	14	case	_	_
@@ -13061,7 +13061,7 @@
 3	fiknął	fiknąć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	kozła	kozioł	NOUN	subst:sg:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 5	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	6	case	_	_
-6	strzeleniu	strzelenie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	obl	_	_
+6	strzeleniu	strzelenie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	obl	_	_
 7	gola	gol	NOUN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 8	.	.	PUNCT	interp	_	3	punct	_	_
 
@@ -13379,7 +13379,7 @@
 2	sanitarne	sanitarny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	_
 3	apelują	apelować	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	5	case	_	_
-5	zgłaszanie	zgłaszanie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	obj	_	_
+5	zgłaszanie	zgłaszanie	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	obj	_	_
 6	takich	taki	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
 7	przypadków	przypadek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
 8	,	,	PUNCT	interp	_	10	punct	_	_
@@ -13644,7 +13644,7 @@
 1	Z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	2	case	_	_
 2	prośbą	prośba	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	7	obj	_	_
 3	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	4	case	_	_
-4	udzielenie	udzielenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	2	nmod	_	_
+4	udzielenie	udzielenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	nmod	_	_
 5	mu	on	PRON	ppron3:sg:dat:m1:ter:nakc:npraep	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	4	obj	_	_
 6	głosu	głos	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_
 7	zwrócił	zwrócić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -13750,7 +13750,7 @@
 13	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	advmod	_	_
 14	celu	cel	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	case	_	_
 15	szczegółowego	szczegółowy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
-16	zbadania	zbadanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	13	nmod	_	SpaceAfter=No
+16	zbadania	zbadanie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	interp	_	8	punct	_	_
 
 # sent_id = dev-s981
@@ -14289,7 +14289,7 @@
 # sent_id = dev-s1018
 # text = Rozdawanie ulotek NIE JEST terroryzmem medialnym!
 # orig_file_sentence 011#18
-1	Rozdawanie	rozdawanie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	5	nsubj	_	_
+1	Rozdawanie	rozdawanie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	nsubj	_	_
 2	ulotek	ulotka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	1	obj	_	_
 3	NIE	nie	PART	qub	_	5	advmod	_	_
 4	JEST	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -14341,7 +14341,7 @@
 3	bezstronności	bezstronność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 4	dziennikarskiej	dziennikarski	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 5	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-6	niewchodzenie	wchodzenie	NOUN	ger:sg:nom:n:imperf:neg	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Ger	1	nsubj	_	_
+6	niewchodzenie	wchodzenie	NOUN	ger:sg:nom:n:imperf:neg	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Vnoun	1	nsubj	_	_
 7	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	9	case	_	_
 8	towarzyskie	towarzyski	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
 9	układy	układ	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
@@ -14421,7 +14421,7 @@
 2	również	również	PART	qub	_	1	advmod	_	_
 3	pomoc	pomoc	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	5	case	_	_
-5	załatwianiu	załatwianie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Ger	3	nmod	_	_
+5	załatwianiu	załatwianie	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nmod	_	_
 6	spraw	sprawa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	obj	_	_
 7	urzędowych	urzędowy	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
 8	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	9	case	_	_
