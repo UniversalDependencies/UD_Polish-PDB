@@ -28,6 +28,7 @@ Changelog
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET.
   * Improved advmod vs. obl distinction.
+  * Passive participles moved from verbs to adjectives.
 2016-05-15 v1.3
   * Fixed adverbs that were attached as nmod; correct: advmod.
   * Conditional auxiliary "by" changed from PART to AUX (and features added).
