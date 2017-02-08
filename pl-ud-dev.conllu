@@ -18,7 +18,7 @@
 1	-	-	PUNCT	interp	_	4	punct	_	_
 2	Jesteśmy	być	AUX	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 3	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	4	obj	_	_
-4	pisani	pisać	VERB	ppas:pl:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	pisani	pisany	ADJ	ppas:pl:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s4
@@ -42,7 +42,7 @@
 4	przepchnęła	przepchnąć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	słowa	słowo	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
 6	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	8	case	_	_
-7	zaciśnięte	zacisnąć	VERB	ppas:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+7	zaciśnięte	zaciśnięty	ADJ	ppas:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 8	gardło	gardło	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	iobj	_	SpaceAfter=No
 9	.	.	PUNCT	interp	_	4	punct	_	_
 
@@ -254,7 +254,7 @@
 3	sklepach	sklep	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	nmod	_	_
 4	nic	nic	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	6	obj	_	_
 5	nie	nie	PART	qub	_	6	advmod	_	_
-6	znaleziono	znaleźć	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	znaleziono	znaleziony	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	10	punct	_	_
 8	przeszukiwania	przeszukiwanie	NOUN	ger:pl:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Vnoun	10	nsubj	_	_
 9	pozostałych	pozostały	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
@@ -862,7 +862,7 @@
 5	udzieleniu	udzielenie	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
 6	pomocy	pomoc	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	_
 7	medycznej	medyczny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
-8	zwolniono	zwolnić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	zwolniono	zwolniony	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 9	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	10	case	_	_
 10	domów	dom	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
 11	.	.	PUNCT	interp	_	8	punct	_	_
@@ -871,8 +871,8 @@
 # text = Poszkodowanego poddano operacji w miejscowym szpitalu.
 # orig_file_sentence 001#63
 1	Poszkodowanego	poszkodowany	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
-2	poddano	poddać	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
-3	operacji	operacja	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	2	iobj	_	_
+2	poddano	poddany	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	operacji	operacja	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	2	obj	_	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
 5	miejscowym	miejscowy	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	szpitalu	szpital	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
@@ -908,7 +908,7 @@
 3	uroczystości	uroczystość	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
 4	Wielkiego	Wielki	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	Tygodnia	Tydzień	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-6	zwracano	zwracać	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	zwracano	zwracany	ADJ	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 7	uwagę	uwaga	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 8	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	9	case	_	_
 9	zdrowie	zdrowie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_
@@ -937,7 +937,7 @@
 7	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	6	case	_	_
 8	projektem	projekt	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
 9	technicznym	techniczny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
-10	zatwierdzonym	zatwierdzić	VERB	ppas:sg:inst:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+10	zatwierdzonym	zatwierdzony	ADJ	ppas:sg:inst:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 11	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	12	case	_	_
 12	kierownika	kierownik	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 13	ruchu	ruch	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
@@ -952,7 +952,7 @@
 2	podstawie	podstawa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
 3	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	dokumentu	dokument	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-5	powołani	powołać	VERB	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+5	powołani	powołany	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 6	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	7	case	_	_
 7	gminę	gmina	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 8	eksperci	ekspert	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
@@ -1051,7 +1051,7 @@
 5	miarę	miara	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 6	normalnie	normalnie	ADV	adv:pos	Degree=Pos	3	advmod	_	_
 7	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	9	case	_	_
-8	uszkodzonym	uszkodzić	VERB	ppas:sg:inst:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	acl	_	_
+8	uszkodzonym	uszkodzony	ADJ	ppas:sg:inst:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	_	_
 9	kręgosłupem	kręgosłup	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
 10	,	,	PUNCT	interp	_	12	punct	_	_
 11	ale	ale	CCONJ	conj	_	12	cc	_	_
@@ -1107,7 +1107,7 @@
 # orig_file_sentence 001#78
 1	Projekt	projekt	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 2	został	zostać	AUX	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	aux:pass	_	_
-3	podpisany	podpisać	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	podpisany	podpisany	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 4	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	5	case	_	_
 5	cesarza	cesarz	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 6	Wilhelma	Wilhelm	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	5	appos	_	_
@@ -1117,9 +1117,9 @@
 # sent_id = dev-s79
 # text = Przyznano je kurortowi 8 października 1901 r.
 # orig_file_sentence 001#79
-1	Przyznano	przyznać	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Przyznano	przyznany	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 2	je	on	PRON	ppron3:pl:acc:n:ter:akc:npraep	Case=Acc|Gender=Neut|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	_	_
-3	kurortowi	kurort	NOUN	subst:sg:dat:m3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	_
+3	kurortowi	kurort	NOUN	subst:sg:dat:m3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	1	obj	_	_
 4	8	8	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	1	obl	_	_
 5	października	październik	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	1901	1901	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -1226,7 +1226,7 @@
 1-2	Byłam	_	_	_	_	_	_	_	_
 1	Była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	aux:pass	_	_
 2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	3	aux	_	_
-3	zgubiona	zgubić	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+3	zgubiona	zgubiony	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s88
@@ -1336,7 +1336,7 @@
 # orig_file_sentence 001#97
 1	D	D	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 2	został	zostać	AUX	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	aux:pass	_	_
-3	stworzony	stworzyć	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	stworzony	stworzony	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 4	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	5	case	_	_
 5	Waltera	Walter	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 6	Brighta	Bright	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
@@ -1673,7 +1673,7 @@
 8	powinny	powinien	ADJ	winien:pl:f:imperf	Aspect=Imp|Gender=Fem|Number=Plur	2	conj	_	_
 9	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf	11	aux:pass	_	_
 10	właściwie	właściwie	ADV	adv:pos	Degree=Pos	11	advmod	_	_
-11	ukierunkowane	ukierunkować	VERB	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	ccomp	_	SpaceAfter=No
+11	ukierunkowane	ukierunkowany	ADJ	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s122
@@ -1869,7 +1869,7 @@
 13	zawisła	zawisnąć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	conj	_	_
 14	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	15	case	_	_
 15	głowami	głowa	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	13	obj	_	_
-16	zebranych	zebrać	VERB	ppas:pl:gen:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	15	acl	_	SpaceAfter=No
+16	zebranych	zebrany	ADJ	ppas:pl:gen:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	15	amod	_	SpaceAfter=No
 17	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s132
@@ -2006,7 +2006,7 @@
 # orig_file_sentence 002#42
 1	Nazajutrz	nazajutrz	ADV	adv	_	9	advmod	_	_
 2	ekipa	ekipa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
-3	dowodzona	dowodzić	VERB	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	acl	_	_
+3	dowodzona	dowodzony	ADJ	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
 4	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	5	case	_	_
 5	J	J	X	brev:pun	Abbr=Yes	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	interp	_	5	punct	_	_
@@ -2187,7 +2187,7 @@
 13	której	który	DET	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|PronType=Int,Rel	14	amod	_	_
 14	skład	skład	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
 15	wchodził	wchodzić	VERB	praet:sg:m2:imperf	Animacy=Nhum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	_
-16	uwięziony	uwięzić	VERB	ppas:sg:nom:m2:perf:aff	Animacy=Nhum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	acl	_	_
+16	uwięziony	uwięziony	ADJ	ppas:sg:nom:m2:perf:aff	Animacy=Nhum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
 17	wilk	wilk	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
 18	.	.	PUNCT	interp	_	9	punct	_	_
 
@@ -2235,7 +2235,7 @@
 4	ugotować	ugotować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	2	conj	_	_
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	6	case	_	_
 6	nim	on	PRON	ppron3:sg:loc:m3:ter:akc:praep	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	4	obl	_	_
-7	pokrojone	pokroić	VERB	ppas:pl:acc:m2:perf:aff	Animacy=Nhum|Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	_	_
+7	pokrojone	pokrojony	ADJ	ppas:pl:acc:m2:perf:aff	Animacy=Nhum|Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
 8	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	9	case	_	_
 9	kostkę	kostka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 10	ziemniaki	ziemniak	NOUN	subst:pl:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
@@ -2245,7 +2245,7 @@
 # text = Dodać uduszone warzywa z kapustą i fasolę.
 # orig_file_sentence 002#59
 1	Dodać	dodać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	0	root	_	_
-2	uduszone	udusić	VERB	ppas:pl:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+2	uduszone	uduszony	ADJ	ppas:pl:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
 3	warzywa	warzywo	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
 4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	5	case	_	_
 5	kapustą	kapusta	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
@@ -2466,7 +2466,7 @@
 # text = Jesteśmy wyzwoleni wiarą, modlitwą, ofiarą, krwią, mądrością i miłością Ducha, ale nie potrafimy być wolni.
 # orig_file_sentence 002#77
 1	Jesteśmy	być	AUX	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
-2	wyzwoleni	wyzwolić	VERB	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+2	wyzwoleni	wyzwoleny	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 3	wiarą	wiara	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 4	,	,	PUNCT	interp	_	5	punct	_	_
 5	modlitwą	modlitwa	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
@@ -2525,7 +2525,7 @@
 2	więc	więc	CCONJ	conj	_	7	advmod	_	_
 3	zgodnie	zgodnie	ADV	adv:pos	Degree=Pos	7	advmod	_	_
 4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	3	case	_	_
-5	przyjętymi	przyjąć	VERB	ppas:pl:inst:f:perf:aff	Aspect=Perf|Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	acl	_	_
+5	przyjętymi	przyjęty	ADJ	ppas:pl:inst:f:perf:aff	Aspect=Perf|Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
 6	zasadami	zasada	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
 7-8	przystąpiliśmy	_	_	_	_	_	_	_	_
 7	przystąpili	przystąpić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -2661,9 +2661,9 @@
 2	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	3	case	_	_
 3	epoce	epoka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	obj	_	_
 4	czasu	czas	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	rozciągniętego	rozciągnąć	VERB	ppas:sg:gen:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	acl	_	SpaceAfter=No
+5	rozciągniętego	rozciągnięty	ADJ	ppas:sg:gen:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	interp	_	7	punct	_	_
-7	wydłużonego	wydłużyć	VERB	ppas:sg:gen:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No
+7	wydłużonego	wydłużony	ADJ	ppas:sg:gen:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No
 8	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s192
@@ -2772,8 +2772,8 @@
 # text = Brygidę pozbawiono stypendium, odtąd więc musiała wieczorami zarabiać jako sprzątaczka biur.
 # orig_file_sentence 003#1
 1	Brygidę	Brygida	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
-2	pozbawiono	pozbawić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
-3	stypendium	stypendium	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	2	iobj	_	SpaceAfter=No
+2	pozbawiono	pozbawiony	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	stypendium	stypendium	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	interp	_	7	punct	_	_
 5	odtąd	odtąd	ADV	adv	_	7	advmod	_	_
 6	więc	więc	CCONJ	conj	_	7	cc	_	_
@@ -2912,7 +2912,7 @@
 # sent_id = dev-s212
 # text = Podejrzewano, że jest prowokatorem.
 # orig_file_sentence 003#12
-1	Podejrzewano	podejrzewać	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+1	Podejrzewano	podejrzewany	ADJ	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	interp	_	5	punct	_	_
 3	że	że	SCONJ	comp	_	5	case	_	_
 4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -2932,7 +2932,7 @@
 # sent_id = dev-s214
 # text = Zalecano inną taktykę.
 # orig_file_sentence 003#14
-1	Zalecano	zalecać	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Zalecano	zalecany	ADJ	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 2	inną	inny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	taktykę	taktyka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	interp	_	1	punct	_	_
@@ -3104,7 +3104,7 @@
 8	czas	czas	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	interp	_	10	punct	_	_
 10	kształt	kształt	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	_
-11	uświęcony	uświęcić	VERB	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	_	_
+11	uświęcony	uświęcony	ADJ	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
 12	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	13	case	_	_
 13	wieków	wiek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
 14	.	.	PUNCT	interp	_	2	punct	_	_
@@ -3129,7 +3129,7 @@
 3	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	4	case	_	_
 4	dziobów	dziób	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
 5	strzępy	strzęp	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
-6	zatłuszczonych	zatłuścić	VERB	ppas:pl:gen:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	acl	_	_
+6	zatłuszczonych	zatłuszczony	ADJ	ppas:pl:gen:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
 7	papierów	papier	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	interp	_	1	punct	_	_
 
@@ -3302,7 +3302,7 @@
 6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	7	case	_	_
 7	przestworzach	przestworze	NOUN	subst:pl:loc:n	Case=Loc|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	interp	_	5	punct	_	_
-9	prowadzony	prowadzić	VERB	ppas:sg:acc:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	acl	_	_
+9	prowadzony	prowadzony	ADJ	ppas:sg:acc:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
 10	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	11	case	_	_
 11	duchy	duch	NOUN	subst:pl:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
 12	zwierząt	zwierzę	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
@@ -3315,7 +3315,7 @@
 2	norm	norma	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
 3	aksjologicznych	aksjologiczny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
 4	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-5	uznawane	uznawać	VERB	ppas:pl:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+5	uznawane	uznawany	ADJ	ppas:pl:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 6	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	7	case	_	_
 7	nas	my	PRON	ppron12:pl:acc:m1:pri	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
 8	normy	norma	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
@@ -3633,7 +3633,7 @@
 9	dzisiaj	dzisiaj	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
 10	czuje	czuć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 11	się	się	PRON	qub	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
-12	obciążony	obciążyć	VERB	ppas:sg:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+12	obciążony	obciążony	ADJ	ppas:sg:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	xcomp	_	_
 13	psychicznie	psychicznie	ADV	adv:pos	Degree=Pos	12	advmod	_	SpaceAfter=No
 14	.	.	PUNCT	interp	_	3	punct	_	_
 
@@ -4306,7 +4306,7 @@
 3	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 4	wiele	wiele	NUM	num:pl:acc:n:rec	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
 5	już	już	PART	qub	_	6	advmod	_	_
-6	sprywatyzowano	sprywatyzować	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	sprywatyzowano	sprywatyzowany	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	6	punct	_	_
 
 # sent_id = dev-s318
@@ -4483,7 +4483,7 @@
 # sent_id = dev-s329
 # text = Grożono jej pistoletem gazowym.
 # orig_file_sentence 004#29
-1	Grożono	grozić	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Grożono	grożony	ADJ	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 2	jej	on	PRON	ppron3:sg:dat:f:ter:akc:npraep	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	_	_
 3	pistoletem	pistolet	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obj	_	_
 4	gazowym	gazowy	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
@@ -4841,7 +4841,7 @@
 4	,	,	PUNCT	interp	_	13	punct	_	_
 5	że	że	SCONJ	comp	_	13	case	_	_
 6	ubezpieczenia	ubezpieczenie	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	_
-7	zawierane	zawierać	VERB	ppas:pl:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	acl	_	_
+7	zawierane	zawierany	ADJ	ppas:pl:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
 8	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	9	case	_	_
 9	Polaków	Polak	PROPN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
 10	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	11	case	_	_
@@ -5001,12 +5001,12 @@
 10	ustępstwo	ustępstwo	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
 11	wobec	wobec	ADP	prep:gen	AdpType=Prep|Case=Gen	15	case	_	_
 12	pacyfistycznie	pacyfistycznie	ADV	adv:pos	Degree=Pos	13	advmod	_	_
-13	nastawionych	nastawić	VERB	ppas:pl:gen:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	15	acl	_	_
+13	nastawionych	nastawiony	ADJ	ppas:pl:gen:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	15	amod	_	_
 14	europejskich	europejski	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
 15	sojuszników	sojusznik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
 16	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 17	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	21	case	_	_
-18	zdominowanym	zdominować	VERB	ppas:sg:loc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	21	acl	_	_
+18	zdominowanym	zdominowany	ADJ	ppas:sg:loc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	21	amod	_	_
 19	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	20	case	_	_
 20	Republikanów	republikanin	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	18	obl	_	_
 21	Kongresie	kongres	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
@@ -5206,7 +5206,7 @@
 # text = Dyrektorom likwidowanych wydziałów starosta znajdzie u siebie jakieś inne posady.
 # orig_file_sentence 004#70
 1	Dyrektorom	dyrektor	NOUN	subst:pl:dat:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	_
-2	likwidowanych	likwidować	VERB	ppas:pl:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+2	likwidowanych	likwidowany	ADJ	ppas:pl:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
 3	wydziałów	wydział	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 4	starosta	starosta	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	znajdzie	znaleźć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5390,13 +5390,13 @@
 4	poinformowały	poinformować	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	jednocześnie	jednocześnie	ADV	adv:pos	Degree=Pos	4	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	interp	_	8	punct	_	_
-7	że	że	SCONJ	comp	_	8	mark	_	_
-8	odwołano	odwołać	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+7	że	że	SCONJ	comp	_	8	case	_	_
+8	odwołano	odwołany	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	xcomp	_	_
 9	wszystkie	wszystek	DET	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|PronType=Tot	10	det	_	_
 10	spotkania	spotkanie	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
 11	prezydenta	prezydent	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	interp	_	10	punct	_	_
-13	zaplanowane	zaplanować	VERB	ppas:pl:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	_	_
+13	zaplanowane	zaplanowany	ADJ	ppas:pl:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
 14	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	16	case	_	_
 15	przyszły	przyszły	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
 16	tydzień	tydzień	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
@@ -5560,10 +5560,10 @@
 10	r	rok	X	brev:pun	Abbr=Yes	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	interp	_	10	punct	_	SpaceAfter=No
 12	,	,	PUNCT	interp	_	1	punct	_	_
-13	kierowano	kierować	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+13	kierowano	kierowany	ADJ	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 14	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	16	case	_	_
 15	karnych	karny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
-16	batalionów	batalion	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	iobj	_	SpaceAfter=No
+16	batalionów	batalion	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
 17	.	.	PUNCT	interp	_	13	punct	_	_
 
 # sent_id = dev-s395
@@ -5692,7 +5692,7 @@
 2	elementów	element	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obj	_	_
 3	zbrojenia	zbrojenie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	zabronione	zabronić	VERB	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	zabronione	zabroniony	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s405
@@ -5767,7 +5767,7 @@
 11	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	12	case	_	_
 12	warkoczem	warkocz	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
 13	ciasno	ciasno	ADV	adv:pos	Degree=Pos	14	advmod	_	_
-14	oplecionym	opleść	VERB	ppas:sg:inst:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	acl	_	_
+14	oplecionym	opleciony	ADJ	ppas:sg:inst:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
 15	wokół	wokół	ADP	prep:gen	AdpType=Prep|Case=Gen	16	case	_	_
 16	głowy	głowa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
 17	.	.	PUNCT	interp	_	3	punct	_	_
@@ -5959,9 +5959,9 @@
 5	Andrew	Andrew	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 6	został	zostać	AUX	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	aux:pass	_	_
 7	oficjalnie	oficjalnie	ADV	adv:pos	Degree=Pos	8	advmod	_	_
-8	poinformowany	poinformować	VERB	ppas:sg:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	poinformowany	poinformowany	ADJ	ppas:sg:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 9	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	10	case	_	_
-10	prokuratora	prokurator	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	8	iobj	_	SpaceAfter=No
+10	prokuratora	prokurator	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	interp	_	15	punct	_	_
 12	że	że	SCONJ	comp	_	15	mark	_	_
 13	Oksana	Oksana	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
@@ -6434,7 +6434,7 @@
 4	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ambicję	ambicja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 6	bycia	bycie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	cop	_	_
-7	postrzeganym	postrzegać	VERB	ppas:sg:inst:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	nmod	_	_
+7	postrzeganym	postrzegany	ADJ	ppas:sg:inst:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	nmod	_	_
 8	jako	jako	ADP	prep:nom	AdpType=Prep|Case=Nom	9	case	_	_
 9	lider	lider	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
 10	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	11	case	_	_
@@ -6490,7 +6490,7 @@
 6	,	,	PUNCT	interp	_	9	punct	_	_
 7	jak	jak	ADV	adv	_	9	advmod	_	_
 8	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
-9	wybierany	wybierać	VERB	ppas:sg:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+9	wybierany	wybierany	ADJ	ppas:sg:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	xcomp	_	_
 10	przyszły	przyszły	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	prezydent	prezydent	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 12	miasta	miasto	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -6519,7 +6519,7 @@
 8	bardzo	bardzo	ADV	adv:pos	Degree=Pos	9	advmod	_	_
 9	konkretnych	konkretny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	SpaceAfter=No
 10	,	,	PUNCT	interp	_	11	punct	_	_
-11	opartych	oprzeć	VERB	ppas:pl:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	conj	_	_
+11	opartych	oparty	ADJ	ppas:pl:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	conj	_	_
 12	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	14	case	_	_
 13	głęboką	głęboki	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 14	analizę	analiza	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
@@ -6537,7 +6537,7 @@
 4	podział	podział	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 5	ten	ten	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 6	został	zostać	AUX	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	aux:pass	_	_
-7	przezwyciężony	przezwyciężyć	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	przezwyciężony	przezwyciężony	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	interp	_	7	punct	_	_
 
 # sent_id = dev-s466
@@ -6609,7 +6609,7 @@
 6	jeszcze	jeszcze	PART	qub	_	9	advmod	_	_
 7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
 8	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	9	obj	_	_
-9	przygotowany	przygotować	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	przygotowany	przygotowany	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	interp	_	9	punct	_	_
 
 # sent_id = dev-s470
@@ -6681,7 +6681,7 @@
 6	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	7	case	_	_
 7	kurtki	kurtka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	interp	_	7	punct	_	_
-9	naciągniętej	naciągnąć	VERB	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	acl	_	_
+9	naciągniętej	naciągnięty	ADJ	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
 10	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	12	case	_	_
 11	pochyłe	pochyły	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	_
 12	ramiona	ramię	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	_
@@ -6690,7 +6690,7 @@
 15	cudza	cudzy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
 16	,	,	PUNCT	interp	_	18	punct	_	_
 17	źle	źle	ADV	adv:pos	Degree=Pos	18	advmod	_	_
-18	dopasowana	dopasować	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	conj	_	_
+18	dopasowana	dopasowany	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	conj	_	_
 19	skóra	skóra	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 20	.	.	PUNCT	interp	_	2	punct	_	_
 
@@ -6792,7 +6792,7 @@
 6	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	7	case	_	_
 7	sobą	siebie	PRON	siebie:inst	Case=Ins|PronType=Prs|Reflex=Yes	8	obl	_	_
 8	dźwigał	dźwigać	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
-9	wypchany	wypchać	VERB	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	acl	_	_
+9	wypchany	wypchany	ADJ	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
 10	szary	szary	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	worek	worek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 12	.	.	PUNCT	interp	_	1	punct	_	_
@@ -6800,10 +6800,10 @@
 # sent_id = dev-s484
 # text = Nazywano go Leśnym Człowiekiem.
 # orig_file_sentence 005#84
-1	Nazywano	nazywać	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Nazywano	nazywany	ADJ	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 2	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	1	obj	_	_
 3	Leśnym	leśny	ADJ	adj:sg:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
-4	Człowiekiem	człowiek	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	1	iobj	_	SpaceAfter=No
+4	Człowiekiem	człowiek	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
 5	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s485
@@ -6826,7 +6826,7 @@
 2	jego	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	3	nmod	_	_
 3	kierunkiem	kierunek	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
 4	zostało	zostać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-5	napisanych	napisać	VERB	ppas:pl:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	acl	_	_
+5	napisanych	napisany	ADJ	ppas:pl:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
 6	70	70	NUM	num:pl:nom:n:rec	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
 7	prac	prace	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
 8	dyplomowych	dyplomowy	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	_
@@ -6848,7 +6848,7 @@
 8	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	9	case	_	_
 9	czumach	czum	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	interp	_	12	punct	_	_
-11	objedzone	objeść	VERB	ppas:pl:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	acl	_	_
+11	objedzone	objedzony	ADJ	ppas:pl:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
 12	kości	kość	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
 13	,	,	PUNCT	interp	_	14	punct	_	_
 14	rogi	róg	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	conj	_	_
@@ -6999,7 +6999,7 @@
 12	kwiaty	kwiat	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
 13	szklanek	szklanka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	interp	_	13	punct	_	_
-15	oprawionych	oprawić	VERB	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	acl	_	_
+15	oprawionych	oprawiony	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	_	_
 16	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	18	case	_	_
 17	blaszane	blaszany	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
 18	koszyczki	koszyczek	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
@@ -7118,7 +7118,7 @@
 5	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	7	case	_	_
 6	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	sposób	sposób	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
-8	obsadzone	obsadzić	VERB	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	advcl	_	_
+8	obsadzone	obsadzony	ADJ	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	obl	_	_
 9	wszystkie	wszystek	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Tot	10	det	_	_
 10	mandaty	mandat	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	SpaceAfter=No
 11	,	,	PUNCT	interp	_	8	punct	_	_
@@ -7179,12 +7179,12 @@
 4	warunków	warunki	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
 5	atmosferycznych	atmosferyczny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_
 6	śmigłowce	śmigłowiec	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
-7	użyte	użyć	VERB	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	acl	_	_
+7	użyte	użyty	ADJ	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
 8	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	9	case	_	_
 9	poszukiwań	poszukiwanie	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	7	obl	_	_
 10	mogły	móc	VERB	praet:pl:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 11	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf	12	aux:pass	_	_
-12	wykorzystane	wykorzystać	VERB	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+12	wykorzystane	wykorzystany	ADJ	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	xcomp	_	_
 13	tylko	tylko	PART	qub	_	12	advmod	_	_
 14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	16	case	_	_
 15	ograniczonym	ograniczony	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
@@ -7205,7 +7205,7 @@
 9	miały	mieć	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
 10	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	11	case	_	_
 11	głowach	głowa	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
-12	przekrzywione	przekrzywić	VERB	ppas:pl:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	acl	_	_
+12	przekrzywione	przekrzywiony	ADJ	ppas:pl:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	_	_
 13	berety	beret	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
 14	,	,	PUNCT	interp	_	18	punct	_	_
 15	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	17	case	_	_
@@ -7285,7 +7285,7 @@
 10	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	9	aux	_	_
 11	wasz	wasz	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 12	raport	raport	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
-13	przesłany	przesłać	VERB	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	acl	_	_
+13	przesłany	przesłany	ADJ	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
 14	tu	tu	ADV	adv	_	13	advmod	_	_
 15	wraz	wraz	ADV	adv	_	17	case	_	_
 16	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	15	fixed	_	_
@@ -7386,7 +7386,7 @@
 # sent_id = dev-s522
 # text = Obezwładniono garnizon twierdzy Pietropawłowskiej.
 # orig_file_sentence 006#22
-1	Obezwładniono	obezwładnić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Obezwładniono	obezwładniony	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 2	garnizon	garnizon	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
 3	twierdzy	twierdza	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	Pietropawłowskiej	Pietropawłowska	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
@@ -7462,7 +7462,7 @@
 1	Widocznie	widocznie	ADV	adv:pos	Degree=Pos	4	advmod	_	_
 2	jestem	być	AUX	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 3	źle	źle	ADV	adv:pos	Degree=Pos	4	advmod	_	_
-4	poinformowany	poinformować	VERB	ppas:sg:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	poinformowany	poinformowany	ADJ	ppas:sg:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s530
@@ -7692,7 +7692,7 @@
 2	połowa	połowa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	miejsc	miejsce	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
 4	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	aux:pass	_	_
-5	zajęta	zająć	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	zajęta	zajęty	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s551
@@ -7866,7 +7866,7 @@
 2	nawierzchnia	nawierzchnia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	ulicy	ulica	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	zostanie	zostać	AUX	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	odtworzona	odtworzyć	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	odtworzona	odtworzony	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 6	jednak	jednak	PART	qub	_	5	nmod	_	_
 7	dopiero	dopiero	PART	qub	_	6	nmod	_	_
 8	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
@@ -7917,7 +7917,7 @@
 # text = Ujawniamy skrywaną przez Służby Kontrwywiadu Wojskowego tajemnicę!
 # orig_file_sentence 006#67
 1	Ujawniamy	ujawniać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	skrywaną	skrywać	VERB	ppas:sg:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	acl	_	_
+2	skrywaną	skrywany	ADJ	ppas:sg:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
 3	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	4	case	_	_
 4	Służby	służba	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	_
 5	Kontrwywiadu	kontrwywiad	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -7945,8 +7945,8 @@
 # orig_file_sentence 006#69
 1	Rok	rok	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 2	2007	2007	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	_
-3	zamknięto	zamknąć	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
-4	liczbą	liczba	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	3	iobj	_	_
+3	zamknięto	zamknięty	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	liczbą	liczba	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	3	obj	_	_
 5	238400	238400	NUM	num:pl:gen:m1:congr	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	4	nummod	_	_
 6	pasażerów	pasażer	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	3	punct	_	_
@@ -7966,7 +7966,7 @@
 10	dwucyfrowy	dwucyfrowy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	przyrost	przyrost	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 12	ilości	ilość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
-13	odprawionych	odprawić	VERB	ppas:pl:gen:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	14	acl	_	_
+13	odprawionych	odprawiony	ADJ	ppas:pl:gen:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	_	_
 14	pasażerów	pasażer	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	interp	_	9	punct	_	_
 
@@ -8033,7 +8033,7 @@
 1	Z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	2	case	_	_
 2	jeziora	jezioro	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
 3	Maszewskiego	Maszewski	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
-4	wyłowiono	wyłowić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	wyłowiono	wyłowiony	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 5	wczoraj	wczoraj	ADV	adv	_	4	advmod	_	_
 6	ciało	ciało	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
 7	mężczyzny	mężczyzna	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
@@ -8042,7 +8042,7 @@
 # sent_id = dev-s576
 # text = Przewidywany obecnie termin rozpoczęcia inwestycji to marzec 2009 roku.
 # orig_file_sentence 006#76
-1	Przewidywany	przewidywać	VERB	ppas:sg:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+1	Przewidywany	przewidywany	ADJ	ppas:sg:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
 2	obecnie	obecnie	ADV	adv:pos	Degree=Pos	1	advmod	_	_
 3	termin	termin	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	rozpoczęcia	rozpoczęcie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nmod	_	_
@@ -8075,7 +8075,7 @@
 # sent_id = dev-s578
 # text = Wyznaczone zostaną również miejsca parkingowe.
 # orig_file_sentence 006#78
-1	Wyznaczone	wyznaczyć	VERB	ppas:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Wyznaczone	wyznaczony	ADJ	ppas:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 2	zostaną	zostać	AUX	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
 3	również	również	PART	qub	_	1	advmod	_	_
 4	miejsca	miejsce	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	1	nsubj:pass	_	_
@@ -8085,7 +8085,7 @@
 # sent_id = dev-s579
 # text = Wstrzymana zostanie jutro dostawa wody do Białunia.
 # orig_file_sentence 006#79
-1	Wstrzymana	wstrzymać	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Wstrzymana	wstrzymany	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 2	zostanie	zostać	AUX	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
 3	jutro	jutro	ADV	adv	_	1	advmod	_	_
 4	dostawa	dostawa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj:pass	_	_
@@ -8101,7 +8101,7 @@
 2	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	1	case	_	_
 3	najbliższy	bliski	ADJ	adj:sg:acc:m3:sup	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	_
 4	czwartek	czwartek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
-5	otwarta	otworzyć	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	otwarta	otwarty	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 6	zostanie	zostać	AUX	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 7	restauracja	restauracja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 8	McDonald's	McDonald's	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
@@ -8143,7 +8143,7 @@
 4	Żeromskiego	Żeromski	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	2	appos	_	_
 5	i	i	CCONJ	conj	_	6	cc	_	_
 6	Odrodzenia	Odrodzenie	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	conj	_	_
-7	ustawione	ustawić	VERB	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	ustawione	ustawiony	ADJ	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 8	zostaną	zostać	AUX	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	11	case	_	_
 10	tym	ten	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
@@ -8230,7 +8230,7 @@
 6	spać	spać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	5	xcomp	_	_
 7	we	w	ADP	prep:loc:wok	AdpType=Prep|Case=Loc|Variant=Long	10	case	_	_
 8	własnoręcznie	własnoręcznie	ADV	adv:pos	Degree=Pos	9	advmod	_	_
-9	zrobionym	zrobić	VERB	ppas:sg:loc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	_	_
+9	zrobionym	zrobiony	ADJ	ppas:sg:loc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
 10	domku	domek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 11	,	,	PUNCT	interp	_	13	punct	_	_
 12	organizatorzy	organizator	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
@@ -8308,7 +8308,7 @@
 1	Ulica	ulica	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 2	Matejki	Matejko	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	zamknięta	zamknąć	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	zamknięta	zamknięty	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 5	dla	dla	ADP	prep:gen	AdpType=Prep|Case=Gen	6	case	_	_
 6	ruchu	ruch	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
 7	kołowego	kołowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
@@ -8369,7 +8369,7 @@
 2	awarii	awaria	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf	5	aux:pass	_	_
-5	usunięte	usunąć	VERB	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+5	usunięte	usunięty	ADJ	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	xcomp	_	_
 6	jeszcze	jeszcze	PART	qub	_	7	advmod	_	_
 7	dzisiaj	dzisiaj	ADV	adv	_	5	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	interp	_	3	punct	_	_
@@ -8383,7 +8383,7 @@
 4	leśnym	leśny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	dukcie	dukt	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obj	_	_
 6	zalegają	zalegać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	połamane	połamać	VERB	ppas:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+7	połamane	połamany	ADJ	ppas:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 8	drzewa	drzewo	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
 9	i	i	CCONJ	conj	_	10	cc	_	_
 10	konary	konar	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
@@ -8642,7 +8642,7 @@
 2	słowa	słowo	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	5	nsubj:pass	_	_
 3	umierającej	umierająca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	były	być	AUX	praet:pl:n:imperf	Aspect=Imp|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	aux:pass	_	_
-5	skierowane	skierować	VERB	ppas:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	skierowane	skierowany	ADJ	ppas:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 6	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	7	case	_	_
 7	syna	syn	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 8	.	.	PUNCT	interp	_	5	punct	_	_
@@ -8726,7 +8726,7 @@
 22	jakby	jakby	SCONJ	comp	_	23	mark	_	_
 23	chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	19	advcl	_	_
 24	nadgonić	nadgonić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	23	xcomp	_	_
-25	stracony	stracić	VERB	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	26	acl	_	_
+25	stracony	stracony	ADJ	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	26	amod	_	_
 26	czas	czas	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
 27	.	.	PUNCT	interp	_	1	punct	_	_
 
@@ -8741,7 +8741,7 @@
 6	się	się	PRON	qub	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
 7	odzywać	odzywać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	5	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	interp	_	9	punct	_	_
-9	skupiony	skupić	VERB	ppas:sg:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	advcl	_	_
+9	skupiony	skupiony	ADJ	ppas:sg:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	obl	_	_
 10	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	11	case	_	_
 11	kierownicą	kierownica	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 12	.	.	PUNCT	interp	_	1	punct	_	_
@@ -8848,7 +8848,7 @@
 4	przede	przed	ADP	prep:inst:wok	AdpType=Prep|Case=Ins|Variant=Long	5	case	_	_
 5	mną	ja	PRON	ppron12:sg:inst:m1:pri	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
 6	ze	z	ADP	prep:inst:wok	AdpType=Prep|Case=Ins|Variant=Long	8	case	_	_
-7	spuszczoną	spuścić	VERB	ppas:sg:inst:f:perf:aff	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+7	spuszczoną	spuszczony	ADJ	ppas:sg:inst:f:perf:aff	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 8	głową	głowa	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 9	.	.	PUNCT	interp	_	3	punct	_	_
 
@@ -8891,7 +8891,7 @@
 4	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	coś	coś	DET	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	4	nsubj	_	_
 6	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	8	case	_	_
-7	zabiedzonego	zabiedzić	VERB	ppas:sg:gen:m2:perf:aff	Animacy=Nhum|Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+7	zabiedzonego	zabiedzony	ADJ	ppas:sg:gen:m2:perf:aff	Animacy=Nhum|Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 8	osiołka	osiołek	NOUN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
 9	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	11	case	_	_
 10	wypukłym	wypukły	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
@@ -9043,7 +9043,7 @@
 5	trwa	trwać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	i	i	CCONJ	conj	_	8	cc	_	_
 7	zostaje	zostawać	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
-8	wzmocniony	wzmocnić	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No
+8	wzmocniony	wzmocniony	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No
 9	,	,	PUNCT	interp	_	14	punct	_	_
 10	kiedy	kiedy	SCONJ	comp	_	14	mark	_	_
 11	nowa	nowy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
@@ -9144,7 +9144,7 @@
 4	sprawie	sprawa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
 5	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf	7	aux:pass	_	_
-7	przyjęta	przyjąć	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+7	przyjęta	przyjęty	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	xcomp	_	_
 8	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	9	case	_	_
 9	początku	początek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
 10	przyszłego	przyszły	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
@@ -9228,7 +9228,7 @@
 2	przybył	przybyć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	4	case	_	_
 4	dwa	dwa	NUM	num:pl:acc:n:congr	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
-5	umówione	umówić	VERB	ppas:pl:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	_	_
+5	umówione	umówiony	ADJ	ppas:pl:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
 6	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	7	case	_	_
 7	Jana	Jan	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 8	S	S	X	brev:pun	Abbr=Yes	7	nmod	_	SpaceAfter=No
@@ -9385,7 +9385,7 @@
 6	wszystkich	wszystek	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|PronType=Tot	7	det	_	_
 7	reflektorów	reflektor	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 8	i	i	CCONJ	conj	_	12	cc	_	_
-9	zainstalowanych	zainstalować	VERB	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	acl	_	_
+9	zainstalowanych	zainstalowany	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
 10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	11	case	_	_
 11	nich	on	PRON	ppron3:pl:loc:m3:ter:akc:praep	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	9	obl	_	_
 12	żarówek	żarówka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
@@ -9397,7 +9397,7 @@
 1	Większość	większość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	mieszkańców	mieszkaniec	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 3	chwaliła	chwalić	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-4	przygotowany	przygotować	VERB	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	acl	_	_
+4	przygotowany	przygotowany	ADJ	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
 5	projekt	projekt	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	interp	_	3	punct	_	_
 
@@ -9461,12 +9461,12 @@
 5	woda	woda	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
 6	sprawiły	sprawić	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	13	punct	_	_
-8	że	że	SCONJ	comp	_	13	mark	_	_
+8	że	że	SCONJ	comp	_	13	case	_	_
 9	slipy	slipy	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	13	nsubj:pass	_	_
 10	były	być	AUX	praet:pl:n:imperf	Aspect=Imp|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	13	aux:pass	_	_
 11	tylko	tylko	PART	qub	_	12	advmod	_	_
 12	delikatnie	delikatnie	ADV	adv:pos	Degree=Pos	13	advmod	_	_
-13	wybrzuszone	wybrzuszyć	VERB	ppas:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	ccomp	_	SpaceAfter=No
+13	wybrzuszone	wybrzuszony	ADJ	ppas:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	interp	_	6	punct	_	_
 
 # sent_id = dev-s677
@@ -9620,7 +9620,7 @@
 2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 3	połowę	połowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
 4	drogi	droga	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
-5	oszacowanej	oszacować	VERB	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	acl	_	_
+5	oszacowanej	oszacowany	ADJ	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	_
 6	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	7	case	_	_
 7	Martina	Martin	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 8	Helwiga	Helwig	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -9744,7 +9744,7 @@
 1	Tutaj	tutaj	ADV	adv	_	4	advmod	_	_
 2	firma	firma	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	została	zostać	AUX	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	aux:pass	_	_
-4	założona	założyć	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	założona	założony	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 5	i	i	CCONJ	conj	_	7	cc	_	_
 6	najmocniej	mocno	ADV	adv:sup	Degree=Sup	7	advmod	_	_
 7	wrosła	wrosnąć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	_
@@ -9995,7 +9995,7 @@
 3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	zdziczały	zdziczały	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 5	i	i	CCONJ	conj	_	6	cc	_	_
-6	przetrzebiony	przetrzebić	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+6	przetrzebiony	przetrzebiony	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s711
@@ -10053,7 +10053,7 @@
 5	39	39	NUM	num:pl:gen:m3:congr	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obj	_	_
 6	tys	tysiąc	X	brev:pun	Abbr=Yes	5	case	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	6	punct	_	_
-8	ubezpieczonych	ubezpieczyć	VERB	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	acl	_	_
+8	ubezpieczonych	ubezpieczony	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	_	_
 9	kobiet	kobieta	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
 10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	11	case	_	_
 11	LRKCh	LRKCh	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -10370,7 +10370,7 @@
 # orig_file_sentence 008#40
 1	Działania	działanie	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	3	nsubj:pass	_	_
 2	były	być	AUX	praet:pl:n:imperf	Aspect=Imp|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	aux:pass	_	_
-3	prowadzone	prowadzić	VERB	ppas:pl:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	prowadzone	prowadzony	ADJ	ppas:pl:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 4	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	5	case	_	_
 5	terenie	teren	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
 6	całego	cały	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -10405,7 +10405,7 @@
 # sent_id = dev-s743
 # text = Opisane tu postawy to wady ludzkie znane od pokoleń.
 # orig_file_sentence 008#43
-1	Opisane	opisać	VERB	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+1	Opisane	opisany	ADJ	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
 2	tu	tu	ADV	adv	_	1	advmod	_	_
 3	postawy	postawa	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 4	to	to	AUX	pred	_	3	cop	_	_
@@ -10474,7 +10474,7 @@
 1	Jeżeli	jeżeli	SCONJ	comp	_	4	mark	_	_
 2	dokument	dokument	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	zostanie	zostać	AUX	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	uchwalony	uchwalić	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	advcl	_	_
+4	uchwalony	uchwalony	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	obl	_	_
 5	podczas	podczas	ADP	prep:gen	AdpType=Prep|Case=Gen	6	case	_	_
 6	sesji	sesja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
 7	28	28	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
@@ -10561,8 +10561,8 @@
 3	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	4	case	_	_
 4	Święto	święto	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
 5	Niepodległości	niepodległość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
-6	odsłonięto	odsłonić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
-7	odbudowany	odbudować	VERB	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+6	odsłonięto	odsłonięty	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	odbudowany	odbudowany	ADJ	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 8	Pomnik	pomnik	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 9	Niepodległości	niepodległość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	interp	_	6	punct	_	_
@@ -10642,7 +10642,7 @@
 2	Edward	Edward	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 3	Gierek	Gierek	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	interp	_	2	punct	_	_
-5	witany	witać	VERB	ppas:sg:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	witany	witany	ADJ	ppas:sg:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
 6	oklaskami	oklaski	NOUN	subst:pl:inst:n	Case=Ins|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	2	punct	_	_
 8	podszedł	podejść	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -10669,12 +10669,12 @@
 29	sali	sala	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	25	obj	_	_
 30	i	i	CCONJ	conj	_	34	cc	_	_
 31	gestem	gest	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	_
-32	uniesionej	unieść	VERB	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	33	acl	_	_
+32	uniesionej	uniesiony	ADJ	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	33	amod	_	_
 33	ręki	ręka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
 34	podziękował	podziękować	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	_
-35	zebranym	zebrać	VERB	ppas:pl:dat:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	34	ccomp	_	_
+35	zebranym	zebrany	ADJ	ppas:pl:dat:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	34	obj	_	_
 36	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	37	case	_	_
-37	przyjęcie	przyjęcie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	34	iobj	_	SpaceAfter=No
+37	przyjęcie	przyjęcie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	34	obj	_	SpaceAfter=No
 38	.	.	PUNCT	interp	_	8	punct	_	_
 
 # sent_id = dev-s759
@@ -10820,7 +10820,7 @@
 # text = Na deklarowane stanowisko wyraźnie wpływa staż pracy sędziego.
 # orig_file_sentence 008#68
 1	Na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	3	case	_	_
-2	deklarowane	deklarować	VERB	ppas:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+2	deklarowane	deklarowany	ADJ	ppas:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
 3	stanowisko	stanowisko	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
 4	wyraźnie	wyraźnie	ADV	adv:pos	Degree=Pos	5	advmod	_	_
 5	wpływa	wpływać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10915,9 +10915,9 @@
 14	,	,	PUNCT	interp	_	17	punct	_	_
 15	którego	który	DET	adj:sg:acc:m1:pos	Animacy=Hum|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|PronType=Int,Rel	17	obj	_	_
 16	natychmiast	natychmiast	ADV	adv	_	17	advmod	_	_
-17	wyrzucono	wyrzucić	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	acl	_	_
+17	wyrzucono	wyrzucony	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
 18	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	19	case	_	_
-19	partii	partia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	17	iobj	_	SpaceAfter=No
+19	partii	partia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
 20	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s775
@@ -11046,13 +11046,13 @@
 # orig_file_sentence 008#84
 1	Konwojent	konwojent	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
 2	,	,	PUNCT	interp	_	1	punct	_	_
-3	delegowany	delegować	VERB	ppas:sg:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	acl	_	_
+3	delegowany	delegowany	ADJ	ppas:sg:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	amod	_	_
 4	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	5	case	_	_
 5	fabrykę	fabryka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	interp	_	1	punct	_	_
 7	został	zostać	AUX	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	aux:pass	_	_
 8	już	już	PART	qub	_	9	advmod	_	_
-9	obrobiony	obrobić	VERB	ppas:sg:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	obrobiony	obrobiony	ADJ	ppas:sg:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	interp	_	9	punct	_	_
 
 # sent_id = dev-s785
@@ -11091,7 +11091,7 @@
 6	mitologie	mitologia	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	8	punct	_	_
 8	estetyki	estetyka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	_
-9	zaczerpnięte	zaczerpnąć	VERB	ppas:pl:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	acl	_	_
+9	zaczerpnięte	zaczerpnięty	ADJ	ppas:pl:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	_
 10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	12	case	_	_
 11	różnych	różny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
 12	kultur	kultura	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
@@ -11227,7 +11227,7 @@
 3	Subregionu	subregion	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	Zachodniego	zachodni	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 5	zostały	zostać	AUX	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	aux:pass	_	_
-6	niewykorzystane	wykorzystać	VERB	ppas:pl:nom:m3:perf:neg	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Neg|VerbForm=Part|Voice=Pass	0	root	_	_
+6	niewykorzystane	niewykorzystany	ADJ	ppas:pl:nom:m3:perf:neg	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Neg|VerbForm=Part|Voice=Pass	0	root	_	_
 7	2	2	NUM	num:pl:nom:m3:congr	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 8	miliony	milion	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	case	_	_
 9	zł	złoty	X	brev:npun	Abbr=Yes	7	nmod	_	_
@@ -11261,7 +11261,7 @@
 7	prawie	prawie	PART	qub	_	8	nmod	_	_
 8	milion	milion	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 9	złotych	złoty	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
-10	zwiększono	zwiększyć	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+10	zwiększono	zwiększony	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 11	środki	środek	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
 12	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	13	case	_	_
 13	zamknięcie	zamknięcie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	nmod	_	_
@@ -11407,7 +11407,7 @@
 4	ciężarem	ciężar	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	_
 5	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
 6	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	8	nmod	_	_
-7	wykręconą	wykręcić	VERB	ppas:sg:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+7	wykręconą	wykręcony	ADJ	ppas:sg:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 8	nogę	noga	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 9	.	.	PUNCT	interp	_	1	punct	_	_
 
@@ -11479,7 +11479,7 @@
 # orig_file_sentence 009#13
 1	Zapisy	zapis	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
 2	będą	być	AUX	bedzie:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
-3	prowadzone	prowadzić	VERB	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	prowadzone	prowadzony	ADJ	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 4	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	5	case	_	_
 5	10	10	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	_
 6	stycznia	styczeń	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
@@ -11501,7 +11501,7 @@
 1	Już	już	PART	qub	_	2	advmod	_	_
 2	pierwszy	pierwszy	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	turniej	turniej	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-4	rozegrany	rozegrać	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+4	rozegrany	rozegrany	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
 5	14	14	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
 6	listopada	listopad	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
@@ -11799,13 +11799,13 @@
 7	,	,	PUNCT	interp	_	12	punct	_	_
 8	kiedy	kiedy	SCONJ	comp	_	12	mark	_	_
 9	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	11	case	_	_
-10	otwarte	otworzyć	VERB	ppas:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	acl	_	_
+10	otwarte	otwarty	ADJ	ppas:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
 11	okno	okno	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
 12	dobiegł	dobiec	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	_
 13	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	14	case	_	_
 14	wnętrza	wnętrze	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	12	obj	_	_
 15	izby	izba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
-16	podniesiony	podnieść	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	acl	_	_
+16	podniesiony	podniesiony	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
 17	głos	głos	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 18	kobiety	kobieta	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	interp	_	1	punct	_	_
@@ -11872,7 +11872,7 @@
 2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
 3	woźnice	woźnica	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	interp	_	9	punct	_	_
-5	wytrąceni	wytrącić	VERB	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+5	wytrąceni	wytrąceny	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 6	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	7	case	_	_
 7	błogostanu	błogostan	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
 8	kupcy	kupiec	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
@@ -12061,7 +12061,7 @@
 2	po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	3	case	_	_
 3	skarpie	skarpa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
 4	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	7	case	_	_
-5	oblodzony	oblodzić	VERB	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	acl	_	_
+5	oblodzony	oblodzony	ADJ	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
 6	betonowy	betonowy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	brzeg	brzeg	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
 8	zalewu	zalew	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -12086,7 +12086,7 @@
 # orig_file_sentence 009#53
 1	Większość	większość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
 2	została	zostać	AUX	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	aux:pass	_	_
-3	spełniona	spełnić	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+3	spełniona	spełniony	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s854
@@ -12195,7 +12195,7 @@
 # text = Potem zaproponowano urządzić koniowi pogrzeb...
 # orig_file_sentence 009#61
 1	Potem	potem	ADV	adv	_	2	advmod	_	_
-2	zaproponowano	zaproponować	VERB	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+2	zaproponowano	zaproponowany	ADJ	imps:perf	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 3	urządzić	urządzić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_
 4	koniowi	koń	NOUN	subst:sg:dat:m2	Animacy=Nhum|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
 5	pogrzeb	pogrzeb	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
@@ -12269,7 +12269,7 @@
 1	Wszystkie	wszystek	DET	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|PronType=Tot	2	det	_	_
 2	trasy	trasa	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	przygotowane	przygotować	VERB	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	przygotowane	przygotowany	ADJ	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 5	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	6	case	_	_
 6	ratraki	ratrak	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	10	punct	_	_
@@ -12333,7 +12333,7 @@
 1	Inicjatywa	inicjatywa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 2	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
 3	została	zostać	AUX	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	aux:pass	_	_
-4	zaaprobowana	zaaprobować	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	zaaprobowana	zaaprobowany	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s872
@@ -12379,7 +12379,7 @@
 2	przyjemnością	przyjemność	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
 3	informujemy	informować	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	interp	_	13	punct	_	_
-5	że	że	SCONJ	comp	_	13	mark	_	_
+5	że	że	SCONJ	comp	_	13	case	_	_
 6	drużyna	drużyna	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 7	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	8	case	_	_
 8	Lipnika	Lipnik	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -12387,7 +12387,7 @@
 10	dłuższy	długi	ADJ	adj:sg:acc:m3:com	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
 11	czas	czas	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 12	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	aux:pass	_	_
-13	uważana	uważać	VERB	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+13	uważana	uważany	ADJ	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	obj	_	_
 14	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	15	case	_	_
 15	faworyta	faworyt	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
 16	i	i	CCONJ	conj	_	21	cc	_	_
@@ -12546,7 +12546,7 @@
 # text = Lekko rozchylonymi wargami całował jej wpółprzymknięte powieki.
 # orig_file_sentence 009#91
 1	Lekko	lekko	ADV	adv:pos	Degree=Pos	2	advmod	_	_
-2	rozchylonymi	rozchylić	VERB	ppas:pl:inst:f:perf:aff	Aspect=Perf|Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+2	rozchylonymi	rozchylony	ADJ	ppas:pl:inst:f:perf:aff	Aspect=Perf|Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
 3	wargami	warga	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
 4	całował	całować	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	7	nmod	_	_
@@ -12590,7 +12590,7 @@
 10	samochodu	samochód	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 11	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	14	case	_	_
 12	mniej	mało	ADV	adv:com	_	13	advmod	_	_
-13	zaludnione	zaludnić	VERB	ppas:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	acl	_	_
+13	zaludnione	zaludniony	ADJ	ppas:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	_	_
 14	miejsce	miejsce	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	interp	_	5	punct	_	_
 
@@ -12706,7 +12706,7 @@
 5	,	,	PUNCT	interp	_	8	punct	_	_
 6	którzy	który	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	8	nsubj:pass	_	_
 7	zostali	zostać	AUX	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	aux:pass	_	_
-8	odwiezieni	odwieźć	VERB	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	acl	_	_
+8	odwiezieni	odwiezieny	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	_
 9	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	11	case	_	_
 10	śródmiejskiej	śródmiejski	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	komendy	komenda	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
@@ -12740,7 +12740,7 @@
 # orig_file_sentence 010#4
 1	Uroczystość	uroczystość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
 2	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
-3	połączona	połączyć	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	połączona	połączony	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	5	case	_	_
 5	55-leciem	55-lecie	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	3	obj	_	_
 6	istnienia	istnienie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
@@ -12780,7 +12780,7 @@
 # orig_file_sentence 010#7
 1	Po	po	ADP	prep:loc	AdpType=Prep|Case=Loc	2	case	_	_
 2	mszy	msza	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
-3	zgromadzeni	zgromadzić	VERB	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	csubj	_	_
+3	zgromadzeni	zgromadzeny	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	nsubj	_	_
 4	przejdą	przejść	VERB	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	6	case	_	_
 6	Szpitala	szpital	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_
@@ -13332,7 +13332,7 @@
 3	pieniądze	pieniądz	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	muszą	musieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	zostać	zostać	AUX	inf:perf	Aspect=Perf|VerbForm=Inf	6	aux:pass	_	_
-6	wymienione	wymienić	VERB	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+6	wymienione	wymieniony	ADJ	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	xcomp	_	_
 7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
 8	złote	złoty	NOUN	subst:pl:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	interp	_	13	punct	_	_
@@ -13483,7 +13483,7 @@
 # text = Wśród wybranej czwórki znalazło się przedsiębiorstwo z Siemiatycz.
 # orig_file_sentence 010#60
 1	Wśród	wśród	ADP	prep:gen	AdpType=Prep|Case=Gen	3	case	_	_
-2	wybranej	wybrać	VERB	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+2	wybranej	wybrany	ADJ	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
 3	czwórki	czwórka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	_
 4	znalazło	znaleźć	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	się	się	PRON	qub	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
@@ -13625,7 +13625,7 @@
 1	Lista	lista	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 2	mówców	mówca	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 3	została	zostać	AUX	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	aux:pass	_	_
-4	wyczerpana	wyczerpać	VERB	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	wyczerpana	wyczerpany	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s973
@@ -13703,7 +13703,7 @@
 # text = Nieobecność wymienionych była dla weteranów afrontem.
 # orig_file_sentence 010#77
 1	Nieobecność	nieobecność	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
-2	wymienionych	wymienić	VERB	ppas:pl:gen:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	1	acl	_	_
+2	wymienionych	wymieniony	ADJ	ppas:pl:gen:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	1	amod	_	_
 3	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	_
 4	dla	dla	ADP	prep:gen	AdpType=Prep|Case=Gen	5	case	_	_
 5	weteranów	weteran	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
@@ -13762,11 +13762,11 @@
 3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	1	aux	_	_
 4	także	także	PART	qub	_	1	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	interp	_	10	punct	_	_
-6	aby	aby	SCONJ	comp	_	10	mark	_	_
+6	aby	aby	SCONJ	comp	_	10	case	_	_
 7	Wysoki	wysoki	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	Sejm	sejm	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 9	został	zostać	AUX	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	aux:pass	_	_
-10	poinformowany	poinformować	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	ccomp	_	_
+10	poinformowany	poinformowany	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	xcomp	_	_
 11	o	o	ADP	prep:loc	AdpType=Prep|Case=Loc	12	case	_	_
 12	wynikach	wynik	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obj	_	_
 13	kontroli	kontrola	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
@@ -13805,11 +13805,11 @@
 7	panie	pan	NOUN	subst:sg:voc:m1	Animacy=Hum|Case=Voc|Gender=Masc|Number=Sing	5	obl	_	_
 8	marszałku	marszałek	NOUN	subst:sg:voc:m1	Animacy=Hum|Case=Voc|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
 9	,	,	PUNCT	interp	_	14	punct	_	_
-10	żeby	żeby	SCONJ	comp	_	14	mark	_	_
+10	żeby	żeby	SCONJ	comp	_	14	case	_	_
 11	pańskie	pański	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 12	stanowisko	stanowisko	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	_
 13	zostało	zostać	AUX	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	aux:pass	_	_
-14	przekazane	przekazać	VERB	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+14	przekazane	przekazany	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	xcomp	_	_
 15	komisji	komisja	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	14	obj	_	_
 16	regulaminowej	regulaminowy	ADJ	adj:sg:dat:f:pos	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
 17	.	.	PUNCT	interp	_	2	punct	_	_
@@ -13858,7 +13858,7 @@
 2	Wniosek	wniosek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	został	zostać	AUX	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	aux:pass	_	_
 4	oczywiście	oczywiście	PART	qub	_	5	advmod	_	_
-5	postawiony	postawić	VERB	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	postawiony	postawiony	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s989
@@ -14166,7 +14166,7 @@
 # orig_file_sentence 011#10
 1	Bezprawnie	bezprawnie	ADV	adv:pos	Degree=Pos	3	advmod	_	_
 2	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	3	obj	_	_
-3	aresztowano	aresztować	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+3	aresztowano	aresztowany	ADJ	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	interp	_	3	punct	_	_
 
 # sent_id = dev-s1011
@@ -14263,7 +14263,7 @@
 6	Poznania	Poznań	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 7	różnych	różny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	_
 8	wyznań	wyznanie	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
-9	modlono	modlić	VERB	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+9	modlono	modlony	ADJ	imps:imperf	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 10	się	się	PRON	qub	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
 11	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	12	case	_	_
 12	jedność	jedność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
@@ -14282,7 +14282,7 @@
 6	domków	domek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 7	i	i	CCONJ	conj	_	10	cc	_	_
 8	idealnie	idealnie	ADV	adv:pos	Degree=Pos	9	advmod	_	_
-9	wyprofilowanych	wyprofilować	VERB	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	_	_
+9	wyprofilowanych	wyprofilowany	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
 10	ulic	ulica	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
 11	.	.	PUNCT	interp	_	1	punct	_	_
 
@@ -14436,7 +14436,7 @@
 # sent_id = dev-s1027
 # text = Planowana modernizacja ośrodka wyniesie około 90 tysięcy złotych.
 # orig_file_sentence 011#27
-1	Planowana	planować	VERB	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	acl	_	_
+1	Planowana	planowany	ADJ	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
 2	modernizacja	modernizacja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 3	ośrodka	ośrodek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	wyniesie	wynieść	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

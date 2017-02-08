@@ -7,12 +7,12 @@
   <size>
     <total><sentences>8227</sentences><tokens>82788</tokens><words>83571</words><fused>745</fused></total>
   </size>
-  <lemmas unique="13013" /><!-- ., ,, być, w, się, na, i, z, on, nie, do, -, to, ?, że -->
+  <lemmas unique="13397" /><!-- ., ,, być, w, się, na, i, z, on, nie, do, -, to, ?, że -->
   <forms unique="23570" /><!-- ., ,, w, się, na, i, nie, z, do, -, ?, że, to, jest, o -->
   <fusions unique="513" /><!-- byłem, byłoby, byłam, mieliśmy, chciałbym, chciałem, chciałby, miałam, miałem, widziałem, bym, byłby, mogłem, zostałem, mogłaby -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="15">
-    <tag name="ADJ">7004</tag><!-- swój, nowy, cały, pierwszy, nasz, inny, mój, sam, polski, duży -->
+    <tag name="ADJ">8120</tag><!-- swój, nowy, cały, pierwszy, nasz, inny, mój, sam, polski, duży -->
     <tag name="ADP">8588</tag><!-- w, na, z, do, o, po, od, za, przez, dla -->
     <tag name="ADV">2928</tag><!-- bardzo, tak, jak, teraz, tam, dobrze, wczoraj, tu, potem, często -->
     <tag name="AUX">2363</tag><!-- być, zostać, to, stać, stawać, zostawać, bywać, wydać, poczuć, pozostawać -->
@@ -25,7 +25,7 @@
     <tag name="PROPN">2959</tag><!-- Polska, Warszawa, Polak, Piotr, Adam, Europa, Bóg, Jan, Jerzy, Poznań -->
     <tag name="PUNCT">13480</tag><!-- ., ,, -, ?, !, –, ", ;, …, ( -->
     <tag name="SCONJ">1113</tag><!-- że, bo, gdy, aby, by, żeby, jeśli, gdyby, choć, jeżeli -->
-    <tag name="VERB">12365</tag><!-- mieć, być, móc, to, chcieć, wiedzieć, musieć, mówić, znaleźć, zrobić -->
+    <tag name="VERB">11249</tag><!-- mieć, być, móc, to, chcieć, wiedzieć, musieć, mówić, można, znaleźć -->
     <tag name="X">275</tag><!-- rok, tysiąc, złoty, ulica, procent, około, godzina, milion, święty, bieżący_rok -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -59,7 +59,7 @@
     <feat name="Person" value="1" upos="AUX,PRON,VERB">1910</feat><!-- em, m, śmy, mnie, mi, nas, dziękuję, ja, wiem, mam -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">544</feat><!-- ci, eś, cię, ty, jesteś, ś, masz, wiesz, ciebie, będziesz -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">4941</feat><!-- jest, ma, są, jego, go, ich, będzie, jej, mu, ją -->
-    <feat name="Polarity" value="Neg" upos="NOUN,VERB">24</feat><!-- nieuzyskania, Nieleczona, niedoceniana, niedopełnienie, niedopuszczenie, niehodowaną, nieocieplony, nieodpowiadanie, nieprowadzenie, nieprzeprowadzenie -->
+    <feat name="Polarity" value="Neg" upos="ADJ,NOUN">24</feat><!-- nieuzyskania, Nieleczona, niedoceniana, niedopełnienie, niedopuszczenie, niehodowaną, nieocieplony, nieodpowiadanie, nieprowadzenie, nieprzeprowadzenie -->
     <feat name="Polarity" value="Pos" upos="ADJ,AUX,NOUN,VERB">2053</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęta, znaleziono, prowadzone, dotyczące, przyjęciem, wyczerpana, zatrzymano -->
     <feat name="PrepCase" value="Npr" upos="PRON">970</feat><!-- jego, go, ich, jej, mu, ją, je, on, im, ona -->
     <feat name="PrepCase" value="Pre" upos="ADJ,PRON">281</feat><!-- nich, nim, niego, niej, nią, nimi, prostu, dawna, nie, niemu -->
@@ -79,42 +79,42 @@
     <feat name="VerbForm" value="Conv" upos="VERB">190</feat><!-- patrząc, mając, wracając, czekając, posługując, tworząc, usiłując, zarzucając, Mijając, biorąc -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">5858</feat><!-- jest, em, ma, by, są, m, będzie, śmy, może, będą -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1360</feat><!-- być, powiedzieć, zrobić, znaleźć, mieć, robić, wrócić, wyjść, zmienić, zobaczyć -->
-    <feat name="VerbForm" value="Part" upos="AUX,VERB">6840</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">6840</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
     <feat name="VerbForm" value="Vnoun" upos="NOUN">671</feat><!-- głosowania, odrzucenie, przyjęcie, przyjęciem, bycia, działania, naciśnięcie, nieuzyskania, otwarcie, stosowania -->
     <feat name="Voice" value="Act" upos="AUX,VERB">5724</feat><!-- był, było, była, został, miał, były, chciał, została, miała, udało -->
-    <feat name="Voice" value="Pass" upos="VERB">1116</feat><!-- przyjęta, znaleziono, prowadzone, wyczerpana, zatrzymano, zatrzymany, przeprowadzono, przygotowany, rozegrano, stwierdzono -->
+    <feat name="Voice" value="Pass" upos="ADJ">1116</feat><!-- przyjęta, znaleziono, prowadzone, wyczerpana, zatrzymano, zatrzymany, przeprowadzono, przygotowany, rozegrano, stwierdzono -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="30">
-    <dep name="acl">1215</dep>
-    <dep name="advcl">631</dep>
+    <dep name="acl">674</dep>
+    <dep name="advcl">606</dep>
     <dep name="advmod">5909</dep>
-    <dep name="amod">6019</dep>
+    <dep name="amod">6560</dep>
     <dep name="appos">422</dep>
     <dep name="aux">1084</dep>
     <dep name="aux:pass">302</dep>
-    <dep name="case">8855</dep>
+    <dep name="case">8897</dep>
     <dep name="cc">1705</dep>
-    <dep name="ccomp">757</dep>
+    <dep name="ccomp">687</dep>
     <dep name="conj">2680</dep>
     <dep name="cop">965</dep>
-    <dep name="csubj">10</dep>
+    <dep name="csubj">7</dep>
     <dep name="det">964</dep>
     <dep name="det:numgov">93</dep>
     <dep name="det:nummod">16</dep>
     <dep name="expl:pv">1708</dep>
     <dep name="fixed">29</dep>
     <dep name="flat">3</dep>
-    <dep name="iobj">913</dep>
-    <dep name="mark">1026</dep>
+    <dep name="iobj">833</dep>
+    <dep name="mark">984</dep>
     <dep name="nmod">7757</dep>
-    <dep name="nsubj">5708</dep>
+    <dep name="nsubj">5711</dep>
     <dep name="nsubj:pass">220</dep>
     <dep name="nummod">99</dep>
-    <dep name="obj">7672</dep>
-    <dep name="obl">3971</dep>
+    <dep name="obj">7757</dep>
+    <dep name="obl">3996</dep>
     <dep name="punct">13485</dep>
     <dep name="root">8227</dep>
-    <dep name="xcomp">1126</dep>
+    <dep name="xcomp">1191</dep>
   </deps>
 </treebank>
