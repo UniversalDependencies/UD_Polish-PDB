@@ -289,7 +289,7 @@
 4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	5	case	_	_
 5	prezesami	prezes	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	3	nmod	_	_
 6	spółek	spółka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
-7	wchodzących	wchodzić	VERB	pact:pl:gen:f:imperf:aff	Aspect=Imp|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	_
+7	wchodzących	wchodzący	ADJ	pact:pl:gen:f:imperf:aff	Aspect=Imp|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
 8	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	9	case	_	_
 9	skład	skład	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 10	ŚFUP-u	ŚRUF	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -997,7 +997,7 @@
 4	argumentów	argument	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
 5	zdrowotnych	zdrowotny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	interp	_	7	punct	_	_
-7	przemawiających	przemawiać	VERB	pact:pl:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	conj	_	_
+7	przemawiających	przemawiający	ADJ	pact:pl:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	conj	_	_
 8	za	za	ADP	prep:inst	AdpType=Prep|Case=Ins	9	case	_	_
 9	dietą	dieta	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	7	obj	_	_
 10	jarską	jarski	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
@@ -1132,7 +1132,7 @@
 1	Duża	duży	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	liczba	liczba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 3	gości	gość	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
-4	odwiedzających	odwiedzać	VERB	pact:pl:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	_
+4	odwiedzających	odwiedzający	ADJ	pact:pl:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
 5	Sopot	Sopot	PROPN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 6	skłoniła	skłonić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 7	przedstawicieli	przedstawiciel	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
@@ -1201,7 +1201,7 @@
 7	ulicach	ulica	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_
 8	można	można	VERB	pred	_	0	root	_	_
 9	zauważyć	zauważyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	8	xcomp	_	_
-10	palące	palić	VERB	pact:pl:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	16	acl	_	_
+10	palące	palący	ADJ	pact:pl:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
 11	się	się	PRON	qub	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
 12	za	za	ADP	prep:gen	AdpType=Prep|Case=Gen	13	case	_	_
 13	dnia	dzień	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
@@ -1600,7 +1600,7 @@
 10	wodnych	wodny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 11	i	i	CCONJ	conj	_	12	cc	_	_
 12	gazów	gaz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	_
-13	łzawiących	łzawić	VERB	pact:pl:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	_	SpaceAfter=No
+13	łzawiących	łzawiący	ADJ	pact:pl:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	interp	_	8	punct	_	_
 
 # sent_id = dev-s118
@@ -3227,7 +3227,7 @@
 4	pierwsze	pierwszy	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
 5	dni	dzień	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_
 6	jakieś	jakiś	DET	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|PronType=Ind	8	det	_	_
-7	absorbujące	absorbować	VERB	pact:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	_	_
+7	absorbujące	absorbujący	ADJ	pact:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
 8	zajęcie	zajęcie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No
 9	.	.	PUNCT	interp	_	1	punct	_	_
 
@@ -3326,7 +3326,7 @@
 # text = Normy określające podział wergeldu mogą nam dać wyobrażenie o zasięgu i strukturze tej grupy.
 # orig_file_sentence 003#44
 1	Normy	norma	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
-2	określające	określać	VERB	pact:pl:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	1	acl	_	_
+2	określające	określający	ADJ	pact:pl:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
 3	podział	podział	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 4	wergeldu	wergeld	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	mogą	móc	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3870,7 +3870,7 @@
 6	zeszłym	zeszły	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	roku	rok	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
 8	,	,	PUNCT	interp	_	7	punct	_	_
-9	uchodzący	uchodzić	VERB	pact:sg:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	13	acl	_	_
+9	uchodzący	uchodzący	ADJ	pact:sg:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
 10	za	za	ADP	prep:acc	AdpType=Prep|Case=Acc	11	case	_	_
 11	niezwyciężonego	niezwyciężony	ADJ	adj:sg:acc:m1:pos	Animacy=Hum|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	obl	_	_
 12	Żelazny	żelazny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
@@ -5032,7 +5032,7 @@
 12	przedstawiciele	przedstawiciel	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 13	800	800	NUM	num:pl:gen:m3:congr	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nummod	_	_
 14	tysięcy	tysiąc	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	case	_	_
-15	mieszkających	mieszkać	VERB	pact:pl:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	18	acl	_	_
+15	mieszkających	mieszkający	ADJ	pact:pl:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
 16	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	17	case	_	_
 17	Izraelu	Izrael	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obj	_	_
 18	Arabów	Arab	PROPN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
@@ -5550,7 +5550,7 @@
 # orig_file_sentence 004#94
 1	Żydów	Żyd	PROPN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
 2	,	,	PUNCT	interp	_	1	punct	_	_
-3	zgłaszających	zgłaszać	VERB	pact:pl:acc:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	1	acl	_	_
+3	zgłaszających	zgłaszający	ADJ	pact:pl:acc:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
 4	się	się	PRON	qub	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
 5	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	6	case	_	_
 6	Armii	armia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
@@ -5647,7 +5647,7 @@
 8	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	9	case	_	_
 9	Wujka	Wujek	PROPN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	od	od	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	12	case	_	_
-11	strzelających	strzelać	VERB	pact:pl:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	_	_
+11	strzelających	strzelający	ADJ	pact:pl:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
 12	zomowców	zomowiec	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	6	iobj	_	SpaceAfter=No
 13	.	.	PUNCT	interp	_	1	punct	_	_
 
@@ -6268,7 +6268,7 @@
 3	bardziej	bardzo	ADV	adv:com	_	2	advmod	_	_
 4	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	5	case	_	_
 5	wizerunku	wizerunek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
-6	śpiewającego	śpiewać	VERB	pact:sg:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	_	_
+6	śpiewającego	śpiewający	ADJ	pact:sg:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
 7	macho	macho	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	interp	_	2	punct	_	_
 
@@ -6651,7 +6651,7 @@
 # text = Mimo gęstniejącego mroku, starowina nosił przeciwsłoneczne okulary.
 # orig_file_sentence 005#73
 1	Mimo	mimo	ADP	prep:gen	AdpType=Prep|Case=Gen	3	case	_	_
-2	gęstniejącego	gęstnieć	VERB	pact:sg:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	_
+2	gęstniejącego	gęstniejący	ADJ	pact:sg:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
 3	mroku	mrok	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 4	,	,	PUNCT	interp	_	3	punct	_	_
 5	starowina	starowina	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -7328,7 +7328,7 @@
 4	ankiety	ankieta	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
 5	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	6	case	_	_
 6	pytaniami	pytanie	NOUN	subst:pl:inst:n	Case=Ins|Gender=Neut|Number=Plur	4	nmod	_	_
-7	dotyczącymi	dotyczyć	VERB	pact:pl:inst:n:imperf:aff	Aspect=Imp|Case=Ins|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	_
+7	dotyczącymi	dotyczący	ADJ	pact:pl:inst:n:imperf:aff	Aspect=Imp|Case=Ins|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
 8	bezpiecznego	bezpieczny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
 9	korzystania	korzystanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	obj	_	_
 10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	11	case	_	_
@@ -8059,7 +8059,7 @@
 1	Ze	z	ADP	prep:gen:wok	AdpType=Prep|Case=Gen|Variant=Long	2	case	_	_
 2	względu	wzgląd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
 3	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	7	case	_	_
-4	panującą	panować	VERB	pact:sg:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	_	_
+4	panującą	panujący	ADJ	pact:sg:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
 5	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	6	case	_	_
 6	rynku	rynek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obj	_	_
 7	sytuację	sytuacja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -9121,7 +9121,7 @@
 # sent_id = dev-s652
 # text = Rządząca na Litwie centrolewicowa koalicja już w kampanii wyborczej zapowiadała zalegalizowanie kasyn.
 # orig_file_sentence 007#52
-1	Rządząca	rządzić	VERB	pact:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+1	Rządząca	rządzący	ADJ	pact:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
 2	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	3	case	_	_
 3	Litwie	Litwa	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
 4	centrolewicowa	centrolewicowy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -9792,7 +9792,7 @@
 2	chodzi	chodzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs|Variant=Short	2	obj	_	_
 4	o	o	ADP	prep:acc	AdpType=Prep|Case=Acc	6	case	_	_
-5	cieknący	ciec	VERB	pact:sg:acc:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	_
+5	cieknący	cieknący	ADJ	pact:sg:acc:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
 6	kran	kran	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
 8	łazience	łazienka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
@@ -10266,7 +10266,7 @@
 4	tyczkowatą	tyczkowaty	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	postać	postać	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 6	Bogorii	Bogoria	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
-7	kiwającą	kiwać	VERB	pact:sg:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+7	kiwającą	kiwający	ADJ	pact:sg:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
 8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
 9	rytmicznie	rytmicznie	ADV	adv:pos	Degree=Pos	7	advmod	_	_
 10	przy	przy	ADP	prep:loc	AdpType=Prep|Case=Loc	11	case	_	_
@@ -10594,7 +10594,7 @@
 10	6-latka	6-latek	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
 11	,	,	PUNCT	interp	_	17	punct	_	_
 12	których	który	DET	adj:pl:acc:m1:pos	Animacy=Hum|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|PronType=Int,Rel	17	obj	_	_
-13	spacerujących	spacerować	VERB	pact:pl:acc:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl	_	_
+13	spacerujących	spacerujący	ADJ	pact:pl:acc:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	12	obl	_	_
 14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	15	case	_	_
 15	centrum	centrum	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
 16	Łodzi	Łódź	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
@@ -11111,7 +11111,7 @@
 9	że	że	SCONJ	comp	_	10	mark	_	_
 10	waży	ważyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 11	troskliwie	troskliwie	ADV	adv:pos	Degree=Pos	10	advmod	_	_
-12	podpływające	podpływać	VERB	pact:pl:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	15	acl	_	_
+12	podpływające	podpływający	ADJ	pact:pl:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
 13	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	14	case	_	_
 14	ust	usta	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	_
 15	słowa	słowo	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No
@@ -11616,7 +11616,7 @@
 7	chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 8	zdążyć	zdążyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	7	xcomp	_	_
 9	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	11	case	_	_
-10	nadjeżdżającym	nadjeżdżać	VERB	pact:sg:inst:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	_	_
+10	nadjeżdżającym	nadjeżdżający	ADJ	pact:sg:inst:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
 11	pociągiem	pociąg	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 12	.	.	PUNCT	interp	_	7	punct	_	_
 
@@ -11818,7 +11818,7 @@
 3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
 4	opodal	opodal	ADP	prep:gen	AdpType=Prep|Case=Gen	5	case	_	_
 5	traktu	trakt	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
-6	wiodącego	wieść	VERB	pact:sg:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+6	wiodącego	wiodący	ADJ	pact:sg:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
 7	prosto	prosto	ADV	adv:pos	Degree=Pos	6	advmod	_	_
 8	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	9	case	_	_
 9	Koszalina	Koszalin	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
@@ -11888,7 +11888,7 @@
 18	usiłując	usiłować	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv	14	advcl	_	_
 19	przebić	przebić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	18	xcomp	_	_
 20	wzrokiem	wzrok	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_
-21	zapadające	zapadać	VERB	pact:pl:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	22	acl	_	_
+21	zapadające	zapadający	ADJ	pact:pl:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
 22	ciemności	ciemność	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
 23	.	.	PUNCT	interp	_	1	punct	_	_
 
@@ -12050,7 +12050,7 @@
 7	nikt	nikt	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	9	nsubj	_	_
 8	nie	nie	PART	qub	_	9	advmod	_	_
 9	widział	widzieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	conj	_	_
-10	tonącego	tonąć	VERB	pact:sg:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	_	_
+10	tonącego	tonący	ADJ	pact:sg:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
 11	chłopca	chłopiec	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
 12	.	.	PUNCT	interp	_	2	punct	_	_
 
@@ -14352,7 +14352,7 @@
 14	czy	czy	CCONJ	conj	_	16	cc	_	_
 15	ideologicznymi	ideologiczny	ADJ	adj:pl:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
 16	zapaleńcami	zapaleniec	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	13	conj	_	_
-17	prowadzącymi	prowadzić	VERB	pact:pl:inst:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	16	acl	_	_
+17	prowadzącymi	prowadzący	ADJ	pact:pl:inst:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
 18	swoje	swój	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
 19	wojenki	wojenka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
 20	.	.	PUNCT	interp	_	1	punct	_	_
