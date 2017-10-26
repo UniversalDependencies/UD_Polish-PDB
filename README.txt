@@ -11,7 +11,7 @@ Relations: converted from manual
 Contributors: Zeman, Daniel; Mašek, Jan; Rosa, Rudolf
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
-Paragraphs to web: 4
+Paragraphs to web: 3
 ===============================================================================
 
 The UD Polish treebank is based on “Składnica zależnościowa” (the Polish dependency treebank)
@@ -23,10 +23,10 @@ conversion procedure has been further improved.
 
 References:
 
-http://zil.ipipan.waw.pl/Sk%C5%82adnica ... Składnica zależnościowa
-http://ufal.mff.cuni.cz/hamledt ... HamleDT
-http://ufal.mff.cuni.cz/treex ... Treex is the software used for conversion
-http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and features
+* http://zil.ipipan.waw.pl/Sk%C5%82adnica ... Składnica zależnościowa
+* http://ufal.mff.cuni.cz/hamledt ... HamleDT
+* http://ufal.mff.cuni.cz/treex ... Treex is the software used for conversion
+* http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and features
 
 @inproceedings{pl,
   author    = {Wr{\'o}blewska, Alina and Przepi{\'o}rkowski, Adam},
