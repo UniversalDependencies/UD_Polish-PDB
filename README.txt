@@ -24,6 +24,9 @@ http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and f
 
 Changelog
 
+2017-11-15 v2.1
+  * Prepositional objects are now “obl:arg” instead of “obj”.
+  * Instrumental phrases for demoted agents in passives are now “obl:agent”.
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET.
