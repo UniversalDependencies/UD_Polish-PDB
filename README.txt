@@ -1,3 +1,19 @@
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v1.2
+License: GNU GPL 3.0
+Includes text: yes
+Genre: fiction nonfiction news
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
+Contributors: Zeman, Daniel; Mašek, Jan; Rosa, Rudolf
+Contributing: elsewhere
+Contact: zeman@ufal.mff.cuni.cz
+Paragraphs to web: 4
+===============================================================================
+
 The UD Polish treebank is based on “Składnica zależnościowa” (the Polish dependency treebank)
 version 0.5. The data was first converted to the Prague dependency style as a part of HamleDT;
 then it was automatically converted to Universal Dependencies (HamleDT 3.0, 2015). The first
@@ -40,13 +56,3 @@ Changelog
   * Past tense / l-participles changed from VerbForm=Fin to VerbForm=Part.
   * Verbal nouns (VerbForm=Ger) retagged and relemmatized from VERB to NOUN.
 
-
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: automatic
-Data available since: UD v1.2
-License: GNU GPL 3.0
-Genre: fiction nonfiction news
-Contributors: Zeman, Daniel; Mašek, Jan; Rosa, Rudolf
-Contact: zeman@ufal.mff.cuni.cz
-===============================================================================
