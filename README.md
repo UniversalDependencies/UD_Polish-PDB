@@ -33,6 +33,8 @@ conversion procedure has been further improved.
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Polish to UD_Polish-SZ.
 * 2017-11-15 v2.1
   * Prepositional objects are now “obl:arg” instead of “obj”.
   * Instrumental phrases for demoted agents in passives are now “obl:agent”.
