@@ -19,6 +19,7 @@ conversion procedure has been further improved.
 * http://ufal.mff.cuni.cz/treex ... Treex is the software used for conversion
 * http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and features
 
+<pre>
 @inproceedings{pl,
   author    = {Wr{\'o}blewska, Alina and Przepi{\'o}rkowski, Adam},
   title     = {Projection-based Annotation of a {Polish} Dependency Treebank},
@@ -27,10 +28,13 @@ conversion procedure has been further improved.
   address   = {Reykjavík, Iceland},
   year      = {2014}
 }
+</pre>
 
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Polish to UD_Polish-SZ.
 * 2017-11-15 v2.1
   * Prepositional objects are now “obl:arg” instead of “obj”.
   * Instrumental phrases for demoted agents in passives are now “obl:agent”.
@@ -48,6 +52,7 @@ conversion procedure has been further improved.
   * Verbal nouns (VerbForm=Ger) retagged and relemmatized from VERB to NOUN.
 
 
+<pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
 License: GNU GPL 3.0
@@ -62,3 +67,4 @@ Contributors: Zeman, Daniel; Mašek, Jan; Rosa, Rudolf
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
+</pre>
