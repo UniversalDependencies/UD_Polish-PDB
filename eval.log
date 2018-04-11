@@ -1,15 +1,11 @@
-Sun Feb 11 20:48:36 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Polish
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
-Evaluating the following revision of UD_Polish:
-commit 3194a9f7cddb3ca40523544181683f15955e238d
+Date:   Wed Apr 11 09:21:53 2018 +0200
+Evaluating the following revision of UD_Polish-SZ:
+commit cee6c89f892b8609e6b3eb4b15e817a70b5183c4
+Merge: 6dd280c e6078de
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:34:01 2017 +0100
 Size: counted 83571 of 83571 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.85139313991653.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,19 +19,24 @@ Features: 61999 out of 83571 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 26 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 1414 bugs.
+Udapi: found 1404 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 83571 words.
 Genres: found 3 out of 14 known.
+validate.py --lang pl --max-err=10 UD_Polish-SZ/pl_sz-ud-dev.conllu
+*** PASSED ***
+validate.py --lang pl --max-err=10 UD_Polish-SZ/pl_sz-ud-test.conllu
+*** PASSED ***
+validate.py --lang pl --max-err=10 UD_Polish-SZ/pl_sz-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.214285714285714) = 0.0164835164835165
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.640685199637008) = 0.164278256317182
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.830802551124194) = 0.25563155419206
+(weight=0.307692307692308) * (score{udapi}=0.83199913845712) = 0.255999734909883
 (weight=0.0769230769230769) * (score{udeprels}=0.562162162162162) = 0.0432432432432432
-(TOTAL score=0.708294187128912) * (availability=1) * (validity=1) = 0.708294187128912
+(TOTAL score=0.708662367846735) * (availability=1) * (validity=1) = 0.708662367846735
 STARS = 3.5
-UD_Polish	0.708294187128912	3.5
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+UD_Polish-SZ	0.708662367846735	3.5
