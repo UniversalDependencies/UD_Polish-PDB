@@ -63,7 +63,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Zeman, Daniel; Mašek, Jan; Rosa, Rudolf
+Contributors: Wróblewska, Alina; Zeman, Daniel; Mašek, Jan; Rosa, Rudolf
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
