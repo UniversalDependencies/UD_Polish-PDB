@@ -33,6 +33,8 @@ conversion procedure has been further improved.
 
 # Changelog
 
+* 2019-05-15 v2.4
+  * Slightly modified conversion procedure, should remove some validation errors.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Polish to UD_Polish-SZ.
 * 2017-11-15 v2.1
