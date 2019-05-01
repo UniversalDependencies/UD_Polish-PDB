@@ -782,14 +782,14 @@
 1	Wykształcenie	wykształcenie	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 2	społeczno	społeczny	ADJ	adja	Hyph=Yes	1	amod	_	_
 3	-	-	PUNCT	interp	_	2	punct	_	_
-4	polityczne	polityczny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	case	_	_
+4	polityczne	polityczny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	case	_	_
 5	przygotowuje	przygotowywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	absolwentów	absolwent	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
 7	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
 8	działalności	działalność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	obl:arg	_	_
 9	ideowo	ideowy	ADJ	adja	Hyph=Yes	8	amod	_	_
 10	-	-	PUNCT	interp	_	9	punct	_	_
-11	wychowawczej	wychowawczy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	case	_	_
+11	wychowawczej	wychowawczy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	case	_	_
 12	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	13	case	_	_
 13	podwładnymi	podwładny	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	interp	_	5	punct	_	_
@@ -2022,16 +2022,16 @@
 # text = Czarne kontury dolnych urwisk Mięguszowieckiego stają się coraz bardziej widoczne.
 # orig_file_sentence 002#43
 1	Czarne	czarny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
-2	kontury	kontur	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+2	kontury	kontur	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 3	dolnych	dolny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_
 4	urwisk	urwisko	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
 5	Mięguszowieckiego	Mięguszowiecki	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
-6	stają	stawać	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
-7	się	się	PRON	qub	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+6	stają	stawać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	się	się	PRON	qub	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
 8	coraz	coraz	ADV	adv	_	9	advmod	_	_
-9	bardziej	bardzo	ADV	adv:com	_	10	advmod	_	_
-10	widoczne	widoczny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	interp	_	10	punct	_	_
+9	bardziej	bardzo	ADV	adv:com	_	6	advmod	_	_
+10	widoczne	widoczny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	interp	_	6	punct	_	_
 
 # sent_id = dev-s144
 # text = Z wolna wpadamy w stan jakiegoś odrętwienia.
@@ -2632,12 +2632,12 @@
 3	już	już	PART	qub	_	4	advmod	_	_
 4	dniem	dzień	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
 5	dzisiejszym	dzisiejszy	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
-6	,	,	PUNCT	interp	_	11	punct	_	_
-7	aby	aby	SCONJ	comp	_	11	mark	_	_
-8	zaraz	zaraz	ADV	adv	_	11	advmod	_	_
-9	stać	stać	AUX	inf:perf	Aspect=Perf|VerbForm=Inf	11	cop	_	_
-10	się	się	PRON	qub	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
-11	przeszłością	przeszłość	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	4	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	interp	_	9	punct	_	_
+7	aby	aby	SCONJ	comp	_	9	mark	_	_
+8	zaraz	zaraz	ADV	adv	_	9	advmod	_	_
+9	stać	stać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	4	advcl	_	_
+10	się	się	PRON	qub	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	przeszłością	przeszłość	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	9	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	interp	_	13	punct	_	_
 13	historią	historia	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
 14	.	.	PUNCT	interp	_	4	punct	_	_
@@ -3443,7 +3443,7 @@
 4	pyta	pytać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	interp	_	10	punct	_	_
 6	czy	czy	PART	qub	_	10	advmod	_	_
-7	nie	nie	PART	qub	_	8	advmod	_	_
+7	nie	nie	PART	qub	_	10	advmod	_	_
 8	będę	być	AUX	bedzie:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	10	aux	_	_
 9	się	się	PRON	qub	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
 10	nudził	nudzić	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	ccomp	_	SpaceAfter=No
@@ -3498,7 +3498,7 @@
 # orig_file_sentence 003#58
 1	Mostostal	Mostostal	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	-	-	PUNCT	interp	_	1	punct	_	_
-3	Export	Export	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
+3	Export	Export	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	case	_	_
 4	kupił	kupić	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	biłgorajskiego	biłgorajski	ADJ	adj:sg:acc:m1:pos	Animacy=Hum|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	producenta	producent	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
@@ -3516,7 +3516,7 @@
 2	temu	to	PRON	subst:sg:dat:n	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	_
 3	Mostostal	Mostostal	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	-	-	PUNCT	interp	_	3	punct	_	_
-5	Met	Met	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
+5	Met	Met	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 6	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	dziś	dziś	ADV	adv	_	8	advmod	_	_
 8	konkurować	konkurować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	6	xcomp	_	_
@@ -3643,7 +3643,7 @@
 1	Zjednoczenie	zjednoczenie	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 2	Chrześcijańsko	chrześcijański	ADJ	adja	Hyph=Yes	1	amod	_	_
 3	-	-	PUNCT	interp	_	2	punct	_	_
-4	Narodowe	narodowy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	case	_	_
+4	Narodowe	narodowy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	case	_	_
 5	obiecało	obiecać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	8	case	_	_
 7	tym	ten	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
@@ -4228,14 +4228,14 @@
 # text = W Mińsku manifestacje stały się już czymś normalnym.
 # orig_file_sentence 004#11
 1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	2	case	_	_
-2	Mińsku	Mińsk	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
-3	manifestacje	manifestacja	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
-4	stały	stać	AUX	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	cop	_	_
-5	się	się	PRON	qub	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
-6	już	już	PART	qub	_	7	advmod	_	_
-7	czymś	coś	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
+2	Mińsku	Mińsk	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	manifestacje	manifestacja	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	stały	stać	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	się	się	PRON	qub	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+6	już	już	PART	qub	_	4	advmod	_	_
+7	czymś	coś	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind	4	xcomp	_	_
 8	normalnym	normalny	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpaceAfter=No
-9	.	.	PUNCT	interp	_	7	punct	_	_
+9	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = dev-s312
 # text = Ludzie przestali się bać.
@@ -4554,10 +4554,10 @@
 3	mogli	móc	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	by	być	AUX	qub	Aspect=Imp|Mood=Cnd|VerbForm=Fin	3	aux	_	_
 5	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin	3	aux	_	_
-6	stać	stać	AUX	inf:perf	Aspect=Perf|VerbForm=Inf	9	cop	_	_
-7	się	się	PRON	qub	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+6	stać	stać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_
+7	się	się	PRON	qub	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
 8	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	9	nmod	_	_
-9	członkiem	członek	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	3	xcomp	_	_
+9	członkiem	członek	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	6	xcomp	_	_
 10	jeszcze	jeszcze	PART	qub	_	9	nmod	_	_
 11	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	10	case	_	_
 12	końcem	koniec	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
@@ -4670,15 +4670,15 @@
 # sent_id = dev-s341
 # text = Więc się nagle ludziska poczuli ważniejsi i lepsi.
 # orig_file_sentence 004#41
-1	Więc	więc	CCONJ	conj	_	6	advmod	_	_
-2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
-3	nagle	nagle	ADV	adv:pos	Degree=Pos	6	advmod	_	_
-4	ludziska	ludziska	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
-5	poczuli	poczuć	AUX	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	_
-6	ważniejsi	ważny	ADJ	adj:pl:nom:m1:com	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+1	Więc	więc	CCONJ	conj	_	5	advmod	_	_
+2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	nagle	nagle	ADV	adv:pos	Degree=Pos	5	advmod	_	_
+4	ludziska	ludziska	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	poczuli	poczuć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	ważniejsi	ważny	ADJ	adj:pl:nom:m1:com	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	5	xcomp	_	_
 7	i	i	CCONJ	conj	_	8	cc	_	_
 8	lepsi	dobry	ADJ	adj:pl:nom:m1:com	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
-9	.	.	PUNCT	interp	_	6	punct	_	_
+9	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s342
 # text = Podobno kilku wrogich parafian uprzykrzało mu życie.
@@ -6545,7 +6545,7 @@
 # orig_file_sentence 005#66
 1	Hans	Hans	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	-	-	PUNCT	interp	_	1	punct	_	_
-3	Dietrich	Dietrich	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+3	Dietrich	Dietrich	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
 4	Genscher	Genscher	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
 5	należy	należeć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
@@ -6561,7 +6561,7 @@
 # orig_file_sentence 005#67
 1	Królowa	królowa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 2	-	-	PUNCT	interp	_	1	punct	_	_
-3	matka	matka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	case	_	SpaceAfter=No
+3	matka	matka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	case	_	SpaceAfter=No
 4	,	,	PUNCT	interp	_	6	punct	_	_
 5	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 6	miała	mieć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	acl	_	_
@@ -6604,7 +6604,7 @@
 1	Po	po	ADP	prep:acc	AdpType=Prep|Case=Acc	9	obl	_	_
 2	prostu	prosty	ADJ	adjp	PrepCase=Pre	1	case	_	_
 3	rynek	rynek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
-4	nie	nie	PART	qub	_	5	advmod	_	_
+4	nie	nie	PART	qub	_	9	advmod	_	_
 5	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 6	jeszcze	jeszcze	PART	qub	_	9	advmod	_	_
 7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
@@ -7113,7 +7113,7 @@
 # orig_file_sentence 006#6
 1	I	i	CCONJ	conj	_	12	advmod	_	_
 2	jeżeli	jeżeli	SCONJ	comp	_	8	mark	_	_
-3	nie	nie	PART	qub	_	4	advmod	_	_
+3	nie	nie	PART	qub	_	8	advmod	_	_
 4	zostaną	zostać	AUX	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 5	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	7	case	_	_
 6	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
@@ -7714,12 +7714,12 @@
 # text = Również fotel obok niej pozostał pusty.
 # orig_file_sentence 006#52
 1	Również	również	PART	qub	_	2	nmod	_	_
-2	fotel	fotel	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	fotel	fotel	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	obok	obok	ADP	prep:gen	AdpType=Prep|Case=Gen	4	case	_	_
 4	niej	on	PRON	ppron3:sg:gen:f:ter:akc:praep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	2	nmod	_	_
-5	pozostał	pozostać	AUX	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	_
-6	pusty	pusty	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	interp	_	6	punct	_	_
+5	pozostał	pozostać	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	pusty	pusty	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	interp	_	5	punct	_	_
 
 # sent_id = dev-s553
 # text = Rozejrzała się po kabinie.
@@ -7934,7 +7934,7 @@
 4	okres	okres	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 5	świąteczno	świąteczny	ADJ	adja	Hyph=Yes	4	amod	_	_
 6	-	-	PUNCT	interp	_	5	punct	_	_
-7	noworoczny	noworoczny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	case	_	_
+7	noworoczny	noworoczny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	case	_	_
 8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	9	case	_	_
 9	powiecie	powiat	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
 10	goleniowskim	goleniowski	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
@@ -7961,7 +7961,7 @@
 5	Lotniczy	lotniczy	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 6	Szczecin	Szczecin	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
 7	-	-	PUNCT	interp	_	6	punct	_	_
-8	Goleniów	Goleniów	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+8	Goleniów	Goleniów	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
 9	zanotował	zanotować	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 10	dwucyfrowy	dwucyfrowy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	przyrost	przyrost	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
@@ -8285,7 +8285,7 @@
 5	godzinie	godzina	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
 6	9	9	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	6	punct	_	_
-8	00	00	NUM	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur	7	case	_	SpaceAfter=No
+8	00	00	NUM	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur	6	case	_	SpaceAfter=No
 9	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = dev-s591
@@ -10474,20 +10474,20 @@
 1	Jeżeli	jeżeli	SCONJ	comp	_	4	mark	_	_
 2	dokument	dokument	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	zostanie	zostać	AUX	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	uchwalony	uchwalony	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	obl	_	_
+4	uchwalony	uchwalony	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	obl	_	_
 5	podczas	podczas	ADP	prep:gen	AdpType=Prep|Case=Gen	6	case	_	_
 6	sesji	sesja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
 7	28	28	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
 8	maja	maj	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	interp	_	4	punct	_	_
-10	stanie	stać	AUX	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-11	się	się	PRON	qub	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+10	stanie	stać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	się	się	PRON	qub	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
 12	obowiązującym	obowiązujący	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
-13	prawem	prawo	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
+13	prawem	prawo	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	10	xcomp	_	_
 14	pod	pod	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	15	case	_	_
-15	koniec	koniec	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+15	koniec	koniec	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
 16	sierpnia	sierpień	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	interp	_	13	punct	_	_
+17	.	.	PUNCT	interp	_	10	punct	_	_
 
 # sent_id = dev-s748
 # text = Inwestorzy pomysł ten zwalczali.
@@ -11993,7 +11993,7 @@
 8	będą	być	AUX	bedzie:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
 9	przeprowadzać	przeprowadzać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	0	root	_	_
 10	nie	nie	CCONJ	conj	_	12	cc	_	_
-11	tylko	tylko	CCONJ	conj	_	10	case	_	_
+11	tylko	tylko	CCONJ	conj	_	12	case	_	_
 12	policjanci	policjant	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	interp	_	12	punct	_	_
 14	ale	ale	CCONJ	conj	_	16	cc	_	_
@@ -12151,14 +12151,14 @@
 1	Myślał	myśleć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	1	aux	_	_
 3	,	,	PUNCT	interp	_	1	punct	_	_
-4	że	że	SCONJ	comp	_	6	case	_	_
-5	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	że	że	SCONJ	comp	_	1	case	_	_
+5	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 6	bierny	bierny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	punct	_	SpaceAfter=No
 7	,	,	PUNCT	interp	_	8	punct	_	_
 8	że	że	SCONJ	comp	_	6	conj	_	_
 9	wypłynął	wypłynąć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	punct	_	_
 10	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	11	case	_	_
-11	fali	fala	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	9	obl:arg	_	SpaceAfter=No
+11	fali	fala	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	obl:arg	_	SpaceAfter=No
 12	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s859
@@ -13183,17 +13183,17 @@
 # sent_id = dev-s940
 # text = Wydało jej się to dziwne, choć teoretycznie było możliwe.
 # orig_file_sentence 010#40
-1	Wydało	wydać	AUX	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
-2	jej	on	PRON	ppron3:sg:dat:f:ter:akc:npraep	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	5	obj	_	_
-3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
-4	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-5	dziwne	dziwny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+1	Wydało	wydać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	jej	on	PRON	ppron3:sg:dat:f:ter:akc:npraep	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	_	_
+3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+4	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
+5	dziwne	dziwny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	interp	_	10	punct	_	_
 7	choć	choć	SCONJ	comp	_	10	mark	_	_
 8	teoretycznie	teoretycznie	ADV	adv:pos	Degree=Pos	10	advmod	_	_
 9	było	być	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	cop	_	_
 10	możliwe	możliwy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	advcl	_	SpaceAfter=No
-11	.	.	PUNCT	interp	_	5	punct	_	_
+11	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = dev-s941
 # text = Mężczyzna zniknął jednak w kolejce i przestała o nim myśleć.
@@ -14118,9 +14118,9 @@
 4	już	już	PART	qub	_	6	advmod	_	_
 5	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	6	obj	_	_
 6	porwał	porwać	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	interp	_	20	punct	_	_
-8	a	a	CCONJ	conj	_	20	cc	_	_
-9	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	_	16	punct	_	_
+8	a	a	CCONJ	conj	_	16	cc	_	_
+9	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	interp	_	9	punct	_	_
 11	dobry	dobry	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 12	tatuś	tatuś	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
@@ -14128,11 +14128,11 @@
 14	bajeczki	bajeczka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	interp	_	9	punct	_	_
 16-17	stałem	_	_	_	_	_	_	_	_
-16	stał	stać	AUX	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	20	cop	_	_
-17	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	20	aux	_	_
-18	się	się	PRON	qub	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+16	stał	stać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	_
+17	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin	16	aux	_	_
+18	się	się	PRON	qub	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
 19	tylko	tylko	PART	qub	_	20	nmod	_	_
-20	przeszkodą	przeszkoda	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+20	przeszkodą	przeszkoda	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	16	xcomp	_	SpaceAfter=No
 21	.	.	PUNCT	interp	_	6	punct	_	_
 
 # sent_id = dev-s1008
@@ -14182,22 +14182,22 @@
 # sent_id = dev-s1012
 # text = Jeżeli wykonawca stał się niezdolny do dotychczasowej pracy wskutek wypadku przy pracy lub choroby zawodowej, nakładca powinien powierzyć mu inną odpowiednią pracę.
 # orig_file_sentence 011#12
-1	Jeżeli	jeżeli	SCONJ	comp	_	5	mark	_	_
-2	wykonawca	wykonawca	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	stał	stać	AUX	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
-4	się	się	PRON	qub	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
-5	niezdolny	niezdolny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	advcl	_	_
+1	Jeżeli	jeżeli	SCONJ	comp	_	3	mark	_	_
+2	wykonawca	wykonawca	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	stał	stać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	18	advcl	_	_
+4	się	się	PRON	qub	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+5	niezdolny	niezdolny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	xcomp	_	_
 6	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	8	case	_	_
 7	dotychczasowej	dotychczasowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
-8	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
 9	wskutek	wskutek	ADP	prep:gen	AdpType=Prep|Case=Gen	10	case	_	_
-10	wypadku	wypadek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+10	wypadku	wypadek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
 11	przy	przy	ADP	prep:loc	AdpType=Prep|Case=Loc	12	case	_	_
 12	pracy	praca	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
 13	lub	lub	CCONJ	conj	_	14	cc	_	_
 14	choroby	choroba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_
 15	zawodowej	zawodowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
-16	,	,	PUNCT	interp	_	5	punct	_	_
+16	,	,	PUNCT	interp	_	3	punct	_	_
 17	nakładca	nakładca	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 18	powinien	powinien	ADJ	winien:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing	0	root	_	_
 19	powierzyć	powierzyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	18	xcomp	_	_
@@ -14244,7 +14244,7 @@
 13	Kościoła	kościół	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 14	ewangelicko	ewangelicki	ADJ	adja	Hyph=Yes	13	amod	_	_
 15	-	-	PUNCT	interp	_	14	punct	_	_
-16	metodycznego	metodyczny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	case	_	_
+16	metodycznego	metodyczny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	case	_	_
 17	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	18	case	_	_
 18	Poznaniu	Poznań	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
 19	ksiądz	ksiądz	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
@@ -14307,16 +14307,16 @@
 5	z	z	ADP	prep:inst:nwok	AdpType=Prep|Case=Ins|Variant=Short	6	case	_	_
 6	tym	to	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	7	obl:arg	_	_
 7	zgodzi	zgodzić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	interp	_	17	punct	_	_
-9	a	a	CCONJ	conj	_	17	cc	_	_
-10	wypowiedź	wypowiedź	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+8	,	,	PUNCT	interp	_	15	punct	_	_
+9	a	a	CCONJ	conj	_	15	cc	_	_
+10	wypowiedź	wypowiedź	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 11	Rydzyka	Rydzyk	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	14	case	_	_
 13	tym	ten	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
-14	kontekście	kontekst	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
-15	staje	stawać	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
-16	się	się	PRON	qub	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
-17	śmieszna	śmieszny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+14	kontekście	kontekst	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+15	staje	stawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+16	się	się	PRON	qub	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+17	śmieszna	śmieszny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	xcomp	_	SpaceAfter=No
 18	.	.	PUNCT	interp	_	7	punct	_	_
 
 # sent_id = dev-s1020

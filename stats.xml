@@ -18,7 +18,7 @@
     <tag name="ADJ">7972</tag><!-- nowy, cały, pierwszy, inny, sam, polski, duży, wielki, dobry, jeden -->
     <tag name="ADP">8588</tag><!-- w, na, z, do, o, po, od, za, przez, dla -->
     <tag name="ADV">2928</tag><!-- bardzo, tak, jak, teraz, tam, dobrze, wczoraj, tu, potem, często -->
-    <tag name="AUX">2361</tag><!-- być, zostać, to, stać, stawać, zostawać, bywać, wydać, poczuć, pozostawać -->
+    <tag name="AUX">2310</tag><!-- być, zostać, to, zostawać, bywać, informować, spędzić -->
     <tag name="CCONJ">2117</tag><!-- i, a, ale, więc, oraz, ani, lub, czy, albo, to -->
     <tag name="DET">1975</tag><!-- ten, który, swój, taki, nasz, mój, wszystek, kilka, jakiś, każdy -->
     <tag name="NOUN">20764</tag><!-- rok, pan, czas, człowiek, sprawa, praca, raz, miejsce, dom, dzień -->
@@ -28,7 +28,7 @@
     <tag name="PROPN">2959</tag><!-- Polska, Warszawa, Polak, Piotr, Adam, Europa, Bóg, Jan, Jerzy, Poznań -->
     <tag name="PUNCT">13480</tag><!-- ., ,, -, ?, !, –, ", ;, …, ( -->
     <tag name="SCONJ">1113</tag><!-- że, bo, gdy, aby, by, żeby, jeśli, gdyby, choć, jeżeli -->
-    <tag name="VERB">10962</tag><!-- mieć, być, móc, to, chcieć, wiedzieć, musieć, mówić, można, znaleźć -->
+    <tag name="VERB">11013</tag><!-- mieć, być, móc, to, chcieć, wiedzieć, musieć, mówić, stać, można -->
     <tag name="X">275</tag><!-- rok, tysiąc, złoty, ulica, procent, około, godzina, milion, święty, bieżący_rok -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -103,7 +103,7 @@
     <dep name="cc">1705</dep>
     <dep name="ccomp">685</dep>
     <dep name="conj">2680</dep>
-    <dep name="cop">965</dep>
+    <dep name="cop">914</dep>
     <dep name="csubj">4</dep>
     <dep name="det">1396</dep>
     <dep name="det:numgov">76</dep>
@@ -123,6 +123,6 @@
     <dep name="obl:arg">2896</dep>
     <dep name="punct">13485</dep>
     <dep name="root">8227</dep>
-    <dep name="xcomp">1186</dep>
+    <dep name="xcomp">1237</dep>
   </deps>
 </treebank>

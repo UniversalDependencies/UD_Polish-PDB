@@ -890,15 +890,15 @@
 1	Zależy	zależeć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	nam	my	PRON	ppron12:pl:dat:m1:pri	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
 3	bardzo	bardzo	ADV	adv:pos	Degree=Pos	1	advmod	_	SpaceAfter=No
-4	,	,	PUNCT	interp	_	9	punct	_	_
-5	aby	aby	SCONJ	comp	_	9	mark	_	_
-6	Jarmark	jarmark	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-7	stał	stać	AUX	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	cop	_	_
-8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
-9	ważny	ważny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	advcl	_	_
+4	,	,	PUNCT	interp	_	7	punct	_	_
+5	aby	aby	SCONJ	comp	_	7	mark	_	_
+6	Jarmark	jarmark	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	stał	stać	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	_
+8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	ważny	ważny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	xcomp	_	_
 10	dla	dla	ADP	prep:gen	AdpType=Prep|Case=Gen	12	case	_	_
 11	wszystkich	wszystek	DET	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	12	det	_	_
-12	mieszkańców	mieszkaniec	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	mieszkańców	mieszkaniec	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
 13	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = test-s66
@@ -1773,7 +1773,7 @@
 4	nadaje	nadawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	interp	_	9	punct	_	_
 6	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj:pass	_	_
-7	nie	nie	PART	qub	_	8	advmod	_	_
+7	nie	nie	PART	qub	_	9	advmod	_	_
 8	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 9	przygotowane	przygotowany	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	conj	_	_
 10	do	do	ADP	prep:gen	AdpType=Prep|Case=Gen	11	case	_	_
@@ -1804,7 +1804,7 @@
 # text = - Nie jest to uzgodnione z premierem Balcerowiczem, tak na marginesie.
 # orig_file_sentence 002#45
 1	-	-	PUNCT	interp	_	5	punct	_	_
-2	Nie	nie	PART	qub	_	3	advmod	_	_
+2	Nie	nie	PART	qub	_	5	advmod	_	_
 3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 4	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj:pass	_	_
 5	uzgodnione	uzgodniony	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -1901,7 +1901,7 @@
 9	wojny	wojna	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	rosyjsko	rosyjski	ADJ	adja	Hyph=Yes	9	amod	_	_
 11	-	-	PUNCT	interp	_	10	punct	_	_
-12	japońskiej	japoński	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	case	_	SpaceAfter=No
+12	japońskiej	japoński	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	case	_	SpaceAfter=No
 13	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = test-s151
@@ -2006,14 +2006,14 @@
 7	własne	własny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
 8	gminy	gmina	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	interp	_	26	punct	_	_
-10	300	300	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+10	300	300	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 11	tys	tysiąc	X	brev:pun	Abbr=Yes	10	case	_	SpaceAfter=No
 12	.	.	PUNCT	interp	_	11	punct	_	_
 13	zł	złoty	X	brev:npun	Abbr=Yes	10	nmod	_	_
 14	pochodzić	pochodzić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	9	punct	_	_
-15	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux	_	_
+15	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
 16	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	17	case	_	_
-17	kredytu	kredyt	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl:arg	_	SpaceAfter=No
+17	kredytu	kredyt	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl:arg	_	SpaceAfter=No
 18	,	,	PUNCT	interp	_	26	punct	_	_
 19	a	a	CCONJ	conj	_	26	cc	_	_
 20	kolejne	kolejny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
@@ -2695,7 +2695,7 @@
 6	stosunków	stosunki	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
 7	polsko	polski	ADJ	adja	Hyph=Yes	6	amod	_	_
 8	-	-	PUNCT	interp	_	7	punct	_	_
-9	amerykańskich	amerykański	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	8	case	_	_
+9	amerykańskich	amerykański	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	7	case	_	_
 10	i	i	CCONJ	conj	_	11	cc	_	_
 11	wyrazili	wyrazić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	_
 12	przekonanie	przekonanie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	obj	_	SpaceAfter=No
@@ -3271,13 +3271,13 @@
 # sent_id = test-s248
 # text = - Wydawał się teraz innym człowiekiem.
 # orig_file_sentence 003#48
-1	-	-	PUNCT	interp	_	6	punct	_	_
-2	Wydawał	wydawać	AUX	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	_
-3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
-4	teraz	teraz	ADV	adv	_	6	advmod	_	_
+1	-	-	PUNCT	interp	_	2	punct	_	_
+2	Wydawał	wydawać	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	teraz	teraz	ADV	adv	_	2	advmod	_	_
 5	innym	inny	ADJ	adj:sg:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
-6	człowiekiem	człowiek	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	interp	_	6	punct	_	_
+6	człowiekiem	człowiek	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = test-s249
 # text = Berta była także wzruszona; podsunęła mężczyźnie krzesło i oświadczyła, że przyniesie coś do zjedzenia.
@@ -3310,18 +3310,18 @@
 5	nagle	nagle	ADV	adv:pos	Degree=Pos	4	advmod	_	_
 6	inny	inny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	nastrój	nastrój	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
-8	;	;	PUNCT	interp	_	19	punct	_	_
-9	warkot	warkot	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+8	;	;	PUNCT	interp	_	16	punct	_	_
+9	warkot	warkot	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 10	motorów	motor	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
 11	i	i	CCONJ	conj	_	12	cc	_	_
 12	głosy	głos	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	conj	_	_
 13	dobiegające	dobiegający	ADJ	pact:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
 14	z	z	ADP	prep:gen:nwok	AdpType=Prep|Case=Gen|Variant=Short	15	case	_	_
 15	ulicy	ulica	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	obl:arg	_	_
-16	zdawały	zdawać	AUX	praet:pl:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	19	cop	_	_
-17	się	się	PRON	qub	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
-18	mniej	mało	ADV	adv:com	_	19	advmod	_	_
-19	straszne	straszny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	conj	_	_
+16	zdawały	zdawać	VERB	praet:pl:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	_
+17	się	się	PRON	qub	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+18	mniej	mało	ADV	adv:com	_	16	advmod	_	_
+19	straszne	straszny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	xcomp	_	_
 20	i	i	CCONJ	conj	_	22	cc	_	_
 21	bardziej	bardzo	ADV	adv:com	_	22	advmod	_	_
 22	odległe	odległy	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
@@ -4535,7 +4535,7 @@
 5	.	.	PUNCT	interp	_	4	punct	_	_
 6	13	13	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	6	punct	_	_
-8	15	15	NUM	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur	7	case	_	SpaceAfter=No
+8	15	15	NUM	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur	6	case	_	SpaceAfter=No
 9	,	,	PUNCT	interp	_	12	punct	_	_
 10	na	na	ADP	prep:loc	AdpType=Prep|Case=Loc	12	case	_	_
 11	niestrzeżonym	niestrzeżony	ADJ	ppas:sg:loc:m3:imperf:neg	Animacy=Inan|Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	12	amod	_	_
@@ -4611,12 +4611,12 @@
 3	Maciej	Maciej	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	Z	Z	X	brev:pun	Abbr=Yes	3	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	interp	_	4	punct	_	SpaceAfter=No
-6	,	,	PUNCT	interp	_	9	punct	_	_
-7	który	który	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
-8	został	zostać	AUX	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	cop	_	_
-9	ranny	ranny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	acl	_	_
+6	,	,	PUNCT	interp	_	8	punct	_	_
+7	który	który	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
+8	został	zostać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	_
+9	ranny	ranny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	xcomp	_	_
 10	w	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	11	case	_	_
-11	głowę	głowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+11	głowę	głowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = test-s338
@@ -4637,7 +4637,7 @@
 2	granicy	granica	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	obl:arg	_	_
 3	białorusko	białoruski	ADJ	adja	Hyph=Yes	2	amod	_	_
 4	-	-	PUNCT	interp	_	3	punct	_	_
-5	polskiej	polski	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	case	_	_
+5	polskiej	polski	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	case	_	_
 6	Czeczeni	Czeczen	PROPN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 7	pojawiają	pojawiać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
@@ -5229,7 +5229,7 @@
 13	.	.	PUNCT	interp	_	12	punct	_	_
 14	Joliot	Joliot	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	12	appos	_	_
 15	-	-	PUNCT	interp	_	14	punct	_	_
-16	Curie	Curie	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+16	Curie	Curie	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
 17	i	i	CCONJ	conj	_	18	cc	_	_
 18	wzywa	wzywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 19	Francuzów	Francuz	PROPN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
@@ -6431,20 +6431,20 @@
 # sent_id = test-s456
 # text = Ale polityka szybko stawała się mniej liberalna i antologia nie mogła się ukazać.
 # orig_file_sentence 005#56
-1	Ale	ale	CCONJ	conj	_	7	advmod	_	_
-2	polityka	polityka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
-3	szybko	szybko	ADV	adv:pos	Degree=Pos	7	advmod	_	_
-4	stawała	stawać	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	cop	_	_
-5	się	się	PRON	qub	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
-6	mniej	mało	ADV	adv:com	_	7	advmod	_	_
-7	liberalna	liberalny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+1	Ale	ale	CCONJ	conj	_	4	advmod	_	_
+2	polityka	polityka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	szybko	szybko	ADV	adv:pos	Degree=Pos	4	advmod	_	_
+4	stawała	stawać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	się	się	PRON	qub	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+6	mniej	mało	ADV	adv:com	_	4	advmod	_	_
+7	liberalna	liberalny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	xcomp	_	_
 8	i	i	CCONJ	conj	_	11	cc	_	_
 9	antologia	antologia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 10	nie	nie	PART	qub	_	11	advmod	_	_
 11	mogła	móc	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	_
 12	się	się	PRON	qub	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
 13	ukazać	ukazać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	11	xcomp	_	SpaceAfter=No
-14	.	.	PUNCT	interp	_	7	punct	_	_
+14	.	.	PUNCT	interp	_	4	punct	_	_
 
 # sent_id = test-s457
 # text = Na wiosnę 1945 roku układałem w Krakowie antologię poezji angielskiej i amerykańskiej, zbierając rozproszone przekłady różnych autorów.
@@ -7030,7 +7030,7 @@
 2	siłę	siła	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 3	nikogo	nikt	PRON	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|PronType=Neg	4	obj	_	_
 4	zatrzymywać	zatrzymywać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf	0	root	_	_
-5	nie	nie	PART	qub	_	6	advmod	_	_
+5	nie	nie	PART	qub	_	4	advmod	_	_
 6	będziemy	być	AUX	bedzie:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	aux	_	SpaceAfter=No
 7	.	.	PUNCT	interp	_	4	punct	_	_
 
@@ -7109,14 +7109,14 @@
 5	dialogu	dialog	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	mającego	mający	ADJ	pact:sg:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
 7	wyjaśnić	wyjaśnić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf	6	xcomp	_	SpaceAfter=No
-8	,	,	PUNCT	interp	_	15	punct	_	_
-9	dlaczego	dlaczego	ADV	adv	_	15	advmod	_	_
-10	muzułmanie	muzułmanin	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
-11	poczuli	poczuć	AUX	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	15	cop	_	_
-12	się	się	PRON	qub	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+8	,	,	PUNCT	interp	_	11	punct	_	_
+9	dlaczego	dlaczego	ADV	adv	_	11	advmod	_	_
+10	muzułmanie	muzułmanin	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	poczuli	poczuć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	ccomp	_	_
+12	się	się	PRON	qub	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
 13	tak	tak	ADV	adv	_	14	advmod	_	_
-14	głęboko	głęboko	ADV	adv:pos	Degree=Pos	15	advmod	_	_
-15	urażeni	urażeny	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	ccomp	_	SpaceAfter=No
+14	głęboko	głęboko	ADV	adv:pos	Degree=Pos	11	advmod	_	_
+15	urażeni	urażeny	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	11	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = test-s502
@@ -7591,7 +7591,7 @@
 # text = SLD nie jest już postrzegany jako partia lewicowa.
 # orig_file_sentence 006#33
 1	SLD	SLD	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
-2	nie	nie	PART	qub	_	3	advmod	_	_
+2	nie	nie	PART	qub	_	5	advmod	_	_
 3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 4	już	już	PART	qub	_	5	advmod	_	_
 5	postrzegany	postrzegany	ADJ	ppas:sg:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -9118,7 +9118,7 @@
 1	Wojciech	Wojciech	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	Gąsienica	Gąsienica	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
 3	-	-	PUNCT	interp	_	2	punct	_	_
-4	Byrcyn	Byrcyn	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+4	Byrcyn	Byrcyn	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
 5	nie	nie	PART	qub	_	6	advmod	_	_
 6	wróci	wrócić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	8	case	_	_
@@ -10183,7 +10183,7 @@
 4	ekipa	ekipa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 5	strażaków	strażak	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 6	-	-	PUNCT	interp	_	5	punct	_	_
-7	ratowników	ratownik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	6	case	_	_
+7	ratowników	ratownik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	5	case	_	_
 8	odnalazła	odnaleźć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	10	case	_	_
 10	łodzi	łódź	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
@@ -10554,15 +10554,15 @@
 3	na	na	ADP	prep:acc	AdpType=Prep|Case=Acc	4	case	_	_
 4	twarz	twarz	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obl:arg	_	_
 5	Ilii	Ilia	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	interp	_	14	punct	_	_
-7	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
-8	wydała	wydać	AUX	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	cop	_	_
+6	,	,	PUNCT	interp	_	8	punct	_	_
+7	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
+8	wydała	wydać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	acl	_	_
 9	mu	on	PRON	ppron3:sg:dat:m1:ter:nakc:npraep	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	14	nmod	_	_
-10	się	się	PRON	qub	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+10	się	się	PRON	qub	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
 11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Case=Loc|Variant=Short	13	case	_	_
 12	tej	ten	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
-13	chwili	chwila	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
-14	twarzą	twarz	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	4	acl	_	_
+13	chwili	chwila	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+14	twarzą	twarz	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	8	xcomp	_	_
 15	prawdziwego	prawdziwy	ADJ	adj:sg:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
 16	proroka	prorok	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	interp	_	2	punct	_	_
@@ -10895,12 +10895,12 @@
 # sent_id = test-s769
 # text = Mały robił się zdecydowanie męczący!
 # orig_file_sentence 008#69
-1	Mały	mały	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-2	robił	robić	AUX	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
-3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
-4	zdecydowanie	zdecydowanie	ADV	adv:pos	Degree=Pos	5	advmod	_	_
-5	męczący	męczący	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-6	!	!	PUNCT	interp	_	5	punct	_	_
+1	Mały	mały	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	robił	robić	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	zdecydowanie	zdecydowanie	ADV	adv:pos	Degree=Pos	2	advmod	_	_
+5	męczący	męczący	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+6	!	!	PUNCT	interp	_	2	punct	_	_
 
 # sent_id = test-s770
 # text = – Ale tam jest paw!
@@ -11505,7 +11505,7 @@
 7	drzewostanem	drzewostan	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
 8	sosnowo	sosnowy	ADJ	adja	Hyph=Yes	7	amod	_	_
 9	-	-	PUNCT	interp	_	8	punct	_	_
-10	świerkowym	świerkowy	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	case	_	SpaceAfter=No
+10	świerkowym	świerkowy	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	case	_	SpaceAfter=No
 11	.	.	PUNCT	interp	_	1	punct	_	_
 
 # sent_id = test-s820
@@ -11904,7 +11904,7 @@
 12	u	u	ADP	prep:gen	AdpType=Prep|Case=Gen	16	case	_	_
 13	południowo	południowy	ADJ	adja	Hyph=Yes	16	amod	_	_
 14	-	-	PUNCT	interp	_	13	punct	_	_
-15	wschodnich	wschodni	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	14	case	_	_
+15	wschodnich	wschodni	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	13	case	_	_
 16	wybrzeży	wybrzeże	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
 17	Australii	Australia	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	interp	_	3	punct	_	_
@@ -13787,16 +13787,16 @@
 # orig_file_sentence 010#89
 1	W	w	ADP	prep:acc:nwok	AdpType=Prep|Case=Acc|Variant=Short	3	case	_	_
 2	jaki	jaki	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	3	det	_	_
-3	sposób	sposób	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+3	sposób	sposób	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
 4	tak	tak	ADV	adv	_	5	advmod	_	_
-5	szybko	szybko	ADV	adv:pos	Degree=Pos	10	advmod	_	_
+5	szybko	szybko	ADV	adv:pos	Degree=Pos	6	advmod	_	_
 6-7	stałaś	_	_	_	_	_	_	_	_
-6	stała	stać	AUX	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	cop	_	_
-7	ś	być	AUX	aglt:sg:sec:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin	10	aux	_	_
-8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
-9	tak	tak	ADV	adv	_	10	advmod	_	_
-10	popularna	popularny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-11	?	?	PUNCT	interp	_	10	punct	_	_
+6	stała	stać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+7	ś	być	AUX	aglt:sg:sec:imperf:nwok	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin	6	aux	_	_
+8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+9	tak	tak	ADV	adv	_	6	advmod	_	_
+10	popularna	popularny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	xcomp	_	SpaceAfter=No
+11	?	?	PUNCT	interp	_	6	punct	_	_
 
 # sent_id = test-s990
 # text = Czy zdjęcia w kostiumach kąpielowych są dla ciebie obciążeniem?
