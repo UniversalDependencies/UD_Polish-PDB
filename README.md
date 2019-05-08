@@ -5,25 +5,25 @@ The Polish PDB-UD treebank is based on the Polish Dependency Bank 2.0 (PDB 2.0),
 
 # Introduction
 
-The PDB-UD treebank consists of 22,208 sentences (351K tokens). It contains all 8K sentences of the Polish UD-SZ treebank and further 14K unique sentences. The additional sentences enclose linguistic phenomena that did not occur or were not annotated (e.g. relative clauses, reported speech) in the UD-SZ trees. The PDB-UD treebank contains enhanced graphs, i.e. trees with the enhanced edges encoding the shared dependents and the shared governors of coordinated conjuncts (9167 PDB-UD trees contain enhanced edges). 
+The PDB-UD treebank consists of 22,208 sentences (351K tokens). It contains all 8K sentences of the Polish UD-SZ treebank and further 14K unique sentences. The additional sentences enclose linguistic phenomena that did not occur or were not annotated (e.g. relative clauses, reported speech) in the UD-SZ trees. The PDB-UD treebank contains enhanced graphs, i.e. trees with the enhanced edges encoding the shared dependents and the shared governors of coordinated conjuncts (9167 PDB-UD trees contain enhanced edges).
 
-The morphological, syntactic and semantic annotation of the PDB-UD treebank is created through a conversion of PDB 2.0 data. The conversion procedure has been designed and implemented by Alina Wróblewska partly based on the conversion of the UD-SZ trees. 
+The morphological, syntactic and semantic annotation of the PDB-UD treebank is created through a conversion of PDB 2.0 data. The conversion procedure has been designed and implemented by Alina Wróblewska partly based on the conversion of the UD-SZ trees.
 
 # Data Split
 
 The PDB-UD treebank contains sentences from Polish National Corpus, CDSCorpus, parallel corpora (e.g. Europarl, OPUS, and Pelcra Prallel Corpus) and other sources (e.g. literature). The PDB-UD treebank is divided into three parts:
 
-* training: 17,770 trees (283,745 tokens), 
+* training: 17,770 trees (283,745 tokens),
 * test: 2219 trees (31,261 tokens),
-* development: 2219 trees (36,400). 
+* development: 2219 trees (36,400).
 
-The procedure of assigning dependency trees to particular data sets is generally random while maintaining the proportion of data from individual sources. There is one constraint on the dividing procedure – if a sentence occurs in the test subcorpus of the Polish LFG-UD treebank, this sentence is assigned to the PDB-UD test subset. Since sentences underlying the Polish UD-LFG trees are generally short, the average number of tokens per sentence is significantly lower in the PDB-UD test set than in two other sets.  
+The procedure of assigning dependency trees to particular data sets is generally random while maintaining the proportion of data from individual sources. There is one constraint on the dividing procedure – if a sentence occurs in the test subcorpus of the Polish LFG-UD treebank, this sentence is assigned to the PDB-UD test subset. Since sentences underlying the Polish UD-LFG trees are generally short, the average number of tokens per sentence is significantly lower in the PDB-UD test set than in two other sets.
 
 # License/Copyright
 
 Universal Polish Dependency Bank © 2019 by Alina Wróblewska, Institute of Computer Science, Polish Academy of Sciences.
 
-The Polish PDB-UD treebank is licensed under [CC BY-NY-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+The Polish PDB-UD treebank is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
 ## History Note
@@ -64,7 +64,10 @@ We would like to thank all of the contributors of the original Polish Dependency
 # Changelog
 
 * 2019-05-15 v2.4
-  * Slightly modified conversion procedure, should remove some validation errors.
+  * Repository renamed from UD_Polish-SZ to UD_Polish-PDB.
+  * Completely new conversion of the data.
+  * In addition to the texts from “Składnica zależnościowa” 0.5, new data from PDB was added.
+  * License changed from GNU GPL 3.0 to CC BY-NC-SA 4.0.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Polish to UD_Polish-SZ.
 * 2017-11-15 v2.1
@@ -87,7 +90,7 @@ We would like to thank all of the contributors of the original Polish Dependency
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
-License: GNU GPL 3.0
+License: CC BY-NC-SA 4.0
 Includes text: yes
 Genre: fiction nonfiction news
 Lemmas: converted from manual
