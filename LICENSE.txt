@@ -1,2 +1,4 @@
-GNU GENERAL PUBLIC LICENSE 3.0
-http://www.gnu.org/licenses/gpl.html
+The Polish UD treebank is derived from the Polish Dependency Bank 2.0 (PDB 2.0, http://zil.ipipan.waw.pl/PDB) and is distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)
+http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Copyright (C) 2019 Alina Wróblewska, Institute of Computer Sciences, Polish Academy of Sciences
