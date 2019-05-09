@@ -13,9 +13,9 @@ The morphological, syntactic and semantic annotation of the PDB-UD treebank is c
 
 The PDB-UD treebank contains sentences from Polish National Corpus, CDSCorpus, parallel corpora (e.g. Europarl, OPUS, and Pelcra Prallel Corpus) and other sources (e.g. literature). The PDB-UD treebank is divided into three parts:
 
-* training: 17,770 trees (283,745 tokens),
-* test: 2219 trees (31,261 tokens),
-* development: 2219 trees (36,400).
+* training: 17,766 trees (284,209 tokens),
+* test: 2221 trees (31,488 tokens),
+* development: 2221 trees (35,709).
 
 The procedure of assigning dependency trees to particular data sets is generally random while maintaining the proportion of data from individual sources. There is one constraint on the dividing procedure – if a sentence occurs in the test subcorpus of the Polish LFG-UD treebank, this sentence is assigned to the PDB-UD test subset. Since sentences underlying the Polish UD-LFG trees are generally short, the average number of tokens per sentence is significantly lower in the PDB-UD test set than in two other sets.
 
