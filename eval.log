@@ -2,41 +2,41 @@ Running the following version of tools/evaluate_treebank.pl:
 commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
-Evaluating the following revision of UD_Polish-SZ:
-commit 4bf3af5a45b72c21c5d8dade711ed66c606360b3
-Merge: bfbeeb7 2ee2c7d
+Evaluating the following revision of UD_Polish-PDB:
+commit 900a4c93a5f72b1dae66fa098fa3865f160c5fa2
+Merge: bec55e6 cbd3d86
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 83571 of 83571 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.85139313991653.
+Size: counted 351406 of 351406 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.7238845003323.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
-Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 61999 out of 83571 total words have one or more features.
+Features: 325264 out of 351406 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 26 out of 37 found in the corpus.
+Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 1404 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 83571 words.
+Udapi: found 2640 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 351406 words.
 Genres: found 3 out of 17 known.
-validate.py --lang pl --max-err=10 UD_Polish-SZ/pl_sz-ud-dev.conllu
+validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-dev.conllu
 *** PASSED ***
-validate.py --lang pl --max-err=10 UD_Polish-SZ/pl_sz-ud-test.conllu
+validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-test.conllu
 *** PASSED ***
-validate.py --lang pl --max-err=10 UD_Polish-SZ/pl_sz-ud-train.conllu
+validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.640685199637008) = 0.164278256317182
+(weight=0.256410256410256) * (score{size}=0.848603057494228) = 0.217590527562623
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.83199913845712) = 0.255999734909883
-(weight=0.0769230769230769) * (score{udeprels}=0.562162162162162) = 0.0432432432432432
-(TOTAL score=0.705753511996703) * (availability=1) * (validity=1) = 0.705753511996703
-STARS = 3.5
-UD_Polish-SZ	0.705753511996703	3.5
+(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
+(weight=0.307692307692308) * (score{udapi}=0.924873223564766) = 0.284576376481466
+(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
+(TOTAL score=0.803198252134261) * (availability=1) * (validity=1) = 0.803198252134261
+STARS = 4
+UD_Polish-PDB	0.803198252134261	4
