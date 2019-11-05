@@ -4208,7 +4208,7 @@
 5	na	na	ADP	prep:loc	AdpType=Prep	6	case	6:case	Case=Loc
 6	stosie	stos	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	4:obl	_
 7	Joannę	Joanna	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	_
-8	D'Arc	d'Arc	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	nmod:flat	7:nmod:flat	SpaceAfter=No
+8	D'Arc	D'Arc	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	flat	7:flat	SpaceAfter=No
 9	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
 
 # sent_id = test-s275
@@ -5382,7 +5382,7 @@
 # orig_file_sentence = 200-2-000094_morph_1.44-s#7104
 1	Sztywne	sztywny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	4:amod	_
 2	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Gen
-3	wapna	wapno	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	1	nmod:arg	1:nmod:arg	_
+3	wapna	wapno	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	1	obl:arg	1:obl:arg	_
 4	włosy	włos	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	5:nsubj	_
 5	rozmierzwiły	rozmierzwić	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	mu	on	PRON	ppron3:sg:dat:m1:ter:nakc:npraep	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	5	iobj	5:iobj	_
@@ -10033,7 +10033,7 @@
 5	był	być	AUX	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 6	by	by	AUX	part	_	9	aux:cnd	9:aux:cnd	_
 7	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Gen
-8	niego	on	PRON	ppron3:sg:gen:m1:ter:akc:praep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	9	nmod:arg	9:nmod:arg	_
+8	niego	on	PRON	ppron3:sg:gen:m1:ter:akc:praep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	9	obl:arg	9:obl:arg	_
 9	dumny	dumny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	ccomp	1:ccomp	SpaceAfter=No
 10	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
 
@@ -10618,7 +10618,7 @@
 16	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
 17	gotów	gotowy	ADJ	adjc	Variant=Short	3	conj	0:root|3:conj	_
 18	do	do	ADP	prep:gen	AdpType=Prep	19	case	19:case	Case=Gen
-19	ciosu	cios	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod:arg	17:nmod:arg	SpaceAfter=No
+19	ciosu	cios	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl:arg	17:obl:arg	SpaceAfter=No
 20	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = test-s764
@@ -10836,7 +10836,7 @@
 20	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	cop	21:cop	_
 21	skory	skory	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	acl:relcl	15:acl:relcl	_
 22	do	do	ADP	prep:gen	AdpType=Prep	23	case	23:case	Case=Gen
-23	zwrócenia	zwrócić	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	21	nmod:arg	21:nmod:arg	_
+23	zwrócenia	zwrócić	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	21	obl:arg	21:obl:arg	_
 24	choćby	choćby	PART	part	_	25	advmod:emph	25:advmod:emph	_
 25	cząstki	cząstka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	23	obj	23:obj	_
 26	władzy	władza	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	25	nmod	25:nmod	_
@@ -16246,7 +16246,7 @@
 20	spojrzenie	spojrzenie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	0	root	0:root	_
 21	konkurencyjne	konkurencyjny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	20:amod	_
 22	wobec	wobec	ADP	prep:gen	AdpType=Prep	23	case	23:case	Case=Gen
-23	koncepcji	koncepcja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	21	nmod:arg	21:nmod:arg	SpaceAfter=No
+23	koncepcji	koncepcja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	21	obl:arg	21:obl:arg	SpaceAfter=No
 24	,	,	PUNCT	interp	PunctType=Comm	27	punct	27:punct	_
 25	iż	iż	SCONJ	comp	_	27	mark	27:mark	_
 26	mężczyznę	mężczyzna	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	27	obj	27:obj	_
@@ -16276,7 +16276,7 @@
 7	bo	bo	SCONJ	comp	_	11	mark	11:mark	_
 8	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Loc
-10	niej	on	PRON	ppron3:sg:loc:f:ter:akc:praep	Case=Loc|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	11	nmod:arg	11:nmod:arg	_
+10	niej	on	PRON	ppron3:sg:loc:f:ter:akc:praep	Case=Loc|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	11	obl:arg	11:obl:arg	_
 11	mocni	mocny	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	advcl	2:advcl	_
 12	-	-	PUNCT	interp	PunctType=Hyph	13	punct	13:punct	_
 13	powiedział	powiedzieć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -16595,7 +16595,7 @@
 5	niezdolny	niezdolny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	xcomp:pred	3:xcomp:pred	_
 6	do	do	ADP	prep:gen	AdpType=Prep	8	case	8:case	Case=Gen
 7	dotychczasowej	dotychczasowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
-8	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod:arg	5:nmod:arg	_
+8	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	obl:arg	5:obl:arg	_
 9	wskutek	wskutek	ADP	prep:gen	AdpType=Prep	10	case	10:case|14:case	Case=Gen
 10	wypadku	wypadek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	5:obl	_
 11	przy	przy	ADP	prep:loc	AdpType=Prep	12	case	12:case	Case=Loc
@@ -18229,7 +18229,7 @@
 9	państwa	państwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	7	conj	6:nmod:arg|7:conj	_
 10	równoznaczną	równoznaczny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	_
 11	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	12	case	12:case	Case=Ins
-12	zasadą	zasada	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	10	nmod:arg	10:nmod:arg	_
+12	zasadą	zasada	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	10	obl:arg	10:obl:arg	_
 13	ich	on	PRON	ppron3:pl:gen:m3:ter:akc:npraep	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	14	nmod	14:nmod	_
 14	rozdzielności	rozdzielność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	nmod	12:nmod	SpaceAfter=No
 15	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
@@ -18431,7 +18431,7 @@
 70	ogół	ogół	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	76	nsubj	76:nsubj	_
 71	opozycyjnych	opozycyjny	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	74	amod	74:amod	_
 72	wobec	wobec	ADP	prep:gen	AdpType=Prep	73	case	73:case	Case=Gen
-73	PRL	PRL	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	71	nmod:arg	71:nmod:arg	_
+73	PRL	PRL	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	71	obl:arg	71:obl:arg	_
 74	autorów	autor	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	70	nmod:arg	70:nmod:arg	_
 75	się	się	PRON	part	PronType=Prs|Reflex=Yes	76	expl:pv	76:expl:pv	_
 76	odżegnał	odżegnać	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	63	acl:relcl	63:acl:relcl|65:acl:relcl	SpaceAfter=No
@@ -19162,7 +19162,7 @@
 10	zaprezentowała	zaprezentować	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 11	alternatywny	alternatywny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	_
 12	wobec	wobec	ADP	prep:gen	AdpType=Prep	13	case	13:case	Case=Gen
-13	projektu	projekt	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod:arg	11:nmod:arg	_
+13	projektu	projekt	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl:arg	11:obl:arg	_
 14	kierownictwa	kierownictwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	13	nmod	13:nmod	_
 15	program	program	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	10:obj	SpaceAfter=No
 16	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	_
@@ -23944,7 +23944,7 @@
 8	grzeszności	grzeszność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	obj	6:obj	_
 9	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 10	dla	dla	ADP	prep:gen	AdpType=Prep	11	case	11:case	Case=Gen
-11	ciebie	ty	PRON	ppron12:sg:gen:m1:sec:akc	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs|Variant=Long	12	nmod:arg	12:nmod:arg	_
+11	ciebie	ty	PRON	ppron12:sg:gen:m1:sec:akc	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs|Variant=Long	12	obl:arg	12:obl:arg	_
 12	najważniejsze	ważny	ADJ	adj:pl:nom:f:sup	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	0	root	0:root	SpaceAfter=No
 13	?	?	PUNCT	interp	PunctType=Qest	12	punct	12:punct	_
 
@@ -25062,9 +25062,9 @@
 6	zbudować	zbudować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
 7	wolne	wolny	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	12:amod	_
 8	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	9	case	9:case|11:case	Case=Gen
-9	sprzeczności	sprzeczność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod:arg	7:nmod:arg	_
+9	sprzeczności	sprzeczność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	obl:arg	7:obl:arg	_
 10	i	i	CCONJ	conj	_	11	cc	11:cc	_
-11	absurdu	absurd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	7:nmod:arg|9:conj	_
+11	absurdu	absurd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	7:obl:arg|9:conj	_
 12	regulacje	regulacja	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	6	obj	6:obj	_
 13	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	12	nmod:arg	12:nmod:arg	_
 14	społecznego	społeczny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	13:amod	SpaceAfter=No
@@ -25566,7 +25566,7 @@
 1	-	-	PUNCT	interp	PunctType=Hyph	11	punct	11:punct	_
 2	Kobieta	kobieta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	11	parataxis:obj	11:parataxis:obj	_
 3	pełna	pełny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	2:amod	_
-4	ciepła	ciepło	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	nmod:arg	3:nmod:arg	SpaceAfter=No
+4	ciepła	ciepło	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	obl:arg	3:obl:arg	SpaceAfter=No
 5	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
 6	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	7	case	7:case	Case=Ins
 7	łatwością	łatwość	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	8	obl	8:obl	_
@@ -26331,7 +26331,7 @@
 19	-	-	PUNCT	interp	PunctType=Hyph	20	punct	20:punct	_
 20	podobne	podobny	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	16	amod	16:amod|18:amod	_
 21	do	do	ADP	prep:gen	AdpType=Prep	22	case	22:case	Case=Gen
-22	kompozycji	kompozycja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	20	nmod:arg	20:nmod:arg	_
+22	kompozycji	kompozycja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	20	obl:arg	20:obl:arg	_
 23	bezfabularnej	bezfabularny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	24:amod	_
 24	taśmy	taśma	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	22	nmod	22:nmod	_
 25	filmowej	filmowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	24:amod	SpaceAfter=No
@@ -27025,7 +27025,7 @@
 2	8	8	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	6	amod	6:amod	SpaceAfter=No
 3	-	-	PUNCT	interp	PunctType=Hyph	4	punct	4:punct	SpaceAfter=No
 4	9	9	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	2	conj	2:conj|6:amod	_
-5	letni	letni	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nmod:arg	4:nmod:arg	_
+5	letni	letni	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	obl:arg	4:obl:arg	_
 6	chłopiec	chłopiec	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	obl	7:obl	_
 7-8	miałem	_	_	_	_	_	_	_	_
 7	miał	mieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -27706,7 +27706,7 @@
 32	jacy	jaki	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	40	nsubj	40:nsubj	_
 33	byli	być	AUX	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	40	cop	40:cop	_
 34	do	do	ADP	prep:gen	AdpType=Prep	35	case	35:case	Case=Gen
-35	mnie	ja	PRON	ppron12:sg:gen:m1:pri:akc	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long	40	nmod:arg	40:nmod:arg	_
+35	mnie	ja	PRON	ppron12:sg:gen:m1:pri:akc	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long	40	obl:arg	40:obl:arg	_
 36	jednak	jednak	PART	part	_	40	advmod:emph	40:advmod:emph	_
 37	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	40	parataxis:insert	40:parataxis:insert	_
 38	czy	czy	CCONJ	conj	_	39	cc	39:cc	_
@@ -29040,7 +29040,7 @@
 9	przeciwnym	przeciwny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	8:amod	_
 10	do	do	ADP	prep:gen	AdpType=Prep	12	case	12:case	Case=Gen
 11	swego	swój	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det:poss	12:det:poss	_
-12	domu	dom	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod:arg	9:nmod:arg	SpaceAfter=No
+12	domu	dom	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl:arg	9:obl:arg	SpaceAfter=No
 13	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	_
 14	nie	nie	PART	part	Polarity=Neg	15	advmod:neg	15:advmod:neg	_
 15	zdziw	zdziwić	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -31408,7 +31408,7 @@
 12	jednorodna	jednorodny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	_
 13	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	15	case	15:case	Case=Loc
 14	swoich	swój	DET	adj:pl:loc:n:pos	Case=Loc|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	15	det:poss	15:det:poss	_
-15	poglądach	poglądy	NOUN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	12	nmod:arg	12:nmod:arg	SpaceAfter=No
+15	poglądach	poglądy	NOUN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	12	obl:arg	12:obl:arg	SpaceAfter=No
 16	,	,	PUNCT	interp	PunctType=Comm	25	punct	25:punct	_
 17	ale	ale	CCONJ	conj	_	25	cc	25:cc	_
 18	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	19	case	19:case	Case=Loc
@@ -33368,7 +33368,7 @@
 2	był	być	AUX	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	niekonsekwentny	niekonsekwentny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	_
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Loc
-5	ocenie	ocena	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	nmod:arg	3:nmod:arg	_
+5	ocenie	ocena	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	obl:arg	3:obl:arg	_
 6	autorów	autor	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	5	nmod:arg	5:nmod:arg	SpaceAfter=No
 7	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
 8	np	na przykład	X	brev:pun	Abbr=Yes|Pun=Yes	10	parataxis:insert	10:parataxis:insert|15:parataxis:insert	SpaceAfter=No
@@ -34404,7 +34404,7 @@
 5-6	byłem	_	_	_	_	_	_	_	_
 5	był	być	AUX	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 6	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	8	aux:clitic	8:aux:clitic	_
-7	tego	to	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	nmod:arg	8:nmod:arg	_
+7	tego	to	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	obl:arg	8:obl:arg	_
 8	pewien	pewny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
 9	:	:	PUNCT	interp	PunctType=Colo	17	punct	17:punct	_
 10	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	17	nsubj	17:nsubj	_
@@ -35077,7 +35077,7 @@
 5	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 6	nadmiernie	nadmiernie	ADV	adv:pos	Degree=Pos	7	advmod	7:advmod	_
 7	pewny	pewny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	conj	0:root|1:conj	_
-8	siebie	siebie	PRON	siebie:gen	Case=Gen|PronType=Prs|Reflex=Yes	7	nmod:arg	7:nmod:arg	SpaceAfter=No
+8	siebie	siebie	PRON	siebie:gen	Case=Gen|PronType=Prs|Reflex=Yes	7	obl:arg	7:obl:arg	SpaceAfter=No
 9	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
 
 # sent_id = test-s1825
@@ -36994,7 +36994,7 @@
 14	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
 15	najmilsze	miły	ADJ	adj:sg:nom:n:sup	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	9	conj	5:parataxis:obj|9:conj	_
 16	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	17	case	17:case	Case=Loc
-17	prezencie	prezent	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod:arg	15:nmod:arg	_
+17	prezencie	prezent	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl:arg	15:obl:arg	_
 18	gwiazdkowym	gwiazdkowy	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	17:amod	SpaceAfter=No
 19	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
 
@@ -37644,7 +37644,7 @@
 17	topotekanu	topotekan	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod:arg	16:nmod:arg	_
 18	stosowanego	stosowany	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	17:amod	_
 19	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	20	case	20:case	Case=Loc
-20	monoterapii	monoterapia	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	18	nmod:arg	18:nmod:arg	SpaceAfter=No
+20	monoterapii	monoterapia	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	18	obl:arg	18:obl:arg	SpaceAfter=No
 21	,	,	PUNCT	interp	PunctType=Comm	14	punct	14:punct	_
 22	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
 23	toksyczność	toksyczność	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	14:nsubj	_
@@ -37935,7 +37935,7 @@
 4	charakterystycznym	charakterystyczny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	3:amod	_
 5	dla	dla	ADP	prep:gen	AdpType=Prep	7	case	7:case	Case=Gen
 6	każdego	każdy	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	7	det	7:det	_
-7	typu	typ	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod:arg	4:nmod:arg	_
+7	typu	typ	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl:arg	4:obl:arg	_
 8	silnika	silnik	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	10:nmod	_
 9	i	i	CCONJ	conj	_	10	cc	10:cc	_
 10	regulacji	regulacja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod:arg	7:nmod:arg	SpaceAfter=No
@@ -38243,7 +38243,7 @@
 19	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	22	case	22:case	Case=Gen
 20	swego	swój	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	22	det:poss	22:det:poss	_
 21	ludzkiego	ludzki	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	22:amod	_
-22	dziedzictwa	dziedzictwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	16	nmod:arg	16:nmod:arg	SpaceAfter=No
+22	dziedzictwa	dziedzictwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	16	obl:arg	16:obl:arg	SpaceAfter=No
 23	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
 
 # sent_id = test-s1990
@@ -38284,10 +38284,10 @@
 8	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	cop	9:cop	_
 9	odpowiedzialna	odpowiedzialny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	_
 10	za	za	ADP	prep:acc	AdpType=Prep	11	case	11:case|14:case	Case=Acc
-11	zawieranie	zawierać	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	9	nmod:arg	9:nmod:arg	_
+11	zawieranie	zawierać	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	9	obl:arg	9:obl:arg	_
 12	umów	umowa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	11	obj	11:obj	_
 13	i	i	CCONJ	conj	_	14	cc	14:cc	_
-14	przyznawanie	przyznawać	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	conj	9:nmod:arg|11:conj	_
+14	przyznawanie	przyznawać	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	conj	9:obl:arg|11:conj	_
 15	funduszy	fundusz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obj	14:obj	_
 16	indywidualnym	indywidualny	ADJ	adj:pl:dat:m1:pos	Animacy=Hum|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	17	amod	17:amod	_
 17	promotorom	promotor	NOUN	subst:pl:dat:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur	14	iobj	14:iobj	SpaceAfter=No
@@ -38694,7 +38694,7 @@
 13	środkach	środki	NOUN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	11	conj	11:conj	_
 14	niezbędnych	niezbędny	ADJ	adj:pl:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	13:amod	_
 15	do	do	ADP	prep:gen	AdpType=Prep	16	case	16:case	Case=Gen
-16	osiągnięcia	osiągnąć	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	14	nmod:arg	14:nmod:arg	_
+16	osiągnięcia	osiągnąć	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	14	obl:arg	14:obl:arg	_
 17	celów	cel	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obj	16:obj	SpaceAfter=No
 18	,	,	PUNCT	interp	PunctType=Comm	23	punct	23:punct	_
 19	a	a	CCONJ	conj	_	23	cc	23:cc	_
@@ -38780,13 +38780,13 @@
 2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	bardzo	bardzo	ADV	adv:pos	Degree=Pos	4	advmod	4:advmod	_
 4	świadoma	świadomy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	_
-5	odpowiedzialności	odpowiedzialność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod:arg	4:nmod:arg	_
+5	odpowiedzialności	odpowiedzialność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obl:arg	4:obl:arg	_
 6	Izraela	Izrael	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	5:nmod	_
 7	jako	jako	SCONJ	comp	ConjType=Pred	8	mark	8:mark	_
 8	siły	siła	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod	_
 9	okupacyjnej	okupacyjny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
 10	oraz	oraz	CCONJ	conj	_	11	cc	11:cc	_
-11	konfliktów	konflikt	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	4:nmod:arg|5:conj	_
+11	konfliktów	konflikt	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	4:obl:arg|5:conj	_
 12	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	13	case	13:case	Case=Ins
 13	prawem	prawo	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	11	nmod	11:nmod	_
 14	międzynarodowym	międzynarodowy	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	13:amod	SpaceAfter=No
@@ -39012,7 +39012,7 @@
 32	,	,	PUNCT	interp	PunctType=Comm	33	punct	33:punct	_
 33	niezgodną	niezgodny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	21:amod	_
 34	ze	z	ADP	prep:inst:wok	AdpType=Prep|Variant=Long	35	case	35:case	Case=Ins
-35	swobodą	swoboda	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	33	nmod:arg	33:nmod:arg	_
+35	swobodą	swoboda	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	33	obl:arg	33:obl:arg	_
 36	działalności	działalność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	35	nmod:arg	35:nmod:arg	_
 37	gospodarczej	gospodarczy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	36:amod	_
 38	zagwarantowaną	zagwarantować	ADJ	ppas:sg:inst:f:perf:aff	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	35	acl	35:acl	_
@@ -39810,10 +39810,10 @@
 19	do	do	ADP	prep:gen	AdpType=Prep	20	case	20:case	Case=Gen
 20	rozwoju	rozwój	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	17:obl	_
 21	godnych	godny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	26	amod	26:amod	_
-22	podziwu	podziw	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod:arg	21:nmod:arg	_
+22	podziwu	podziw	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl:arg	21:obl:arg	_
 23	i	i	CCONJ	conj	_	24	cc	24:cc	_
 24	świadomych	świadomy	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	conj	21:conj|26:amod	_
-25	odpowiedzialności	odpowiedzialność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	24	nmod:arg	24:nmod:arg	_
+25	odpowiedzialności	odpowiedzialność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	24	obl:arg	24:obl:arg	_
 26	wzorów	wzór	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod:arg	20:nmod:arg	_
 27	dla	dla	ADP	prep:gen	AdpType=Prep	29	case	29:case	Case=Gen
 28	całej	cały	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	29:amod	_
@@ -40192,7 +40192,7 @@
 5	informacje	informacja	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	4	obj	4:obj	_
 6	konieczne	konieczny	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	5:amod	_
 7	do	do	ADP	prep:gen	AdpType=Prep	8	case	8:case	Case=Gen
-8	realizowania	realizować	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nmod:arg	6:nmod:arg	_
+8	realizowania	realizować	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	obl:arg	6:obl:arg	_
 9	zadań	zadanie	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	8	obj	8:obj	_
 10	banków	bank	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	9:nmod	_
 11	centralnych	centralny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	10:amod	_
@@ -40543,7 +40543,7 @@
 4	było	być	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 5	podobne	podobny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	0:root	_
 6	u	u	ADP	prep:gen	AdpType=Prep	7	case	7:case	Case=Gen
-7	dzieci	dziecko	NOUN	subst:pl:gen:n:col	Case=Gen|Gender=Neut|Number=Plur|NumType=Sets	5	nmod:arg	5:nmod:arg	_
+7	dzieci	dziecko	NOUN	subst:pl:gen:n:col	Case=Gen|Gender=Neut|Number=Plur|NumType=Sets	5	obl:arg	5:obl:arg	_
 8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	11	case	11:case	Case=Loc
 9	porównaniu	porównanie	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	8	fixed	8:fixed	_
 10	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	8	fixed	8:fixed	Case=Ins
@@ -40852,7 +40852,7 @@
 9	za	za	ADP	prep:acc	AdpType=Prep	10	case	10:case	Case=Acc
 10	reprezentatywne	reprezentatywny	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	obl:arg	7:obl:arg	_
 11	dla	dla	ADP	prep:gen	AdpType=Prep	12	case	12:case	Case=Gen
-12	partii	partia	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	10	nmod:arg	10:nmod:arg	SpaceAfter=No
+12	partii	partia	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	10	obl:arg	10:obl:arg	SpaceAfter=No
 13	,	,	PUNCT	interp	PunctType=Comm	16	punct	16:punct	_
 14	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	15	case	15:case	Case=Gen
 15	których	który	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	16	obl:arg	16:obl:arg	_
@@ -41095,7 +41095,7 @@
 7	stodoły	stodoła	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod	SpaceAfter=No
 8	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	_
 9	pełne	pełny	ADJ	adj:pl:nom:m2:pos	Animacy=Nhum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	amod	1:amod	_
-10	entuzjazmu	entuzjazm	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod:arg	9:nmod:arg	SpaceAfter=No
+10	entuzjazmu	entuzjazm	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl:arg	9:obl:arg	SpaceAfter=No
 11	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
 
 # sent_id = test-s2130
@@ -41734,7 +41734,7 @@
 30	wielu	wiele	DET	num:pl:gen:f:congr	Case=Gen|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	33	det:nummod	33:det:nummod	_
 31	różnych	różny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	33:amod	_
 32	macierzystych	macierzysty	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	33:amod	_
-33	komórek	komórka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	28	nmod:arg	28:nmod:arg	_
+33	komórek	komórka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	28	obl:arg	28:obl:arg	_
 34	nowotworowych	nowotworowy	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	33:amod	SpaceAfter=No
 35	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
 
