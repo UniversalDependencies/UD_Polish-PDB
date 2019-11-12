@@ -1,11 +1,11 @@
 # Summary
 
-The Polish PDB-UD treebank is based on the Polish Dependency Bank 2.0 (PDB 2.0), created at the Institute of Computer Science, Polish Academy of Sciences in Warsaw. The PDB-UD treebank is an extended and corrected version of the Polish SZ-UD treebank (the release 2.3).
+The Polish PDB-UD treebank is based on the Polish Dependency Bank 2.0 (PDB 2.0), created at the Institute of Computer Science, Polish Academy of Sciences in Warsaw. The PDB-UD treebank is an extended and corrected version of the Polish SZ-UD treebank (the release 1.2 to 2.3).
 
 
 # Introduction
 
-The PDB-UD treebank consists of 22,208 sentences (351K tokens). It contains all 8K sentences of the Polish UD-SZ treebank and further 14K unique sentences. The additional sentences enclose linguistic phenomena that did not occur or were not annotated (e.g. relative clauses, reported speech) in the UD-SZ trees. The PDB-UD treebank contains enhanced graphs, i.e. trees with the enhanced edges encoding the shared dependents and the shared governors of coordinated conjuncts (9167 PDB-UD trees contain enhanced edges).
+The PDB-UD treebank consists of 22,152 sentences (350K tokens). It contains all 8K sentences of the Polish UD-SZ treebank and further 14K unique sentences. The additional sentences enclose linguistic phenomena that did not occur or were not annotated (e.g. relative clauses, reported speech) in the UD-SZ trees. The PDB-UD treebank contains enhanced graphs, i.e. trees with the enhanced edges encoding the shared dependents and the shared governors of coordinated conjuncts (9141 PDB-UD trees contain enhanced edges).
 
 The morphological, syntactic and semantic annotation of the PDB-UD treebank is created through a conversion of PDB 2.0 data. The conversion procedure has been designed and implemented by Alina Wróblewska partly based on the conversion of the UD-SZ trees.
 
@@ -13,11 +13,11 @@ The morphological, syntactic and semantic annotation of the PDB-UD treebank is c
 
 The PDB-UD treebank contains sentences from Polish National Corpus, CDSCorpus, parallel corpora (e.g. Europarl, OPUS, and Pelcra Prallel Corpus) and other sources (e.g. literature). The PDB-UD treebank is divided into three parts:
 
-* training: 17,766 trees (284,209 tokens),
-* test: 2221 trees (31,488 tokens),
-* development: 2221 trees (35,709).
+* training: 17,722 trees (281,736 tokens),
+* test: 2215 trees (33,617 tokens),
+* development: 2215 trees (34,683).
 
-The procedure of assigning dependency trees to particular data sets is generally random while maintaining the proportion of data from individual sources. There is one constraint on the dividing procedure – if a sentence occurs in the test subcorpus of the Polish LFG-UD treebank, this sentence is assigned to the PDB-UD test subset. Since sentences underlying the Polish UD-LFG trees are generally short, the average number of tokens per sentence is significantly lower in the PDB-UD test set than in two other sets.
+The procedure of assigning dependency trees to particular data sets is generally random while maintaining the proportion of data from individual sources. There is one constraint on the dividing procedure: if a sentence occurs in the test, dev or train subset of the Polish LFG-UD treebank, this sentence is assigned to the test, dev or train set of the Polish PDB-UD treebank, respectively.
 
 # License/Copyright
 
@@ -63,6 +63,12 @@ We would like to thank all of the contributors of the original Polish Dependency
 
 # Changelog
 
+* 2019-11-15 v2.5
+  * Duplicate sentences are removed.
+  * The treebank is divided anew into train, test and dev subsets.
+  * The bugs fixed in the original PDB trees resulted in modifications to the UD trees.
+  * Fixed nominal dependents of nouns that were attached as obl:arg; correct: nmod:arg.
+  * Emphasizing words are annotated as advmod:emph.
 * 2019-05-15 v2.4
   * Repository renamed from UD_Polish-SZ to UD_Polish-PDB.
   * Completely new conversion of the data.
