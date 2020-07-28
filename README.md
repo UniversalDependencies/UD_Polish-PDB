@@ -106,6 +106,6 @@ Features: converted from manual
 Relations: converted from manual
 Contributors: Wróblewska, Alina; Zeman, Daniel; Mašek, Jan; Rosa, Rudolf
 Contributing: elsewhere
-Contact: zeman@ufal.mff.cuni.cz
+Contact: alina@ipipan.waw.pl
 ===============================================================================
 </pre>
