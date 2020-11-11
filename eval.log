@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Polish-PDB:
-commit b0278ef904ea01aa911b7cf641c3bd40e45e4f05
+commit 6b3e341c54ce02f6bc0d33002e9ab27d2b7aa47b
+Merge: a5d2abf ce3e454
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:35:01 2019 +0100
 Size: counted 350036 of 350036 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.7160720126738.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 324008 out of 350036 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 2637 bugs.
+Udapi: found 2629 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 350036 words.
 Genres: found 3 out of 17 known.
 validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.84803757078089) = 0.217445530969459
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.924664891611149) = 0.284512274341892
+(weight=0.307692307692308) * (score{udapi}=0.924893439531934) = 0.284582596779057
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.804652355064724) * (availability=1) * (validity=1) = 0.804652355064724
+(TOTAL score=0.804722677501889) * (availability=1) * (validity=1) = 0.804722677501889
 STARS = 4
-UD_Polish-PDB	0.804652355064724	4
+UD_Polish-PDB	0.804722677501889	4
