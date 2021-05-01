@@ -34,7 +34,7 @@
     <tag name="X">3113</tag><!-- rok, złoty, 2, artykuł, tysiąc, 1, procent, ustęp, na przykład, ulica -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="92">
+  <feats unique="91">
     <feat name="Abbr" value="Yes" upos="PART,X">2124</feat><!-- r, zł, art, tys, proc, ust, np, ul, godz, m.in -->
     <feat name="AdpType" value="Post" upos="ADP">69</feat><!-- temu -->
     <feat name="AdpType" value="Prep" upos="ADP">37108</feat><!-- w, na, z, do, o, po, za, od, przez, dla -->
@@ -103,10 +103,9 @@
     <feat name="PunctType" value="Brck" upos="PUNCT">1630</feat><!-- ), (, [, ] -->
     <feat name="PunctType" value="Colo" upos="PUNCT">1174</feat><!-- : -->
     <feat name="PunctType" value="Comm" upos="PUNCT">21532</feat><!-- ,, ,, -->
-    <feat name="PunctType" value="Dash" upos="PUNCT">578</feat><!-- –, —, – -->
+    <feat name="PunctType" value="Dash" upos="PUNCT">5972</feat><!-- -, –, —, – -->
     <feat name="PunctType" value="Elip" upos="PUNCT">19</feat><!-- … -->
     <feat name="PunctType" value="Excl" upos="PUNCT">430</feat><!-- ! -->
-    <feat name="PunctType" value="Hyph" upos="PUNCT">5394</feat><!-- - -->
     <feat name="PunctType" value="Peri" upos="PUNCT">22887</feat><!-- . -->
     <feat name="PunctType" value="Qest" upos="PUNCT">1205</feat><!-- ? -->
     <feat name="PunctType" value="Quot" upos="PUNCT">2832</feat><!-- ", ”, „, “, '', ', », ’, «, ’’ -->
