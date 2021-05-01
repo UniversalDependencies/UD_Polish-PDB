@@ -51,7 +51,7 @@
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">41883</feat><!-- to, mężczyzna, pan, kobieta, który, które, co, człowiek, ja, która -->
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,PRON,PROPN">302</feat><!-- panie, pośle, Boże, marszałku, pani, kochanie, tato, mamo, ministrze, panowie -->
     <feat name="Clitic" value="Yes" upos="AUX">2139</feat><!-- em, m, śmy, eś, ś, ście -->
-    <feat name="ConjType" value="Cmpr" upos="SCONJ">1002</feat><!-- jak, niż, jakby, niczym, aniżeli, niby -->
+    <feat name="ConjType" value="Comp" upos="SCONJ">1002</feat><!-- jak, niż, jakby, niczym, aniżeli, niby -->
     <feat name="ConjType" value="Oper" upos="CCONJ">4</feat><!-- plus, minus -->
     <feat name="ConjType" value="Pred" upos="SCONJ">553</feat><!-- jako -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">1482</feat><!-- bardziej, wcześniej, lepiej, dalej, później, mniej, więcej, częściej, większe, starszy -->
