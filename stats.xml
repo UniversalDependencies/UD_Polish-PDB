@@ -65,7 +65,6 @@
     <feat name="Hyph" value="Yes" upos="ADJ">259</feat><!-- czarno, biało, polsko, czerwono, południowo, żółto, brązowo, budowlano, niebiesko, niemiecko -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">595</feat><!-- powiedz, daj, patrz, weź, chodź, Zobacz, bądź, idź, Przypomnijmy, powiedzmy -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">37739</feat><!-- jest, to, będzie, są, ma, był, było, może, stoi, można -->
-    <feat name="NounForm" value="Depr" upos="NOUN,PROPN">14</feat><!-- chłopaki, nastolatki, Chłopy, Jerze, Kamraty, VIP-y, Wykształciuchy, niedobitki, ułomka, zombie -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">51881</feat><!-- są, ich, śmy, które, lat, będą, te, tych, nich, nas -->
     <feat name="Number" value="Ptan" upos="NOUN,PRON,PROPN">1886</feat><!-- drzwi, wszyscy, ramach, okularach, danych, dane, środki, spodenkach, USA, środków -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">140854</feat><!-- jest, to, em, tym, będzie, co, ma, jego, tego, m -->
@@ -85,6 +84,7 @@
     <feat name="Person" value="3" upos="AUX,PRON,VERB">20284</feat><!-- jest, będzie, są, ma, jego, ich, jej, go, może, stoi -->
     <feat name="Polarity" value="Neg" upos="ADJ,NOUN,PART">4078</feat><!-- nie, nieuzyskania, niewykluczone, niepotwierdzonych, niewykorzystane, niewyprawione, niezrealizowane, NIEPOCHODZĄCYCH, Nieleczona, Nieprzejawionego -->
     <feat name="Polarity" value="Pos" upos="ADJ,NOUN">10553</feat><!-- dotyczące, dotyczących, stosowania, związane, głosowania, ubrany, przyjęcie, stosowanie, określonych, wprowadzenia -->
+    <feat name="Polite" value="Depr" upos="NOUN,PROPN">14</feat><!-- chłopaki, nastolatki, Chłopy, Jerze, Kamraty, VIP-y, Wykształciuchy, niedobitki, ułomka, zombie -->
     <feat name="Poss" value="Yes" upos="DET">1712</feat><!-- swoje, swoich, swoją, swoim, naszych, swój, nasze, mój, naszym, moim -->
     <feat name="PrepCase" value="Npr" upos="PRON">3303</feat><!-- jego, ich, jej, go, mu, ją, on, je, im, ona -->
     <feat name="PrepCase" value="Pre" upos="ADJ,PRON">985</feat><!-- nich, nim, niego, niej, nią, prostu, nimi, nie, dawna, wolna -->

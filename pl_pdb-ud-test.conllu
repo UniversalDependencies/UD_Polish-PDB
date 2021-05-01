@@ -11226,7 +11226,7 @@
 6	zagości	zagościć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	zespół	zespół	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj	_
 8	Dwa	dwa	NUM	num:pl:nom:m2:congr	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	9	nummod:flat	9:nummod:flat	_
-9	Kamraty	kamrat	NOUN	depr:pl:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|NounForm=Depr|Number=Plur	7	appos	7:appos	SpaceAfter=No
+9	Kamraty	kamrat	NOUN	depr:pl:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Plur|Polite=Depr	7	appos	7:appos	SpaceAfter=No
 10	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	_
 11	znany	znany	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	7:amod	_
 12	ze	z	ADP	prep:gen:wok	AdpType=Prep|Variant=Long	14	case	14:case	Case=Gen
@@ -13844,7 +13844,7 @@
 8	uważał	uważać	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
 9	się	się	PRON	part	PronType=Prs|Reflex=Yes	8	expl:pv	8:expl:pv	_
 10	za	za	ADP	prep:acc	AdpType=Prep	11	case	11:case	Case=Acc
-11	ułomka	ułomek	NOUN	depr:sg:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|NounForm=Depr|Number=Sing	8	obl:arg	8:obl:arg	SpaceAfter=No
+11	ułomka	ułomek	NOUN	depr:sg:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing|Polite=Depr	8	obl:arg	8:obl:arg	SpaceAfter=No
 12	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = test-s917
@@ -36012,7 +36012,7 @@
 3	myślę	myśleć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
 5	że	że	SCONJ	comp	_	7	mark	7:mark	_
-6	zombie	zombi	NOUN	depr:pl:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|NounForm=Depr|Number=Plur	7	nsubj	7:nsubj	_
+6	zombie	zombi	NOUN	depr:pl:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Plur|Polite=Depr	7	nsubj	7:nsubj	_
 7	zabijają	zabijać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	SpaceAfter=No
 8	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
 9	bo	bo	SCONJ	comp	_	10	mark	10:mark	_

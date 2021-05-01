@@ -28488,7 +28488,7 @@
 # orig_file_sentence = 310-2-000009_morph_10.69-s#9514
 1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	3:cop	_
 2	łebskie	łebski	ADJ	adj:pl:nom:m2:pos	Animacy=Nhum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	3:amod	_
-3	chłopaki	chłopak	NOUN	depr:pl:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|NounForm=Depr|Number=Plur	0	root	0:root	SpaceAfter=No
+3	chłopaki	chłopak	NOUN	depr:pl:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Plur|Polite=Depr	0	root	0:root	SpaceAfter=No
 4	!	!	PUNCT	interp	PunctType=Excl	3	punct	3:punct	_
 
 # sent_id = dev-s1541
