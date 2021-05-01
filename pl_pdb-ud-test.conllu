@@ -21582,7 +21582,7 @@
 2	drzwi	drzwi	NOUN	subst:pl:acc:n:pt	Case=Acc|Gender=Neut|Number=Ptan	1	obj	1:obj	_
 3	i	i	CCONJ	conj	_	6	cc	6:cc	_
 4	po	po	ADP	prep:acc	AdpType=Prep	6	advmod	6:advmod	Case=Acc
-5	ciemku	ciemku	X	frag	Foreign=No	4	fixed	4:fixed	_
+5	ciemku	ciemku	X	frag	_	4	fixed	4:fixed	_
 6	znajduje	znajdować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
 7	napoczętą	napocząć	ADJ	ppas:sg:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	8:acl	_
 8	butelkę	butelka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obj	6:obj	_

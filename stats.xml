@@ -34,7 +34,7 @@
     <tag name="X">3113</tag><!-- rok, złoty, 2, artykuł, tysiąc, 1, procent, ustęp, na przykład, ulica -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="91">
+  <feats unique="90">
     <feat name="Abbr" value="Yes" upos="PART,X">2124</feat><!-- r, zł, art, tys, proc, ust, np, ul, godz, m.in -->
     <feat name="AdpType" value="Post" upos="ADP">69</feat><!-- temu -->
     <feat name="AdpType" value="Prep" upos="ADP">37108</feat><!-- w, na, z, do, o, po, za, od, przez, dla -->
@@ -58,7 +58,6 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV">33007</feat><!-- tak, jak, bardzo, innych, jeden, dobrze, inne, sam, europejskiej, pierwszy -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">691</feat><!-- najbardziej, najmniej, najczęściej, najlepiej, najlepsze, najważniejsze, największe, najszybciej, najbliższych, najlepszym -->
     <feat name="Emphatic" value="Yes" upos="ADV,DET,PART,PRON">36</feat><!-- cóż, jakże, czyż, któż, gdzież, ileż, iluż, Kimże, czymże, skądże -->
-    <feat name="Foreign" value="No" upos="X">15</feat><!-- dala, ciemku, cna, dna, dwójnasób, młodu, naprzeciwka, niemiara, oścież, oślep -->
     <feat name="Foreign" value="Yes" upos="X">152</feat><!-- de, San, a, of, von, New, Don, bin, di, Le -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">56864</feat><!-- jej, tej, kobieta, była, ją, która, pracy, osób, dziewczynka, dwie -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">83511</feat><!-- jego, był, go, mężczyzna, ten, roku, który, ich, pan, mnie -->

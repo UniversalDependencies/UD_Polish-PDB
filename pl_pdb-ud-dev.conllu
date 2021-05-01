@@ -21332,7 +21332,7 @@
 2	oczach	oko	NOUN	subst:pl:loc:n:col	Case=Loc|Gender=Neut|Number=Plur|NumType=Sets	7	obl	7:obl	_
 3	tych	ten	DET	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	2	det:poss	2:det:poss	_
 4	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	advmod	3:advmod	Case=Gen
-5	naprzeciwka	naprzeciwka	X	frag	Foreign=No	4	fixed	4:fixed	_
+5	naprzeciwka	naprzeciwka	X	frag	_	4	fixed	4:fixed	_
 6	nie	nie	PART	part	Polarity=Neg	7	advmod:neg	7:advmod:neg	_
 7	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 8	także	także	PART	part	_	9	advmod:emph	9:advmod:emph	_
@@ -21384,7 +21384,7 @@
 54	i	i	CCONJ	conj	_	65	cc	65:cc	_
 55	połyskujące	połyskiwać	ADJ	pact:pl:acc:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	65	acl	65:acl	_
 56	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	55	advmod	55:advmod	Case=Gen
-57	dala	dala	X	frag	Foreign=No	56	fixed	56:fixed	SpaceAfter=No
+57	dala	dala	X	frag	_	56	fixed	56:fixed	SpaceAfter=No
 58	,	,	PUNCT	interp	PunctType=Comm	60	punct	60:punct	_
 59	poza	poza	ADP	prep:inst	AdpType=Prep	60	case	60:case|62:case	Case=Ins
 60	ogrodzeniem	ogrodzenie	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	55	obl	55:obl	_
