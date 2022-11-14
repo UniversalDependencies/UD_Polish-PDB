@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Polish-PDB:
-commit c1a4f95e50bf176accba227940b59cf3e4ad06d6
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 16:51:34 2021 +0100
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Polish-PDB:
+commit b1a0584c7836898588d0f079350d0070fbf79077
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 15:08:28 2022 +0200
 Size: counted 350036 of 350036 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.7160720126738.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -29,8 +29,12 @@ validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-dev.conllu
 validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-test.conllu
 *** PASSED ***
 validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 82020 Sent train-s5396 Node 14]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 283095 Sent train-s14275 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 2
+*** FAILED *** with 2 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -39,6 +43,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.924893439531934) = 0.284582596779057
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.804722677501889) * (availability=1) * (validity=1) = 0.804722677501889
-STARS = 4
-UD_Polish-PDB	0.804722677501889	4
+(TOTAL score=0.804722677501889) * (availability=1) * (validity=0.01) = 0.00804722677501889
+STARS = 0
+UD_Polish-PDB	0.00804722677501889	0
