@@ -99,7 +99,7 @@ We want to thank all of the original Polish Dependency Bank 2.0 contributors. Th
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since UD v1.2
+Data available since: UD v1.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
 Genre: fiction nonfiction news
