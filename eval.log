@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Polish-PDB:
-commit 284d441952f9ed34cfabde60e98329a58db9921c
+commit c7df65da7cdd2226726ce03cb5fe08b784cf508f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:50:09 2023 +0100
+Date:   Sun May 5 13:14:31 2024 +0200
 Size: counted 349978 of 349978 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.71574059073.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -36,16 +36,20 @@ Genres: found 3 out of 17 known.
 [Line 9204 Sent dev-s680 Node 35]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 9203 Sent dev-s680 Node 34]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 24
+Warnings: 26
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-test.conllu
+[Line 2209 Sent test-s135 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:niektórzy:det --> 5:turbanach:nmod)
 [Line 17955 Sent test-s1107 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 17954 Sent test-s1107 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 17964 Sent test-s1107 Node 11]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 17963 Sent test-s1107 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 4
+[Line 18354 Sent test-s1127 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:takiej:det --> 15:oszlifował:advcl)
+Warnings: 6
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-train.conllu
+[Line 63593 Sent train-s4561 Node 16]: [L3 Warning leaf-det] 'det' not expected to have children (16:te:det --> 18:najbogatszych:nmod)
+[Line 66333 Sent train-s4691 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:takim:det --> 21:mówił:advcl)
 [Line 69516 Sent train-s4834 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 69515 Sent train-s4834 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 69517 Sent train-s4834 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
@@ -54,10 +58,8 @@ Warnings: 4
 [Line 69527 Sent train-s4834 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 69529 Sent train-s4834 Node 26]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 69528 Sent train-s4834 Node 25]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 69539 Sent train-s4834 Node 36]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 69538 Sent train-s4834 Node 35]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 38
+Warnings: 74
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
