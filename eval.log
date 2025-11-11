@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Polish-PDB:
-commit 6f79a3604f056f1e751a4535f77e44cd18ca34ee
+commit 73a3a9161dcf96ba7b7c47aa8af008f35cdfa991
+Merge: 180b33b 4a551ce
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:23:38 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'pl_pdb'
+Language code (from CoNLL-U file name) = 'pl'
+Found the following data files: pl_pdb-ud-dev.conllu, pl_pdb-ud-test.conllu, pl_pdb-ud-train.conllu
 Size: counted 349978 of 349978 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.71574059073.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,101 +23,96 @@ Features: 323723 out of 349978 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL       1558
-Udapi: found 1558 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 349978 words.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-dev.conllu
-[Line 188 Sent dev-s13 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'wraz z' does not have the 'ExtPos' feature
-[Line 226 Sent dev-s15 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'w trakcie' does not have the 'ExtPos' feature
-[Line 402 Sent dev-s26 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'w towarzystwie' does not have the 'ExtPos' feature
-[Line 471 Sent dev-s30 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'w kierunku' does not have the 'ExtPos' feature
-[Line 491 Sent dev-s31 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 587 Sent dev-s37 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 635 Sent dev-s40 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 750 Sent dev-s47 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'w stronę' does not have the 'ExtPos' feature
-[Line 1146 Sent dev-s71 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'przy pomocy' does not have the 'ExtPos' feature
-[Line 1333 Sent dev-s82 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 188 Sent dev-s13]: [L3 Warning fixed-without-extpos] Fixed expression 'wraz z' does not have the 'ExtPos' feature
+[Line 226 Sent dev-s15]: [L3 Warning fixed-without-extpos] Fixed expression 'w trakcie' does not have the 'ExtPos' feature
+[Line 402 Sent dev-s26]: [L3 Warning fixed-without-extpos] Fixed expression 'w towarzystwie' does not have the 'ExtPos' feature
+[Line 471 Sent dev-s30]: [L3 Warning fixed-without-extpos] Fixed expression 'w kierunku' does not have the 'ExtPos' feature
+[Line 491 Sent dev-s31]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 587 Sent dev-s37]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 635 Sent dev-s40]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 750 Sent dev-s47]: [L3 Warning fixed-without-extpos] Fixed expression 'w stronę' does not have the 'ExtPos' feature
+[Line 1146 Sent dev-s71]: [L3 Warning fixed-without-extpos] Fixed expression 'przy pomocy' does not have the 'ExtPos' feature
+[Line 1333 Sent dev-s82]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-[Line 3733 Sent dev-s232 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Na'
-[Line 4358 Sent dev-s283 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'W'
-[Line 5381 Sent dev-s368 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'w'
-[Line 5396 Sent dev-s370 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'W'
-[Line 8598 Sent dev-s655 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'w'
-[Line 8900 Sent dev-s667 Node 49]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'w'
-[Line 9461 Sent dev-s691 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'z'
-[Line 9892 Sent dev-s711 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' word 'rzecz'
-[Line 11297 Sent dev-s772 Node 15]: [L3 Syntax leaf-det] 'det' not expected to have children (15:więcej:det --> 18:przypuszczała:advcl)
-[Line 11508 Sent dev-s780 Node 25]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'przede'
+[Line 3733 Sent dev-s232]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Na')
+[Line 4358 Sent dev-s283]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('W')
+[Line 5381 Sent dev-s368]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('w')
+[Line 5396 Sent dev-s370]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('W')
+[Line 8598 Sent dev-s655]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('w')
+[Line 8900 Sent dev-s667]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('w')
+[Line 9461 Sent dev-s691]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('z')
+[Line 9892 Sent dev-s711]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' ('rzecz')
+[Line 11297 Sent dev-s772]: [L3 Syntax leaf-det] 'det' not expected to have children (15:więcej:det --> 18:przypuszczała:advcl)
+[Line 11508 Sent dev-s780]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('przede')
 ...suppressing further errors regarding Syntax
 Syntax errors: 54
-Warnings: 374
+Warnings: 451
 *** FAILED *** with 54 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-test.conllu
-[Line 106 Sent test-s7 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 122 Sent test-s8 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 134 Sent test-s9 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'w kierunku' does not have the 'ExtPos' feature
-[Line 260 Sent test-s17 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'w kierunku' does not have the 'ExtPos' feature
-[Line 532 Sent test-s34 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'w kierunku' does not have the 'ExtPos' feature
-[Line 945 Sent test-s58 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'razem z' does not have the 'ExtPos' feature
-[Line 966 Sent test-s59 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'podczas gdy' does not have the 'ExtPos' feature
-[Line 1213 Sent test-s73 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 1313 Sent test-s79 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 1375 Sent test-s82 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'w towarzystwie' does not have the 'ExtPos' feature
+[Line 106 Sent test-s7]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 122 Sent test-s8]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 134 Sent test-s9]: [L3 Warning fixed-without-extpos] Fixed expression 'w kierunku' does not have the 'ExtPos' feature
+[Line 260 Sent test-s17]: [L3 Warning fixed-without-extpos] Fixed expression 'w kierunku' does not have the 'ExtPos' feature
+[Line 532 Sent test-s34]: [L3 Warning fixed-without-extpos] Fixed expression 'w kierunku' does not have the 'ExtPos' feature
+[Line 945 Sent test-s58]: [L3 Warning fixed-without-extpos] Fixed expression 'razem z' does not have the 'ExtPos' feature
+[Line 966 Sent test-s59]: [L3 Warning fixed-without-extpos] Fixed expression 'podczas gdy' does not have the 'ExtPos' feature
+[Line 1213 Sent test-s73]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 1313 Sent test-s79]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 1375 Sent test-s82]: [L3 Warning fixed-without-extpos] Fixed expression 'w towarzystwie' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-[Line 2209 Sent test-s135 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:niektórzy:det --> 5:turbanach:nmod)
-[Line 3635 Sent test-s228 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'z'
-[Line 3926 Sent test-s252 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Przede'
-[Line 4371 Sent test-s288 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'w'
-[Line 6793 Sent test-s508 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'na'
-[Line 7785 Sent test-s598 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Na'
-[Line 8364 Sent test-s645 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'W'
-[Line 8788 Sent test-s677 Node 32]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB' word 'być'
-[Line 8866 Sent test-s682 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB' word 'Być'
-[Line 9164 Sent test-s694 Node 37]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'przede'
+[Line 2209 Sent test-s135]: [L3 Syntax leaf-det] 'det' not expected to have children (3:niektórzy:det --> 5:turbanach:nmod)
+[Line 3635 Sent test-s228]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('z')
+[Line 3926 Sent test-s252]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Przede')
+[Line 4371 Sent test-s288]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('w')
+[Line 6793 Sent test-s508]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 7785 Sent test-s598]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Na')
+[Line 8364 Sent test-s645]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('W')
+[Line 8788 Sent test-s677]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB' ('być')
+[Line 8866 Sent test-s682]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB' ('Być')
+[Line 9164 Sent test-s694]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('przede')
 ...suppressing further errors regarding Syntax
 Syntax errors: 51
-Warnings: 335
+Warnings: 402
 *** FAILED *** with 51 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-PDB/pl_pdb-ud-train.conllu
-[Line 88 Sent train-s4 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'wraz z' does not have the 'ExtPos' feature
-[Line 97 Sent train-s4 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 150 Sent train-s7 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'w kształcie' does not have the 'ExtPos' feature
-[Line 215 Sent train-s11 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'w stronę' does not have the 'ExtPos' feature
-[Line 406 Sent train-s21 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 459 Sent train-s24 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 592 Sent train-s31 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'na tle' does not have the 'ExtPos' feature
-[Line 651 Sent train-s34 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 669 Sent train-s35 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
-[Line 685 Sent train-s36 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 88 Sent train-s4]: [L3 Warning fixed-without-extpos] Fixed expression 'wraz z' does not have the 'ExtPos' feature
+[Line 97 Sent train-s4]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 150 Sent train-s7]: [L3 Warning fixed-without-extpos] Fixed expression 'w kształcie' does not have the 'ExtPos' feature
+[Line 215 Sent train-s11]: [L3 Warning fixed-without-extpos] Fixed expression 'w stronę' does not have the 'ExtPos' feature
+[Line 406 Sent train-s21]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 459 Sent train-s24]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 592 Sent train-s31]: [L3 Warning fixed-without-extpos] Fixed expression 'na tle' does not have the 'ExtPos' feature
+[Line 651 Sent train-s34]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 669 Sent train-s35]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
+[Line 685 Sent train-s36]: [L3 Warning fixed-without-extpos] Fixed expression 'w pobliżu' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-[Line 26904 Sent train-s1649 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'na'
-[Line 27622 Sent train-s1701 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'na'
-[Line 28040 Sent train-s1733 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'na'
-[Line 29191 Sent train-s1823 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'w'
-[Line 29241 Sent train-s1827 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Na'
-[Line 30281 Sent train-s1909 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Przede'
-[Line 31577 Sent train-s2015 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'z'
-[Line 31591 Sent train-s2016 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'do'
-[Line 33015 Sent train-s2130 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'W'
-[Line 35440 Sent train-s2330 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'z'
+[Line 26904 Sent train-s1649]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 27622 Sent train-s1701]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 28040 Sent train-s1733]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 29191 Sent train-s1823]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('w')
+[Line 29241 Sent train-s1827]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Na')
+[Line 30281 Sent train-s1909]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Przede')
+[Line 31577 Sent train-s2015]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('z')
+[Line 31591 Sent train-s2016]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('do')
+[Line 33015 Sent train-s2130]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('W')
+[Line 35440 Sent train-s2330]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('z')
 ...suppressing further errors regarding Syntax
 Syntax errors: 521
-Warnings: 2951
+Warnings: 3511
 *** FAILED *** with 521 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.848013581660665) = 0.217439379912991
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.95548291606901) = 0.293994743405849
-(weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.813374525259242) * (availability=1) * (validity=0.01) = 0.00813374525259242
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.848013581660665) = 0.314079104318765
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.691891891891892) = 0.0768768768768769
+(TOTAL score=0.750215240454901) * (availability=1) * (validity=0.01) = 0.00750215240454901
 STARS = 0
-UD_Polish-PDB	0.00813374525259242	0
+UD_Polish-PDB	0.00750215240454901	0
