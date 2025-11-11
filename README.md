@@ -102,6 +102,7 @@ We want to thank all of the original Polish Dependency Bank 2.0 contributors. Th
 Data available since: UD v1.2
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction nonfiction news
 Lemmas: converted from manual
 UPOS: converted from manual
