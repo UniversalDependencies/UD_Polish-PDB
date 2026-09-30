@@ -38592,7 +38592,7 @@
 7	zaakceptowania	zaakceptować	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nmod	6:nmod	_
 8	zdania	zdanie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	7	obj	7:obj	_
 9	drugiej	drugi	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
-10	osoby	osoba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	8:nmod	SpaceAfter=No
+10	osoby	osoba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	8:nmod:poss	SpaceAfter=No
 11	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
 12	można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	7	parataxis:insert	7:parataxis:insert	_
 13	się	się	PRON	part	PronType=Prs|Reflex=Yes	16	expl:pv	16:expl:pv	_

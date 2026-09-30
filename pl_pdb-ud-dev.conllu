@@ -34195,7 +34195,7 @@
 14	przypadającego	przypadać	ADJ	pact:sg:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	17	amod	17:amod	_
 15-16	nań	_	_	_	_	_	_	_	_
 15	na	na	ADP	prep:acc	AdpType=Prep	16	case	16:case	Case=Acc
-16	ń	on	PRON	ppron3:sg:acc:m1:ter:nakc:praep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	14	obl	14:obl	_
+16	niego	on	PRON	ppron3:sg:acc:m1:ter:akc:praep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	14	obl	14:obl	_
 17	udziału	udział	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl:arg	12:obl:arg	_
 18	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	19	case	19:case	Case=Loc
 19	zyskach	zysk	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	nmod:arg	17:nmod:arg	_
