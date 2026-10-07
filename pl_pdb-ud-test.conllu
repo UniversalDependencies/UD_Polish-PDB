@@ -25085,7 +25085,7 @@
 30	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	32	case	32:case	Case=Loc
 31	swej	swój	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	32	det:poss	32:det:poss	_
 32	filozofii	filozofia	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	25	obl	25:obl	_
-33	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	36	parataxis:insert	36:parataxis:insert	SpaceAfter=No
+33	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	36	amod	36:amod	SpaceAfter=No
 34	.	.	PUNCT	interp	PunctType=Peri	33	punct	33:punct	_
 35	racjonalnego	racjonalny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	36	amod	36:amod	_
 36	egoizmu	egoizm	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	32:nmod	SpaceAfter=No
@@ -33425,7 +33425,7 @@
 4	spływem	spływ	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	iobj	3:iobj	_
 5	rzecznym	rzeczny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	4:amod	SpaceAfter=No
 6	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
-7	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	9	parataxis:insert	9:parataxis:insert	SpaceAfter=No
+7	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	9	amod	9:amod	SpaceAfter=No
 8	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
 9	Flisem	flis	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	4:nmod	SpaceAfter=No
 10	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	_

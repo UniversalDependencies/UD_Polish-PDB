@@ -15812,12 +15812,12 @@
 10	Washington	Washington	X	ign	Foreign=Yes	7	obl	7:obl	_
 11	Post	Post	X	ign	Foreign=Yes	10	flat:foreign	10:flat:foreign	SpaceAfter=No
 12	"	"	PUNCT	interp	PunctType=Quot	10	punct	10:punct	SpaceAfter=No
-13	;	;	PUNCT	interp	PunctType=Semi	15	punct	15:punct	_
-14	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	15	case	15:case	Case=Ins
-15	tytułem	tytuł	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	6:nmod	_
+13	;	;	PUNCT	interp	PunctType=Semi	18	punct	18:punct	_
+14	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|ExtPos=ADP|Variant=Short	18	case	18:case	Case=Ins
+15	tytułem	tytuł	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	fixed	14:fixed	_
 16	"	"	PUNCT	interp	PunctType=Quot	18	punct	18:punct	SpaceAfter=No
 17	Usatysfakcjonowani	usatysfakcjonować	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	18	amod	18:amod	_
-18	robotnicy	robotnik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	15	nmod	15:nmod	_
+18	robotnicy	robotnik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	6	nmod	6:nmod	_
 19	Stoczni	stocznia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	18	nmod	18:nmod	_
 20	im	imienia	NOUN	brev:pun	Abbr=Yes	19	nmod:flat	19:nmod:flat	SpaceAfter=No
 21	.	.	PUNCT	interp	PunctType=Peri	20	punct	20:punct	_
@@ -34195,7 +34195,7 @@
 14	przypadającego	przypadać	ADJ	pact:sg:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	17	amod	17:amod	_
 15-16	nań	_	_	_	_	_	_	_	_
 15	na	na	ADP	prep:acc	AdpType=Prep	16	case	16:case	Case=Acc
-16	niego	on	PRON	ppron3:sg:acc:m1:ter:akc:praep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	14	obl	14:obl	_
+16	niego	on	PRON	ppron3:sg:acc:m1:ter:nakc:praep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	14	obl	14:obl	_
 17	udziału	udział	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl:arg	12:obl:arg	_
 18	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	19	case	19:case	Case=Loc
 19	zyskach	zysk	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	nmod:arg	17:nmod:arg	_
@@ -43127,7 +43127,7 @@
 4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	5:aux:pass	_
 5	znana	znać	ADJ	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	_
 6	jako	jako	SCONJ	comp	ConjType=Pred	10	mark	10:mark	_
-7	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	10	parataxis:insert	10:parataxis:insert	SpaceAfter=No
+7	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	10	amod	10:amod	SpaceAfter=No
 8	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
 9	"	"	PUNCT	interp	PunctType=Quot	10	punct	10:punct	SpaceAfter=No
 10	oszustwo	oszustwo	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	5	obl	5:obl	_
