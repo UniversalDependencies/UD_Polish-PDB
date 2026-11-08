@@ -11,13 +11,13 @@
     <test><sentences>2215</sentences><tokens>33351</tokens><words>33616</words><fused>250</fused></test>
   </size>
   <lemmas unique="27721" /><!-- ., ,, w, być, i, na, się, z, -, on, nie, do, to, że, " -->
-  <forms unique="60315" /><!-- ., ,, w, i, na, się, -, z, nie, do, że, ", to, o, jest -->
+  <forms unique="60314" /><!-- ., ,, w, i, na, się, -, z, nie, do, że, ", to, o, jest -->
   <fusions unique="1237" /><!-- chciałbym, byłoby, byłem, miałem, powinniśmy, bym, mieliśmy, myślałem, chciałem, widziałem, mógłby, byłby, słyszałem, byłam, miałam -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">35926</tag><!-- jeden, inny, sam, nowy, duży, pierwszy, cały, drugi, europejski, dobry -->
-    <tag name="ADP">37159</tag><!-- w, na, z, do, o, po, za, od, przez, dla -->
-    <tag name="ADV">11436</tag><!-- bardzo, tak, kiedy, jak, gdy, teraz, dobrze, tu, tam, gdzie -->
+    <tag name="ADJ">35954</tag><!-- jeden, inny, sam, nowy, duży, pierwszy, cały, drugi, europejski, dobry -->
+    <tag name="ADP">37166</tag><!-- w, na, z, do, o, po, za, od, przez, dla -->
+    <tag name="ADV">11401</tag><!-- bardzo, tak, kiedy, jak, gdy, teraz, dobrze, tu, tam, gdzie -->
     <tag name="AUX">8774</tag><!-- być, to, by, zostać, niech, zostawać, bywać, niechaj, niechby, niechże -->
     <tag name="CCONJ">10446</tag><!-- i, a, ale, oraz, lub, czy, albo, ani, lecz, jak -->
     <tag name="DET">9348</tag><!-- ten, który, swój, taki, nasz, mój, wszystek, jaki, każdy, kilka -->
@@ -57,7 +57,7 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV">32620</feat><!-- tak, jak, bardzo, innych, jeden, sam, dobrze, inne, europejskiej, pierwszy -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">692</feat><!-- najbardziej, najmniej, najczęściej, najlepiej, najlepsze, najważniejsze, największe, najszybciej, najbliższych, najlepszym -->
     <feat name="ExtPos" value="ADJ" upos="ADJ,ADV,X">15</feat><!-- tak, jednej, 15, 17, dwudziesty, pięćdziesiąty, prima, public, sześćdziesiąty -->
-    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,PART,X">2133</feat><!-- w, na, z, zgodnie, wraz, pod, ze, za, do, co -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,PART,X">2134</feat><!-- w, na, z, zgodnie, pod, wraz, ze, za, do, co -->
     <feat name="ExtPos" value="ADV" upos="ADP,ADV,NOUN,VERB">129</feat><!-- w, tak, z, gdzie, na, kiedy, coraz, jako, jak, rzadko -->
     <feat name="ExtPos" value="CCONJ" upos="ADP,CCONJ">229</feat><!-- jak, a, ale, przy, tyle, lecz, i, tylko -->
     <feat name="ExtPos" value="DET" upos="DET">127</feat><!-- tym, to, ten, taki, tego, tych, tej, tyle, takim, te -->
@@ -67,7 +67,7 @@
     <feat name="ExtPos" value="PRON" upos="PRON">1</feat><!-- Co -->
     <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,PART,SCONJ">146</feat><!-- o, mimo, podczas, jak, jako, w, tak, pomimo -->
     <feat name="ExtPos" value="SYM" upos="SYM">2</feat><!-- +, - -->
-    <feat name="ExtPos" value="VERB" upos="VERB">20</feat><!-- ma, Być, Jesteśmy -->
+    <feat name="ExtPos" value="VERB" upos="VERB">19</feat><!-- ma, Być -->
     <feat name="ExtPos" value="X" upos="X">6</feat><!-- a, 2, bon, in -->
     <feat name="Foreign" value="Yes" upos="X">235</feat><!-- de, New, San, of, von, Jersey, a, bin, di, the -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">56846</feat><!-- jej, tej, kobieta, była, ją, która, pracy, osób, dziewczynka, dwie -->
@@ -148,7 +148,7 @@
     <dep name="advmod:cmp">93</dep>
     <dep name="advmod:emph">6566</dep>
     <dep name="advmod:neg">4022</dep>
-    <dep name="amod">27827</dep>
+    <dep name="amod">27855</dep>
     <dep name="amod:cmp">56</dep>
     <dep name="amod:flat">1778</dep>
     <dep name="appos">2147</dep>
@@ -157,13 +157,13 @@
     <dep name="aux:cnd">621</dep>
     <dep name="aux:imp">54</dep>
     <dep name="aux:pass">1401</dep>
-    <dep name="case">36226</dep>
+    <dep name="case">36233</dep>
     <dep name="cc">10340</dep>
     <dep name="cc:preconj">240</dep>
     <dep name="ccomp">2408</dep>
     <dep name="ccomp:cleft">236</dep>
     <dep name="ccomp:obj">850</dep>
-    <dep name="conj">15293</dep>
+    <dep name="conj">15291</dep>
     <dep name="cop">3364</dep>
     <dep name="csubj">221</dep>
     <dep name="csubj:pass">3</dep>
@@ -178,14 +178,14 @@
     <dep name="fixed">3842</dep>
     <dep name="flat">2529</dep>
     <dep name="flat:foreign">87</dep>
-    <dep name="iobj">6634</dep>
+    <dep name="iobj">6635</dep>
     <dep name="list">273</dep>
     <dep name="mark">7582</dep>
     <dep name="nmod">16382</dep>
-    <dep name="nmod:arg">8943</dep>
+    <dep name="nmod:arg">8941</dep>
     <dep name="nmod:cmp">29</dep>
     <dep name="nmod:flat">970</dep>
-    <dep name="nmod:poss">636</dep>
+    <dep name="nmod:poss">638</dep>
     <dep name="nmod:pred">12</dep>
     <dep name="nsubj">20126</dep>
     <dep name="nsubj:pass">1047</dep>
@@ -200,7 +200,7 @@
     <dep name="obl:orphan">4</dep>
     <dep name="orphan">118</dep>
     <dep name="parataxis">283</dep>
-    <dep name="parataxis:insert">749</dep>
+    <dep name="parataxis:insert">715</dep>
     <dep name="parataxis:obj">2071</dep>
     <dep name="punct">57873</dep>
     <dep name="reparandum">6</dep>
