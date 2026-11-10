@@ -40000,7 +40000,7 @@
 2	spojrzał	spojrzeć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3-4	nań	_	_	_	_	_	_	_	_
 3	na	na	ADP	prep:acc	AdpType=Prep	4	case	4:case	Case=Acc
-4	ń	on	PRON	ppron3:sg:acc:m1:ter:nakc:praep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	2	obl:arg	2:obl:arg	_
+4	niego	on	PRON	ppron3:sg:acc:m1:ter:nakc:praep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	2	obl:arg	2:obl:arg	_
 5	uważnie	uważnie	ADV	adv:pos	Degree=Pos	2	advmod	2:advmod	SpaceAfter=No
 6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
 
@@ -41268,7 +41268,7 @@
 1	Spojrzała	spojrzeć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2-3	nań	_	_	_	_	_	_	_	_
 2	na	na	ADP	prep:acc	AdpType=Prep	3	case	3:case	Case=Acc
-3	ń	on	PRON	ppron3:sg:acc:m1:ter:nakc:praep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	1	obl:arg	1:obl:arg	_
+3	niego	on	PRON	ppron3:sg:acc:m1:ter:nakc:praep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	1	obl:arg	1:obl:arg	_
 4	ze	z	ADP	prep:inst:wok	AdpType=Prep|Variant=Long	5	case	5:case	Case=Ins
 5	zdumieniem	zdumienie	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	1	obl	1:obl	SpaceAfter=No
 6	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
@@ -64727,7 +64727,7 @@
 27	kw	kwadratowy	ADJ	brev:pun	Abbr=Yes	26	fixed	26:fixed	SpaceAfter=No
 28	.	.	PUNCT	interp	PunctType=Peri	27	punct	27:punct	_
 29	(	(	PUNCT	interp	PunctSide=Ini|PunctType=Brck	32	punct	32:punct	SpaceAfter=No
-30	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	32	parataxis:insert	32:parataxis:insert	SpaceAfter=No
+30	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	32	amod	32:amod	SpaceAfter=No
 31	.	.	PUNCT	interp	PunctType=Peri	30	punct	30:punct	_
 32	billboardów	billboard	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	appos	21:appos	SpaceAfter=No
 33	)	)	PUNCT	interp	PunctSide=Fin|PunctType=Brck	32	punct	32:punct	_
@@ -65996,7 +65996,7 @@
 3	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Ins
 4	ustawami	ustawa	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	2	nmod	2:nmod	_
 5	dotyczącymi	dotyczyć	ADJ	pact:pl:inst:f:imperf:aff	Aspect=Imp|Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	4	amod	4:amod	_
-6	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	8	parataxis:insert	8:parataxis:insert	SpaceAfter=No
+6	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	8	amod	8:amod	SpaceAfter=No
 7	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
 8	dezubekizacji	dezubekizacja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	iobj	5:iobj	_
 9-10	mogłaby	_	_	_	_	_	_	_	_
@@ -72002,7 +72002,7 @@
 23	wicepremier	wicepremier	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	21	conj	18:nmod|21:conj	_
 24	Gilowską	Gilowska	PROPN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	23	appos	23:appos	_
 25	pozostaje	pozostawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	15:ccomp	_
-26	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	28	parataxis:insert	28:parataxis:insert	SpaceAfter=No
+26	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	28	amod	28:amod	SpaceAfter=No
 27	.	.	PUNCT	interp	PunctType=Peri	26	punct	26:punct	_
 28	ustawa	ustawa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	25:nsubj	_
 29	pielęgnacyjna	pielęgnacyjny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	28:amod	_
@@ -81729,7 +81729,7 @@
 5	odbyło	odbyć	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
 7	przedstawienie	przedstawienie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	5:nsubj	_
-8	pt	pod_tytułem	ADV	brev:pun	Abbr=Yes	12	parataxis:insert	12:parataxis:insert	SpaceAfter=No
+8	pt	pod_tytułem	ADP	brev:pun	Abbr=Yes	12	case	12:case	SpaceAfter=No
 9	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	_
 10	"	"	PUNCT	interp	PunctType=Quot	12	punct	12:punct	SpaceAfter=No
 11	O	o	ADP	prep:loc	AdpType=Prep	12	case	12:case	Case=Loc
@@ -81813,7 +81813,7 @@
 17	dla	dla	ADP	prep:gen	AdpType=Prep	18	case	18:case	Case=Gen
 18	dzieci	dziecko	NOUN	subst:pl:gen:n:col	Case=Gen|Gender=Neut|Number=Plur|NumType=Sets	16	obl	16:obl	_
 19	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	22	case	22:case	Case=Gen
-20	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	22	parataxis:insert	22:parataxis:insert	SpaceAfter=No
+20	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	22	amod	22:amod	SpaceAfter=No
 21	.	.	PUNCT	interp	PunctType=Peri	20	punct	20:punct	_
 22	zerówek	zerówka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	18	nmod	18:nmod	_
 23	-	-	PUNCT	interp	PunctType=Dash	24	punct	24:punct	_
@@ -85556,7 +85556,7 @@
 3	podnóża	podnóże	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	1	nmod	1:nmod	_
 4	wzgórz	wzgórze	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	3	nmod	3:nmod	_
 5	-	-	PUNCT	interp	PunctType=Dash	8	punct	8:punct	_
-6	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	8	parataxis:insert	8:parataxis:insert|11:parataxis:insert	SpaceAfter=No
+6	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	8	amod	8:amod|11:amod	SpaceAfter=No
 7	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
 8	Góry	Góra	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	4:nmod	_
 9	Grójeckiej	Grójecki	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod:flat	8:amod:flat	_
@@ -88661,12 +88661,12 @@
 4	o	o	ADP	prep:acc	AdpType=Prep	5	case	5:case	Case=Acc
 5	oddanie	oddać	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	obl:arg	2:obl:arg	_
 6	kasety	kaseta	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	obj	5:obj	_
-7	pt	pod_tytułem	ADV	brev:pun	Abbr=Yes	10	parataxis:insert	10:parataxis:insert|12:parataxis:insert	SpaceAfter=No
+7	pt	pod_tytułem	ADP	brev:pun	Abbr=Yes	10	case	10:case	SpaceAfter=No
 8	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
 9	"	"	PUNCT	interp	PunctType=Quot	10	punct	10:punct	SpaceAfter=No
 10	Wakacje	wakacje	NOUN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	6	nmod	6:nmod	SpaceAfter=No
-11	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
-12	rok	rok	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	6:nmod|10:conj	_
+11	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+12	rok	rok	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nmod	10:nmod	_
 13	1976	1976	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	12	amod:flat	12:amod:flat	SpaceAfter=No
 14	"	"	PUNCT	interp	PunctType=Quot	10	punct	10:punct	SpaceAfter=No
 15	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
@@ -89212,7 +89212,7 @@
 19	.	.	PUNCT	interp	PunctType=Peri	18	punct	18:punct	_
 20	zł	złoty	NOUN	brev:npun	Abbr=Yes	21	obl:arg	21:obl:arg	_
 21	wykupią	wykupić	VERB	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	acl:relcl	8:acl:relcl	_
-22	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	24	parataxis:insert	24:parataxis:insert	SpaceAfter=No
+22	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	24	amod	24:amod	SpaceAfter=No
 23	.	.	PUNCT	interp	PunctType=Peri	22	punct	22:punct	_
 24	świadectwa	świadectwo	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	21	obj	21:obj	_
 25	udziałowe	udziałowy	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	24	amod	24:amod	SpaceAfter=No
@@ -103166,8 +103166,8 @@
 # text = "Jesteśmy zdania, że załoga spółki swoją postawą i zaangażowaniem w realizację zadań zasłużyła sobie na nagrodę finansową” - stwierdzili związkowcy.
 # orig_file_sentence = 130-3-900004_morph_9.68-s#4433
 1	"	"	PUNCT	interp	PunctType=Quot	2	punct	2:punct	SpaceAfter=No
-2	Jesteśmy	być	VERB	fin:pl:pri:imperf	Aspect=Imp|ExtPos=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	parataxis:obj	22:parataxis:obj	_
-3	zdania	zdanie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	2	fixed	2:fixed	SpaceAfter=No
+2	Jesteśmy	być	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	parataxis:obj	22:parataxis:obj	_
+3	zdania	zdanie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	2	iobj	2:iobj	SpaceAfter=No
 4	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	_
 5	że	że	SCONJ	comp	_	15	mark	15:mark	_
 6	załoga	załoga	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	15:nsubj	_
@@ -103179,7 +103179,7 @@
 12	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	13	case	13:case	Case=Acc
 13	realizację	realizacja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	11	nmod	11:nmod	_
 14	zadań	zadanie	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	13	nmod	13:nmod	_
-15	zasłużyła	zasłużyć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+15	zasłużyła	zasłużyć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
 16	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	15	expl:pv	15:expl:pv	_
 17	na	na	ADP	prep:acc	AdpType=Prep	18	case	18:case	Case=Acc
 18	nagrodę	nagroda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	15	obl:arg	15:obl:arg	_
@@ -111696,7 +111696,7 @@
 8	dość	dość	INTJ	interj	_	9	discourse:intj	9:discourse:intj	_
 9	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
 10	rządów	rząd	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	iobj	9:iobj	_
-11	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	13	parataxis:insert	13:parataxis:insert	SpaceAfter=No
+11	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	13	amod	13:amod	SpaceAfter=No
 12	.	.	PUNCT	interp	PunctType=Peri	11	punct	11:punct	_
 13	Warszawki	warszawka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod	SpaceAfter=No
 14	"	"	PUNCT	interp	PunctType=Quot	2	punct	2:punct	_
@@ -112558,7 +112558,7 @@
 11	odległości	odległość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod	_
 12	-	-	PUNCT	interp	PunctType=Dash	16	punct	16:punct	_
 13	jako	jako	SCONJ	comp	ConjType=Pred	16	mark	16:mark	_
-14	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	16	parataxis:insert	16:parataxis:insert	SpaceAfter=No
+14	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	16	amod	16:amod	SpaceAfter=No
 15	.	.	PUNCT	interp	PunctType=Peri	14	punct	14:punct	_
 16	jednostkę	jednostka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	conj	6:obl|9:conj	_
 17	astronomiczną	astronomiczny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	16:amod	SpaceAfter=No
@@ -118999,7 +118999,7 @@
 3	działaczy	działacz	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	1	nmod	1:nmod	_
 4	SLD	SLD	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	nmod	3:nmod	_
 5	zmiany	zmiana	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod:arg	1:nmod:arg	_
-6	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	8	parataxis:insert	8:parataxis:insert	SpaceAfter=No
+6	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	8	amod	8:amod	SpaceAfter=No
 7	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
 8	ustawy	ustawa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod:arg	5:nmod:arg	_
 9	antyaborcyjnej	antyaborcyjny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
@@ -120671,7 +120671,7 @@
 10	ironicznym	ironiczny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	11:amod	_
 11	zwrocie	zwrot	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl:arg	7:obl:arg	_
 12	"	"	PUNCT	interp	PunctType=Quot	16	punct	16:punct	SpaceAfter=No
-13	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	16	parataxis:insert	16:parataxis:insert	SpaceAfter=No
+13	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	16	amod	16:amod	SpaceAfter=No
 14	.	.	PUNCT	interp	PunctType=Peri	13	punct	13:punct	_
 15	"	"	PUNCT	interp	PunctType=Quot	16	punct	16:punct	SpaceAfter=No
 16	chrześcijan	chrześcijanin	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	11	appos	11:appos	SpaceAfter=No
@@ -135133,7 +135133,7 @@
 12	Ogólnopolska	ogólnopolski	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod:flat	13:amod:flat	_
 13	Konferencja	konferencja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
 14	Naukowa	naukowy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod:flat	13:amod:flat	_
-15	pt	pod_tytułem	ADV	brev:pun	Abbr=Yes	22	parataxis:insert	22:parataxis:insert	SpaceAfter=No
+15	pt	pod_tytułem	ADP	brev:pun	Abbr=Yes	22	case	22:case	SpaceAfter=No
 16	.	.	PUNCT	interp	PunctType=Peri	15	punct	15:punct	_
 17	"	"	PUNCT	interp	PunctType=Quot	22	punct	22:punct	SpaceAfter=No
 18	Lęk	lęk	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	22:nsubj	_
@@ -137428,7 +137428,7 @@
 7	trasą	trasa	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	6	obl	6:obl	_
 8	wschodnią	wschodni	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	7:amod	SpaceAfter=No
 9	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
-10	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	12	parataxis:insert	12:parataxis:insert	SpaceAfter=No
+10	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	12	amod	12:amod	SpaceAfter=No
 11	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	_
 12	bosforską	bosforski	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	7:amod	_
 13	-	-	PUNCT	interp	PunctType=Dash	14	punct	14:punct	_
@@ -138783,7 +138783,7 @@
 5	mogą	móc	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6-7	doń	_	_	_	_	_	_	_	_
 6	do	do	ADP	prep:gen	AdpType=Prep	7	case	7:case	Case=Gen
-7	ń	on	PRON	ppron3:sg:gen:m3:ter:nakc:praep	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	8	obl:arg	8:obl:arg	_
+7	niego	on	PRON	ppron3:sg:gen:m3:ter:nakc:praep	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	8	obl:arg	8:obl:arg	_
 8	należeć	należeć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	5:xcomp	_
 9	wszyscy	wszyscy	PRON	subst:pl:nom:m1:pt	Animacy=Hum|Case=Nom|Gender=Masc|Number=Ptan|PronType=Tot	5	nsubj	5:nsubj	_
 10	-	-	PUNCT	interp	PunctType=Dash	12	punct	12:punct	_
@@ -154201,7 +154201,7 @@
 21	miejscowe	miejscowy	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	20:amod	SpaceAfter=No
 22	,	,	PUNCT	interp	PunctType=Comm	26	punct	26:punct	_
 23	czyli	czyli	CCONJ	conj	_	26	cc	26:cc	_
-24	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	26	parataxis:insert	26:parataxis:insert	SpaceAfter=No
+24	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	26	amod	26:amod	SpaceAfter=No
 25	.	.	PUNCT	interp	PunctType=Peri	24	punct	24:punct	_
 26	klimatyczne	klimatyczny	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	conj	13:obj|20:conj	SpaceAfter=No
 27	.	.	PUNCT	interp	PunctType=Peri	13	punct	13:punct	_
@@ -156289,12 +156289,12 @@
 3	paryskim	paryski	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	2:amod	_
 4	prowadzi	prowadzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	dzienniki	dziennik	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	4:obj	_
-6	pt	pod_tytułem	ADV	brev:pun	Abbr=Yes	9	parataxis:insert	9:parataxis:insert	SpaceAfter=No
+6	pt	pod_tytułem	ADP	brev:pun	Abbr=Yes	9	case	9:case	SpaceAfter=No
 7	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
 8	"	"	PUNCT	interp	PunctType=Quot	9	punct	9:punct	SpaceAfter=No
 9	Miesiące	miesiąc	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nmod	5:nmod	SpaceAfter=No
 10	"	"	PUNCT	interp	PunctType=Quot	9	punct	9:punct	SpaceAfter=No
-11	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
+11	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
 12	regularnie	regularnie	ADV	adv:pos	Degree=Pos	13	advmod	13:advmod	_
 13	czytane	czytać	ADJ	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	5:amod	_
 14	na	na	ADP	prep:loc	AdpType=Prep	15	case	15:case	Case=Loc
@@ -160097,7 +160097,7 @@
 11	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
 12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	13	case	13:case	Case=Loc
 13	rozdziale	rozdział	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	conj	7:obl|10:conj	_
-14	pt	pod_tytułem	ADV	brev:pun	Abbr=Yes	18	parataxis:insert	18:parataxis:insert	SpaceAfter=No
+14	pt	pod_tytułem	ADP	brev:pun	Abbr=Yes	18	case	18:case	SpaceAfter=No
 15	.	.	PUNCT	interp	PunctType=Peri	14	punct	14:punct	_
 16	"	"	PUNCT	interp	PunctType=Quot	18	punct	18:punct	SpaceAfter=No
 17	Pierwszy	pierwszy	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod:flat	18:amod:flat	_
@@ -163418,7 +163418,7 @@
 39	montażowych	montażowy	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	37	conj	36:amod|37:conj	_
 40	w	w	ADP	prep:loc:nwok	AdpType=Prep|ExtPos=ADP|Variant=Short	44	case	44:case	Case=Loc
 41	ramach	ramy	NOUN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	40	fixed	40:fixed	_
-42	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	44	parataxis:insert	44:parataxis:insert	SpaceAfter=No
+42	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	44	amod	44:amod	SpaceAfter=No
 43	.	.	PUNCT	interp	PunctType=Peri	42	punct	42:punct	_
 44	podwykonawstwa	podwykonawstwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	35	nmod	35:nmod	SpaceAfter=No
 45	,	,	PUNCT	interp	PunctType=Comm	47	punct	47:punct	_
@@ -168957,7 +168957,7 @@
 5	dotąd	dotąd	ADV	adv	PronType=Dem	4	advmod	4:advmod	_
 6	żadnego	żaden	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Neg	7	det	7:det	_
 7	wypadku	wypadek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obj	4:obj	_
-8	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	10	parataxis:insert	10:parataxis:insert	SpaceAfter=No
+8	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	10	amod	10:amod	SpaceAfter=No
 9	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	_
 10	choroby	choroba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod	7:nmod	_
 11	szalonych	szalony	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	12:amod	_
@@ -184821,7 +184821,7 @@
 22	Wałęsę	Wałęsa	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	20	appos	20:appos	_
 23	-	-	PUNCT	interp	PunctType=Dash	22	punct	22:punct	_
 24	jako	jako	SCONJ	comp	ConjType=Pred	28	mark	28:mark	_
-25	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	28	parataxis:insert	28:parataxis:insert	SpaceAfter=No
+25	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	28	amod	28:amod	SpaceAfter=No
 26	.	.	PUNCT	interp	PunctType=Peri	25	punct	25:punct	_
 27	mniejsze	mały	ADJ	adj:sg:acc:n:com	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	28	amod	28:amod	_
 28	zło	zło	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	19	obl	19:obl	SpaceAfter=No
@@ -186341,7 +186341,7 @@
 # orig_file_sentence = 200-4-000000600_morph_85.19-s#8484
 1	Stach	Stach	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj|9:nsubj	_
 2	był	być	AUX	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
-3	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	7	parataxis:insert	7:parataxis:insert	SpaceAfter=No
+3	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	7	amod	7:amod	SpaceAfter=No
 4	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
 5	średnio	średnio	ADV	adv:pos	Degree=Pos	6	advmod	6:advmod	_
 6	dobrym	dobry	ADJ	adj:sg:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	7:amod	_
@@ -191447,10 +191447,10 @@
 11	Wiślna	Wiślna	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	nmod	9:nmod	_
 12	12a	12a	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	11	nmod	11:nmod	_
 13	(	(	PUNCT	interp	PunctSide=Ini|PunctType=Brck	14	punct	14:punct	SpaceAfter=No
-14	pn	poniedziałek	NOUN	brev:pun	Abbr=Yes	6	nmod	6:nmod	SpaceAfter=No
+14	pn	poniedziałek	NOUN	brev:pun	Abbr=Yes	6	parataxis:insert	6:parataxis:insert	SpaceAfter=No
 15	.	.	PUNCT	interp	PunctType=Peri	14	punct	14:punct	_
 16	-	-	PUNCT	interp	PunctType=Dash	17	punct	17:punct	_
-17	pt	piątek	NOUN	brev:pun	Abbr=Yes	14	conj	6:nmod|14:conj	SpaceAfter=No
+17	pt	piątek	NOUN	brev:pun	Abbr=Yes	14	conj	6:parataxis:insert|14:conj	SpaceAfter=No
 18	.	.	PUNCT	interp	PunctType=Peri	17	punct	17:punct	_
 19	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	20	case	20:case	Case=Loc
 20	godz	godzina	NOUN	brev:pun	Abbr=Yes	14	nmod	14:nmod|17:nmod	SpaceAfter=No
@@ -220781,7 +220781,7 @@
 9	powiedzieć	powiedzieć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	7:xcomp	SpaceAfter=No
 10	,	,	PUNCT	interp	PunctType=Comm	23	punct	23:punct	_
 11	że	że	SCONJ	comp	_	23	mark	23:mark	_
-12	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	14	parataxis:insert	14:parataxis:insert	SpaceAfter=No
+12	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	14	amod	14:amod	SpaceAfter=No
 13	.	.	PUNCT	interp	PunctType=Peri	12	punct	12:punct	_
 14	deficyt	deficyt	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	23:nsubj	_
 15	demokratyczny	demokratyczny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	14:amod	_
@@ -230116,7 +230116,7 @@
 8	specyficznych	specyficzny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	9:amod	_
 9	bodźców	bodziec	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	17:obl	SpaceAfter=No
 10	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
-11	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	13	parataxis:insert	13:parataxis:insert	SpaceAfter=No
+11	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	13	amod	13:amod	SpaceAfter=No
 12	.	.	PUNCT	interp	PunctType=Peri	11	punct	11:punct	_
 13	bodźców	bodziec	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	appos	9:appos	_
 14	kluczowych	kluczowy	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	13:amod	SpaceAfter=No
@@ -231893,7 +231893,7 @@
 27	przenosząc	przenosić	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	24	advcl	24:advcl	_
 28	stronę	strona	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	27	obj	27:obj	_
 29	do	do	ADP	prep:gen	AdpType=Prep	32	case	32:case	Case=Gen
-30	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	32	parataxis:insert	32:parataxis:insert	SpaceAfter=No
+30	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	32	amod	32:amod	SpaceAfter=No
 31	.	.	PUNCT	interp	PunctType=Peri	30	punct	30:punct	_
 32	archiwum	archiwum	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	27	obl	27:obl	SpaceAfter=No
 33	,	,	PUNCT	interp	PunctType=Comm	35	punct	35:punct	_
@@ -233945,7 +233945,7 @@
 20	Jagiełłę	Jagiełło	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	19	flat	19:flat	_
 21	tej	ten	DET	adj:sg:dat:f:pos	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	22	det	22:det	_
 22	Wszechnicy	wszechnica	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	16	iobj	16:iobj	_
-23	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	25	parataxis:insert	25:parataxis:insert	SpaceAfter=No
+23	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	25	amod	25:amod	SpaceAfter=No
 24	.	.	PUNCT	interp	PunctType=Peri	23	punct	23:punct	_
 25	przywilejów	przywilej	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obj	16:obj	_
 26	fundacyjnych	fundacyjny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	25	amod	25:amod	SpaceAfter=No
@@ -238127,16 +238127,16 @@
 10	się	się	PRON	part	PronType=Prs|Reflex=Yes	9	expl:pv	9:expl:pv	_
 11	3-dniowe	3-dniowy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	12:amod	_
 12	seminarium	seminarium	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	9:nsubj	_
-13	pt	pod_tytułem	ADV	brev:pun	Abbr=Yes	17	parataxis:insert	17:parataxis:insert|19:parataxis:insert	SpaceAfter=No
+13	pt	pod_tytułem	ADP	brev:pun	Abbr=Yes	17	case	17:case	SpaceAfter=No
 14	.	.	PUNCT	interp	PunctType=Peri	13	punct	13:punct	SpaceAfter=No
-15	:	:	PUNCT	interp	PunctType=Colo	13	punct	13:punct	_
+15	:	:	PUNCT	interp	PunctType=Colo	17	punct	17:punct	_
 16	"	"	PUNCT	interp	PunctType=Quot	17	punct	17:punct	SpaceAfter=No
 17	Terroryzm	terroryzm	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nmod	12:nmod	_
-18	-	-	PUNCT	interp	PunctType=Dash	19	punct	19:punct	_
-19	aspekty	aspekt	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	conj	12:nmod|17:conj	_
+18	-	-	PUNCT	interp	PunctType=Dash	17	punct	17:punct	_
+19	aspekty	aspekt	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nmod	17:nmod	_
 20	społeczne	społeczny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	19	amod	19:amod	_
 21	i	i	CCONJ	conj	_	22	cc	22:cc	_
-22	środki	środek	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	conj	17:conj|19:conj	_
+22	środki	środek	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	conj	17:nmod|19:conj	_
 23	przeciwdziałania	przeciwdziałać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	22	nmod	22:nmod	SpaceAfter=No
 24	"	"	PUNCT	interp	PunctType=Quot	17	punct	17:punct	SpaceAfter=No
 25	.	.	PUNCT	interp	PunctType=Peri	9	punct	9:punct	_
@@ -243393,7 +243393,7 @@
 10	języka	język	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	6:nmod	_
 11	uniwersalnego	uniwersalny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	10:amod	_
 12	(	(	PUNCT	interp	PunctSide=Ini|PunctType=Brck	22	punct	22:punct	SpaceAfter=No
-13	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	15	parataxis:insert	15:parataxis:insert	SpaceAfter=No
+13	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	15	amod	15:amod	SpaceAfter=No
 14	.	.	PUNCT	interp	PunctType=Peri	13	punct	13:punct	_
 15	rząd	rząd	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	22:nsubj	_
 16	polski	polski	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	_
@@ -247397,7 +247397,7 @@
 21	,	,	PUNCT	interp	PunctType=Comm	22	punct	22:punct	_
 22	prozaik	prozaik	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	19	appos	19:appos	_
 23	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	27	case	27:case	Case=Gen
-24	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	27	parataxis:insert	27:parataxis:insert	SpaceAfter=No
+24	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	27	amod	27:amod	SpaceAfter=No
 25	.	.	PUNCT	interp	PunctType=Peri	24	punct	24:punct	_
 26	wiejskiego	wiejski	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	27:amod	_
 27	nurtu	nurt	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	22:nmod	_
@@ -263837,7 +263837,7 @@
 12	wychwalając	wychwalać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	8:advcl	_
 13	jednym	jeden	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	14:amod	_
 14	głosem	głos	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	iobj	12:iobj	_
-15	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	17	parataxis:insert	17:parataxis:insert	SpaceAfter=No
+15	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	17	amod	17:amod	SpaceAfter=No
 16	.	.	PUNCT	interp	PunctType=Peri	15	punct	15:punct	_
 17	plan	plan	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	12:obj	_
 18	Balcerowicza	Balcerowicz	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	17	nmod:poss	17:nmod:poss	SpaceAfter=No
@@ -271927,7 +271927,7 @@
 28	chlubi	chlubić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl	25:acl	_
 29	się	się	PRON	part	PronType=Prs|Reflex=Yes	28	expl:pv	28:expl:pv	_
 30	wykonywaniem	wykonywać	NOUN	ger:sg:inst:n:imperf:aff	Aspect=Imp|Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	28	iobj	28:iobj	_
-31	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	35	parataxis:insert	35:parataxis:insert	SpaceAfter=No
+31	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	35	amod	35:amod	SpaceAfter=No
 32	.	.	PUNCT	interp	PunctType=Peri	31	punct	31:punct	_
 33	radykalnego	radykalny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	35:amod	_
 34	industrial	industrial	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	35:amod	_
@@ -279055,7 +279055,7 @@
 11	którego	który	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	12	obl:arg	12:obl:arg	_
 12	przyznało	przyznać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
 13	się	się	PRON	part	PronType=Prs|Reflex=Yes	12	expl:pv	12:expl:pv	_
-14	tzw	tak_zwany	ADV	brev:pun	Abbr=Yes	16	parataxis:insert	16:parataxis:insert	SpaceAfter=No
+14	tzw	tak_zwany	ADJ	brev:pun	Abbr=Yes	16	amod	16:amod	SpaceAfter=No
 15	.	.	PUNCT	interp	PunctType=Peri	14	punct	14:punct	_
 16	Państwo	państwo	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	12:nsubj	_
 17	Islamskie	islamski	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod:flat	16:amod:flat	_
@@ -330170,7 +330170,7 @@
 3	przyjęła	przyjąć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	dzisiaj	dzisiaj	ADV	adv	_	3	advmod	3:advmod	_
 5	komunikat	komunikat	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	3:obj	_
-6	pt	pod_tytułem	ADV	brev:pun	Abbr=Yes	9	parataxis:insert	9:parataxis:insert	SpaceAfter=No
+6	pt	pod_tytułem	ADP	brev:pun	Abbr=Yes	9	case	9:case	SpaceAfter=No
 7	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
 8	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	9	punct	9:punct	SpaceAfter=No
 9	Wielojęzyczność	wielojęzyczność	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nmod	5:nmod	SpaceAfter=No
@@ -350867,10 +350867,10 @@
 4	na	na	ADP	prep:acc	AdpType=Prep|ExtPos=ADP	6	case	6:case	Case=Acc
 5	temat	temat	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	fixed	4:fixed	_
 6	koordynatora	koordynator	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	3	nmod:arg	3:nmod:arg	_
-7	UE	UE	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod:arg	6:nmod:arg	_
+7	UE	UE	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	6:nmod:poss	_
 8	ds	do_spraw	ADP	brev:pun	Abbr=Yes	10	case	10:case	SpaceAfter=No
 9	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	_
-10	zwalczania	zwalczać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nmod:arg	6:nmod:arg	_
+10	zwalczania	zwalczać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nmod	6:nmod	_
 11	terroryzmu	terroryzm	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obj	10:obj	SpaceAfter=No
 12	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
 
